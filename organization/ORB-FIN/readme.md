@@ -85,7 +85,7 @@ Este Gantt chart visualiza las principales fases del ciclo de vida del programa 
 gantt
     dateFormat  YYYY-MM-DD
     title Cronograma Maestro del Programa GQAOA
-    todayIsat HAST
+    todayMarker 2025-07-16
     section Fases del Ciclo de Vida del Programa
     Fase Concepto     :crit, 2023-01-01, 8M
     Fase Diseño       :crit, 2023-09-01, 8M
@@ -114,6 +114,7 @@ gantt
     Comunicaciones y Marketing :orb4, 2023-01-01, 75M
     Cumplimiento Legal y Normativo:orb5, 2023-01-01, 75M
 ```
+
 
 #### **🚀 Q-DIVISIONS: El Motor de la Innovación Técnica**
 
