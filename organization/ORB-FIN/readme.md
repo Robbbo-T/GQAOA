@@ -85,13 +85,12 @@ Este Gantt chart visualiza las principales fases del ciclo de vida del programa 
 gantt
     dateFormat  YYYY-MM-DD
     title Cronograma Maestro del Programa GQAOA
-    todayIsat HAST # Asumiendo una zona horaria de referencia
-
+    todayIsat HAST
     section Fases del Ciclo de Vida del Programa
     Fase Concepto     :crit, 2023-01-01, 8M
     Fase Diseño       :crit, 2023-09-01, 8M
-    Fase Pruebas      :crit, 2024-05-01, 12M  # Las pruebas a menudo se solapan y extienden
-    Fase Certificación:crit, 2025-05-01, 12M # La certificación también puede solaparse con pruebas y diseño
+    Fase Pruebas      :crit, 2024-05-01, 12M  
+    Fase Certificación:crit, 2025-05-01, 12M 
     Fase Producción   :active, 2026-05-01, 8M
     Fase Mantenimiento:2027-01-01, 8M
     Fase Soporte      :2027-09-01, 8M
