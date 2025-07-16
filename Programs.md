@@ -1,4 +1,5 @@
-# GQAOA Programs Portfolio - Brand Architecture Edition
+
+# GQAOA Programs Portfolio - Brand Architecture Edition (/programs.md)
 
 **Document ID:** GQAOA-PROG-MASTER-003  
 **Version:** 4.2.0 (CORRECTED)  
@@ -6,7 +7,12 @@
 **Date:** 2025-07-16  
 **Author:** GAIA-QAO Program Management Office  
 **Location:** Madrid, Spain  
-**Status:** Active Development Portfolio - Brand Aligned
+**Status:** Active Development Portfolio - Brand Aligned  
+
+---
+
+**⚠️ NOTA IMPORTANTE: Naturaleza del Proyecto y Datos Ilustrativos ⚠️**
+Este proyecto, "Global Quantum Aerospace Organization Advent (GQAOA)", es una iniciativa **puramente conceptual y ficticia**, desarrollada como un **esfuerzo personal por Amedeo Pelliccia**. Todas las especificaciones técnicas, capacidades, métricas de rendimiento y datos financieros o de impacto presentados en esta documentación son **ilustrativos y no representan información real** de ningún programa o empresa con financiación. Su propósito es demostrar una arquitectura de proyecto robusta y una visión futurista en el campo aeroespacial.
 
 ---
 
@@ -370,3 +376,4 @@ combined_impact_2035:
 **Digital Signature:** GQAOA-BRANDS-2025-ALIGNED
 
 *"Three Brands, One Vision: Earth to Stars, Net Positive"*
+```
