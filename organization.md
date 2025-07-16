@@ -1,6 +1,11 @@
 # 🏢 Estructura Organizacional y Operacional de GQAOA
 ## Un Enfoque Holístico para la Aeronáutica Cuántica
 
+**⚠️ NOTA IMPORTANTE: Naturaleza del Proyecto y Datos Financieros ⚠️**
+Este proyecto, "Global Quantum Aerospace Organization Advent (GQAOA)", es una iniciativa **puramente conceptual y ficticia**, desarrollada como un **esfuerzo personal por Amedeo Pelliccia**. Los datos financieros, los cronogramas y cualquier métrica de rendimiento presentados en esta documentación son **ilustrativos y no representan información real** de ningún programa o empresa con financiación. Su propósito es demostrar una arquitectura de proyecto robusta y una metodología de gestión integral.
+
+---
+
 La **Global Quantum Aerospace Organization Advent (GQAOA)** se erige como la vanguardia en la fusión de la ingeniería aeroespacial con las tecnologías cuánticas más avanzadas. Nuestra misión es diseñar, construir y operar aeronaves que redefinan los límites de la aviación, la eficiencia y la seguridad.
 
 Este documento describe la estructura organizativa y operacional que sustenta nuestra ambiciosa visión, garantizando una colaboración fluida y una gestión integral a lo largo de todo el ciclo de vida de nuestros programas.
@@ -85,34 +90,34 @@ Este Gantt chart visualiza las principales fases del ciclo de vida del programa 
 gantt
     dateFormat  YYYY-MM-DD
     title Cronograma Maestro del Programa GQAOA
-
+    todayIsat HAST
     section Fases del Ciclo de Vida del Programa
-    Fase Concepto            :crit, 2023-01-01, 8M
-    Fase Diseño              :crit, 2023-09-01, 8M
-    Fase Pruebas             :crit, 2024-05-01, 12M  
-    Fase Certificación       :crit, 2025-05-01, 12M 
-    Fase Producción          :active, 2026-05-01, 8M
-    Fase Mantenimiento       :2027-01-01, 8M
-    Fase Soporte             :2027-09-01, 8M
-    Fase Reparación          :2028-05-01, 8M
-    Fase Operación           :2029-01-01, 8M
-    Fase Retiro              :2029-09-01, 8M
+    Fase Concepto     :crit, 2023-01-01, 8M
+    Fase Diseño       :crit, 2023-09-01, 8M
+    Fase Pruebas      :crit, 2024-05-01, 12M  
+    Fase Certificación:crit, 2025-05-01, 12M 
+    Fase Producción   :active, 2026-05-01, 8M
+    Fase Mantenimiento:2027-01-01, 8M
+    Fase Soporte      :2027-09-01, 8M
+    Fase Reparación   :2028-05-01, 8M
+    Fase Operación    :2029-01-01, 8M
+    Fase Retiro       :2029-09-01, 8M
 
     section Actividades Clave de Desarrollo Técnico
-    Arquitectura Global (ATA 00-04)         :des1, 2023-01-01, 16M
+    Arquitectura Global (ATA 00-04)    :des1, 2023-01-01, 16M
     Diseño Estructural Principal (ATA 51-57):des2, 2023-09-01, 10M
-    Desarrollo Propulsión (ATA 61-80)       :des3, 2023-09-01, 14M
+    Desarrollo Propulsión (ATA 61-80) :des3, 2023-09-01, 14M
     Integración Aviónica/Quantum (ATA 42-46, 90-99):des4, 2024-01-01, 18M
-    Prototipo ALICE Fabricación             :p_alice, 2024-09-01, 10M
-    Pruebas de Integración de Sistemas      :t_int, 2024-05-01, 12M
-    Validación de Modelos BOB-DT/DA         :t_val, 2024-07-01, 10M
+    Prototipo ALICE Fabricación :p_alice, 2024-09-01, 10M
+    Pruebas de Integración de Sistemas :t_int, 2024-05-01, 12M
+    Validación de Modelos BOB-DT/DA   :t_val, 2024-07-01, 10M
 
     section Soporte ORB Transversal
-    Gestión Financiera Continua             :orb1, 2023-01-01, 75M
-    Gestión de Programa Continua            :orb2, 2023-01-01, 75M
-    Adquisición y Desarrollo de Talento     :orb3, 2023-01-01, 75M
-    Comunicaciones y Marketing              :orb4, 2023-01-01, 75M
-    Cumplimiento Legal y Normativo          :orb5, 2023-01-01, 75M
+    Gestión Financiera Continua :orb1, 2023-01-01, 75M
+    Gestión de Programa Continua :orb2, 2023-01-01, 75M
+    Adquisición y Desarrollo de Talento:orb3, 2023-01-01, 75M
+    Comunicaciones y Marketing :orb4, 2023-01-01, 75M
+    Cumplimiento Legal y Normativo:orb5, 2023-01-01, 75M
 ```
 
 #### **🚀 Q-DIVISIONS: El Motor de la Innovación Técnica**
@@ -156,4 +161,15 @@ Esta sinergia garantiza que desde la concepción de un proyecto hasta su eventua
 ---
 
 Explore la estructura de carpetas de este repositorio para una navegación detallada por todos los entregables, organizados por ATA, fase del ciclo de vida y nodo organizacional. Cada archivo es un pilar en nuestra jornada hacia la supremacía cuántica aeroespacial.
-```
+
+
+---
+
+# 💰 ORB-FIN: Finanzas y Presupuesto
+## Unidad de Gestión Financiera del Programa GQAOA
+
+**⚠️ NOTA IMPORTANTE: Naturaleza del Proyecto y Datos Financieros ⚠️**
+Este proyecto, "Global Quantum Aerospace Organization Advent (GQAOA)", es una iniciativa **puramente conceptual y ficticia**, desarrollada como un **esfuerzo personal por Amedeo Pelliccia**. Los datos financieros, los cronogramas y cualquier métrica de rendimiento presentados en esta documentación son **ilustrativos y no representan información real** de ningún programa o empresa con financiación. Su propósito es demostrar una arquitectura de proyecto robusta y una metodología de gestión integral.
+
+---
+
