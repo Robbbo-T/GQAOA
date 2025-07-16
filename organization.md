@@ -41,7 +41,7 @@ graph TD
     BOB_DA_Chart -- Control y Diagnóstico --> ALICE_Chart
   end
 
-  %% ORB – Organizational Resource Beacons
+  %% ORB – Organizational & Resource Beacons
   subgraph orb["📡 ORB – Organizational & Resource Beacons"]
     style orb fill:#e8f5e9,stroke:#4caf50
     direction LR
@@ -55,6 +55,64 @@ graph TD
 
   core -- Datos Operacionales & Hitos --> orb
   orb -- Recursos & Directivas --> core
+```
+
+#### **📋 Tabla Maestra de Entregables Clave y Fechas Previstas**
+
+Esta tabla proporciona un resumen predictivo de algunos de los entregables más representativos en distintas fases del ciclo de vida, destacando su responsable principal y la fecha prevista de finalización por fase (considerando fases consecutivas de 8 meses, con la Fase Concepto iniciando en el Mes 1).
+
+**Nota sobre los hipervínculos:** Las rutas de los entregables ALI y BOB están diseñadas para reflejar su ubicación real dentro de la estructura de carpetas `ALI/` o `BOB/`, no en los directorios `ORB/`.
+
+| Entregable ID                      | Descripción                                            | ATA | Fase         | Responsable (Q-Division) | Estado Típico | Fecha Prevista de Finalización |
+| :--------------------------------- | :----------------------------------------------------- | :-- | :----------- | :----------------------- | :------------ | :----------------------------- |
+| [`ALI-00-CON-001`](../ALI/00_GENERAL_AIRCRAFT/CON/ALI-00-CON-001_Market_Requirements-β.md)                   | Requisitos de Mercado                                  | 00  | Concept      | Q-DATAGOV                | β             | Mes 8                          |
+| [`BOB-DT-00-DES-001`](../BOB/BOB-DT/00_GENERAL_DIGITAL_TWIN/DES/BOB-DT-00-DES-001_Digital_Twin_Framework-α.glb)                | Framework Gemelo Digital                               | 00  | Diseño       | Q-HPC                    | α             | Mes 16                         |
+| [`ALI-00-CRT-AMM-001`](../ALI/00_GENERAL_AIRCRAFT/CRT/AMM/ALI-00-CRT-AMM-001_Certified_Aircraft_Maintenance_Manual-α.ietp.html)               | Manual de Mantenimiento Certificado                   | 00  | Certificación| Q-DATAGOV                | α             | Mes 40                         |
+| [`BOB-DA-00-MNT-PIM-001`](../BOB/BOB-DA/00_GENERAL_DIGITAL_AGENT/MNT/PIM/BOB-DA-00-MNT-PIM-001_Predictive_Maintenance_Algorithm-φ.py)            | Algoritmo Mantenimiento Predictivo                    | 00  | Mantenimiento| Q-HPC                    | φ             | Mes 56                         |
+| [`ALI-57-DES-001`](../ALI/57_WINGS/DES/ALI-57-DES-001_Wing_Structural_Layout-α.dwg)                   | Diseño Estructural del Ala                             | 57  | Diseño       | Q-STRUCTURES             | α             | Mes 16                         |
+| [`ALI-71-CRT-001`](../ALI/71_POWER_PLANT/CRT/ALI-71-CRT-001_Engine_Type_Certificate-α.ietp.html)                   | Certificado de Tipo de Planta Motriz                  | 71  | Certificación| Q-DATAGOV                | α             | Mes 40                         |
+| [`BOB-DA-94-OPS-002`](../BOB/BOB-DA/94_DIGITAL_TWIN_SYSTEMS/OPS/BOB-DA-94-OPS-002_Predictive_Simulation_Interface-φ.qml)                | Interfaz de Simulación Predictiva                     | 94  | Operación    | Q-HPC                    | φ             | Mes 80                         |
+| [`ALI-21-PRD-AMM-001`](../ALI/21_AIR_CONDITIONING/PRD/AMM/ALI-21-PRD-AMM-001_Production_Maintenance_Instructions-α.ietp.html)               | Instrucciones de Mantenimiento de Producción (ECS)    | 21  | Producción   | Q-INDUSTRY               | α             | Mes 48                         |
+| [`BOB-DT-32-TST-SIM-001`](../BOB/BOB-DT/32_LANDING_GEAR/TST/SIM/BOB-DT-32-TST-SIM-001_Simulation_Accuracy_Validation_Report-ψ.mat)            | Simulación de Precisión de Tren de Aterrizaje         | 32  | Pruebas      | Q-HPC                    | ψ             | Mes 28                         |
+| [`ALI-90-SUP-IPC-001`](../ALI/90_QUANTUM_NAVIGATION_SUITE/SUP/IPC/ALI-90-SUP-IPC-001_Spares_Provisioning_Guidance-α.ietp.html)               | Guía de Suministro de Repuestos QNS                   | 90  | Soporte      | Q-AIR                    | α             | Mes 64                         |
+| [`BOB-DA-96-RET-002`](../BOB/BOB-DA/96_DIGITAL_SUSTAINABILITY/RET/BOB-DA-96-RET-002_Max_Value_Recovery_Optimizer-φ.py)                | Optimizador de Recuperación de Valor Máximo (Sost.)   | 96  | Retiro       | Q-GREENTECH              | φ             | Mes 88                         |
+
+#### **⏳ Cronograma Maestro del Programa (Gantt Chart)**
+
+Este Gantt chart visualiza las principales fases del ciclo de vida del programa y las actividades transversales de soporte. Las duraciones son representativas y pueden solaparse para reflejar la complejidad de un programa aeroespacial a gran escala.
+
+```mermaid
+gantt
+    dateFormat  YYYY-MM-DD
+    title Cronograma Maestro del Programa GQAOA
+
+    section Fases del Ciclo de Vida del Programa
+    Fase Concepto            :crit, 2023-01-01, 8M
+    Fase Diseño              :crit, 2023-09-01, 8M
+    Fase Pruebas             :crit, 2024-05-01, 12M  
+    Fase Certificación       :crit, 2025-05-01, 12M 
+    Fase Producción          :active, 2026-05-01, 8M
+    Fase Mantenimiento       :2027-01-01, 8M
+    Fase Soporte             :2027-09-01, 8M
+    Fase Reparación          :2028-05-01, 8M
+    Fase Operación           :2029-01-01, 8M
+    Fase Retiro              :2029-09-01, 8M
+
+    section Actividades Clave de Desarrollo Técnico
+    Arquitectura Global (ATA 00-04)         :des1, 2023-01-01, 16M
+    Diseño Estructural Principal (ATA 51-57):des2, 2023-09-01, 10M
+    Desarrollo Propulsión (ATA 61-80)       :des3, 2023-09-01, 14M
+    Integración Aviónica/Quantum (ATA 42-46, 90-99):des4, 2024-01-01, 18M
+    Prototipo ALICE Fabricación             :p_alice, 2024-09-01, 10M
+    Pruebas de Integración de Sistemas      :t_int, 2024-05-01, 12M
+    Validación de Modelos BOB-DT/DA         :t_val, 2024-07-01, 10M
+
+    section Soporte ORB Transversal
+    Gestión Financiera Continua             :orb1, 2023-01-01, 75M
+    Gestión de Programa Continua            :orb2, 2023-01-01, 75M
+    Adquisición y Desarrollo de Talento     :orb3, 2023-01-01, 75M
+    Comunicaciones y Marketing              :orb4, 2023-01-01, 75M
+    Cumplimiento Legal y Normativo          :orb5, 2023-01-01, 75M
 ```
 
 #### **🚀 Q-DIVISIONS: El Motor de la Innovación Técnica**
