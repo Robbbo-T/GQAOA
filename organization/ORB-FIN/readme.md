@@ -1,6 +1,3 @@
-# 💰 ORB-FIN: Finanzas y Presupuesto
-## Unidad de Gestión Financiera del Programa GQAOA
-
 Este documento README describe las responsabilidades, operaciones y entregables clave de la unidad **ORB-FIN (Finanzas y Presupuesto)** dentro de la estructura organizacional de GQAOA. ORB-FIN es fundamental para asegurar la viabilidad económica y la optimización de la inversión a lo largo de todo el ciclo de vida del programa.
 
 ---
@@ -35,11 +32,11 @@ Esta carpeta `ORB-FIN` contiene los entregables principales generados y mantenid
 *   **[`ORB-FIN-03-OPEX-REPORT.dashboard`](./ORB-FIN-03-OPEX-REPORT.dashboard)**
     *   **Descripción:** Informe dinámico y visual de gastos operativos, con análisis de tendencias y alertas.
 *   **[`ORB-FIN-04-ROI-ANALYSIS.md`](./ORB-FIN-04-ROI-ANALYSIS.md)**
-    *   **Descripción:** Documento que presenta análisis de retorno de la inversión para tecnologías y componentes clave.
+    *   **Descripción:** Un documento markdown que contiene el análisis de retorno de la inversión para iniciativas y tecnologías estratégicas.
 *   **[`ORB-FIN-05-RISK-ASSESSMENT.xlsx`](./ORB-FIN-05-RISK-ASSESSMENT.xlsx)**
     *   **Descripción:** Matriz detallada de riesgos financieros y planes de mitigación.
 *   **[`ORB-FIN-06-SUPPLIER-PAYMENTS.db`](./ORB-FIN-06-SUPPLIER-PAYMENTS.db)**
-    *   **Descripción:** Base de datos de transacciones financieras y estados de pago con la red de proveedores.
+    *   **Descripción:** Base de datos que registra todas las transacciones financieras y el estado de pagos con la red de proveedores.
 *   **[`ORB-FIN-07-QUARTERLY-REVIEW.pptx`](./ORB-FIN-07-QUARTERLY-REVIEW.pptx)**
     *   **Descripción:** Presentación ejecutiva para la revisión financiera trimestral con la alta dirección.
 
@@ -47,10 +44,10 @@ Esta carpeta `ORB-FIN` contiene los entregables principales generados y mantenid
 
 ### **4. Interacción con el Plan Maestro y el Cronograma del Programa**
 
-La unidad ORB-FIN juega un papel crucial en la **integración financiera del programa GQAOA** al interactuar activamente con el [**Plan Maestro de Predicción (Master Prediction Plan)**](../organization.md) y el [**Cronograma Maestro del Programa (Gantt Chart)**](../organization.md#%E2%8F%B1-cronograma-maestro-del-programa-gantt-chart) que residen en el documento `organization.md` principal.
+La unidad ORB-FIN juega un papel crucial en la **integración financiera del programa GQAOA** al interactuar activamente con el [**Plan Maestro de Predicción (Master Prediction Plan)**](../organization.md#%F0%9F%93%8B-tabla-maestra-de-entregables-clave-y-fechas-previstas) y el [**Cronograma Maestro del Programa (Gantt Chart)**](../organization.md#%E2%8F%B1-cronograma-maestro-del-programa-gantt-chart) que residen en el documento `organization.md` principal.
 
 *   **Alimentación del Plan Financiero:** ORB-FIN consume la información de las fases del ciclo de vida y los entregables técnicos (ALI/BOB) definidos en el Plan Maestro. Esto incluye hitos de entrega de prototipos, fechas de certificación y volúmenes de producción esperados, que son inputs críticos para la elaboración de proyecciones de CAPEX y OPEX.
-*   **Estimación de Costes de Entregables:** Para cada entregable técnico clave identificado en la tabla maestra de entregables (como `ALI-00-CON-001` o `BOB-DT-32-TST-SIM-001`), ORB-FIN colabora con las Q-Divisions responsables para desarrollar estimaciones de costes detalladas, que luego se consolidan en el `ORB-FIN-01-BUDGET-MASTER.xlsx`.
+*   **Estimación de Costes de Entregables:** Para cada entregable técnico clave identificado en la tabla maestra de entregables, ORB-FIN colabora con las Q-Divisions responsables para desarrollar estimaciones de costes detalladas, que luego se consolidan en el `ORB-FIN-01-BUDGET-MASTER.xlsx`.
 *   **Seguimiento del Gasto vs. Progreso:** El `ORB-FIN-02-CAPEX-TRACKER.dashboard` y el `ORB-FIN-03-OPEX-REPORT.dashboard` se alinean con las líneas de tiempo del Cronograma Maestro (Gantt Chart) para monitorizar el gasto en relación con el progreso real del programa y los hitos clave. Esto permite identificar rápidamente desviaciones y ajustar las asignaciones si es necesario.
 *   **Análisis de Impacto de Cambios:** Cualquier modificación significativa en las fechas o el alcance de los entregables principales que se reflejen en el Gantt Chart o en el Plan Maestro, dispara un análisis de impacto financiero por parte de ORB-FIN (`ORB-FIN-04-ROI-ANALYSIS.md`, `ORB-FIN-05-RISK-ASSESSMENT.xlsx`).
 
@@ -59,5 +56,4 @@ Esta integración garantiza que las decisiones financieras estén siempre sincro
 ---
 
 **[FIN DEL DOCUMENTO]**
-```
 ```
