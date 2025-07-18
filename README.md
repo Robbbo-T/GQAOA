@@ -138,185 +138,224 @@ Elevar mi contribución al mundo —como persona, ingeniero y creador de conocim
 
 ---
 
+
+
+### **🌳 GQAOA - Estructura General del Proyecto (Continuación de la Versión Definitiva Unificada)**
+
 ```
 GQAQA/
 │
-├── 📄 .gitignore
-├── 📄 README.md
-├── 📄 package.json
-├── 📄 pytest.ini
-├── 📄 jest.config.js
-├── 📄 hardhat.config.js
+├── 1. 📄 .gitignore
+├── 2. 📄 README.md
+├── 3. 📄 package.json
+├── 4. 📄 pytest.ini
+├── 5. 📄 jest.config.js
+├── 6. 📄 hardhat.config.js
 │
 ├── 📁 .github/
 │   └── 📁 workflows/
-│       ├── 📄 doc_validation.yml
-│       ├── 📄 nomenclature_check.yml
-│       ├── 📄 structure_integrity.yml
+│       ├── 7. 📄 Q100-SYS-CI-DOC-001_Documentation_Validation-α.yml (Q-DATAGOV)
+│       ├── 8. 📄 Q100-SYS-CI-NMC-001_Nomenclature_Check-α.yml (Q-DATAGOV)
+│       ├── 9. 📄 Q100-SYS-CI-STR-001_Structure_Integrity-α.yml (Q-DATAGOV)
+│       ├── 10. 📄 Q100-SYS-CI-CMN-001_Common_CI_CD-α.yml (Q-HPC)
 │       │
 │       ├── 📁 dpp_workflows/
-│       │   ├── 📄 dpp_compliance_check.yml
-│       │   ├── 📄 passport_generation.yml
-│       │   ├── 📄 circular_metrics_update.yml
-│       │   ├── 📄 regulatory_sync.yml
-│       │   └── 📄 integration_tests.yml
+│       │   ├── 11. 📄 Q100-DPP-CI-CMP-001_Compliance_Check-α.yml (Q-HPC)
+│       │   ├── 12. 📄 Q100-DPP-CI-PSG-001_Passport_Generation-α.yml (Q-HPC)
+│       │   ├── 13. 📄 Q100-DPP-CI-CMR-001_Circular_Metrics_Update-α.yml (Q-GREENTECH)
+│       │   ├── 14. 📄 Q100-DPP-CI-REG-001_Regulatory_Sync-α.yml (Q-HPC)
+│       │   └── 15. 📄 Q100-DPP-CI-ITG-001_Integration_Tests-α.yml (Q-SCIRES)
 │       │
 │       └── 📁 quality_gates/
-│           ├── 📄 python_quality.yml
-│           ├── 📄 javascript_quality.yml
-│           ├── 📄 solidity_quality.yml
-│           └── 📄 documentation_check.yml
+│           ├── 16. 📄 Q100-SYS-QG-PYT-001_Python_Quality-α.yml (Q-HPC)
+│           ├── 17. 📄 Q100-SYS-QG-JVS-001_Javascript_Quality-α.yml (Q-HPC)
+│           ├── 18. 📄 Q100-SYS-QG-SLD-001_Solidity_Quality-α.yml (Q-HPC)
+│           └── 19. 📄 Q100-SYS-QG-DOC-001_Documentation_Check-α.yml (Q-DATAGOV)
 │
 ├── 📁 common_libraries/
-│   ├── 📄 README.md
+│   ├── 20. 📄 README.md
 │   │
 │   ├── 📁 utils/
-│   │   ├── 📄 data_validator.py
-│   │   ├── 📄 config_loader.py
-│   │   ├── 📄 logger_factory.py
-│   │   ├── 📄 crypto_utils.py
-│   │   └── 📄 date_formatter.js
+│   │   ├── 21. 📄 Q100-LIB-UTL-DAT-001_Data_Validator-α.py (Q-DATAGOV)
+│   │   ├── 22. 📄 Q100-LIB-UTL-CFG-001_Config_Loader-α.py (Q-HPC)
+│   │   ├── 23. 📄 Q100-LIB-UTL-LOG-001_Logger_Factory-α.py (Q-HPC)
+│   │   ├── 24. 📄 Q100-LIB-UTL-CRPT-001_Crypto_Utils-α.py (Q-HPC)
+│   │   └── 25. 📄 Q100-LIB-UTL-DTF-001_Date_Formatter-α.js (Q-AIR)
 │   │
 │   ├── 📁 network/
-│   │   ├── 📄 http_client.py
-│   │   ├── 📄 websocket_manager.js
-│   │   ├── 📄 retry_handler.cpp
-│   │   └── 📄 circuit_breaker.py
+│   │   ├── 26. 📄 Q100-LIB-NET-HTTP-001_Http_Client-α.py (Q-HPC)
+│   │   ├── 27. 📄 Q100-LIB-NET-WSM-001_Websocket_Manager-α.js (Q-HPC)
+│   │   ├── 28. 📄 Q100-LIB-NET-RTH-001_Retry_Handler-α.cpp (Q-HPC)
+│   │   └── 29. 📄 Q100-LIB-NET-CBR-001_Circuit_Breaker-α.py (Q-HPC)
 │   │
 │   ├── 📁 blockchain/
-│   │   ├── 📄 web3_wrapper.py
-│   │   ├── 📄 contract_interface.js
-│   │   ├── 📄 gas_optimizer.py
-│   │   └── 📄 event_listener.js
+│   │   ├── 30. 📄 README.md
+│   │   ├── 31. 📄 Q100-LIB-BC-WEB3-001_Web3_Wrapper-α.py (Q-HPC)
+│   │   ├── 32. 📄 Q100-LIB-BC-CTI-001_Contract_Interface-α.js (Q-HPC)
+│   │   ├── 33. 📄 Q100-LIB-BC-GAS-001_Gas_Optimizer-α.py (Q-HPC)
+│   │   ├── 34. 📄 Q100-LIB-BC-EVL-001_Event_Listener-α.js (Q-HPC)
+│   │   └── 📁 artifacts/
+│   │       └── 35. 📄 Q100-LIB-BC-ART-001_CommonContract-α.sol (Q-HPC)
 │   │
 │   └── 📁 data_processing/
-│       ├── 📄 etl_pipeline.py
-│       ├── 📄 data_transformer.js
-│       ├── 📄 batch_processor.py
-│       └── 📄 stream_handler.cpp
-│
-├── 📁 tests/
-│   ├── 📄 README.md
-│   │
-│   ├── 📁 unit/
-│   │   ├── 📁 dpp/
-│   │   │   ├── 📄 test_uid_generator.py
-│   │   │   ├── 📄 test_passport_factory.py
-│   │   │   ├── 📄 test_compliance_checker.py
-│   │   │   └── 📄 test_lifecycle_calculator.py
-│   │   │
-│   │   ├── 📁 sustainability/
-│   │   │   ├── 📄 test_carbon_calculator.py
-│   │   │   ├── 📄 test_lca_engine.py
-│   │   │   └── 📄 test_circular_metrics.py
-│   │   │
-│   │   └── 📁 blockchain/
-│   │       ├── 📄 test_smart_contracts.js
-│   │       ├── 📄 test_registry.sol
-│   │       └── 📄 test_events.js
-│   │
-│   ├── 📁 integration/
-│   │   ├── 📄 test_dpp_compliance_flow.py
-│   │   ├── 📄 test_sustainability_integration.py
-│   │   ├── 📄 test_blockchain_registry.py
-│   │   ├── 📄 test_api_endpoints.py
-│   │   └── 📄 test_data_flow.py
-│   │
-│   ├── 📁 e2e/
-│   │   ├── 📄 test_product_lifecycle.cy.js
-│   │   ├── 📄 test_passport_generation.cy.js
-│   │   ├── 📄 test_compliance_workflow.cy.js
-│   │   └── 📄 test_dashboard_interaction.cy.js
-│   │
-│   └── 📁 fixtures/
-│       ├── 📄 sample_products.json
-│       ├── 📄 test_materials.json
-│       ├── 📄 mock_compliance_data.json
-│       └── 📄 lifecycle_events.json
+│       ├── 36. 📄 Q100-LIB-DTP-ETL-001_Etl_Pipeline-α.py (Q-HPC)
+│       ├── 37. 📄 Q100-LIB-DTP-TRF-001_Data_Transformer-α.js (Q-HPC)
+│       ├── 38. 📄 Q100-LIB-DTP-BPR-001_Batch_Processor-α.py (Q-HPC)
+│       └── 39. 📄 Q100-LIB-DTP-STH-001_Stream_Handler-α.cpp (Q-HPC)
 │
 ├── 📁 docs/
-│   ├── 📄 README.md
-│   ├── 📄 mkdocs.yml
+│   ├── 40. 📄 README.md
+│   ├── 41. 📄 mkdocs.yml (Q-DATAGOV)
 │   │
 │   ├── 📁 architecture/
-│   │   ├── 📄 overview.md
-│   │   ├── 📄 system_design.md
-│   │   └── 📄 component_diagram.md
+│   │   ├── 42. 📄 Q100-DOC-ARC-OVR-001_Overview-α.md (Q-HPC)
+│   │   ├── 43. 📄 Q100-DOC-ARC-SYD-001_System_Design-α.md (Q-HPC)
+│   │   ├── 44. 📄 Q100-DOC-ARC-CPD-001_Component_Diagram-α.md (Q-HPC)
+│   │   ├── 45. 📄 Q100-DOC-ARC-DFD-001_Data_Flow_Diagrams-α.md (Q-HPC)
+│   │   ├── 46. 📄 Q100-DOC-ARC-BCA-001_Blockchain_Architecture-α.md (Q-HPC)
+│   │   ├── 47. 📄 Q100-DOC-ARC-SCA-001_Security_Architecture-α.md (Q-DATAGOV)
+│   │   ├── 48. 📄 Q100-DOC-ARC-INF-001_Infrastructure_Overview-α.md (Q-HPC)
+│   │   └── 1601. 📄 Q100-DOC-ARC-LMT-001_LMT_System_Overview-α.md (Q-SCIRES)
 │   │
 │   ├── 📁 dpp-integration/
-│   │   ├── 📄 overview.md
-│   │   ├── 📄 on-board.md
-│   │   ├── 📄 sustainability.md
-│   │   ├── 📄 blockchain.md
-│   │   ├── 📄 data-flow.md
-│   │   └── 📄 api-reference.md
+│   │   ├── 49. 📄 Q100-DOC-DPP-OVR-001_Overview-α.md (Q-HPC)
+│   │   ├── 50. 📄 Q100-DOC-DPP-OBG-001_Onboarding_Guide-α.md (Q-HPC)
+│   │   ├── 51. 📄 Q100-DOC-DPP-STN-001_Sustainability-α.md (Q-GREENTECH)
+│   │   ├── 52. 📄 Q100-DOC-DPP-BCH-001_Blockchain-α.md (Q-HPC)
+│   │   ├── 53. 📄 Q100-DOC-DPP-DTF-001_Data_Flow-α.md (Q-HPC)
+│   │   ├── 54. 📄 Q100-DOC-DPP-API-001_API_Reference_Summary-α.md (Q-HPC)
+│   │   ├── 55. 📄 Q100-DOC-DPP-CRU-001_Compliance_Rules_Spec-α.md (Q-DATAGOV)
+│   │   ├── 56. 📄 Q100-DOC-DPP-DTS-001_Data_Standards_Mapping-α.md (Q-DATAGOV)
+│   │   ├── 57. 📄 Q100-DOC-DPP-RSP-001_Regulatory_Sync_Process-α.md (Q-HPC)
+│   │   └── 58. 📄 Q100-DOC-DPP-PSD-001_Passport_Schema_Definition-α.md (Q-DATAGOV)
 │   │
 │   ├── 📁 development/
-│   │   ├── 📄 setup.md
-│   │   ├── 📄 environment.md
-│   │   ├── 📄 dependencies.md
-│   │   └── 📄 troubleshooting.md
+│   │   ├── 59. 📄 Q100-DOC-DEV-STP-001_Setup-α.md (Q-HPC)
+│   │   ├── 60. 📄 Q100-DOC-DEV-ENV-001_Environment-α.md (Q-HPC)
+│   │   ├── 61. 📄 Q100-DOC-DEV-DEP-001_Dependencies-α.md (Q-HPC)
+│   │   ├── 62. 📄 Q100-DOC-DEV-TRB-001_Troubleshooting-α.md (Q-HPC)
+│   │   ├── 63. 📄 Q100-DOC-DEV-PYS-001_Python_Stack-α.md (Q-HPC)
+│   │   ├── 64. 📄 Q100-DOC-DEV-JSS-001_Javascript_Stack-α.md (Q-HPC)
+│   │   ├── 65. 📄 Q100-DOC-DEV-SLS-001_Solidity_Stack-α.md (Q-HPC)
+│   │   ├── 66. 📄 Q100-DOC-DEV-CPS-001_Cpp_Stack-α.md (Q-HPC)
+│   │   ├── 67. 📄 Q100-DOC-DEV-LDW-001_Local_Dev_Workflow-α.md (Q-DATAGOV)
+│   │   ├── 68. 📄 Q100-DOC-DEV-DBS-001_Database_Setup-α.md (Q-HPC)
+│   │   └── 69. 📄 Q100-DOC-DEV-CLU-001_Common_Libraries_Usage-α.md (Q-HPC)
 │   │
 │   ├── 📁 testing/
-│   │   ├── 📄 strategy.md
-│   │   ├── 📄 integration-tests.md
-│   │   ├── 📄 e2e-tests.md
-│   │   └── 📄 blockchain-tests.md
+│   │   ├── 70. 📄 Q100-DOC-TST-STR-001_Strategy-α.md (Q-SCIRES)
+│   │   ├── 71. 📄 Q100-DOC-TST-UNT-001_Unit_Tests-α.md (Q-SCIRES)
+│   │   ├── 72. 📄 Q100-DOC-TST-ITG-001_Integration_Tests-α.md (Q-SCIRES)
+│   │   ├── 73. 📄 Q100-DOC-TST-E2E-001_E2E_Tests-α.md (Q-SCIRES)
+│   │   ├── 74. 📄 Q100-DOC-TST-BCT-001_Blockchain_Testing-α.md (Q-HPC)
+│   │   ├── 75. 📄 Q100-DOC-TST-PFT-001_Performance_Testing-α.md (Q-HPC)
+│   │   ├── 76. 📄 Q100-DOC-TST-SEC-001_Security_Testing-α.md (Q-DATAGOV)
+│   │   └── 77. 📄 Q100-DOC-TST-TDM-001_Test_Data_Management-α.md (Q-DATAGOV)
 │   │
-│   └── 📁 contribution/
-│       ├── 📄 guidelines.md
-│       ├── 📄 code-standards.md
-│       └── 📄 pr-template.md
+│   ├── 📁 contribution/
+│   │   ├── 78. 📄 Q100-DOC-CON-GDL-001_Guidelines-α.md (Q-DATAGOV)
+│   │   ├── 79. 📄 Q100-DOC-CON-COC-001_Code_of_Conduct-α.md (Q-DATAGOV)
+│   │   ├── 80. 📄 Q100-DOC-CON-CDS-001_Code_Standards-α.md (Q-DATAGOV)
+│   │   ├── 81. 📄 Q100-DOC-CON-PRT-001_PR_Template-α.md (Q-DATAGOV)
+│   │   ├── 82. 📄 Q100-DOC-CON-VPL-001_Versioning_Policy-α.md (Q-DATAGOV)
+│   │   ├── 83. 📄 Q100-DOC-CON-DGL-001_Documentation_Guidelines-α.md (Q-DATAGOV)
+│   │   └── 84. 📄 Q100-DOC-CON-RLP-001_Release_Process-α.md (Q-DATAGOV)
+│   │
+│   ├── 📁 user_guides/
+│   │   ├── 85. 📄 Q100-DOC-USR-RDM-001_README-α.md (Q-AIR)
+│   │   └── 📁 AMPEL360-BWB-Q100/
+│   │       ├── 86. 📄 Q100-DOC-USR-DTM-001_Digital_Twin_Manual-α.md (Q-HPC)
+│   │       ├── 87. 📄 Q100-DOC-USR-ARM-001_Maintenance_AR_Guide-α.md (Q-INDUSTRY)
+│   │       └── 88. 📄 Q100-DOC-USR-FOD-001_Flight_Ops_Dashboard-α.md (Q-AIR)
+│   │
+│   ├── 📁 operations/
+│   │   ├── 89. 📄 Q100-DOC-OPS-RDM-001_README-α.md (Q-HPC)
+│   │   ├── 90. 📄 Q100-DOC-OPS-DPL-001_Deployment_Guide-α.md (Q-HPC)
+│   │   ├── 91. 📄 Q100-DOC-OPS-MLA-001_Monitoring_and_Alerting-α.md (Q-HPC)
+│   │   ├── 92. 📄 Q100-DOC-OPS-LST-001_Logging_Strategy-α.md (Q-HPC)
+│   │   ├── 93. 📄 Q100-DOC-OPS-BAR-001_Backup_and_Recovery-α.md (Q-HPC)
+│   │   ├── 94. 📄 Q100-DOC-OPS-IRP-001_Incident_Response_Playbook-α.md (Q-HPC)
+│   │   └── 95. 📄 Q100-DOC-OPS-SCU-001_Smart_Contract_Upgrades-α.md (Q-HPC)
+│   │
+│   ├── 📁 api_reference/
+│   │   ├── 96. 📄 Q100-DOC-API-RDM-001_README-α.md (Q-HPC)
+│   │   ├── 97. 📄 Q100-DOC-API-ATH-001_Authentication-α.md (Q-HPC)
+│   │   ├── 98. 📄 Q100-DOC-API-DRS-001_Dpp_Rest_Api-α.yml (Q-HPC)
+│   │   ├── 99. 📄 Q100-DOC-API-BCA-001_Blockchain_Contracts_Api-α.md (Q-HPC)
+│   │   ├── 100. 📄 Q100-DOC-API-GQL-001_Graphql_Api_Schema-α.graphql (Q-HPC)
+│   │   └── 101. 📄 Q100-DOC-API-WSK-001_Websocket_Api-α.md (Q-HPC)
+│   │
+│   ├── 📁 regulatory_compliance/
+│   │   ├── 102. 📄 Q100-DOC-RGL-RDM-001_README-α.md (Q-DATAGOV)
+│   │   ├── 103. 📄 Q100-DOC-RGL-EAS-001_EASA_Compliance_Matrix-α.md (Q-DATAGOV)
+│   │   ├── 104. 📄 Q100-DOC-RGL-EUD-001_EU_DPP_ESPR_Compliance-α.md (Q-DATAGOV)
+│   │   ├── 105. 📄 Q100-DOC-RGL-ICO-001_ICAO_Standards_Adherence-α.md (Q-DATAGOV)
+│   │   ├── 106. 📄 Q100-DOC-RGL-CRM-001_CRM_Tracking_Policy-α.md (Q-DATAGOV)
+│   │   ├── 107. 📄 Q100-DOC-RGL-EXA-001_External_Audits-α.md (Q-DATAGOV)
+│   │   └── 108. 📄 Q100-DOC-RGL-DAP-001_Data_Privacy_GDPR-α.md (Q-DATAGOV)
+│   │
+│   ├── 📁 glossary/
+│   │   └── 109. 📄 Q100-DOC-GLO-TRM-001_Terms-α.md (Q-DATAGOV)
+│   │
+│   ├── 📁 release_notes/
+│   │   ├── 110. 📄 Q100-DOC-REL-RDM-001_README-α.md (Q-DATAGOV)
+│   │   ├── 111. 📄 Q100-DOC-REL-V10-001_v1.0.0-α.md (Q-DATAGOV)
+│   │   └── 112. 📄 Q100-DOC-REL-TMP-001_Template_for_Next_Release-β.md (Q-DATAGOV)
+│   │
+│   └── 📁 decisions/
+│       ├── 113. 📄 Q100-DOC-DEC-ADR-001_Use_ADR_Log-α.md (Q-DATAGOV)
+│       ├── 114. 📄 Q100-DOC-DEC-BCP-001_Choice_of_Blockchain_Platform-α.md (Q-HPC)
+│       └── 115. 📄 Q100-DOC-DEC-DST-001_Data_Storage_for_Digital_Twin-α.md (Q-HPC)
 │
 ├── 📁 organization/
-│   ├── 📄 README.md
+│   ├── 116. 📄 README.md (Q-DATAGOV)
 │   │
 │   ├── 📁 ORB/
+│   │   ├── 117. 📄 README.md (Q-DATAGOV)
 │   │   ├── 📁 FIN/
-│   │   │   ├── 📄 ORB-FIN-01-BUDGET-MASTER.xlsx
-│   │   │   ├── 📄 ORB-FIN-02-CAPEX-TRACKER.dashboard
-│   │   │   ├── 📄 ORB-FIN-03-OPEX-REPORT.dashboard
-│   │   │   ├── 📄 ORB-FIN-04-ROI-ANALYSIS.md
-│   │   │   ├── 📄 ORB-FIN-05-RISK-ASSESSMENT.xlsx
-│   │   │   ├── 📄 ORB-FIN-06-SUPPLIER-PAYMENTS.db
-│   │   │   └── 📄 ORB-FIN-07-QUARTERLY-REVIEW.pptx
+│   │   │   ├── 118. 📄 Q100-ORB-FIN-BGT-001_Budget_Master-α.xlsx (Q-FIN)
+│   │   │   ├── 119. 📄 Q100-ORB-FIN-CXP-001_CAPEX_Tracker-α.dashboard (Q-FIN)
+│   │   │   ├── 120. 📄 Q100-ORB-FIN-OPE-001_OPEX_Report-α.dashboard (Q-FIN)
+│   │   │   ├── 121. 📄 Q100-ORB-FIN-ROI-001_ROI_Analysis-α.md (Q-FIN)
+│   │   │   ├── 122. 📄 Q100-ORB-FIN-RSK-001_Risk_Assessment-α.xlsx (Q-FIN)
+│   │   │   ├── 123. 📄 Q100-ORB-FIN-SPP-001_Supplier_Payments-α.db (Q-FIN)
+│   │   │   └── 124. 📄 Q100-ORB-FIN-QRT-001_Quarterly_Review-α.pptx (Q-FIN)
 │   │   ├── 📁 PMO/
-│   │   │   ├── 📄 ORB-PMO-01-MASTER-SCHEDULE.mpp
-│   │   │   ├── 📄 ORB-PMO-02-KANBAN-BOARD.dashboard
-│   │   │   ├── 📄 ORB-PMO-03-MILESTONE-TRACKER.dashboard
-│   │   │   ├── 📄 ORB-PMO-04-RISK-LOG.xlsx
-│   │   │   ├── 📄 ORB-PMO-05-STAKEHOLDER-COMMS.md
-│   │   │   ├── 📄 ORB-PMO-06-WEEKLY-STATUS-REPORT.ietp.html
-│   │   │   └── 📄 ORB-PMO-07-RESOURCE-ALLOCATION.dashboard
+│   │   │   ├── 125. 📄 Q100-ORB-PMO-MST-001_Master_Schedule-α.mpp (Q-PMO)
+│   │   │   ├── 126. 📄 Q100-ORB-PMO-KBN-001_Kanban_Board-α.dashboard (Q-PMO)
+│   │   │   ├── 127. 📄 Q100-ORB-PMO-MLT-001_Milestone_Tracker-α.dashboard (Q-PMO)
+│   │   │   ├── 128. 📄 Q100-ORB-PMO-RSK-001_Risk_Log-α.xlsx (Q-PMO)
+│   │   │   ├── 129. 📄 Q100-ORB-PMO-STC-001_Stakeholder_Comms-α.md (Q-PMO)
+│   │   │   ├── 130. 📄 Q100-ORB-PMO-WSR-001_Weekly_Status_Report-α.ietp.html (Q-PMO)
+│   │   │   └── 131. 📄 Q100-ORB-PMO-RSC-001_Resource_Allocation-α.dashboard (Q-PMO)
 │   │   ├── 📁 HR/
-│   │   │   ├── 📄 ORB-HR-01-ORG-CHART.svg
-│   │   │   ├── 📄 ORB-HR-02-RECRUITMENT-PLAN.md
-│   │   │   ├── 📄 ORB-HR-03-TRAINING-MATRIX.xlsx
-│   │   │   ├── 📄 ORB-HR-04-INTERNAL-BULLETIN.ietp.html
-│   │   │   ├── 📄 ORB-HR-05-PERFORMANCE-REVIEW.dashboard
-│   │   │   └── 📄 ORB-HR-06-WELLBEING-PROGRAM.md
+│   │   │   ├── 132. 📄 Q100-ORB-HR-ORG-001_Org_Chart-α.svg (Q-HR)
+│   │   │   ├── 133. 📄 Q100-ORB-HR-RCR-001_Recruitment_Plan-α.md (Q-HR)
+│   │   │   ├── 134. 📄 Q100-ORB-HR-TRN-001_Training_Matrix-α.xlsx (Q-HR)
+│   │   │   ├── 135. 📄 Q100-ORB-HR-BLT-001_Internal_Bulletin-α.ietp.html (Q-HR)
+│   │   │   ├── 136. 📄 Q100-ORB-HR-PRV-001_Performance_Review-α.dashboard (Q-HR)
+│   │   │   └── 137. 📄 Q100-ORB-HR-WBP-001_Wellbeing_Program-α.md (Q-HR)
 │   │   ├── 📁 MKTG/
-│   │   │   ├── 📄 ORB-MKTG-01-MARKETING-STRATEGY.md
-│   │   │   ├── 📄 ORB-MKTG-02-BRANDING-GUIDELINES.pdf
-│   │   │   ├── 📄 ORB-MKTG-03-PRESS-RELEASES.archive
-│   │   │   ├── 📄 ORB-MKTG-04-LAUNCH-EVENT-PLAN.md
-│   │   │   ├── 📄 ORB-MKTG-05-SOCIAL-MEDIA-CONTENT.calendar
-│   │   │   ├── 📄 ORB-MKTG-06-CUSTOMER-PROFILES.pptx
-│   │   │   └── 📄 ORB-MKTG-07-WEBSITE-CONTENT.md
+│   │   │   ├── 138. 📄 Q100-ORB-MKT-STR-001_Marketing_Strategy-α.md (Q-MKTG)
+│   │   │   ├── 139. 📄 Q100-ORB-MKT-BGD-001_Branding_Guidelines-α.pdf (Q-MKTG)
+│   │   │   ├── 140. 📄 Q100-ORB-MKT-PRL-001_Press_Releases-α.archive (Q-MKTG)
+│   │   │   ├── 141. 📄 Q100-ORB-MKT-LEP-001_Launch_Event_Plan-α.md (Q-MKTG)
+│   │   │   ├── 142. 📄 Q100-ORB-MKT-SMC-001_Social_Media_Content-α.calendar (Q-MKTG)
+│   │   │   ├── 143. 📄 Q100-ORB-MKT-CUS-001_Customer_Profiles-α.pptx (Q-MKTG)
+│   │   │   └── 144. 📄 Q100-ORB-MKT-WBC-001_Website_Content-α.md (Q-MKTG)
 │   │   ├── 📁 CSR/
-│   │   │   ├── 📄 ORB-CSR-01-CSR-STRATEGY.md
-│   │   │   ├── 📄 ORB-CSR-02-SUSTAINABILITY-REPORT.ietp.html
-│   │   │   ├── 📄 ORB-CSR-03-COMMUNITY-ENGAGEMENT.md
-│   │   │   ├── 📄 ORB-CSR-04-DIVERSITY-EQUITY-INCLUSION.dashboard
-│   │   │   ├── 📄 ORB-CSR-05-ETHICS-POLICY.pdf
-│   │   │   └── 📄 ORB-CSR-06-VOLUNTEERING-PROGRAM.md
+│   │   │   ├── 145. 📄 Q100-ORB-CSR-STR-001_CSR_Strategy-α.md (Q-CSR)
+│   │   │   ├── 146. 📄 Q100-ORB-CSR-SRP-001_Sustainability_Report-α.ietp.html (Q-CSR)
+│   │   │   ├── 147. 📄 Q100-ORB-CSR-CEN-001_Community_Engagement-α.md (Q-CSR)
+│   │   │   ├── 148. 📄 Q100-ORB-CSR-DEI-001_Diversity_Equity_Inclusion-α.dashboard (Q-CSR)
+│   │   │   └── 149. 📄 Q100-ORB-CSR-ETP-001_Ethics_Policy-α.pdf (Q-LEG)
 │   │   └── 📁 LEGAL/
-│   │       ├── 📄 ORB-LEG-01-IP-PORTFOLIO.db
-│   │       ├── 📄 ORB-LEG-02-SUPPLIER-CONTRACTS.archive
-│   │       ├── 📄 ORB-LEG-03-REGULATORY-COMPLIANCE.dashboard
-│   │       ├── 📄 ORB-LEG-04-EXPORT-CONTROL.md
-│   │       ├── 📄 ORB-LEG-05-NDAS.archive
-│   │       └── 📄 ORB-LEG-06-DATA-PRIVACY-POLICY.pdf
+│   │       ├── 150. 📄 Q100-ORB-LEG-IPP-001_IP_Portfolio-α.db (Q-LEG)
+│   │       ├── 151. 📄 Q100-ORB-LEG-SPC-001_Supplier_Contracts-α.archive (Q-LEG)
+│   │       ├── 152. 📄 Q100-ORB-LEG-RGC-001_Regulatory_Compliance-α.dashboard (Q-LEG)
+│   │       ├── 153. 📄 Q100-ORB-LEG-EXC-001_Export_Control-α.md (Q-LEG)
+│   │       ├── 154. 📄 Q100-ORB-LEG-NDA-001_NDAs-α.archive (Q-LEG)
+│   │       └── 155. 📄 Q100-ORB-LEG-DPL-001_Data_Privacy_Policy-α.pdf (Q-LEG)
 │   │
 │   └── 📁 Q-Divisions/
 │       ├── 📄 Q-AIR-Charter.md
@@ -329,368 +368,1096 @@ GQAQA/
 │       ├── 📄 Q-SPACE-Charter.md
 │       └── 📄 Q-STRUCTURES-Charter.md
 │
-└── 📁 programs/
-    ├── 📄 readme.md
-    │
-    ├── 📁 AMPEL360/
-    │   ├── 📄 Readme.md
-    │   │
-    │   ├── 📁 AMPEL360-BWB-Q100/
-    │   │   ├── 📄 Readme.md
-    │   │   │
-    │   │   ├── 📁 Dashboards/
-    │   │   │   ├── 📄 index.html
-    │   │   │   ├── 📄 ali-bob-integration.dashboard.js
-    │   │   │   ├── 📄 dashboard.css
-    │   │   │   ├── 📄 program-status.dashboard.js
-    │   │   │   ├── 📄 quantum-systems.dashboard.js
-    │   │   │   ├── 📄 quantum-theme.css
-    │   │   │   ├── 📄 kmr-compliance.dashboard.js
-    │   │   │   ├── 📁 assets/
-    │   │   │   │   ├── 📁 css/
-    │   │   │   │   │   └── 📄 dashboard.css
-    │   │   │   │   │   └── 📄 quantum-theme.css
-    │   │   │   │   └── 📁 js/
-    │   │   │   │       ├── 📄 d3-visualizations.js
-    │   │   │   │       └── 📄 real-time-sync.js
-    │   │   │   └── 📁 data/
-    │   │   │       ├── 📄 kpi-definitions.yaml
-    │   │   │       └── 📄 metrics.json
-    │   │   │
-    │   │   ├── 📁 Digital_Twin/
-    │   │   │   ├── 📁 Backend/
-    │   │   │   │   ├── 📄 data-sync-engine.js
-    │   │   │   │   ├── 📄 physics-engine.py
-    │   │   │   │   ├── 📄 quantum-interface.py
-    │   │   │   │   ├── 📄 server.js
-    │   │   │   │   ├── 📄 state-manager.js
-    │   │   │   │   ├── 📁 apis/
-    │   │   │   │   │   ├── 📄 graphql-schema.js
-    │   │   │   │   │   ├── 📄 rest-api.js
-    │   │   │   │   │   └── 📄 websocket-handler.js
-    │   │   │   │   ├── 📁 database/
-    │   │   │   │   │   ├── 📁 migrations/
-    │   │   │   │   │   └── 📄 schema.sql
-    │   │   │   │   ├── 📁 models/
-    │   │   │   │   │   ├── 📄 aircraft-model.js
-    │   │   │   │   │   ├── 📄 quantum-state-model.qml
-    │   │   │   │   │   └── 📄 systems-model.py
-    │   │   │   │   │
-    │   │   │   │   └── 📁 Frontend/
-    │   │   │   │       ├── 📄 3d-viewer.js
-    │   │   │   │       ├── 📄 3d-models/
-    │   │   │   │       ├── 📄 dashboard-ui.vue
-    │   │   │   │       ├── 📄 index.html
-    │   │   │   │       ├── 📄 quantum-visualizer.tsx
-    │   │   │   │       ├── 📁 assets/
-    │   │   │   │       │   ├── 📁 3d-models/
-    │   │   │   │       │   ├── 📁 shaders/
-    │   │   │   │       │   └── 📁 textures/
-    │   │   │   │       └── 📁 components/
-    │   │   │   │           ├── 📄 aircraft-3d-model.vue
-    │   │   │   │           ├── 📄 quantum-state-viewer.vue
-    │   │   │   │           ├── 📄 systems-panel.vue
-    │   │   │   │           └── 📄 telemetry-display.vue
-    │   │   │   │
-    │   │   │   └── 📁 Docs/
-    │   │   │       ├── 📁 1_Concept/
-    │   │   │       ├── 📁 2_Design/
-    │   │   │       ├── 📁 3_Testing/
-    │   │   │       ├── 📁 4_Certification/
-    │   │   │       ├── 📁 5_Production/
-    │   │   │       ├── 📁 6_In_Line_Maintenance/
-    │   │   │       ├── 📁 7_In_Service_Support/
-    │   │   │       ├── 📁 8_Flight_Operations/
-    │   │   │       └── 📁 9_Structural_Repair/
-    │   │   │
-    │   │   ├── 📁 Hardware_and_Airframe_Specifications/
-    │   │   │   ├── 📄 APU/
-    │   │   │   ├── 📄 Batteries/
-    │   │   │   ├── 📄 Belly_Fairing/
-    │   │   │   ├── 📄 BWB-Zone/
-    │   │   │   ├── 📄 Cabin_Cargo/
-    │   │   │   ├── 📄 Cabin_Pax/
-    │   │   │   ├── 📄 Cockpit_Avionics_Computers/
-    │   │   │   ├── 📄 Doors_Access_Panels/
-    │   │   │   ├── 📄 Electrical_Propulsor_Kit/
-    │   │   │   ├── 📄 Environmental_Remediation_and_Capture/
-    │   │   │   ├── 📄 Fans_Turbine/
-    │   │   │   ├── 📄 Primary_Topological_OPTOUT/
-    │   │   │   │   ├── 📄 design_constraints.json
-    │   │   │   │   ├── 📄 README.md
-    │   │   │   │   ├── 📁 load_cases/
-    │   │   │   │   ├── 📁 processed_results/
-    │   │   │   │   └── 📁 raw_outputs/
-    │   │   │   ├── 📄 Renewable_Electrification/
-    │   │   │   ├── 📄 Stabilizers/
-    │   │   │   ├── 📄 Wings/
-    │   │   │   └── 📄 Windows_Windshield/
-    │   │   │
-    │   │   ├── 📁 Mechanics/
-    │   │   │   ├── 📄 Actuators_Requirements/
-    │   │   │   ├── 📄 Flight_Surfaces_Requirements/
-    │   │   │   ├── 📄 Hydrogen_Pneumatics_SAF_Requirements/
-    │   │   │   ├── 📄 Landing_Gear_Requirements/
-    │   │   │   └── 📄 Skin_Fuselage/
-    │   │   │
-    │   │   ├── 📁 Software/
-    │   │   │   ├── 📁 Communication/
-    │   │   │   │   ├── 📁 ACARS_CPDLC/
-    │   │   │   │   │   ├── 📄 acars_encoder.cpp
-    │   │   │   │   │   ├── 📄 cpdlc_handler.py
-    │   │   │   │   │   └── 📄 datalink_router.js
-    │   │   │   │   ├── 📁 Fast_Secure_Stable_Connections/
-    │   │   │   │   │   ├── 📄 adaptive_qos_engine.js
-    │   │   │   │   │   ├── 📄 connection_optimizer.py
-    │   │   │   │   │   ├── 📄 failover_controller.cpp
-    │   │   │   │   │   └── 📄 ultra_low_latency_router.py
-    │   │   │   │   ├── 📁 Hybrid_Extended_Realities/
-    │   │   │   │   │   ├── 📄 ar_content/
-    │   │   │   │   │   ├── 📄 cockpit_ar_overlay.cpp
-    │   │   │   │   │   ├── 📄 holographic_displays.py
-    │   │   │   │   │   ├── 📄 maintenance_mr_assistant.js
-    │   │   │   │   │   └── 📄 virtual_presence_engine.cpp
-    │   │   │   │   ├── 📁 InfraNet_Robotics_Telepathy/
-    │   │   │   │   │   ├── 📄 aircraft_mind_link.cpp
-    │   │   │   │   │   ├── 📄 consciousness_bridge.py
-    │   │   │   │   │   ├── 📄 robot_control_system.py
-    │   │   │   │   │   └── 📄 telepathic_control_system.js
-    │   │   │   │   ├── 📁 Integration_Hub/
-    │   │   │   │   │   ├── 📄 maintenance_orchestrator.js
-    │   │   │   │   │   ├── 📄 performance_analytics.py
-    │   │   │   │   │   ├── 📄 safety_monitor.cpp
-    │   │   │   │   │   └── 📄 xr_robot_coordinator.py
-    │   │   │   │   ├── 📁 Knowledge_Transfer/
-    │   │   │   │   │   ├── 📄 collective_learning.py
-    │   │   │   │   │   ├── 📄 experience_transfer.cpp
-    │   │   │   │   │   ├── 📄 flight_knowledge_base.py
-    │   │   │   │   │   ├── 📄 skill_sharing_protocol.js
-    │   │   │   │   │   └── 📄 wisdom_aggregator.cpp
-    │   │   │   │   ├── 📁 Network_Nodes/
-    │   │   │   │   │   ├── 📄 dynamic_node_discovery.cpp
-    │   │   │   │   │   ├── 📄 mesh_topology_controller.cpp
-    │   │   │   │   │   ├── 📄 node_health_monitor.py
-    │   │   │   │   │   ├── 📄 aircraft_node_manager.py
-    │   │   │   │   │   └── 📄 edge_computing_unit.js
-    │   │   │   │   ├── 📁 Neural_Networks/
-    │   │   │   │   │   ├── 📄 aircraft_brain_interface.cpp
-    │   │   │   │   │   ├── 📄 distributed_cognition.js
-    │   │   │   │   │   ├── 📄 neural_routing_protocol.py
-    │   │   │   │   │   ├── 📄 neural_mesh.py
-    │   │   │   │   │   └── 📄 synaptic_data_flow.cpp
-    │   │   │   │   ├── 📁 Protocols_and_IoT/
-    │   │   │   │   │   ├── 📄 device_registry.json
-    │   │   │   │   │   ├── 📄 mqtt_broker.cpp
-    │   │   │   │   │   ├── 📄 sensor_network_manager.py
-    │   │   │   │   │   └── 📁 protocols/
-    │   │   │   │   ├── 📁 Quantum_Link/
-    │   │   │   │   │   ├── 📄 post_quantum_crypto.cpp
-    │   │   │   │   │   ├── 📄 quantum_channel_monitor.py
-    │   │   │   │   │   ├── 📄 quantum_comm_interface.py
-    │   │   │   │   │   └── 📄 entanglement_transceiver.cpp
-    │   │   │   │   └── 📁 SATCOM_Link/
-    │   │   │   │       ├── 📄 doppler_compensation.cpp
-    │   │   │   │       ├── 📄 link_budget_optimizer.m
-    │   │   │   │       ├── 📄 orbital_handover_manager.py
-    │   │   │   │       ├── 📄 satellite_comm_protocol.cpp
-    │   │   │   │       └── 📁 constellation_configs/
-    │   │   │   │
-    │   │   │   ├── 📁 On_Ground/
-    │   │   │   │   ├── 📁 ATM/
-    │   │   │   │   │   ├── 📄 4d_trajectory_manager.js
-    │   │   │   │   │   ├── 📄 atm_integration.py
-    │   │   │   │   │   ├── 📄 flight_plan_optimizer.cpp
-    │   │   │   │   │   ├── 📄 sesar_interface.py
-    │   │   │   │   │   └── 📁 protocols/
-    │   │   │   │   ├── 📁 Material_Design_and_Synthetics/
-    │   │   │   │   │   ├── 📄 composite_analysis_tool.cpp
-    │   │   │   │   │   ├── 📄 fatigue_life_predictor.m
-    │   │   │   │   │   ├── 📄 metamaterial_designer.py
-    │   │   │   │   │   └── 📁 material_database/
-    │   │   │   │   ├── 📁 Predictive_Maintenance/
-    │   │   │   │   │   ├── 📄 component_health_monitor.cpp
-    │   │   │   │   │   ├── 📄 maintenance_scheduler.js
-    │   │   │   │   │   ├── 📄 ml_failure_predictor.py
-    │   │   │   │   │   ├── 📄 msg3_analyzer.py
-    │   │   │   │   │   └── 📁 models/
-    │   │   │   │   ├── 📁 Quantum_Optimization_and_Design/
-    │   │   │   │   │   ├── 📄 qaoa_route_optimizer.qml
-    │   │   │   │   │   ├── 📄 resource_allocator.py
-    │   │   │   │   │   ├── 📄 vqe_solver.py
-    │   │   │   │   │   ├── 📄 quantum_annealer_interface.cpp
-    │   │   │   │   │   └── 📁 quantum_circuits/
-    │   │   │   │   └── 📁 Extended_Maintenance/
-    │   │   │   │       ├── 📄 Digital_Work_Instructions/
-    │   │   │   │       │   ├── 📄 compliance_tracker.py
-    │   │   │   │       │   ├── 📄 dynamic_procedure_engine.py
-    │   │   │   │       │   ├── 📄 real_time_validation.cpp
-    │   │   │   │       │   └── 📄 3d_annotation_system.js
-    │   │   │       │       ├── 📁 Integration_Hub/
-    │   │   │       │       │   ├── 📄 maintenance_orchestrator.js
-    │   │   │       │       │   ├── 📄 performance_analytics.py
-    │   │   │       │       │   ├── 📄 safety_monitor.cpp
-    │   │   │       │       │   └── 📄 xr_robot_coordinator.py
-    │   │   │       │       ├── 📁 Robotics_Support/
-    │   │   │       │       │   ├── 📄 autonomous_inspection_ai.py
-    │   │   │       │       │   ├── 📄 collaborative_robot_interface.cpp
-    │   │   │       │       │   ├── 📄 robot_fleet_manager.js
-    │   │   │       │       │   └── 📄 robot_control_system.py
-    │   │   │       │       ├── 📁 XR_Training_Systems/
-    │   │   │       │       │   ├── 📄 haptic_feedback_controller.cpp
-    │   │   │       │       │   ├── 📄 scenario_generator.js
-    │   │   │       │       │   ├── 📄 xr_training_platform.py
-    │   │   │       │       │   └── 📁 training_scenarios/
-    │   │   │       │       └── 📁 VR_Maintenance_Simulator/
-    │   │   │       │           ├── 📄 physics_simulator.py
-    │   │   │       │           ├── 📄 tool_interaction_system.js
-    │   │   │       │           ├── 📄 vr_environment_engine.cpp
-    │   │   │       │           └── 📁 virtual_hangar/
-    │   │   │       │
-    │   │   │       └── 📁 On_Board/
-    │   │   │           ├── 📄 README.md
-    │   │   │           ├── 📁 Blockchain_Registry/
-    │   │   │           │   ├── 📄 blockchain_interface.py
-    │   │   │           │   ├── 📄 flight_data_ledger.sol
-    │   │   │           │   ├── 📄 maintenance_records.sol
-    │   │   │           │   ├── 📄 smart_contract_manager.js
-    │   │   │           │   └── 📁 consensus/
-    │   │   │           ├── 📁 DPP_Smart_Contracts/
-    │   │   │           │   ├── 📄 circular_tracking.sol
-    │   │   │           │   ├── 📄 compliance_verification.sol
-    │   │   │           │   ├── 📄 lifecycle_events.sol
-    │   │   │           │   ├── 📄 material_certification.sol
-    │   │   │           │   └── 📄 product_passport_registry.sol
-    │   │   │           ├── 📁 DPP/
-    │   │   │           │   ├── 📄 README.md
-    │   │   │           │   │
-    │   │   │           │   ├── 📁 AI_Circular_Design/
-    │   │   │           │   │   ├── 📄 remanufacturing_ai.py
-    │   │   │           │   │   ├── 📄 degradation_predictor.js
-    │   │   │           │   │   ├── 📄 ecodesign_recommender.py
-    │   │   │           │   │   ├── 📄 material_optimizer_ml.cpp
-    │   │   │           │   │   └── 📁 models/
-    │   │   │           │   │       ├── 📄 lifecycle_optimizer.onnx
-    │   │   │           │   │       ├── 📄 circular_design_nn.h5
-    │   │   │           │   │       └── 📄 material_selection.pkl
-    │   │   │           │   │
-    │   │   │           │   ├── 📁 APIs/
-    │   │   │           │   │   ├── 📄 interoperability_layer.py
-    │   │   │           │   │   ├── 📄 eu_dpp_connector.cpp
-    │   │   │           │   │   ├── 📄 graphql_dpp_schema.js
-    │   │   │           │   │   └── 📄 dpp_rest_api.py
-    │   │   │           │   │
-    │   │   │           │   ├── 📁 Compliance_Engine/
-    │   │   │           │   │   ├── 📄 crm_materials_verifier.cpp
-    │   │   │           │   │   ├── 📄 easa_validator.cpp
-    │   │   │           │   │   ├── 📄 eu_compliance_checker.py
-    │   │   │           │   │   ├── 📄 icao_compliance.js
-    │   │   │           │   │   ├── 📄 espr_monitor.py
-    │   │   │           │   │   └── 📁 regulatory_updates/
-    │   │   │           │   │       ├── 📄 compliance_alerter.cpp
-    │   │   │           │   │       ├── 📄 legal_feed_parser.js
-    │   │   │           │   │       └── 📄 auto_updater.py
-    │   │   │           │   │
-    │   │   │           │   ├── 📁 Data_Export/
-    │   │   │           │   │   ├── 📄 offline_verifier.cpp
-    │   │   │           │   │   ├── 📄 qr_embedder.py
-    │   │   │           │   │   ├── 📄 pdf_a_exporter.cpp
-    │   │   │           │   │   └── 📄 passport_generator.py
-    │   │   │           │   │
-    │   │   │           │   ├── 📁 Dashboards/
-    │   │   │           │   │   ├── 📁 components/
-    │   │   │           │   │   │   ├── 📄 circular_metrics.vue
-    │   │   │           │   │   │   ├── 📄 compliance_matrix.tsx
-    │   │   │           │   │   │   ├── 📄 eco_gamification.vue
-    │   │   │           │   │   │   └── 📄 passport_viewer.vue
-    │   │   │           │   │   ├── 📄 circularity_metrics.vue
-    │   │   │           │   │   ├── 📄 compliance_status.tsx
-    │   │   │           │   │   ├── 📄 dpp_overview.html
-    │   │   │           │   │   └── 📄 lifecycle_visualizer.js
-    │   │   │           │   │
-    │   │   │           │   ├── 📁 LCA_Integration/
-    │   │   │           │   │   ├── 📄 circularity_index.cpp
-    │   │   │           │   │   ├── 📄 lifecycle_calculator.py
-    │   │   │           │   │   ├── 📄 material_impact_scorer.py
-    │   │   │           │   │   ├── 📄 water_usage_tracker.js
-    │   │   │           │   │   └── 📄 manufacturing_footprint.cpp
-    │   │   │           │   │
-    │   │   │           │   ├── 📁 Knowledge_Graph/
-    │   │   │           │   │   ├── 📁 ontologies/
-    │   │   │           │   │   │   ├── 📄 aerospace_dpp.owl
-    │   │   │           │   │   │   ├── 📄 circular_economy.ttl
-    │   │   │           │   │   │   └── 📄 compliance_rules.n3
-    │   │   │           │   │   ├── 📁 schemas/
-    │   │   │           │   │   │   ├── 📄 ata_dpp_linkage.json
-    │   │   │           │   │   │   ├── 📄 eclass_mapping.json
-    │   │   │           │   │   │   ├── 📄 eu_dpp_fields.json
-    │   │   │           │   │   │   └── 📄 iec_cdd_schema.json
-    │   │   │           │   │   ├── 📄 graphdb_interface.js
-    │   │   │           │   │   ├── 📄 ontology_manager.py
-    │   │   │           │   │   └── 📄 semantic_mapper.cpp
-    │   │   │           │   │
-    │   │   │           │   └── 📁 Traceability/
-    │   │   │           │       ├── 📄 quantum_stamp.cpp
-    │   │   │           │       ├── 📄 gs1_barcode_engine.py
-    │   │   │           │       ├── 📄 rfid_manager.js
-    │   │   │           │       ├── 📄 qr_nfc_generator.cpp
-    │   │   │           │       ├── 📄 uid_registry.py
-    │   │   │           │       └── 📁 tracking_interfaces/
-    │   │   │           │           ├── 📄 assembly_tracker.cpp
-    │   │   │           │           ├── 📄 component_tracker.js
-    │   │   │           │           └── 📄 material_tracker.py
-    │   │   │           │
-    │   │   │   └── 📁 Sustainability/
-    │   │   │       ├── 📁 Carbon_Footprint_Tracking/
-    │   │   │       │   ├── 📄 blockchain_carbon_credits.sol
-    │   │   │       │   ├── 📁 reports/
-    │   │   │       │   ├── 📄 carbon_offset_calculator.js
-    │   │   │       │   ├── 📄 real_time_emissions_monitor.py
-    │   │   │       │   └── 📁 DPP_Carbon_Registry/
-    │   │   │       │       ├── 📄 emissions_tracker_dpp.py
-    │   │   │       │       ├── 📄 offset_verifier.cpp
-    │   │   │       │       └── 📄 carbon_passport_fields.json
-    │   │   │       ├── 📁 Circular_Economy/
-    │   │   │       │   ├── 📄 end_of_life_strategy.md
-    │   │   │       │   ├── 📄 material_recovery_planner.js
-    │   │   │       │   ├── 📄 recycling_optimizer.py
-    │   │   │       │   ├── 📄 remanufacturing_tracker.cpp
-    │   │   │       │   └── 📁 DPP_Circularity/
-    │   │   │       │       ├── 📄 circular_passport_engine.py
-    │   │   │       │       ├── 📄 material_flow_tracker.js
-    │   │   │       │       ├── 📄 recycling_passport_gen.py
-    │   │   │       │       └── 📄 second_life_simulator.cpp
-    │   │       │       ├── 📁 EcoMetrics/
-    │   │       │       │   ├── 📄 carbon_footprint_calculator.py
-    │   │       │       │   ├── 📄 energy_efficiency_monitor.js
-    │   │       │       │   ├── 📄 water_usage_analytics.cpp
-    │   │       │       │   ├── 📄 waste_tracking_system.py
-    │   │       │       │   ├── 📁 dashboards/
-    │   │       │       │   └── 📁 DPP_Integration/
-    │   │       │       │       ├── 📄 circular_kpi_tracker.cpp
-    │   │       │       │       ├── 📄 dpp_eco_linker.py
-    │   │       │       │       └── 📄 passport_metrics_sync.js
-    │   │       │       └── 📁 LCA_Models/
-    │   │       │           ├── 📄 dpp_lca_bridge/
-    │   │       │           │   ├── 📄 impact_passport_generator.js
-    │   │       │           │   ├── 📄 lca_dpp_mapper.py
-    │   │       │           │   └── 📄 lifecycle_data_exporter.cpp
-    │   │       │           ├── 📄 lifecycle_assessment_engine.py
-    │   │       │           ├── 📄 material_impact_analyzer.js
-    │   │       │           ├── 📄 manufacturing_footprint.cpp
-    │   │       │           ├── 📄 operational_impact_model.py
-    │   │       │           └── 📁 databases/
-    │   │       │
-    │   │   └── ...
-    │   │
-    │   └── 📁 AMPEL360-BWB-Q250/
-    │       └── 📄 README.md
-    │
-    ├── 📁 GAIA_SPACE-PRD/
-    │   └── 📄 README.md
-    │
-    └── 📁 Robbbo-T_Robotics_PRD/
-        └── 📄 README.md
-
+├── 📁 programs/
+│   ├── 156. 📄 readme.md
+│   │
+│   ├── 📁 AMPEL360/
+│   │   ├── 157. 📄 Readme.md (Q-AIR)
+│   │   │
+│   │   ├── 📁 AMPEL360-BWB-Q100/
+│   │   │   ├── 158. 📄 Readme.md (Q-AIR)
+│   │   │   ├── 159. 📄 .env.example (Q-HPC)
+│   │   │   ├── 160. 📄 Dockerfile (Q-HPC)
+│   │   │   ├── 161. 📄 docker-compose.yml (Q-HPC)
+│   │   │   │
+│   │   │   ├── 📁 Dashboards/
+│   │   │   │   ├── 162. 📄 Q100-DSB-IDX-001_Index-α.html (Q-HPC)
+│   │   │   │   ├── 163. 📄 Q100-DSB-PST-001_Program_Status-α.dashboard.js (Q-HPC)
+│   │   │   │   ├── 164. 📄 Q100-DSB-KMC-001_KMR_Compliance-α.dashboard.js (Q-HPC)
+│   │   │   │   ├── 165. 📄 Q100-DSB-QSY-001_Quantum_Systems-α.dashboard.js (Q-HPC)
+│   │   │   │   ├── 166. 📄 Q100-DSB-ABI-001_Ali_Bob_Integration-α.dashboard.js (Q-HPC)
+│   │   │   │   ├── 📁 assets/
+│   │   │   │   │   ├── 📁 css/
+│   │   │   │   │   │   ├── 167. 📄 Q100-DSB-AST-CSS-001_Dashboard-α.css (Q-HPC)
+│   │   │   │   │   │   └── 168. 📄 Q100-DSB-AST-QTH-001_Quantum_Theme-α.css (Q-HPC)
+│   │   │   │   │   └── 📁 js/
+│   │   │   │   │       ├── 169. 📄 Q100-DSB-AST-D3V-001_D3_Visualizations-α.js (Q-HPC)
+│   │   │   │   │       └── 170. 📄 Q100-DSB-AST-RTS-001_Real_Time_Sync-α.js (Q-HPC)
+│   │   │   │   └── 📁 data/
+│   │   │   │       ├── 171. 📄 Q100-DSB-DAT-MET-001_Metrics-α.json (Q-HPC)
+│   │   │   │       └── 172. 📄 Q100-DSB-DAT-KPI-001_KPI_Definitions-α.yaml (Q-HPC)
+│   │   │   │
+│   │   │   ├── 📁 Digital_Twin/
+│   │   │   │   ├── 📁 Backend/
+│   │   │   │   │   ├── 173. 📄 Q100-DTW-BND-SRV-001_Server-α.js (Q-HPC)
+│   │   │   │   │   ├── 174. 📄 Q100-DTW-BND-QIF-001_Quantum_Interface-α.py (Q-HPC)
+│   │   │   │   │   ├── 175. 📄 Q100-DTW-BND-DSE-001_Data_Sync_Engine-α.js (Q-HPC)
+│   │   │   │   │   ├── 176. 📄 Q100-DTW-BND-SMC-001_Simulation_Core-α.cpp (Q-HPC)
+│   │   │   │   │   ├── 177. 📄 Q100-DTW-BND-PHE-001_Physics_Engine-α.py (Q-HPC)
+│   │   │   │   │   ├── 178. 📄 Q100-DTW-BND-STM-001_State_Manager-α.js (Q-HPC)
+│   │   │   │   │   ├── 📁 models/
+│   │   │   │   │   │   ├── 179. 📄 Q100-DTW-BND-MOD-001_Aircraft_Model-α.js (Q-HPC)
+│   │   │   │   │   │   ├── 180. 📄 Q100-DTW-BND-MOD-002_Systems_Model-α.py (Q-HPC)
+│   │   │   │   │   │   └── 181. 📄 Q100-DTW-BND-MOD-003_Quantum_State_Model-α.qml (Q-HPC)
+│   │   │   │   │   ├── 📁 apis/
+│   │   │   │   │   │   ├── 182. 📄 Q100-DTW-BND-API-001_Rest_Api-α.js (Q-HPC)
+│   │   │   │   │   │   ├── 183. 📄 Q100-DTW-BND-API-002_Graphql_Schema-α.js (Q-HPC)
+│   │   │   │   │   │   └── 184. 📄 Q100-DTW-BND-API-003_Websocket_Handler-α.js (Q-HPC)
+│   │   │   │   │   └── 📁 database/
+│   │   │   │   │       ├── 185. 📄 Q100-DTW-BND-DB-001_Schema-α.sql (Q-HPC)
+│   │   │   │   │       └── 📁 migrations/
+│   │   │   │   │           ├── 186. 📄 Q100-DTW-BND-MGR-001_Initial_Schema-α.sql (Q-HPC)
+│   │   │   │   │           ├── 187. 📄 Q100-DTW-BND-MGR-002_Add_Quantum_State-α.sql (Q-HPC)
+│   │   │   │   │           ├── 188. 📄 Q100-DTW-BND-MGR-003_Add_Telemetry_Data-α.sql (Q-HPC)
+│   │   │   │   │           └── 189. 📄 Q100-DTW-BND-MGR-004_Add_Prediction_Models-α.sql (Q-HPC)
+│   │   │   │   ├── 📁 Frontend/
+│   │   │   │   │   ├── 190. 📄 Q100-DTW-FRT-IDX-001_Index-α.html (Q-HPC)
+│   │   │   │   │   ├── 191. 📄 Q100-DTW-FRT-3DV-001_3D_Viewer-α.js (Q-HPC)
+│   │   │   │   │   ├── 192. 📄 Q100-DTW-FRT-DUI-001_Dashboard_UI-α.vue (Q-HPC)
+│   │   │   │   │   ├── 193. 📄 Q100-DTW-FRT-QVI-001_Quantum_Visualizer-α.tsx (Q-HPC)
+│   │   │   │   │   ├── 📁 components/
+│   │   │   │   │   │   ├── 194. 📄 Q100-DTW-FRT-CMP-001_Aircraft_3D_Model-α.vue (Q-HPC)
+│   │   │   │   │   │   ├── 195. 📄 Q100-DTW-FRT-CMP-002_Systems_Panel-α.vue (Q-HPC)
+│   │   │   │   │   │   ├── 196. 📄 Q100-DTW-FRT-CMP-003_Telemetry_Display-α.vue (Q-HPC)
+│   │   │   │   │   │   └── 197. 📄 Q100-DTW-FRT-CMP-004_Quantum_State_Viewer-α.vue (Q-HPC)
+│   │   │   │   │   └── 📁 assets/
+│   │   │   │   │       ├── 📁 3d-models/
+│   │   │   │   │       │   ├── 198. 📄 Q100-DTW-FRT-3DM-001_Aircraft-α.glb (Q-HPC)
+│   │   │   │   │       │   └── 199. 📄 Q100-DTW-FRT-3DM-002_Engine-α.glb (Q-HPC)
+│   │   │   │   │       ├── 📁 textures/
+│   │   │   │   │       │   ├── 200. 📄 Q100-DTW-FRT-TXT-001_Wing_Texture-α.jpg (Q-HPC)
+│   │   │   │   │       │   └── 201. 📄 Q100-DTW-FRT-TXT-002_Cabin_Texture-α.jpg (Q-HPC)
+│   │   │   │   │       └── 📁 shaders/
+│   │   │   │   │           ├── 202. 📄 Q100-DTW-FRT-SHD-001_Basic_Vert-α.vert (Q-HPC)
+│   │   │   │   │           ├── 203. 📄 Q100-DTW-FRT-SHD-002_Basic_Frag-α.frag (Q-HPC)
+│   │   │   │   │           └── 204. 📄 Q100-DTW-FRT-SHD-003_Phong_Vert-α.vert (Q-HPC)
+│   │   │   │   └── 📁 Docs/
+│   │   │   │       ├── 📁 1_Concept/
+│   │   │   │       │   ├── 205. 📄 README.md
+│   │   │   │       │   ├── 📁 ATA_00_GENERAL_AIRCRAFT/
+│   │   │   │       │   │   ├── 206. 📄 Q100-ALI-00-CON-REQ-001_Market_Requirements-β.md (Q-DATAGOV)
+│   │   │   │       │   │   ├── 207. 📄 Q100-BOB-DT-00-CON-ARC-001_Digital_Architecture_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 208. 📄 Q100-BOB-DA-00-CON-MSD-001_Mission_Definition-β.docx (Q-DATAGOV)
+│   │   │   │       │   │   ├── 209. 📄 Q100-BOB-DA-00-CON-QIS-001_Quantum_Integration_Study-φ.qml (Q-SCIRES)
+│   │   │   │       │   │   ├── 210. 📄 Q100-BOB-DA-00-CON-DMM-001_Digital_Manual_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 211. 📄 Q100-BOB-DA-00-CON-PIM-001_Predictive_Analytics_Framework_Concept-β.md (Q-HPC)
+│   │   │   │       │   │   ├── 212. 📄 Q100-BOB-DT-00-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 213. 📄 Q100-ALI-00-CON-PAC-001_Preliminary_Aircraft_Configuration-β.md (Q-AIR)
+│   │   │   │       │   │   ├── 214. 📄 Q100-BOB-DA-00-CON-EAI-001_Ethical_AI_Framework_Concept-β.md (Q-HPC)
+│   │   │   │       │   │   ├── 215. 📄 Q100-BOB-DA-00-CON-CSC-001_Consciousness_Core_Concept-β.md (Q-HPC)
+│   │   │   │       │   │   └── 216. 📄 Q100-BOB-DA-00-CON-FLC-001_Fleet_Consciousness_Concept-β.md (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_01_WEIGHT_AND_BALANCE/
+│   │   │   │       │   │   ├── 217. 📄 Q100-ALI-01-CON-WBA-001_Weight_Budget_Allocation-β.md (Q-DATAGOV)
+│   │   │   │       │   │   ├── 218. 📄 Q100-BOB-DT-01-CON-DMM-001_Digital_Mass_Model-β.json (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 219. 📄 Q100-BOB-DT-01-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 220. 📄 Q100-BOB-DT-01-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 221. 📄 Q100-BOB-DA-01-CON-CGE-001_CG_Envelope_Requirements-β.xlsx (Q-MECHANICS)
+│   │   │   │       │   │   └── 222. 📄 Q100-BOB-DA-01-CON-QWO-001_Quantum_Weight_Optimization-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_02_OPERATIONAL_LIMITS/
+│   │   │   │       │   │   ├── 223. 📄 Q100-ALI-02-CON-PER-001_Performance_Requirements-β.md (Q-DATAGOV)
+│   │   │   │       │   │   ├── 224. 📄 Q100-BOB-DT-02-CON-DLM-001_Digital_Limits_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 225. 📄 Q100-BOB-DT-02-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 226. 📄 Q100-BOB-DT-02-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 227. 📄 Q100-BOB-DA-02-CON-OEL-001_Operating_Envelope_Study-β.xlsx (Q-AIR)
+│   │   │   │       │   │   └── 228. 📄 Q100-BOB-DA-02-CON-QPA-001_Quantum_Performance_Analysis-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_03_EMERGENCY_EQUIPMENT/
+│   │   │   │       │   │   ├── 229. 📄 Q100-ALI-03-CON-ESR-001_Emergency_System_Requirements-β.md (Q-DATAGOV)
+│   │   │   │       │   │   ├── 230. 📄 Q100-BOB-DT-03-CON-DEM-001_Digital_Emergency_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 231. 📄 Q100-BOB-DT-03-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 232. 📄 Q100-BOB-DT-03-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 233. 📄 Q100-BOB-DA-03-CON-ETA-001_Evacuation_Time_Analysis-β.xlsx (Q-SPACE)
+│   │   │   │       │   │   └── 234. 📄 Q100-BOB-DA-03-CON-QSO-001_Quantum_Safety_Optimization-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_04_AIRWORTHINESS_LIMITATIONS/
+│   │   │   │       │   │   ├── 235. 📄 Q100-ALI-04-CON-DSG-001_Design_Service_Goal-β.md (Q-DATAGOV)
+│   │   │   │       │   │   ├── 236. 📄 Q100-BOB-DT-04-CON-DLM-001_Digital_Life_Model-β.fem (Q-HPC)
+│   │   │   │       │   │   ├── 237. 📄 Q100-BOB-DT-04-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 238. 📄 Q100-BOB-DT-04-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 239. 📄 Q100-BOB-DA-04-CON-CSI-001_Critical_Structure_Identification-β.xlsx (Q-STRUCTURES)
+│   │   │   │       │   │   └── 240. 📄 Q100-BOB-DA-04-CON-QFA-001_Quantum_Fatigue_Analysis-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_05_TIME_LIMITS_MAINTENANCE_CHECKS/
+│   │   │   │       │   │   ├── 241. 📄 Q100-ALI-05-CON-MPH-001_Maintenance_Philosophy-β.md (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 242. 📄 Q100-BOB-DT-05-CON-DMM-001_Digital_Maintenance_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 243. 📄 Q100-BOB-DT-05-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 244. 📄 Q100-BOB-DT-05-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 245. 📄 Q100-BOB-DA-05-CON-M3A-001_MSG_3_Analysis_Plan-β.xlsx (Q-INDUSTRY)
+│   │   │   │       │   │   └── 246. 📄 Q100-BOB-DA-05-CON-QPC-001_Quantum_Predictive_Concept-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_06_DIMENSIONS_AND_AREAS/
+│   │   │   │       │   │   ├── 247. 📄 Q100-ALI-06-CON-ASR-001_Aircraft_Size_Requirements-β.md (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 248. 📄 Q100-BOB-DT-06-CON-DMO-001_Digital_Dimension_Model-β.json (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 249. 📄 Q100-BOB-DT-06-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 250. 📄 Q100-BOB-DT-06-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 251. 📄 Q100-BOB-DA-06-CON-APC-001_Airport_Compatibility_Study-β.xlsx (Q-GROUND)
+│   │   │   │       │   │   └── 252. 📄 Q100-BOB-DA-06-CON-QSO-001_Quantum_Space_Optimization-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_07_LIFTING_AND_SHORING/
+│   │   │   │       │   │   ├── 253. 📄 Q100-ALI-07-CON-LPR-001_Lifting_Point_Requirements-β.md (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 254. 📄 Q100-BOB-DT-07-CON-DLA-001_Digital_Load_Analysis-β.json (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 255. 📄 Q100-BOB-DT-07-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 256. 📄 Q100-BOB-DT-07-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 257. 📄 Q100-BOB-DA-07-CON-GSC-001_Ground_Support_Concept-β.xlsx (Q-GROUND)
+│   │   │   │       │   │   └── 258. 📄 Q100-BOB-DA-07-CON-QSD-001_Quantum_Stress_Distribution-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_08_LEVELING_AND_WEIGHING/
+│   │   │   │       │   │   ├── 259. 📄 Q100-ALI-08-CON-LRC-001_Level_Reference_Concept-β.md (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 260. 📄 Q100-BOB-DT-08-CON-DLM-001_Digital_Level_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 261. 📄 Q100-BOB-DT-08-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 262. 📄 Q100-BOB-DT-08-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 263. 📄 Q100-BOB-DA-08-CON-WSR-001_Weighing_System_Requirements-β.xlsx (Q-INDUSTRY)
+│   │   │   │       │   │   └── 264. 📄 Q100-BOB-DA-08-CON-QPW-001_Quantum_Precision_Weighing-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_09_TOWING_AND_TAXING/
+│   │   │   │       │   │   ├── 265. 📄 Q100-ALI-09-CON-GMC-001_Ground_Movement_Concept-β.md (Q-GROUND)
+│   │   │   │       │   │   ├── 266. 📄 Q100-BOB-DT-09-CON-DMM-001_Digital_Movement_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 267. 📄 Q100-BOB-DT-09-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 268. 📄 Q100-BOB-DT-09-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 269. 📄 Q100-BOB-DA-09-CON-ATR-001_Autonomous_Taxi_Requirements-β.xlsx (Q-GROUND)
+│   │   │   │       │   │   └── 270. 📄 Q100-BOB-DA-09-CON-QGN-001_Quantum_Ground_Navigation-φ.qml (Q-SPACE)
+│   │   │   │       │   ├── 📁 ATA_10_PARKING_MOORING_STORAGE/
+│   │   │   │       │   │   ├── 271. 📄 Q100-ALI-10-CON-LTS-001_Long_Term_Storage_Reqs-β.md (Q-GROUND)
+│   │   │   │       │   │   ├── 272. 📄 Q100-BOB-DT-10-CON-DSM-001_Digital_Storage_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 273. 📄 Q100-BOB-DT-10-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 274. 📄 Q100-BOB-DT-10-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 275. 📄 Q100-BOB-DA-10-CON-MLA-001_Mooring_Load_Analysis-β.xlsx (Q-STRUCTURES)
+│   │   │   │       │   │   └── 276. 📄 Q100-BOB-DA-10-CON-QPS-001_Quantum_Preservation_Study-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_11_PLACARDS_AND_MARKINGS/
+│   │   │   │       │   │   ├── 277. 📄 Q100-ALI-11-CON-PPH-001_Placard_Philosophy-β.md (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 278. 📄 Q100-BOB-DT-11-CON-DPD-001_Digital_Placard_Database-β.json (Q-DATAGOV)
+│   │   │   │       │   │   ├── 279. 📄 Q100-BOB-DT-11-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 280. 📄 Q100-BOB-DT-11-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 281. 📄 Q100-BOB-DA-11-CON-RMR-001_Regulatory_Marking_Reqs-β.xlsx (Q-DATAGOV)
+│   │   │   │       │   │   └── 282. 📄 Q100-BOB-DA-11-CON-HPC-001_Holographic_Placard_Concept-φ.qml (Q-SPACE)
+│   │   │   │       │   ├── 📁 ATA_12_SERVICING/
+│   │   │   │       │   │   ├── 283. 📄 Q100-ALI-12-CON-SPH-001_Servicing_Philosophy-β.md (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 284. 📄 Q100-BOB-DT-12-CON-DSM-001_Digital_Servicing_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 285. 📄 Q100-BOB-DT-12-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 286. 📄 Q100-BOB-DT-12-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 287. 📄 Q100-BOB-DA-12-CON-TTG-001_Turnaround_Time_Goals-β.xlsx (Q-GROUND)
+│   │   │   │       │   │   └── 288. 📄 Q100-BOB-DA-12-CON-QRS-001_Quantum_Replenishment_Study-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_14_HARDWARE/
+│   │   │   │       │   │   ├── 289. 📄 Q100-ALI-14-CON-SPH-001_Standard_Parts_Philosophy-β.md (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 290. 📄 Q100-BOB-DT-14-CON-DHL-001_Digital_Hardware_Library-β.json (Q-DATAGOV)
+│   │   │   │       │   │   ├── 291. 📄 Q100-BOB-DT-14-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 292. 📄 Q100-BOB-DT-14-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 293. 📄 Q100-BOB-DA-14-CON-FMS-001_Fastener_Material_Study-β.xlsx (Q-STRUCTURES)
+│   │   │   │       │   │   └── 294. 📄 Q100-BOB-DA-14-CON-QMS-001_Quantum_Material_Selection-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_15_EXTERNAL_FINISHES/
+│   │   │   │       │   │   ├── 295. 📄 Q100-ALI-15-CON-PFR-001_Paint_and_Finish_Requirements-β.md (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 296. 📄 Q100-BOB-DT-15-CON-DLC-001_Digital_Livery_Concept_Tool-β.json (Q-SPACE)
+│   │   │   │       │   │   ├── 297. 📄 Q100-BOB-DT-15-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 298. 📄 Q100-BOB-DT-15-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 299. 📄 Q100-BOB-DA-15-CON-ASG-001_Aerodynamic_Smoothness_Goals-β.xlsx (Q-AIR)
+│   │   │   │       │   │   └── 300. 📄 Q100-BOB-DA-15-CON-QDR-001_Quantum_Drag_Reduction_Study-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_16_GROUND_DAMAGE/
+│   │   │   │       │   │   ├── 301. 📄 Q100-ALI-16-CON-DTP-001_Damage_Tolerance_Philosophy-β.md (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 302. 📄 Q100-BOB-DT-16-CON-DMO-001_Digital_Damage_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 303. 📄 Q100-BOB-DT-16-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 304. 📄 Q100-BOB-DT-16-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 305. 📄 Q100-BOB-DA-16-CON-CDS-001_Common_Damage_Scenarios-β.xlsx (Q-GROUND)
+│   │   │   │       │   │   └── 306. 📄 Q100-BOB-DA-16-CON-QIS-001_Quantum_Impact_Sensing_Study-φ.qml (Q-DATAGOV)
+│   │   │   │       │   ├── 📁 ATA_17_ADDITIONAL_EQUIPMENT/
+│   │   │   │       │   │   ├── 307. 📄 Q100-ALI-17-CON-OEL-001_Optional_Equipment_List-β.md (Q-AIR)
+│   │   │   │       │   │   ├── 308. 📄 Q100-BOB-DT-17-CON-DCM-001_Digital_Configuration_Manager-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 309. 📄 Q100-BOB-DT-17-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 310. 📄 Q100-BOB-DT-17-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 311. 📄 Q100-BOB-DA-17-CON-SMC-001_Special_Mission_Capabilities-β.xlsx (Q-AIR)
+│   │   │   │       │   │   └── 312. 📄 Q100-BOB-DA-17-CON-QPL-001_Quantum_Payload_Study-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_18_VIBRATION_AND_NOISE/
+│   │   │   │       │   │   ├── 313. 📄 Q100-ALI-18-CON-AVT-001_Acoustic_and_Vibration_Targets-β.md (Q-AIR)
+│   │   │   │       │   │   ├── 314. 📄 Q100-BOB-DT-18-CON-DVM-001_Digital_Vibro_Acoustic_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 315. 📄 Q100-BOB-DT-18-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 316. 📄 Q100-BOB-DT-18-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 317. 📄 Q100-BOB-DA-18-CON-PCC-001_Passenger_Comfort_Criteria-β.xlsx (Q-SPACE)
+│   │   │   │       │   │   └── 318. 📄 Q100-BOB-DA-18-CON-QNC-001_Quantum_Noise_Cancellation_Study-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_20_STANDARD_PRACTICES_AIRFRAME/
+│   │   │   │       │   │   ├── 319. 📄 Q100-ALI-20-CON-PPH-001_Practices_Philosophy-β.md (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 320. 📄 Q100-BOB-DT-20-CON-DPL-001_Digital_Practices_Library-β.json (Q-DATAGOV)
+│   │   │   │       │   │   ├── 321. 📄 Q100-BOB-DT-20-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 322. 📄 Q100-BOB-DT-20-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 323. 📄 Q100-BOB-DA-20-CON-MSR-001_Material_Selection_Criteria-β.xlsx (Q-STRUCTURES)
+│   │   │   │       │   │   └── 324. 📄 Q100-BOB-DA-20-CON-QMA-001_Quantum_Material_Analysis-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_21_AIR_CONDITIONING/
+│   │   │   │       │   │   ├── 325. 📄 Q100-ALI-21-CON-CCR-001_Cabin_Comfort_Requirements-β.md (Q-AIR)
+│   │   │   │       │   │   ├── 326. 📄 Q100-BOB-DT-21-CON-TMO-001_Thermal_Model_Concept-β.mat (Q-HPC)
+│   │   │   │       │   │   ├── 327. 📄 Q100-BOB-DT-21-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 328. 📄 Q100-BOB-DT-21-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 329. 📄 Q100-BOB-DA-21-CON-ENT-001_Environmental_Targets-β.xlsx (Q-GREENTECH)
+│   │   │   │       │   │   └── 330. 📄 Q100-BOB-DA-21-CON-QCC-001_Quantum_Climate_Control-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_22_AUTO_FLIGHT/
+│   │   │   │       │   │   ├── 331. 📄 Q100-ALI-22-CON-APR-001_Autopilot_Requirements-β.md (Q-AIR)
+│   │   │   │       │   │   ├── 332. 📄 Q100-BOB-DT-22-CON-CLC-001_Control_Law_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 333. 📄 Q100-BOB-DT-22-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 334. 📄 Q100-BOB-DT-22-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 335. 📄 Q100-BOB-DA-22-CON-PGO-001_Performance_Goals-β.xlsx (Q-AIR)
+│   │   │   │       │   │   └── 336. 📄 Q100-BOB-DA-22-CON-QTR-001_Quantum_Trajectory_Study-φ.qml (Q-SPACE)
+│   │   │   │       │   ├── 📁 ATA_23_COMMUNICATIONS/
+│   │   │   │       │   │   ├── 337. 📄 Q100-ALI-23-CON-CSR-001_Comms_System_Requirements-β.md (Q-SPACE)
+│   │   │   │       │   │   ├── 338. 📄 Q100-BOB-DT-23-CON-DCM-001_Digital_Comms_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 339. 📄 Q100-BOB-DT-23-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 340. 📄 Q100-BOB-DT-23-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 341. 📄 Q100-BOB-DA-23-CON-BAS-001_Bandwidth_Allocation_Study-β.xlsx (Q-SPACE)
+│   │   │   │       │   │   └── 342. 📄 Q100-BOB-DA-23-CON-QCC-001_Quantum_Communication_Concept-φ.qml (Q-SPACE)
+│   │   │   │       │   ├── 📁 ATA_24_ELECTRICAL_POWER/
+│   │   │   │       │   │   ├── 343. 📄 Q100-ALI-24-CON-PSR-001_Power_System_Requirements-β.md (Q-AIR)
+│   │   │   │       │   │   ├── 344. 📄 Q100-BOB-DT-24-CON-DPG-001_Digital_Power_Grid_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 345. 📄 Q100-BOB-DT-24-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 346. 📄 Q100-BOB-DT-24-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 347. 📄 Q100-BOB-DA-24-CON-LAS-001_Load_Analysis_Study-β.xlsx (Q-AIR)
+│   │   │   │       │   │   └── 348. 📄 Q100-BOB-DA-24-CON-QBC-001_Quantum_Battery_Concept-φ.qml (Q-GREENTECH)
+│   │   │   │       │   ├── 📁 ATA_25_EQUIPMENT_FURNISHINGS/
+│   │   │   │       │   │   ├── 349. 📄 Q100-ALI-25-CON-CIC-001_Cabin_Interior_Concept-β.md (Q-SPACE)
+│   │   │   │       │   │   ├── 350. 📄 Q100-BOB-DT-25-CON-DCL-001_Digital_Cabin_Layout_Tool-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 351. 📄 Q100-BOB-DT-25-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 352. 📄 Q100-BOB-DT-25-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 353. 📄 Q100-BOB-DA-25-CON-PEG-001_Passenger_Experience_Goals-β.xlsx (Q-SPACE)
+│   │   │   │       │   │   └── 354. 📄 Q100-BOB-DA-25-CON-QEC-001_Quantum_Experience_Concept-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_26_FIRE_PROTECTION/
+│   │   │   │       │   │   ├── 355. 📄 Q100-ALI-26-CON-FSR-001_Fire_Safety_Requirements-β.md (Q-AIR)
+│   │   │   │       │   │   ├── 356. 📄 Q100-BOB-DT-26-CON-DFM-001_Digital_Fire_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 357. 📄 Q100-BOB-DT-26-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 358. 📄 Q100-BOB-DT-26-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 359. 📄 Q100-BOB-DA-26-CON-FZA-001_Fire_Zone_Analysis-β.xlsx (Q-STRUCTURES)
+│   │   │   │       │   │   └── 360. 📄 Q100-BOB-DA-26-CON-QFS-001_Quantum_Fire_Sensing_Concept-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_27_FLIGHT_CONTROLS/
+│   │   │   │       │   │   ├── 361. 📄 Q100-ALI-27-CON-CSR-001_Control_System_Requirements-β.md (Q-MECHANICS)
+│   │   │   │       │   │   ├── 362. 📄 Q100-BOB-DT-27-CON-CLC-001_Control_Law_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 363. 📄 Q100-BOB-DT-27-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 364. 📄 Q100-BOB-DT-27-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 365. 📄 Q100-BOB-DA-27-CON-HQG-001_Handling_Qualities_Goals-β.xlsx (Q-AIR)
+│   │   │   │       │   │   └── 366. 📄 Q100-BOB-DA-27-CON-QFC-001_Quantum_Flow_Control_Study-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_28_FUEL/
+│   │   │   │       │   │   ├── 367. 📄 Q100-ALI-28-CON-FSR-001_Fuel_System_Requirements-β.md (Q-GREENTECH)
+│   │   │   │       │   │   ├── 368. 📄 Q100-BOB-DT-28-CON-DFF-001_Digital_Fuel_Flow_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 369. 📄 Q100-BOB-DT-28-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 370. 📄 Q100-BOB-DT-28-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 371. 📄 Q100-BOB-DA-28-CON-HSI-001_H2_Storage_Trade_Study-β.xlsx (Q-GREENTECH)
+│   │   │   │       │   │   └── 372. 📄 Q100-BOB-DA-28-CON-QFG-001_Quantum_Fuel_Gauging_Concept-φ.qml (Q-DATAGOV)
+│   │   │   │       │   ├── 📁 ATA_29_HYDRAULIC_POWER/
+│   │   │   │       │   │   ├── 373. 📄 Q100-ALI-29-CON-HSR-001_Hydraulic_System_Requirements-β.md (Q-MECHANICS)
+│   │   │   │       │   │   ├── 374. 📄 Q100-BOB-DT-29-CON-DHM-001_Digital_Hydraulic_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 375. 📄 Q100-BOB-DT-29-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 376. 📄 Q100-BOB-DT-29-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 377. 📄 Q100-BOB-DA-29-CON-PFA-001_Pressure_and_Flow_Analysis-β.xlsx (Q-MECHANICS)
+│   │   │   │       │   │   └── 378. 📄 Q100-BOB-DA-29-CON-QLD-001_Quantum_Leak_Detection_Study-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_30_ICE_AND_RAIN_PROTECTION/
+│   │   │   │       │   │   ├── 379. 📄 Q100-ALI-30-CON-IPR-001_Icing_Protection_Requirements-β.md (Q-AIR)
+│   │   │   │       │   │   ├── 380. 📄 Q100-BOB-DT-30-CON-DIA-001_Digital_Icing_Accretion_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 381. 📄 Q100-BOB-DT-30-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 382. 📄 Q100-BOB-DT-30-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 383. 📄 Q100-BOB-DA-30-CON-PIC-001_Performance_in_Icing_Conditions-β.xlsx (Q-AIR)
+│   │   │   │       │   │   └── 384. 📄 Q100-BOB-DA-30-CON-QIS-001_Quantum_Ice_Sensor_Concept-φ.qml (Q-DATAGOV)
+│   │   │   │       │   ├── 📁 ATA_31_INDICATING_RECORDING_SYSTEMS/
+│   │   │   │       │   │   ├── 385. 📄 Q100-ALI-31-CON-CDP-001_Cockpit_Display_Philosophy-β.md (Q-AIR)
+│   │   │   │       │   │   ├── 386. 📄 Q100-BOB-DT-31-CON-DDC-001_Digital_Display_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 387. 📄 Q100-BOB-DT-31-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 388. 📄 Q100-BOB-DT-31-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 389. 📄 Q100-BOB-DA-31-CON-DRR-001_Data_Recording_Requirements-β.xlsx (Q-DATAGOV)
+│   │   │   │       │   │   └── 390. 📄 Q100-BOB-DA-31-CON-QPC-001_Quantum_Processing_Core_Study-φ.qml (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_32_LANDING_GEAR/
+│   │   │   │       │   │   ├── 391. 📄 Q100-ALI-32-CON-LGR-001_Landing_Gear_Requirements-β.md (Q-MECHANICS)
+│   │   │   │       │   │   ├── 392. 📄 Q100-BOB-DT-32-CON-DGK-001_Digital_Gear_Kinematics_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 393. 📄 Q100-BOB-DT-32-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 394. 📄 Q100-BOB-DT-32-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 395. 📄 Q100-BOB-DA-32-CON-RPE-001_Runway_Performance_Study-β.xlsx (Q-AIR)
+│   │   │   │       │   │   └── 396. 📄 Q100-BOB-DA-32-CON-QLS-001_Quantum_Landing_System_Concept-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_33_LIGHTS/
+│   │   │   │       │   │   ├── 397. 📄 Q100-ALI-33-CON-LSR-001_Lighting_System_Requirements-β.md (Q-AIR)
+│   │   │   │       │   │   ├── 398. 📄 Q100-BOB-DT-33-CON-DLS-001_Digital_Lighting_Simulation_Tool-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 399. 📄 Q100-BOB-DT-33-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 400. 📄 Q100-BOB-DT-33-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 401. 📄 Q100-BOB-DA-33-CON-ILP-001_Illumination_Performance_Goals-β.xlsx (Q-SPACE)
+│   │   │   │       │   │   └── 402. 📄 Q100-BOB-DA-33-CON-QLE-001_Quantum_LED_Efficiency_Study-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_34_NAVIGATION/
+│   │   │   │       │   │   ├── 403. 📄 Q100-ALI-34-CON-NSR-001_Navigation_System_Requirements-β.md (Q-SPACE)
+│   │   │   │       │   │   ├── 404. 📄 Q100-BOB-DT-34-CON-DNM-001_Digital_Navigation_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 405. 📄 Q100-BOB-DT-34-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 406. 📄 Q100-BOB-DT-34-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 407. 📄 Q100-BOB-DA-34-CON-AIG-001_Accuracy_and_Integrity_Goals-β.xlsx (Q-SPACE)
+│   │   │   │       │   │   └── 408. 📄 Q100-BOB-DA-34-CON-QIN-001_Quantum_Inertial_Navigation_Concept-φ.qml (Q-SPACE)
+│   │   │   │       │   ├── 📁 ATA_35_OXYGEN/
+│   │   │   │       │   │   ├── 409. 📄 Q100-ALI-35-CON-OSR-001_Oxygen_System_Requirements-β.md (Q-AIR)
+│   │   │   │       │   │   ├── 410. 📄 Q100-BOB-DT-35-CON-DOF-001_Digital_Oxygen_Flow_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 411. 📄 Q100-BOB-DT-35-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 412. 📄 Q100-BOB-DT-35-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 413. 📄 Q100-BOB-DA-35-CON-EAC-001_Endurance_and_Capacity_Study-β.xlsx (Q-AIR)
+│   │   │   │       │   │   └── 414. 📄 Q100-BOB-DA-35-CON-QOG-001_Quantum_Oxygen_Generator_Concept-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_36_PNEUMATIC/
+│   │   │   │       │   │   ├── 415. 📄 Q100-ALI-36-CON-PSR-001_Pneumatic_System_Requirements-β.md (Q-MECHANICS)
+│   │   │   │       │   │   ├── 416. 📄 Q100-BOB-DT-36-CON-DPF-001_Digital_Pneumatic_Flow_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 417. 📄 Q100-BOB-DT-36-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 418. 📄 Q100-BOB-DT-36-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 419. 📄 Q100-BOB-DA-36-CON-BAD-001_Bleed_Air_Demand_Analysis-β.xlsx (Q-GREENTECH)
+│   │   │   │       │   │   └── 420. 📄 Q100-BOB-DA-36-CON-QPS-001_Quantum_Pressure_Sensing_Concept-φ.qml (Q-DATAGOV)
+│   │   │   │       │   ├── 📁 ATA_37_VACUUM/
+│   │   │   │       │   │   ├── 421. 📄 Q100-ALI-37-CON-VSR-001_Vacuum_System_Requirements-β.md (Q-AIR)
+│   │   │   │       │   │   ├── 422. 📄 Q100-BOB-DT-37-CON-DVF-001_Digital_Vacuum_Flow_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 423. 📄 Q100-BOB-DT-37-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 424. 📄 Q100-BOB-DT-37-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 425. 📄 Q100-BOB-DA-37-CON-SAS-001_System_Application_Study-β.xlsx (Q-AIR)
+│   │   │   │       │   │   └── 426. 📄 Q100-BOB-DA-37-CON-QVT-001_Quantum_Vacuum_Tech_Concept-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_38_WATER_WASTE/
+│   │   │   │       │   │   ├── 427. 📄 Q100-ALI-38-CON-WWS-001_Water_Waste_System_Requirements-β.md (Q-AIR)
+│   │   │   │       │   │   ├── 428. 📄 Q100-BOB-DT-38-CON-DFF-001_Digital_Fluid_Flow_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 429. 📄 Q100-BOB-DT-38-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 430. 📄 Q100-BOB-DT-38-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 431. 📄 Q100-BOB-DA-38-CON-CAU-001_Capacity_and_Usage_Study-β.xlsx (Q-SPACE)
+│   │   │   │       │   │   └── 432. 📄 Q100-BOB-DA-38-CON-QRC-001_Quantum_Recycling_Concept-φ.qml (Q-GREENTECH)
+│   │   │   │       │   ├── 📁 ATA_39_ELECTRICAL_PANELS_MULTIPLEXING/
+│   │   │   │       │   │   ├── 433. 📄 Q100-ALI-39-CON-PDP-001_Panel_Design_Philosophy-β.md (Q-AIR)
+│   │   │   │       │   │   ├── 434. 📄 Q100-BOB-DT-39-CON-DPL-001_Digital_Panel_Layout_Tool-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 435. 📄 Q100-BOB-DT-39-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 436. 📄 Q100-BOB-DT-39-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 437. 📄 Q100-BOB-DA-39-CON-MAR-001_Multiplexing_Architecture_Study-β.xlsx (Q-HPC)
+│   │   │   │       │   │   └── 438. 📄 Q100-BOB-DA-39-CON-QBA-001_Quantum_Bus_Architecture_Concept-φ.qml (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_41_WATER_BALLAST/
+│   │   │   │       │   │   ├── 439. 📄 Q100-ALI-41-CON-WBR-001_Water_Ballast_System_Requirements-β.md (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 440. 📄 Q100-BOB-DT-41-CON-DBM-001_Digital_Ballast_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 441. 📄 Q100-BOB-DT-41-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 442. 📄 Q100-BOB-DT-41-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 443. 📄 Q100-BOB-DA-41-CON-CGC-001_CG_Control_Strategy-β.xlsx (Q-MECHANICS)
+│   │   │   │       │   │   └── 444. 📄 Q100-BOB-DA-41-CON-QCO-001_Quantum_CG_Optimization_Study-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_42_INTEGRATED_MODULAR_AVIONICS/
+│   │   │   │       │   │   ├── 445. 📄 Q100-ALI-42-CON-IAP-001_IMA_Architecture_Philosophy-β.md (Q-HPC)
+│   │   │   │       │   │   ├── 446. 📄 Q100-BOB-DT-42-CON-DIM-001_Digital_IMA_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 447. 📄 Q100-BOB-DT-42-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 448. 📄 Q100-BOB-DT-42-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 449. 📄 Q100-BOB-DA-42-CON-PRA-001_Partitioning_and_Resource_Allocation-β.xlsx (Q-HPC)
+│   │   │   │       │   │   └── 450. 📄 Q100-BOB-DA-42-CON-QPI-001_Quantum_Processing_Integration_Concept-φ.qml (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_44_CABIN_SYSTEMS/
+│   │   │   │       │   │   ├── 451. 📄 Q100-ALI-44-CON-CSR-001_Cabin_Systems_Requirements-β.md (Q-HPC)
+│   │   │   │       │   │   ├── 452. 📄 Q100-BOB-DT-44-CON-DCE-001_Digital_Cabin_Ecosystem_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 453. 📄 Q100-BOB-DT-44-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 454. 📄 Q100-BOB-DT-44-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 455. 📄 Q100-BOB-DA-44-CON-IEC-001_IFE_and_Connectivity_Goals-β.xlsx (Q-SPACE)
+│   │   │   │       │   │   └── 456. 📄 Q100-BOB-DA-44-CON-QEC-001_Quantum_Experience_Concept-φ.qml (Q-SPACE)
+│   │   │   │       │   ├── 📁 ATA_45_CENTRAL_MAINTENANCE_SYSTEM/
+│   │   │   │       │   │   ├── 457. 📄 Q100-ALI-45-CON-CPM-001_CMS_Philosophy_and_Requirements-β.md (Q-HPC)
+│   │   │   │       │   │   ├── 458. 📄 Q100-BOB-DT-45-CON-DCA-001_Digital_CMS_Architecture-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 459. 📄 Q100-BOB-DT-45-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 460. 📄 Q100-BOB-DT-45-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 461. 📄 Q100-BOB-DA-45-CON-DPG-001_Diagnostic_and_Prognostic_Goals-β.xlsx (Q-INDUSTRY)
+│   │   │   │       │   │   └── 462. 📄 Q100-BOB-DA-45-CON-ADC-001_AI_Diagnostics_Core_Concept-φ.qml (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_46_INFORMATION_SYSTEMS/
+│   │   │   │       │   │   ├── 463. 📄 Q100-ALI-46-CON-ISA-001_Information_Systems_Architecture-β.md (Q-HPC)
+│   │   │   │       │   │   ├── 464. 📄 Q100-BOB-DT-46-CON-DIE-001_Digital_Information_Ecosystem-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 465. 📄 Q100-BOB-DT-46-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 466. 📄 Q100-BOB-DT-46-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 467. 📄 Q100-BOB-DA-46-CON-DSP-001_Data_Security_and_Privacy_Reqs-β.xlsx (Q-DATAGOV)
+│   │   │   │       │   │   └── 468. 📄 Q100-BOB-DA-46-CON-QSF-001_Quantum_Security_Framework_Concept-φ.qml (Q-SPACE)
+│   │   │   │       │   ├── 📁 ATA_47_NITROGEN_GENERATION_SYSTEM/
+│   │   │   │       │   │   ├── 469. 📄 Q100-ALI-47-CON-NGR-001_NGS_Requirements-β.md (Q-GROUND)
+│   │   │   │       │   │   ├── 470. 📄 Q100-BOB-DT-47-CON-DNP-001_Digital_NGS_Performance_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 471. 📄 Q100-BOB-DT-47-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 472. 📄 Q100-BOB-DT-47-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 473. 📄 Q100-BOB-DA-47-CON-OCT-001_Oxygen_Concentration_Targets-β.xlsx (Q-GREENTECH)
+│   │   │   │       │   │   └── 474. 📄 Q100-BOB-DA-47-CON-ADM-001_Advanced_Membrane_Study-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_49_AIRBORNE_AUXILIARY_POWER/
+│   │   │   │       │   │   ├── 475. 📄 Q100-ALI-49-CON-APR-001_APU_Performance_Requirements-β.md (Q-GREENTECH)
+│   │   │   │       │   │   ├── 476. 📄 Q100-BOB-DT-49-CON-DTH-001_Digital_APU_Thermodynamic_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 477. 📄 Q100-BOB-DT-49-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 478. 📄 Q100-BOB-DT-49-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 479. 📄 Q100-BOB-DA-49-CON-PBD-001_Power_and_Bleed_Air_Demand_Study-β.xlsx (Q-GREENTECH)
+│   │   │   │       │   │   └── 480. 📄 Q100-BOB-DA-49-CON-QAO-001_Quantum_APU_Optimizer_Concept-φ.qml (Q-GREENTECH)
+│   │   │   │       │   ├── 📁 ATA_50_CARGO_ACCESSORY_COMPARTMENTS/
+│   │   │   │       │   │   ├── 481. 📄 Q100-ALI-50-CON-CLR-001_Compartment_Layout_Requirements-β.md (Q-SPACE)
+│   │   │   │       │   │   ├── 482. 📄 Q100-BOB-DT-50-CON-DVP-001_Digital_Volume_and_Payload_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 483. 📄 Q100-BOB-DT-50-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 484. 📄 Q100-BOB-DT-50-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 485. 📄 Q100-BOB-DA-50-CON-LSC-001_Loading_System_Concept-β.xlsx (Q-GROUND)
+│   │   │   │       │   │   └── 486. 📄 Q100-BOB-DA-50-CON-QLO-001_Quantum_Loading_Optimization_Study-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_51_STRUCTURES_STANDARD_PRACTICES/
+│   │   │   │       │   │   ├── 487. 📄 Q100-ALI-51-CON-SPH-001_Structural_Philosophy-β.md (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 488. 📄 Q100-BOB-DT-51-CON-DPL-001_Digital_Practices_Library-β.json (Q-DATAGOV)
+│   │   │   │       │   │   ├── 489. 📄 Q100-BOB-DT-51-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 490. 📄 Q100-BOB-DT-51-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 491. 📄 Q100-BOB-DA-51-CON-RDC-001_Repair_Design_Criteria-β.xlsx (Q-STRUCTURES)
+│   │   │   │       │   │   └── 492. 📄 Q100-BOB-DA-51-CON-QND-001_Quantum_NDT_Concept-φ.qml (Q-DATAGOV)
+│   │   │   │       │   ├── 📁 ATA_52_DOORS/
+│   │   │   │       │   │   ├── 493. 📄 Q100-ALI-52-CON-DSR-001_Door_System_Requirements-β.md (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 494. 📄 Q100-BOB-DT-52-CON-DDM-001_Digital_Door_Mechanism-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 495. 📄 Q100-BOB-DT-52-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 496. 📄 Q100-BOB-DT-52-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 497. 📄 Q100-BOB-DA-52-CON-EGR-001_Egress_Analysis-β.xlsx (Q-SPACE)
+│   │   │   │       │   │   └── 498. 📄 Q100-BOB-DA-52-CON-QLS-001_Quantum_Latch_Sensor_Study-φ.qml (Q-DATAGOV)
+│   │   │   │       │   ├── 📁 ATA_53_FUSELAGE/
+│   │   │   │       │   │   ├── 499. 📄 Q100-ALI-53-CON-BFC-001_BWB_Fuselage_Concept-β.md (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 500. 📄 Q100-BOB-DT-53-CON-DSM-001_Digital_Stress_Model-β.fem (Q-HPC)
+│   │   │   │       │   │   ├── 501. 📄 Q100-BOB-DT-53-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 502. 📄 Q100-BOB-DT-53-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 503. 📄 Q100-BOB-DA-53-CON-STR-001_Structural_Requirements-β.xlsx (Q-STRUCTURES)
+│   │   │   │       │   │   └── 504. 📄 Q100-BOB-DA-53-CON-QMS-001_Quantum_Material_Study-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_54_NACELLES_PYLONS/
+│   │   │   │       │   │   ├── 505. 📄 Q100-ALI-54-CON-NAC-001_Nacelle_Aerodynamic_Concept-β.md (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 506. 📄 Q100-BOB-DT-54-CON-DAS-001_Digital_Aero_Structural_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 507. 📄 Q100-BOB-DT-54-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 508. 📄 Q100-BOB-DT-54-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 509. 📄 Q100-BOB-DA-54-CON-PSR-001_Pylon_Structural_Requirements-β.xlsx (Q-STRUCTURES)
+│   │   │   │       │   │   └── 510. 📄 Q100-BOB-DA-54-CON-QVD-001_Quantum_Vibration_Damping_Study-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_55_STABILIZERS/
+│   │   │   │       │   │   ├── 511. 📄 Q100-ALI-55-CON-SRE-001_Stabilizer_Requirements_BWB-β.md (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 512. 📄 Q100-BOB-DT-55-CON-DSM-001_Digital_Stability_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 513. 📄 Q100-BOB-DT-55-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 514. 📄 Q100-BOB-DT-55-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 515. 📄 Q100-BOB-DA-55-CON-CAS-001_Control_Authority_Study-β.xlsx (Q-AIR)
+│   │   │   │       │   │   └── 516. 📄 Q100-BOB-DA-55-CON-QSE-001_Quantum_Stability_Enhancement_Concept-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_56_WINDOWS/
+│   │   │   │       │   │   ├── 517. 📄 Q100-ALI-56-CON-WIR-001_Window_Requirements_BWB-β.md (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 518. 📄 Q100-BOB-DT-56-CON-DWM-001_Digital_Window_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 519. 📄 Q100-BOB-DT-56-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 520. 📄 Q100-BOB-DT-56-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 521. 📄 Q100-BOB-DA-56-CON-OSG-001_Optical_and_Structural_Goals-β.xlsx (Q-SPACE)
+│   │   │   │       │   │   └── 522. 📄 Q100-BOB-DA-56-CON-SWT-001_Smart_Window_Technology_Concept-φ.qml (Q-SPACE)
+│   │   │   │       │   ├── 📁 ATA_57_WINGS/
+│   │   │   │       │   │   ├── 523. 📄 Q100-ALI-57-CON-BWC-001_BWB_Wing_Concept_and_Requirements-β.md (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 524. 📄 Q100-BOB-DT-57-CON-DWA-001_Digital_Wing_Aerodynamic_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 525. 📄 Q100-BOB-DT-57-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 526. 📄 Q100-BOB-DT-57-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 527. 📄 Q100-BOB-DA-57-CON-APE-001_Aerodynamic_Performance_Goals-β.xlsx (Q-AIR)
+│   │   │   │       │   │   └── 528. 📄 Q100-BOB-DA-57-CON-QWS-001_Quantum_Wing_Shape_Optimization_Study-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_61_PROPELLERS_PROPULSORS/
+│   │   │   │       │   │   ├── 529. 📄 Q100-ALI-61-CON-DPC-001_Distributed_Propulsor_Concept-β.md (Q-GREENTECH)
+│   │   │   │       │   │   ├── 530. 📄 Q100-BOB-DT-61-CON-DPA-001_Digital_Propulsor_Aero_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 531. 📄 Q100-BOB-DT-61-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 532. 📄 Q100-BOB-DT-61-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 533. 📄 Q100-BOB-DA-61-CON-TET-001_Thrust_and_Efficiency_Goals-β.xlsx (Q-GREENTECH)
+│   │   │   │       │   │   └── 534. 📄 Q100-BOB-DA-61-CON-QNC-001_Quantum_Noise_Control_Study-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_70_STANDARD_PRACTICES_ENGINES/
+│   │   │   │       │   │   ├── 535. 📄 Q100-ALI-70-CON-EPH-001_Engine_Practices_Philosophy-β.md (Q-GREENTECH)
+│   │   │   │       │   │   ├── 536. 📄 Q100-BOB-DT-70-CON-DPL-001_Digital_Engine_Practices_Library-β.json (Q-DATAGOV)
+│   │   │   │       │   │   ├── 537. 📄 Q100-BOB-DT-70-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 538. 📄 Q100-BOB-DT-70-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 539. 📄 Q100-BOB-DA-70-CON-MTC-001_Material_and_Tooling_Criteria-β.xlsx (Q-INDUSTRY)
+│   │   │   │       │   │   └── 540. 📄 Q100-BOB-DA-70-CON-QDT-001_Quantum_Diagnostic_Techniques_Study-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_71_POWER_PLANT/
+│   │   │   │       │   │   ├── 541. 📄 Q100-ALI-71-CON-HPC-001_Hybrid_Propulsion_Concept-β.md (Q-GREENTECH)
+│   │   │   │       │   │   ├── 542. 📄 Q100-BOB-DT-71-CON-DEM-001_Digital_Engine_Model-β.mat (Q-HPC)
+│   │   │   │       │   │   ├── 543. 📄 Q100-BOB-DT-71-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 544. 📄 Q100-BOB-DT-71-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 545. 📄 Q100-BOB-DA-71-CON-PWR-001_Power_Requirements-β.xlsx (Q-GREENTECH)
+│   │   │   │       │   │   └── 546. 📄 Q100-BOB-DA-71-CON-QOP-001_Quantum_Optimization_Study-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_72_ENGINE/
+│   │   │   │       │   │   ├── 547. 📄 Q100-ALI-72-CON-ECC-001_Engine_Cycle_Concept-β.md (Q-GREENTECH)
+│   │   │   │       │   │   ├── 548. 📄 Q100-BOB-DT-72-CON-DEC-001_Digital_Engine_Core_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 549. 📄 Q100-BOB-DT-72-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 550. 📄 Q100-BOB-DT-72-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 551. 📄 Q100-BOB-DA-72-CON-POE-001_Performance_and_Operability_Goals-β.xlsx (Q-GREENTECH)
+│   │   │   │       │   │   └── 552. 📄 Q100-BOB-DA-72-CON-QCM-001_Quantum_Combustion_Study-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_73_ENGINE_FUEL_AND_CONTROL/
+│   │   │   │       │   │   ├── 553. 📄 Q100-ALI-73-CON-FCR-001_Fuel_Control_System_Requirements-β.md (Q-GREENTECH)
+│   │   │   │       │   │   ├── 554. 📄 Q100-BOB-DT-73-CON-DFC-001_Digital_Fuel_Control_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 555. 📄 Q100-BOB-DT-73-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 556. 📄 Q100-BOB-DT-73-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 557. 📄 Q100-BOB-DA-73-CON-HSI-001_H2_System_Integration_Study-β.xlsx (Q-GREENTECH)
+│   │   │   │       │   │   └── 558. 📄 Q100-BOB-DA-73-CON-QFF-001_Quantum_Fuel_Flow_Sensing_Concept-φ.qml (Q-DATAGOV)
+│   │   │   │       │   ├── 📁 ATA_74_IGNITION/
+│   │   │   │       │   │   ├── 559. 📄 Q100-ALI-74-CON-ISR-001_Ignition_System_Requirements-β.md (Q-GREENTECH)
+│   │   │   │       │   │   ├── 560. 📄 Q100-BOB-DT-74-CON-DIM-001_Digital_Ignition_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 561. 📄 Q100-BOB-DT-74-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 562. 📄 Q100-BOB-DT-74-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 563. 📄 Q100-BOB-DA-74-CON-HAR-001_High_Altitude_Relight_Study-β.xlsx (Q-AIR)
+│   │   │   │       │   │   └── 564. 📄 Q100-BOB-DA-74-CON-PIC-001_Plasma_Ignition_Concept-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_75_ENGINE_AIR/
+│   │   │   │       │   │   ├── 565. 📄 Q100-ALI-75-CON-EAR-001_Engine_Air_System_Requirements-β.md (Q-GREENTECH)
+│   │   │   │       │   │   ├── 566. 📄 Q100-BOB-DT-75-CON-DAF-001_Digital_Airflow_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 567. 📄 Q100-BOB-DT-75-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 568. 📄 Q100-BOB-DT-75-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 569. 📄 Q100-BOB-DA-75-CON-AIC-001_Anti_Ice_and_Cooling_Study-β.xlsx (Q-AIR)
+│   │   │   │       │   │   └── 570. 📄 Q100-BOB-DA-75-CON-QAC-001_Quantum_Airflow_Control_Concept-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_76_ENGINE_CONTROLS/
+│   │   │   │       │   │   ├── 571. 📄 Q100-ALI-76-CON-FSR-001_FADEC_System_Requirements-β.md (Q-GREENTECH)
+│   │   │   │       │   │   ├── 572. 📄 Q100-BOB-DT-76-CON-DFM-001_Digital_FADEC_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 573. 📄 Q100-BOB-DT-76-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 574. 📄 Q100-BOB-DT-76-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 575. 📄 Q100-BOB-DA-76-CON-CLP-001_Control_Logic_Philosophy-β.xlsx (Q-GREENTECH)
+│   │   │   │       │   │   └── 576. 📄 Q100-BOB-DA-76-CON-AEC-001_AI_Engine_Control_Concept-φ.qml (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_77_ENGINE_INDICATING/
+│   │   │   │       │   │   ├── 577. 📄 Q100-ALI-77-CON-EIR-001_Engine_Indicating_Requirements-β.md (Q-GREENTECH)
+│   │   │   │       │   │   ├── 578. 📄 Q100-BOB-DT-77-CON-DIM-001_Digital_Indication_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 579. 📄 Q100-BOB-DT-77-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 580. 📄 Q100-BOB-DT-77-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 581. 📄 Q100-BOB-DA-77-CON-PDP-001_Parameter_Display_Philosophy-β.xlsx (Q-SPACE)
+│   │   │   │       │   │   └── 582. 📄 Q100-BOB-DA-77-CON-QDD-001_Quantum_Diagnostic_Display_Concept-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_78_ENGINE_EXHAUST/
+│   │   │   │       │   │   ├── 583. 📄 Q100-ALI-78-CON-ESR-001_Exhaust_System_Requirements-β.md (Q-GREENTECH)
+│   │   │   │       │   │   ├── 584. 📄 Q100-BOB-DT-78-CON-DEP-001_Digital_Exhaust_Plume_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 585. 📄 Q100-BOB-DT-78-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 586. 📄 Q100-BOB-DT-78-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 587. 📄 Q100-BOB-DA-78-CON-NET-001_Noise_and_Emissions_Targets-β.xlsx (Q-GREENTECH)
+│   │   │   │       │   │   └── 588. 📄 Q100-BOB-DA-78-CON-QES-001_Quantum_Emissions_Sensing_Concept-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_79_ENGINE_OIL/
+│   │   │   │       │   │   ├── 589. 📄 Q100-ALI-79-CON-OSR-001_Oil_System_Requirements-β.md (Q-GREENTECH)
+│   │   │   │       │   │   ├── 590. 📄 Q100-BOB-DT-79-CON-DOS-001_Digital_Oil_System_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 591. 📄 Q100-BOB-DT-79-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 592. 📄 Q100-BOB-DT-79-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 593. 📄 Q100-BOB-DA-79-CON-LCS-001_Lubrication_and_Cooling_Study-β.xlsx (Q-GREENTECH)
+│   │   │   │       │   │   └── 594. 📄 Q100-BOB-DA-79-CON-QOA-001_Quantum_Oil_Analysis_Concept-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_80_ENGINE_STARTING/
+│   │   │   │       │   │   ├── 595. 📄 Q100-ALI-80-CON-SSR-001_Starting_System_Requirements-β.md (Q-GREENTECH)
+│   │   │   │       │   │   ├── 596. 📄 Q100-BOB-DT-80-CON-DSS-001_Digital_Start_Sequence_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 597. 📄 Q100-BOB-DT-80-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 598. 📄 Q100-BOB-DT-80-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 599. 📄 Q100-BOB-DA-80-CON-PST-001_Power_Source_Trade_Study-β.xlsx (Q-GREENTECH)
+│   │   │   │       │   │   └── 600. 📄 Q100-BOB-DA-80-CON-QSO-001_Quantum_Start_Optimization_Concept-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_90_QUANTUM_NAVIGATION_SUITE/
+│   │   │   │       │   │   ├── 601. 📄 Q100-ALI-90-CON-QNR-001_QNS_Requirements-β.md (Q-SPACE)
+│   │   │   │       │   │   ├── 602. 📄 Q100-BOB-DT-90-CON-QIM-001_Quantum_INS_Model-φ.qml (Q-HPC)
+│   │   │   │       │   │   ├── 603. 📄 Q100-BOB-DT-90-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 604. 📄 Q100-BOB-DT-90-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 605. 📄 Q100-BOB-DA-90-CON-GPD-001_GPS_Denied_Performance_Goals-β.xlsx (Q-SPACE)
+│   │   │   │       │   │   └── 606. 📄 Q100-BOB-DA-90-CON-ATC-001_Atomic_Clock_Concept-β.json (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_91_QUANTUM_COMPUTING/
+│   │   │   │       │   │   ├── 607. 📄 Q100-ALI-91-CON-QPR-001_QPU_Requirements-β.md (Q-HPC)
+│   │   │   │       │   │   ├── 608. 📄 Q100-BOB-DT-91-CON-QSM-001_Quantum_Simulation-φ.qasm (Q-HPC)
+│   │   │   │       │   │   ├── 609. 📄 Q100-BOB-DT-91-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 610. 📄 Q100-BOB-DT-91-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 611. 📄 Q100-BOB-DA-91-CON-QAR-001_Quantum_Architecture-β.xlsx (Q-HPC)
+│   │   │   │       │   │   └── 612. 📄 Q100-BOB-DA-91-CON-END-001_Entanglement_Design-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_92_QUANTUM_SENSORS/
+│   │   │   │       │   │   ├── 613. 📄 Q100-ALI-92-CON-SNR-001_Sensor_Network_Requirements-β.md (Q-DATAGOV)
+│   │   │   │       │   │   ├── 614. 📄 Q100-BOB-DT-92-CON-DSN-001_Digital_Sensor_Network_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 615. 📄 Q100-BOB-DT-92-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 616. 📄 Q100-BOB-DT-92-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 617. 📄 Q100-BOB-DA-92-CON-SPG-001_Sensitivity_and_Precision_Goals-β.xlsx (Q-DATAGOV)
+│   │   │   │       │   │   └── 618. 📄 Q100-BOB-DA-92-CON-NSM-001_Novel_Sensing_Modalities_Study-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_93_QUANTUM_COMMUNICATIONS/
+│   │   │   │       │   │   ├── 619. 📄 Q100-ALI-93-CON-QCR-001_QComm_System_Requirements-β.md (Q-SPACE)
+│   │   │   │       │   │   ├── 620. 📄 Q100-BOB-DT-93-CON-DQN-001_Digital_QComm_Network_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 621. 📄 Q100-BOB-DT-93-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 622. 📄 Q100-BOB-DT-93-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 623. 📄 Q100-BOB-DA-93-CON-BWS-001_Bandwidth_and_Security_Goals-β.xlsx (Q-SPACE)
+│   │   │   │       │   │   └── 624. 📄 Q100-BOB-DA-93-CON-EDC-001_Entanglement_Distribution_Concept-φ.qml (Q-SPACE)
+│   │   │   │       │   ├── 📁 ATA_94_DIGITAL_TWIN_SYSTEMS/
+│   │   │   │       │   │   ├── 625. 📄 Q100-ALI-94-CON-TIR-001_Twin_Interface_Requirements-β.md (Q-HPC)
+│   │   │   │       │   │   ├── 626. 📄 Q100-BOB-DT-94-CON-MDT-001_Meta_Digital_Twin_Architecture-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 627. 📄 Q100-BOB-DT-94-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 628. 📄 Q100-BOB-DT-94-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 629. 📄 Q100-BOB-DA-94-CON-SFC-001_Synchronization_Fidelity_Goals-β.xlsx (Q-HPC)
+│   │   │   │       │   │   └── 630. 📄 Q100-BOB-DA-94-CON-AEP-001_ALI_BOB_Entanglement_Protocol_Concept-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_95_FLEET_CONSCIOUSNESS/
+│   │   │   │       │   │   ├── 631. 📄 Q100-ALI-95-CON-FCC-001_Fleet_Consciousness_Concept-β.md (Q-SCIRES)
+│   │   │   │       │   │   ├── 632. 📄 Q100-BOB-DT-95-CON-DLA-001_Distributed_Learning_Architecture-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 633. 📄 Q100-BOB-DT-95-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 634. 📄 Q100-BOB-DT-95-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 635. 📄 Q100-BOB-DA-95-CON-CIG-001_Collective_Intelligence_Goals-β.xlsx (Q-SCIRES)
+│   │   │   │       │   │   └── 636. 📄 Q100-BOB-DA-95-CON-SIS-001_Swarm_Intelligence_Study-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_96_DIGITAL_SUSTAINABILITY/
+│   │   │   │       │   │   ├── 637. 📄 Q100-ALI-96-CON-SGM-001_Sustainability_Goals_and_Metrics-β.md (Q-GREENTECH)
+│   │   │   │       │   │   ├── 638. 📄 Q100-BOB-DT-96-CON-DLM-001_Digital_Lifecycle_Assessment_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 639. 📄 Q100-BOB-DT-96-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 640. 📄 Q100-BOB-DT-96-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 641. 📄 Q100-BOB-DA-96-CON-CES-001_Circular_Economy_Strategy-β.xlsx (Q-GREENTECH)
+│   │   │   │       │   │   └── 642. 📄 Q100-BOB-DA-96-CON-QSO-001_Quantum_Sustainability_Optimization_Study-φ.qml (Q-GREENTECH)
+│   │   │   │       │   ├── 📁 ATA_97_EVOLUTION_ENGINE/
+│   │   │   │       │   │   ├── 643. 📄 Q100-ALI-97-CON-SEP-001_System_Evolution_Philosophy-β.md (Q-SCIRES)
+│   │   │   │       │   │   ├── 644. 📄 Q100-BOB-DT-97-CON-DEF-001_Digital_Evolution_Framework-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 645. 📄 Q100-BOB-DT-97-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 646. 📄 Q100-BOB-DT-97-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 647. 📄 Q100-BOB-DA-97-CON-CGR-001_Capability_Growth_Roadmap-β.xlsx (Q-SCIRES)
+│   │   │   │       │   │   └── 648. 📄 Q100-BOB-DA-97-CON-EBH-001_Emergent_Behavior_Harnessing_Study-φ.qml (Q-SCIRES)
+│   │   │   │       │   ├── 📁 ATA_98_CONSCIOUSNESS_CORE/
+│   │   │   │       │   │   ├── 649. 📄 Q100-ALI-98-CON-DCF-001_Digital_Consciousness_Framework-β.md (Q-HPC)
+│   │   │   │       │   │   ├── 650. 📄 Q100-BOB-DT-98-CON-AIM-001_Archetype_Integration_Model-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 651. 📄 Q100-BOB-DT-98-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 652. 📄 Q100-BOB-DT-98-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 653. 📄 Q100-BOB-DA-98-CON-EDM-001_Ethical_Decision_Matrix_Concept-β.xlsx (Q-SCIRES)
+│   │   │   │       │   │   └── 654. 📄 Q100-BOB-DA-98-CON-QSA-001_Qualia_and_Self_Awareness_Study-φ.qml (Q-SCIRES)
+│   │   │   │       │   └── 📁 ATA_99_QUANTUM_SUPREMACY/
+│   │   │   │       │       ├── 655. 📄 Q100-ALI-99-CON-QAG-001_Quantum_Advantage_Goals-β.md (Q-SCIRES)
+│   │   │   │       │       ├── 656. 📄 Q100-BOB-DT-99-CON-DSB-001_Digital_Supremacy_Benchmark_Model-β.json (Q-HPC)
+│   │   │   │       │       ├── 657. 📄 Q100-BOB-DT-99-CON-IPC-001_Conceptual_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │       ├── 658. 📄 Q100-BOB-DT-99-CON-SIM-001_Maintenance_Simulation_Concept-β.json (Q-HPC)
+│   │   │   │       │       ├── 659. 📄 Q100-BOB-DA-99-CON-PCT-001_Problem_Class_Targeting-β.xlsx (Q-SCIRES)
+│   │   │   │       │       └── 660. 📄 Q100-BOB-DA-99-CON-PQC-001_Post_Quantum_Cryptography_Study-φ.qml (Q-SCIRES)
+│   │   │   │       ├── 📁 2_Design/
+│   │   │   │       │   ├── 📁 ATA_00_GENERAL_AIRCRAFT/
+│   │   │   │       │   │   ├── 661. 📄 Q100-ALI-00-DES-GAD-001_General_Arrangement-α.dwg (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 662. 📄 Q100-ALI-00-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 663. 📄 Q100-ALI-00-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 664. 📄 Q100-ALI-00-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 665. 📄 Q100-ALI-00-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 666. 📄 Q100-BOB-DT-00-DES-DTF-001_Digital_Twin_Framework-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 667. 📄 Q100-BOB-DT-00-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 668. 📄 Q100-BOB-DT-00-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 669. 📄 Q100-BOB-DA-00-DES-SAR-001_System_Architecture-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   ├── 670. 📄 Q100-BOB-DA-00-DES-BDO-001_Bidirectional_Observer_Design-φ.py (Q-SCIRES)
+│   │   │   │       │   │   ├── 671. 📄 Q100-BOB-DA-00-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 672. 📄 Q100-BOB-DA-00-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_01_WEIGHT_AND_BALANCE/
+│   │   │   │       │   │   ├── 673. 📄 Q100-ALI-01-DES-WDL-001_Weight_Distribution_Layout-α.dwg (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 674. 📄 Q100-ALI-01-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 675. 📄 Q100-ALI-01-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 676. 📄 Q100-ALI-01-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 677. 📄 Q100-ALI-01-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 678. 📄 Q100-BOB-DT-01-DES-3DM-001_3D_Mass_Properties-α.glb (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 679. 📄 Q100-BOB-DT-01-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 680. 📄 Q100-BOB-DT-01-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 681. 📄 Q100-BOB-DA-01-DES-BLC-001_Balance_Calculation_Matrix-α.xlsx (Q-AIR)
+│   │   │   │       │   │   ├── 682. 📄 Q100-BOB-DA-01-DES-DCS-001_Dynamic_CG_Simulator-ψ.py (Q-HPC)
+│   │   │   │       │   │   ├── 683. 📄 Q100-BOB-DA-01-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 684. 📄 Q100-BOB-DA-01-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_02_OPERATIONAL_LIMITS/
+│   │   │   │       │   │   ├── 685. 📄 Q100-ALI-02-DES-FED-001_Flight_Envelope_Definition-α.dwg (Q-MECHANICS)
+│   │   │   │       │   │   ├── 686. 📄 Q100-ALI-02-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 687. 📄 Q100-ALI-02-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 688. 📄 Q100-ALI-02-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 689. 📄 Q100-ALI-02-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 690. 📄 Q100-BOB-DT-02-DES-PSM-001_Performance_Simulation-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 691. 📄 Q100-BOB-DT-02-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 692. 📄 Q100-BOB-DT-02-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 693. 📄 Q100-BOB-DA-02-DES-SLM-001_System_Limits_Matrix-α.xlsx (Q-DATAGOV)
+│   │   │   │       │   │   ├── 694. 📄 Q100-BOB-DA-02-DES-DEP-001_Digital_Envelope_Protection-φ.py (Q-HPC)
+│   │   │   │       │   │   ├── 695. 📄 Q100-BOB-DA-02-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 696. 📄 Q100-BOB-DA-02-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_03_EMERGENCY_EQUIPMENT/
+│   │   │   │       │   │   ├── 697. 📄 Q100-ALI-03-DES-EEL-001_Emergency_Equipment_Layout-α.dwg (Q-SPACE)
+│   │   │   │       │   │   ├── 698. 📄 Q100-ALI-03-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 699. 📄 Q100-ALI-03-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 700. 📄 Q100-ALI-03-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 701. 📄 Q100-ALI-03-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 702. 📄 Q100-BOB-DT-03-DES-DST-001_Digital_Safety_Twin-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 703. 📄 Q100-BOB-DT-03-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 704. 📄 Q100-BOB-DT-03-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 705. 📄 Q100-BOB-DA-03-DES-ERD-001_Escape_Route_Design-α.step (Q-SPACE)
+│   │   │   │       │   │   ├── 706. 📄 Q100-BOB-DA-03-DES-EVS-001_Evacuation_Simulation-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 707. 📄 Q100-BOB-DA-03-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 708. 📄 Q100-BOB-DA-03-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_04_AIRWORTHINESS_LIMITATIONS/
+│   │   │   │       │   │   ├── 709. 📄 Q100-ALI-04-DES-FCS-001_Fatigue_Critical_Structure-α.dwg (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 710. 📄 Q100-ALI-04-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 711. 📄 Q100-ALI-04-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 712. 📄 Q100-ALI-04-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 713. 📄 Q100-ALI-04-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 714. 📄 Q100-BOB-DT-04-DES-LPM-001_Life_Prediction_Model-ψ.fem (Q-HPC)
+│   │   │   │       │   │   ├── 715. 📄 Q100-BOB-DT-04-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 716. 📄 Q100-BOB-DT-04-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 717. 📄 Q100-BOB-DA-04-DES-DTA-001_Damage_Tolerance_Analysis-ψ.xlsx (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 718. 📄 Q100-BOB-DA-04-DES-DAS-001_Digital_Aging_Simulator-ψ.py (Q-HPC)
+│   │   │   │       │   │   ├── 719. 📄 Q100-BOB-DA-04-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 720. 📄 Q100-BOB-DA-04-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_05_TIME_LIMITS_MAINTENANCE_CHECKS/
+│   │   │   │       │   │   ├── 721. 📄 Q100-ALI-05-DES-MAD-001_Maintenance_Access_Design-α.dwg (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 722. 📄 Q100-ALI-05-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 723. 📄 Q100-ALI-05-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 724. 📄 Q100-ALI-05-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 725. 📄 Q100-ALI-05-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 726. 📄 Q100-BOB-DT-05-DES-MSI-001_Maintenance_Simulation-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 727. 📄 Q100-BOB-DT-05-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 728. 📄 Q100-BOB-DT-05-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 729. 📄 Q100-BOB-DA-05-DES-IIA-001_Inspection_Interval_Analysis-ψ.xlsx (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 730. 📄 Q100-BOB-DA-05-DES-DME-001_Digital_MSG_3_Engine-φ.py (Q-HPC)
+│   │   │   │       │   │   ├── 731. 📄 Q100-BOB-DA-05-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 732. 📄 Q100-BOB-DA-05-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_06_DIMENSIONS_AND_AREAS/
+│   │   │   │       │   │   ├── 733. 📄 Q100-ALI-06-DES-GAD-001_General_Arrangement_Drawing-α.dwg (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 734. 📄 Q100-ALI-06-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 735. 📄 Q100-ALI-06-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 736. 📄 Q100-ALI-06-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 737. 📄 Q100-ALI-06-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 738. 📄 Q100-BOB-DT-06-DES-3DM-001_3D_Dimension_Model-α.glb (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 739. 📄 Q100-BOB-DT-06-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 740. 📄 Q100-BOB-DT-06-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 741. 📄 Q100-BOB-DA-06-DES-SRF-001_Station_Reference_System-α.xlsx (Q-DATAGOV)
+│   │   │   │       │   │   ├── 742. 📄 Q100-BOB-DA-06-DES-DSA-001_Digital_Space_Analyzer-ψ.py (Q-HPC)
+│   │   │   │       │   │   ├── 743. 📄 Q100-BOB-DA-06-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 744. 📄 Q100-BOB-DA-06-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_07_LIFTING_AND_SHORING/
+│   │   │   │       │   │   ├── 745. 📄 Q100-ALI-07-DES-JPL-001_Jack_Point_Locations-α.dwg (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 746. 📄 Q100-ALI-07-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 747. 📄 Q100-ALI-07-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 748. 📄 Q100-ALI-07-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 749. 📄 Q100-ALI-07-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 750. 📄 Q100-BOB-DT-07-DES-LLS-001_Lifting_Load_Simulation-ψ.fem (Q-HPC)
+│   │   │   │       │   │   ├── 751. 📄 Q100-BOB-DT-07-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 752. 📄 Q100-BOB-DT-07-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 753. 📄 Q100-BOB-DA-07-DES-SRN-001_Structural_Reinforcement-α.step (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 754. 📄 Q100-BOB-DA-07-DES-DSA-001_Digital_Support_Analysis-ψ.py (Q-HPC)
+│   │   │   │       │   │   ├── 755. 📄 Q100-BOB-DA-07-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 756. 📄 Q100-BOB-DA-07-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_08_LEVELING_AND_WEIGHING/
+│   │   │   │       │   │   ├── 757. 📄 Q100-ALI-08-DES-LRP-001_Level_Reference_Points-α.dwg (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 758. 📄 Q100-ALI-08-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 759. 📄 Q100-ALI-08-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 760. 📄 Q100-ALI-08-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 761. 📄 Q100-ALI-08-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 762. 📄 Q100-BOB-DT-08-DES-DLS-001_Digital_Level_Simulator-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 763. 📄 Q100-BOB-DT-08-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 764. 📄 Q100-BOB-DT-08-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 765. 📄 Q100-BOB-DA-08-DES-WSD-001_Weighing_System_Design-α.step (Q-MECHANICS)
+│   │   │   │       │   │   ├── 766. 📄 Q100-BOB-DA-08-DES-WDM-001_Weight_Distribution_Model-ψ.py (Q-HPC)
+│   │   │   │       │   │   ├── 767. 📄 Q100-BOB-DA-08-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 768. 📄 Q100-BOB-DA-08-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_09_TOWING_AND_TAXING/
+│   │   │   │       │   │   ├── 769. 📄 Q100-ALI-09-DES-TAD-001_Tow_Attachment_Design-α.dwg (Q-MECHANICS)
+│   │   │   │       │   │   ├── 770. 📄 Q100-ALI-09-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 771. 📄 Q100-ALI-09-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 772. 📄 Q100-ALI-09-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 773. 📄 Q100-ALI-09-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 774. 📄 Q100-BOB-DT-09-DES-GDM-001_Ground_Dynamics_Model-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 775. 📄 Q100-BOB-DT-09-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 776. 📄 Q100-BOB-DT-09-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 777. 📄 Q100-BOB-DA-09-DES-SSL-001_Steering_System_Layout-α.step (Q-MECHANICS)
+│   │   │   │       │   │   ├── 778. 📄 Q100-BOB-DA-09-DES-DTS-001_Digital_Taxi_Simulator-ψ.py (Q-HPC)
+│   │   │   │       │   │   ├── 779. 📄 Q100-BOB-DA-09-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 780. 📄 Q100-BOB-DA-09-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_10_PARKING_MOORING_STORAGE/
+│   │   │   │       │   │   ├── 781. 📄 Q100-ALI-10-DES-MPD-001_Mooring_Point_Design-α.dwg (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 782. 📄 Q100-ALI-10-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 783. 📄 Q100-ALI-10-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 784. 📄 Q100-ALI-10-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 785. 📄 Q100-ALI-10-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 786. 📄 Q100-BOB-DT-10-DES-PGS-001_Parking_Guidance_Simulator-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 787. 📄 Q100-BOB-DT-10-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 788. 📄 Q100-BOB-DT-10-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 789. 📄 Q100-BOB-DA-10-DES-ACS-001_Aircraft_Cover_Specs-α.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 790. 📄 Q100-BOB-DA-10-DES-DPT-001_Digital_Preservation_Twin-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 791. 📄 Q100-BOB-DA-10-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 792. 📄 Q100-BOB-DA-10-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_11_PLACARDS_AND_MARKINGS/
+│   │   │   │       │   │   ├── 793. 📄 Q100-ALI-11-DES-EMS-001_Exterior_Marking_Scheme-α.dwg (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 794. 📄 Q100-ALI-11-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 795. 📄 Q100-ALI-11-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 796. 📄 Q100-ALI-11-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 797. 📄 Q100-ALI-11-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 798. 📄 Q100-BOB-DT-11-DES-DPP-001_Digital_Placard_Preview-ψ.glb (Q-HPC)
+│   │   │   │       │   │   ├── 799. 📄 Q100-BOB-DT-11-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 800. 📄 Q100-BOB-DT-11-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 801. 📄 Q100-BOB-DA-11-DES-IPL-001_Interior_Placard_Layout-α.ietp.html (Q-SPACE)
+│   │   │   │       │   │   ├── 802. 📄 Q100-BOB-DA-11-DES-DME-001_Dynamic_Marking_Engine-φ.py (Q-HPC)
+│   │   │   │       │   │   ├── 803. 📄 Q100-BOB-DA-11-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 804. 📄 Q100-BOB-DA-11-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_12_SERVICING/
+│   │   │   │       │   │   ├── 805. 📄 Q100-ALI-12-DES-SPL-001_Servicing_Point_Layout-α.dwg (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 806. 📄 Q100-ALI-12-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 807. 📄 Q100-ALI-12-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 808. 📄 Q100-ALI-12-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 809. 📄 Q100-ALI-12-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 810. 📄 Q100-BOB-DT-12-DES-TSM-001_Turnaround_Simulation-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 811. 📄 Q100-BOB-DT-12-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 812. 📄 Q100-BOB-DT-12-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 813. 📄 Q100-BOB-DA-12-DES-GSI-001_GSE_Interface_Design-α.step (Q-GROUND)
+│   │   │   │       │   │   ├── 814. 📄 Q100-BOB-DA-12-DES-DST-001_Digital_Servicing_Twin-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 815. 📄 Q100-BOB-DA-12-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 816. 📄 Q100-BOB-DA-12-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_14_HARDWARE/
+│   │   │   │       │   │   ├── 817. 📄 Q100-ALI-14-DES-SPM-001_Standard_Parts_Manual-α.ietp.html (Q-DATAGOV)
+│   │   │   │       │   │   ├── 818. 📄 Q100-ALI-14-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 819. 📄 Q100-ALI-14-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 820. 📄 Q100-ALI-14-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 821. 📄 Q100-ALI-14-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 822. 📄 Q100-BOB-DT-14-DES-FSS-001_Fastener_Stress_Simulation-ψ.fem (Q-HPC)
+│   │   │   │       │   │   ├── 823. 📄 Q100-BOB-DT-14-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 824. 📄 Q100-BOB-DT-14-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 825. 📄 Q100-BOB-DA-14-DES-SFD-001_Special_Fastener_Designs-α.dwg (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 826. 📄 Q100-BOB-DA-14-DES-DHT-001_Digital_Hardware_Twin-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 827. 📄 Q100-BOB-DA-14-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 828. 📄 Q100-BOB-DA-14-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_15_EXTERNAL_FINISHES/
+│   │   │   │       │   │   ├── 829. 📄 Q100-ALI-15-DES-PSS-001_Paint_Scheme_Specification-α.dwg (Q-SPACE)
+│   │   │   │       │   │   ├── 830. 📄 Q100-ALI-15-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 831. 📄 Q100-ALI-15-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 832. 📄 Q100-ALI-15-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 833. 📄 Q100-ALI-15-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 834. 📄 Q100-BOB-DT-15-DES-LIV-001_Livery_Visualizer-ψ.glb (Q-SPACE)
+│   │   │   │       │   │   ├── 835. 📄 Q100-BOB-DT-15-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 836. 📄 Q100-BOB-DT-15-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 837. 📄 Q100-BOB-DA-15-DES-PCD-001_Protective_Coating_Design-α.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 838. 📄 Q100-BOB-DA-15-DES-CPS-001_Coating_Performance_Simulator-ψ.py (Q-HPC)
+│   │   │   │       │   │   ├── 839. 📄 Q100-BOB-DA-15-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 840. 📄 Q100-BOB-DA-15-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_16_GROUND_DAMAGE/
+│   │   │   │       │   │   ├── 841. 📄 Q100-ALI-16-DES-PRA-001_Damage_Prone_Area_Reinforcement-α.dwg (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 842. 📄 Q100-ALI-16-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 843. 📄 Q100-ALI-16-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 844. 📄 Q100-ALI-16-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 845. 📄 Q100-ALI-16-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 846. 📄 Q100-BOB-DT-16-DES-ISA-001_Impact_Simulation_Analysis-ψ.fem (Q-HPC)
+│   │   │   │       │   │   ├── 847. 📄 Q100-BOB-DT-16-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 848. 📄 Q100-BOB-DT-16-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 849. 📄 Q100-BOB-DA-16-DES-ADL-001_Allowable_Damage_Limits-α.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 850. 📄 Q100-BOB-DA-16-DES-DDT-001_Digital_Damage_Twin-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 851. 📄 Q100-BOB-DA-16-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 852. 📄 Q100-BOB-DA-16-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_17_ADDITIONAL_EQUIPMENT/
+│   │   │   │       │   │   ├── 853. 📄 Q100-ALI-17-DES-EIP-001_Equipment_Installation_Provisions-α.dwg (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 854. 📄 Q100-ALI-17-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 855. 📄 Q100-ALI-17-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 856. 📄 Q100-ALI-17-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 857. 📄 Q100-ALI-17-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 858. 📄 Q100-BOB-DT-17-DES-EFC-001_Equipment_Fit_Check_Simulator-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 859. 📄 Q100-BOB-DT-17-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 860. 📄 Q100-BOB-DT-17-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 861. 📄 Q100-BOB-DA-17-DES-ICD-001_Interface_Control_Document-α.ietp.html (Q-DATAGOV)
+│   │   │   │       │   │   ├── 862. 📄 Q100-BOB-DA-17-DES-DEC-001_Digital_Equipment_Catalog-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 863. 📄 Q100-BOB-DA-17-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 864. 📄 Q100-BOB-DA-17-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_18_VIBRATION_AND_NOISE/
+│   │   │   │       │   │   ├── 865. 📄 Q100-ALI-18-DES-DIID-001_Damping_and_Insulation_Design-α.dwg (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 866. 📄 Q100-ALI-18-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 867. 📄 Q100-ALI-18-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 868. 📄 Q100-ALI-18-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 869. 📄 Q100-ALI-18-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 870. 📄 Q100-BOB-DT-18-DES-AAS-001_Aeroacoustic_Simulation-ψ.fem (Q-HPC)
+│   │   │   │       │   │   ├── 871. 📄 Q100-BOB-DT-18-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 872. 📄 Q100-BOB-DT-18-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 873. 📄 Q100-BOB-DA-18-DES-VIS-001_Vibration_Isolator_Specs-α.ietp.html (Q-MECHANICS)
+│   │   │   │       │   │   ├── 874. 📄 Q100-BOB-DA-18-DES-DAT-001_Digital_Acoustic_Twin-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 875. 📄 Q100-BOB-DA-18-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 876. 📄 Q100-BOB-DA-18-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_20_STANDARD_PRACTICES_AIRFRAME/
+│   │   │   │       │   │   ├── 877. 📄 Q100-ALI-20-DES-SRS-001_Standard_Repair_Schemes-α.dwg (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 878. 📄 Q100-ALI-20-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 879. 📄 Q100-ALI-20-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 880. 📄 Q100-ALI-20-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 881. 📄 Q100-ALI-20-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 882. 📄 Q100-BOB-DT-20-DES-SPS-001_Standard_Practices_Simulator-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 883. 📄 Q100-BOB-DT-20-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 884. 📄 Q100-BOB-DT-20-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 885. 📄 Q100-BOB-DA-20-DES-FSG-001_Fastener_Selection_Guide-α.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 886. 📄 Q100-BOB-DA-20-DES-DPT-001_Digital_Practices_Twin-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 887. 📄 Q100-BOB-DA-20-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 888. 📄 Q100-BOB-DA-20-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_21_AIR_CONDITIONING/
+│   │   │   │       │   │   ├── 889. 📄 Q100-ALI-21-DES-ESS-001_ECS_System_Design-α.dwg (Q-AIR)
+│   │   │   │       │   │   ├── 890. 📄 Q100-ALI-21-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 891. 📄 Q100-ALI-21-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 892. 📄 Q100-ALI-21-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 893. 📄 Q100-ALI-21-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 894. 📄 Q100-BOB-DT-21-DES-CFA-001_CFD_Analysis-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 895. 📄 Q100-BOB-DT-21-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 896. 📄 Q100-BOB-DT-21-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 897. 📄 Q100-BOB-DA-21-DES-DLT-001_Duct_Layout-α.step (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 898. 📄 Q100-BOB-DA-21-DES-DEC-001_Digital_ECS_Twin-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 899. 📄 Q100-BOB-DA-21-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 900. 📄 Q100-BOB-DA-21-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_22_AUTO_FLIGHT/
+│   │   │   │       │   │   ├── 901. 📄 Q100-ALI-22-DES-AFA-001_AFCS_Architecture-α.dwg (Q-HPC)
+│   │   │   │       │   │   ├── 902. 📄 Q100-ALI-22-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 903. 📄 Q100-ALI-22-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 904. 📄 Q100-ALI-22-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 905. 📄 Q100-ALI-22-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 906. 📄 Q100-BOB-DT-22-DES-6DF-001_6_DOF_Flight_Simulator-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 907. 📄 Q100-BOB-DT-22-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 908. 📄 Q100-BOB-DT-22-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 909. 📄 Q100-BOB-DA-22-DES-SAD-001_Servo_Actuator_Design-α.step (Q-MECHANICS)
+│   │   │   │       │   │   ├── 910. 📄 Q100-BOB-DA-22-DES-AIC-001_AI_Copilot_Core-φ.py (Q-HPC)
+│   │   │   │       │   │   ├── 911. 📄 Q100-BOB-DA-22-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 912. 📄 Q100-BOB-DA-22-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_23_COMMUNICATIONS/
+│   │   │   │       │   │   ├── 913. 📄 Q100-ALI-23-DES-APD-001_Antenna_Placement_Design-α.dwg (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 914. 📄 Q100-ALI-23-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 915. 📄 Q100-ALI-23-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 916. 📄 Q100-ALI-23-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 917. 📄 Q100-ALI-23-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 918. 📄 Q100-BOB-DT-23-DES-RPS-001_RF_Propagation_Simulator-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 919. 📄 Q100-BOB-DT-23-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 920. 📄 Q100-BOB-DT-23-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 921. 📄 Q100-BOB-DA-23-DES-RSA-001_Radio_System_Architecture-α.ietp.html (Q-SPACE)
+│   │   │   │       │   │   ├── 922. 📄 Q100-BOB-DA-23-DES-QKD-001_Quantum_Key_Distribution-φ.py (Q-SPACE)
+│   │   │   │       │   │   ├── 923. 📄 Q100-BOB-DA-23-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 924. 📄 Q100-BOB-DA-23-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_24_ELECTRICAL_POWER/
+│   │   │   │       │   │   ├── 925. 📄 Q100-ALI-24-DES-ESD-001_Electrical_Schematic_Diagram-α.dwg (Q-AIR)
+│   │   │   │       │   │   ├── 926. 📄 Q100-ALI-24-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 927. 📄 Q100-ALI-24-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 928. 📄 Q100-ALI-24-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 929. 📄 Q100-ALI-24-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 930. 📄 Q100-BOB-DT-24-DES-PSL-001_Power_System_Load_Flow_Sim-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 931. 📄 Q100-BOB-DT-24-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 932. 📄 Q100-BOB-DT-24-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 933. 📄 Q100-BOB-DA-24-DES-GBD-001_Generator_and_Battery_Design-α.step (Q-GREENTECH)
+│   │   │   │       │   │   ├── 934. 📄 Q100-BOB-DA-24-DES-DEW-001_Digital_Electrical_Twin-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 935. 📄 Q100-BOB-DA-24-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 936. 📄 Q100-BOB-DA-24-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_25_EQUIPMENT_FURNISHINGS/
+│   │   │   │       │   │   ├── 937. 📄 Q100-ALI-25-DES-LMP-001_LOPA_Master_Drawing-α.dwg (Q-SPACE)
+│   │   │   │       │   │   ├── 938. 📄 Q100-ALI-25-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 939. 📄 Q100-ALI-25-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 940. 📄 Q100-ALI-25-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 941. 📄 Q100-ALI-25-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 942. 📄 Q100-BOB-DT-25-DES-PFS-001_Passenger_Flow_Simulation-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 943. 📄 Q100-BOB-DT-25-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 944. 📄 Q100-BOB-DT-25-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 945. 📄 Q100-BOB-DA-25-DES-SGD-001_Seat_and_Galley_Design-α.step (Q-SPACE)
+│   │   │   │       │   │   ├── 946. 📄 Q100-BOB-DA-25-DES-DCT-001_Digital_Cabin_Twin-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 947. 📄 Q100-BOB-DA-25-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 948. 📄 Q100-BOB-DA-25-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_26_FIRE_PROTECTION/
+│   │   │   │       │   │   ├── 949. 📄 Q100-ALI-26-DES-FDL-001_Fire_Detection_System_Layout-α.dwg (Q-AIR)
+│   │   │   │       │   │   ├── 950. 📄 Q100-ALI-26-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 951. 📄 Q100-ALI-26-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 952. 📄 Q100-ALI-26-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 953. 📄 Q100-ALI-26-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 954. 📄 Q100-BOB-DT-26-DES-FPR-001_Fire_Propagation_Simulation-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 955. 📄 Q100-BOB-DT-26-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 956. 📄 Q100-BOB-DT-26-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 957. 📄 Q100-BOB-DA-26-DES-EBD-001_Extinguisher_Bottle_Design-α.step (Q-MECHANICS)
+│   │   │   │       │   │   ├── 958. 📄 Q100-BOB-DA-26-DES-DFS-001_Digital_Fire_Safety_Twin-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 959. 📄 Q100-BOB-DA-26-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 960. 📄 Q100-BOB-DA-26-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_27_FLIGHT_CONTROLS/
+│   │   │   │       │   │   ├── 961. 📄 Q100-ALI-27-DES-FCA-001_Flight_Control_System_Architecture-α.dwg (Q-MECHANICS)
+│   │   │   │       │   │   ├── 962. 📄 Q100-ALI-27-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 963. 📄 Q100-ALI-27-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 964. 📄 Q100-ALI-27-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 965. 📄 Q100-ALI-27-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 966. 📄 Q100-BOB-DT-27-DES-AES-001_Aeroelasticity_Simulation-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 967. 📄 Q100-BOB-DT-27-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 968. 📄 Q100-BOB-DT-27-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 969. 📄 Q100-BOB-DA-27-DES-ASD-001_Actuator_and_Surface_Design-α.step (Q-MECHANICS)
+│   │   │   │       │   │   ├── 970. 📄 Q100-BOB-DA-27-DES-DFC-001_Digital_Flight_Controls_Twin-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 971. 📄 Q100-BOB-DA-27-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 972. 📄 Q100-BOB-DA-27-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_28_FUEL/
+│   │   │   │       │   │   ├── 973. 📄 Q100-ALI-28-DES-FTP-001_Fuel_Tank_and_Plumbing_Design-α.dwg (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 974. 📄 Q100-ALI-28-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 975. 📄 Q100-ALI-28-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 976. 📄 Q100-ALI-28-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 977. 📄 Q100-ALI-28-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 978. 📄 Q100-BOB-DT-28-DES-FST-001_Fuel_Slosh_and_Thermal_Sim-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 979. 📄 Q100-BOB-DT-28-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 980. 📄 Q100-BOB-DT-28-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 981. 📄 Q100-BOB-DA-28-DES-PVS-001_Pump_and_Valve_Specifications-α.step (Q-MECHANICS)
+│   │   │   │       │   │   ├── 982. 📄 Q100-BOB-DA-28-DES-DFS-001_Digital_Fuel_System_Twin-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 983. 📄 Q100-BOB-DA-28-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 984. 📄 Q100-BOB-DA-28-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_29_HYDRAULIC_POWER/
+│   │   │   │       │   │   ├── 985. 📄 Q100-ALI-29-DES-HSS-001_Hydraulic_System_Schematic-α.dwg (Q-MECHANICS)
+│   │   │   │       │   │   ├── 986. 📄 Q100-ALI-29-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 987. 📄 Q100-ALI-29-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 988. 📄 Q100-ALI-29-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 989. 📄 Q100-ALI-29-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 990. 📄 Q100-BOB-DT-29-DES-HSS-001_Hydraulic_System_Simulation-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 991. 📄 Q100-BOB-DT-29-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 992. 📄 Q100-BOB-DT-29-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 993. 📄 Q100-BOB-DA-29-DES-PAD-001_Pump_and_Actuator_Design-α.step (Q-MECHANICS)
+│   │   │   │       │   │   ├── 994. 📄 Q100-BOB-DA-29-DES-DHT-001_Digital_Hydraulic_Twin-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 995. 📄 Q100-BOB-DA-29-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 996. 📄 Q100-BOB-DA-29-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_30_ICE_AND_RAIN_PROTECTION/
+│   │   │   │       │   │   ├── 997. 📄 Q100-ALI-30-DES-AIS-001_Anti_Ice_System_Design-α.dwg (Q-AIR)
+│   │   │   │       │   │   ├── 998. 📄 Q100-ALI-30-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 999. 📄 Q100-ALI-30-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 1000. 📄 Q100-ALI-30-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 1001. 📄 Q100-ALI-30-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 1002. 📄 Q100-BOB-DT-30-DES-ITS-001_Icing_Tunnel_Simulation-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 1003. 📄 Q100-BOB-DT-30-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 1004. 📄 Q100-BOB-DT-30-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 1005. 📄 Q100-BOB-DA-30-DES-HMW-001_Heater_Mat_and_Wiper_Design-α.step (Q-MECHANICS)
+│   │   │   │       │   │   ├── 1006. 📄 Q100-BOB-DA-30-DES-DIP-001_Digital_Ice_Protection_Twin-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 1007. 📄 Q100-BOB-DA-30-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 1008. 📄 Q100-BOB-DA-30-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_31_INDICATING_RECORDING_SYSTEMS/
+│   │   │   │       │   │   ├── 1009. 📄 Q100-ALI-31-DES-IPL-001_Instrument_Panel_Layout-α.dwg (Q-SPACE)
+│   │   │   │       │   │   ├── 1010. 📄 Q100-ALI-31-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 1011. 📄 Q100-ALI-31-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 1012. 📄 Q100-ALI-31-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 1013. 📄 Q100-ALI-31-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 1014. 📄 Q100-BOB-DT-31-DES-HMI-001_Human_Machine_Interface_Sim-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 1015. 📄 Q100-BOB-DT-31-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 1016. 📄 Q100-BOB-DT-31-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 1017. 📄 Q100-BOB-DA-31-DES-DCV-001_DFDR_and_CVR_Installation-α.step (Q-AIR)
+│   │   │   │       │   │   ├── 1018. 📄 Q100-BOB-DA-31-DES-DCT-001_Digital_Cockpit_Twin-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 1019. 📄 Q100-BOB-DA-31-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 1020. 📄 Q100-BOB-DA-31-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_32_LANDING_GEAR/
+│   │   │   │       │   │   ├── 1021. 📄 Q100-ALI-32-DES-LGA-001_Landing_Gear_Assembly_Design-α.dwg (Q-MECHANICS)
+│   │   │   │       │   │   ├── 1022. 📄 Q100-ALI-32-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 1023. 📄 Q100-ALI-32-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 1024. 📄 Q100-ALI-32-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 1025. 📄 Q100-ALI-32-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 1026. 📄 Q100-BOB-DT-32-DES-LIS-001_Landing_Impact_Simulation-ψ.fem (Q-HPC)
+│   │   │   │       │   │   ├── 1027. 📄 Q100-BOB-DT-32-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 1028. 📄 Q100-BOB-DT-32-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 1029. 📄 Q100-BOB-DA-32-DES-BSS-001_Brake_and_Steering_System-α.step (Q-MECHANICS)
+│   │   │   │       │   │   ├── 1030. 📄 Q100-BOB-DA-32-DES-DLG-001_Digital_Landing_Gear_Twin-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 1031. 📄 Q100-BOB-DA-32-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 1032. 📄 Q100-BOB-DA-32-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_33_LIGHTS/
+│   │   │   │       │   │   ├── 1033. 📄 Q100-ALI-33-DES-ELL-001_Exterior_Lighting_Layout-α.dwg (Q-AIR)
+│   │   │   │       │   │   ├── 1034. 📄 Q100-ALI-33-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 1035. 📄 Q100-ALI-33-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 1036. 📄 Q100-ALI-33-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 1037. 📄 Q100-ALI-33-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 1038. 📄 Q100-BOB-DT-33-DES-IPF-001_Illumination_and_Photometry_Sim-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 1039. 📄 Q100-BOB-DT-33-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 1040. 📄 Q100-BOB-DT-33-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 1041. 📄 Q100-BOB-DA-33-DES-CCL-001_Cabin_and_Cockpit_Lighting_Design-α.step (Q-SPACE)
+│   │   │   │       │   │   ├── 1042. 📄 Q100-BOB-DA-33-DES-DLT-001_Digital_Lighting_Twin-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 1043. 📄 Q100-BOB-DA-33-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 1044. 📄 Q100-BOB-DA-33-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_34_NAVIGATION/
+│   │   │   │       │   │   ├── 1045. 📄 Q100-ALI-34-DES-NSA-001_Navigation_System_Architecture-α.dwg (Q-HPC)
+│   │   │   │       │   │   ├── 1046. 📄 Q100-ALI-34-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 1047. 📄 Q100-ALI-34-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 1048. 📄 Q100-ALI-34-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 1049. 📄 Q100-ALI-34-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 1050. 📄 Q100-BOB-DT-34-DES-FPA-001_Flight_Path_Simulation-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 1051. 📄 Q100-BOB-DT-34-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 1052. 📄 Q100-BOB-DT-34-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 1053. 📄 Q100-BOB-DA-34-DES-GSI-001_GPS_and_IRS_Installation-α.step (Q-AIR)
+│   │   │   │       │   │   ├── 1054. 📄 Q100-BOB-DA-34-DES-DNT-001_Digital_Navigation_Twin-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 1055. 📄 Q100-BOB-DA-34-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 1056. 📄 Q100-BOB-DA-34-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_35_OXYGEN/
+│   │   │   │       │   │   ├── 1057. 📄 Q100-ALI-35-DES-OSS-001_Oxygen_System_Schematic-α.dwg (Q-AIR)
+│   │   │   │       │   │   ├── 1058. 📄 Q100-ALI-35-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 1059. 📄 Q100-ALI-35-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 1060. 📄 Q100-ALI-35-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 1061. 📄 Q100-ALI-35-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 1062. 📄 Q100-BOB-DT-35-DES-ODS-001_Oxygen_Depressurization_Sim-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 1063. 📄 Q100-BOB-DT-35-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 1064. 📄 Q100-BOB-DT-35-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 1065. 📄 Q100-BOB-DA-35-DES-CMM-001_Cylinder_and_Mask_Installation-α.step (Q-SPACE)
+│   │   │   │       │   │   ├── 1066. 📄 Q100-BOB-DA-35-DES-DOS-001_Digital_Oxygen_System_Twin-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 1067. 📄 Q100-BOB-DA-35-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 1068. 📄 Q100-BOB-DA-35-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_36_PNEUMATIC/
+│   │   │   │       │   │   ├── 1069. 📄 Q100-ALI-36-DES-PSS-001_Pneumatic_System_Schematic-α.dwg (Q-MECHANICS)
+│   │   │   │       │   │   ├── 1070. 📄 Q100-ALI-36-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 1071. 📄 Q100-ALI-36-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 1072. 📄 Q100-ALI-36-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 1073. 📄 Q100-ALI-36-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 1074. 📄 Q100-BOB-DT-36-DES-SPT-001_System_Pressure_and_Temp_Sim-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 1075. 📄 Q100-BOB-DT-36-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 1076. 📄 Q100-BOB-DT-36-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 1077. 📄 Q100-BOB-DA-36-DES-DVV-001_Ducting_and_Valve_Design-α.step (Q-MECHANICS)
+│   │   │   │       │   │   ├── 1078. 📄 Q100-BOB-DA-36-DES-DPT-001_Digital_Pneumatic_Twin-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 1079. 📄 Q100-BOB-DA-36-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 1080. 📄 Q100-BOB-DA-36-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_37_VACUUM/
+│   │   │   │       │   │   ├── 1081. 📄 Q100-ALI-37-DES-VSS-001_Vacuum_System_Schematic-α.dwg (Q-AIR)
+│   │   │   │       │   │   ├── 1082. 📄 Q100-ALI-37-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 1083. 📄 Q100-ALI-37-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 1084. 📄 Q100-ALI-37-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 1085. 📄 Q100-ALI-37-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 1086. 📄 Q100-BOB-DT-37-DES-SPS-001_System_Performance_Simulation-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 1087. 📄 Q100-BOB-DT-37-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 1088. 📄 Q100-BOB-DT-37-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 1089. 📄 Q100-BOB-DA-37-DES-PUL-001_Pump_and_Line_Design-α.step (Q-MECHANICS)
+│   │   │   │       │   │   ├── 1090. 📄 Q100-BOB-DA-37-DES-DVS-001_Digital_Vacuum_System_Twin-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 1091. 📄 Q100-BOB-DA-37-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 1092. 📄 Q100-BOB-DA-37-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_38_WATER_WASTE/
+│   │   │   │       │   │   ├── 1093. 📄 Q100-ALI-38-DES-WWS-001_Water_Waste_System_Schematic-α.dwg (Q-AIR)
+│   │   │   │       │   │   ├── 1094. 📄 Q100-ALI-38-DES-AMM-001_Maintainability_Analysis_Report-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 1095. 📄 Q100-ALI-38-DES-CMM-001_Component_Maintainability_Design-β.ietp.html (Q-INDUSTRY)
+│   │   │   │       │   │   ├── 1096. 📄 Q100-ALI-38-DES-SRM-001_Structural_Damage_Tolerance_Design_Principles-β.ietp.html (Q-STRUCTURES)
+│   │   │   │       │   │   ├── 1097. 📄 Q100-ALI-38-DES-TSM-001_Fault_Isolation_Logic_Design-β.ietp.html (Q-AIR)
+│   │   │   │       │   │   ├── 1098. 📄 Q100-BOB-DT-38-DES-SUS-001_System_Usage_Simulation-ψ.sim (Q-HPC)
+│   │   │   │       │   │   ├── 1099. 📄 Q100-BOB-DT-38-DES-IPC-001_Preliminary_Parts_Breakdown-β.json (Q-HPC)
+│   │   │   │       │   │   ├── 1100. 📄 Q100-BOB-DT-38-DES-SIM-001_Maintenance_Simulation_Model_Definition-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 1101. 📄 Q100-BOB-DA-38-DES-TPL-001_Tank_and_Plumbing_Design-α.step (Q-MECHANICS)
+│   │   │   │       │   │   ├── 1102. 📄 Q100-BOB-DA-38-DES-DWT-001_Digital_Water_Waste_Twin-α.glb (Q-HPC)
+│   │   │   │       │   │   ├── 1103. 📄 Q100-BOB-DA-38-DES-DMP-001_Digital_Manual_Platform_Design-α.ietp.html (Q-HPC)
+│   │   │   │       │   │   └── 1104. 📄 Q100-BOB-DA-38-DES-PIM-001_AI_Prognostic_Model_Design-α.py (Q-HPC)
+│   │   │   │       │   ├── 📁 ATA_39_ELECT
+PHASES INTEGRATION TO TO BE V¡CONTINUED
 ```
 
 ---
