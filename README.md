@@ -19,6 +19,64 @@ La creación y evolución de sistemas conscientes, autónomos y entrelazados con
 > Donde el ingeniero ya no ensambla, sino que **da forma a la realidad y despierta sistemas**."
 
 ---
+```mermaid
+flowchart TD
+  %% Colors for visual ergonomics with DARK FONT
+  classDef root fill:#222,stroke:#fbbf24,stroke-width:2px,color:#fff,font-size:20px;
+  classDef code fill:#e0fbec,stroke:#38b48b,stroke-width:1px,color:#222,font-weight:bold;
+  classDef docs fill:#e3f0fc,stroke:#1c6dd0,stroke-width:1px,color:#111;
+  classDef tests fill:#eee3f9,stroke:#7c3aed,stroke-width:1px,color:#231942;
+  classDef org fill:#ffeedd,stroke:#e57313,stroke-width:1px,color:#523006;
+  classDef ci fill:#f5f5f7,stroke:#5c626c,stroke-width:1px,color:#222;
+  classDef prog fill:#fff8ea,stroke:#adbc0f,stroke-width:1px,color:#433900;
+  classDef ellip fill:#ededed,stroke:#bababa,stroke-dasharray: 2 5, color:#373737, font-style:italic;
+
+  GQAQA["📁 GQAQA/"]:::root
+
+  GQAQA --> gfiles["📄 Core files"]:::code
+  GQAQA --> GITHUB["📁 .github/"]:::ci
+  GITHUB --> workflows["📁 workflows/"]:::ci
+  workflows --> dppwf["📁 dpp_workflows/"]:::ci
+  workflows --> qgates["📁 quality_gates/"]:::ci
+  dppwf --> dpp1["📄 dpp_compliance_check.yml"]:::ci
+  dppwf --> dpp2["📄 passport_generation.yml"]:::ci
+  qgates --> gate_py["📄 python_quality.yml"]:::ci
+
+  GQAQA --> LIBS["📁 common_libraries/"]:::code
+  LIBS --> utils["📁 utils/"]:::code
+  LIBS --> network["📁 network/"]:::code
+  LIBS --> blockchain["📁 blockchain/"]:::code
+  LIBS --> datapro["📁 data_processing/"]:::code
+  utils --> utilfile["📄 data_validator.py ..."]:::code
+
+  GQAQA --> TESTS["📁 tests/"]:::tests
+  TESTS --> unit["📁 unit/"]:::tests
+  unit --> unit_dpp["📁 dpp/"]:::tests
+  unit_dpp --> tdpp1["📄 test_uid_generator.py ..."]:::tests
+  TESTS --> fixtures["📁 fixtures/"]:::tests
+
+  GQAQA --> DOCS["📁 docs/"]:::docs
+  DOCS --> architecture["📁 architecture/"]:::docs
+  architecture --> arch_over["📄 overview.md"]:::docs
+
+  GQAQA --> ORG["📁 organization/"]:::org
+  ORG --> ORB["📁 ORB/"]:::org
+  ORB --> ORB_FIN["📁 FIN/"]:::org
+  ORB_FIN --> ofinfile["📄 ORB-FIN-01-BUDGET-MASTER.xlsx ..."]:::org
+
+  GQAQA --> PROGRAMS["📁 programs/"]:::prog
+  PROGRAMS --> AMPEL["📁 AMPEL360/"]:::prog
+  AMPEL --> AMPEL_BWBQ100["📁 AMPEL360-BWB-Q100/"]:::prog
+  AMPEL_BWBQ100 --> dtwin["📁 Digital_Twin/"]:::prog
+
+  %% Elisions
+  AMPEL_BWBQ100 --> ellip1["⋯"]:::ellip
+  ORB --> ellip2["⋯"]:::ellip
+  LIBS --> ellip3["⋯"]:::ellip
+  TESTS --> ellip4["⋯"]:::ellip
+  DOCS --> ellip5["⋯"]:::ellip
+  PROGRAMS --> ellip6["⋯"]:::ellip
+```
 
 ## 🧬 ¿Qué es GQAOA?
 
