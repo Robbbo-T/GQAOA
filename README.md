@@ -6180,8 +6180,6 @@ Este documento presenta la matriz oficial y corregida de **ALICES** (sistemas f�
 
 Este documento forma parte del `ALI-BOB-MAP-V1.0` y está alineado con el UTCS GAIA-QAO.
 
----
-
 # GAIAQAOA_ALICE-BOB_AGENTS/
 
 Este repositorio central alberga la matriz maestra de ALICES (sistemas físicos reales) y sus gemelos digitales asociados (BOB DT y BOB DA) dentro del ecosistema **GLOBAL QUANTUM AEROSPACE OPTIME ARCHITECTURE (GQAOA)**. Su propósito es organizar y trazar los entregables de cada sistema a lo largo de su ciclo de vida, garantizando la coherencia y la trazabilidad 360° que exige el **GAIA-QAO Universal Technology Classification System (UTCS)**.
@@ -6197,135 +6195,180 @@ GAIAQAOA_ALICE-BOB_AGENTS/
 ├── aire/
 │   ├── AMPEL360BWB-Q100/
 │   │   ├── CON/           # Conceptualización
-│   │   │   ├── CON-SPEC.md (ATA-000-10-60: Especificaciones Conceptuales / Vistas de Programa)
-│   │   │   ├── CONOPS.md (ATA-000-10-61: Concepto de Operaciones (ConOps))
-│   │   │   ├── FEASIBILITY_STUDY.md (ATA-000-10-62: Estudios de Viabilidad y Análisis de Alternativas)
-│   │   │   ├── HIGH_LEVEL_ARCH.pdf (ATA-000-10-63: Conceptos de Arquitectura Preliminar)
-│   │   │   ├── USE_CASES.md (ATA-000-10-64: Casos de Uso y Escenarios Operacionales)
-│   │   │   ├── BUSINESS_CASE.md (ATA-000-10-65: Caso de Negocio y Proposición de Valor)
-│   │   │   ├── MARKET_ANALYSIS.md (ATA-000-10-66: Análisis de Mercado y Posicionamiento Competitivo)
-│   │   │   ├── TECH_ASSESSMENT_REPORT.md (ATA-000-10-67: Evaluación Preliminar de Tecnologías / Estudios de Trade-off)
-│   │   │   ├── PRELIM_RISK_MITIGATION.md (ATA-004-10-61: Análisis Preliminar de Riesgos del Programa y Estrategias de Mitigación)
-│   │   │   ├── RESOURCE_PLAN_PRELIM.md (ATA-000-10-68: Plan Preliminar de Recursos y Estructura del Equipo)
-│   │   │   ├── IP_STRATEGY_PRELIM.md (ATA-000-10-69: Estrategia Preliminar de Propiedad Intelectual)
-│   │   │   └── PRELIM_SUSTAINABILITY_ETHICS.md (ACV-740-10-30: Evaluación Preliminar de Sostenibilidad y Ética Ambiental/Social)
+│   │   │   ├── ALI-DP-000-CON-001_Vision_General_Aeronave.md (ATA-000-10-60: Especificaciones Conceptuales / Vistas de Programa)
+│   │   │   ├── ALI-DP-000-CON-002_CONOPS_BWB_Quantum.md (ATA-000-10-61: Concepto de Operaciones (ConOps))
+│   │   │   ├── ALI-DP-000-CON-003_Estudio_Viabilidad_Tecnica.md (ATA-000-10-62: Estudios de Viabilidad y Análisis de Alternativas)
+│   │   │   ├── ALI-DP-000-CON-004_Arquitectura_Sistema_Preliminar.pdf (ATA-000-10-63: Conceptos de Arquitectura Preliminar)
+│   │   │   ├── ALI-DP-000-CON-005_Casos_Uso_Operacionales.md (ATA-000-10-64: Casos de Uso y Escenarios Operacionales)
+│   │   │   ├── ALI-DP-000-CON-006_Business_Case_AMPEL360.md (ATA-000-10-65: Caso de Negocio y Proposición de Valor)
+│   │   │   ├── ALI-DP-000-CON-007_Analisis_Mercado_BWB.md (ATA-000-10-66: Análisis de Mercado y Posicionamiento Competitivo)
+│   │   │   ├── ALI-DP-000-CON-008_Evaluacion_Tecnologias_Emergentes.md (ATA-000-10-67: Evaluación Preliminar de Tecnologías / Estudios de Trade-off)
+│   │   │   ├── ALI-DP-004-CON-001_Analisis_Preliminar_Riesgos.md (ATA-004-10-61: Análisis Preliminar de Riesgos del Programa y Estrategias de Mitigación)
+│   │   │   ├── ALI-DP-000-CON-009_Plan_Recursos_Programa.md (ATA-000-10-68: Plan Preliminar de Recursos y Estructura del Equipo)
+│   │   │   ├── ALI-DP-000-CON-010_Estrategia_Propiedad_Intelectual.md (ATA-000-10-69: Estrategia Preliminar de Propiedad Intelectual)
+│   │   │   ├── ALI-DP-740-CON-001_Prelim_Sostenibilidad_Etica.md (ACV-740-10-30: Evaluación Preliminar de Sostenibilidad y Ética Ambiental/Social)
+│   │   │   ├── BOB-DT-000-CON-001_Modelo_Conceptual_BWB.dtm (DTCEC-301-10-30: Gemelo Digital Predictivo (BOB DT Modelo))
+│   │   │   └── BOB-DA-000-CON-001_Asistente_Conceptualizacion.py (DTCEC-301-10-50: Gemelo Digital Autónomo (BOB DA Modelo) - Conceptual)
 │   │   ├── DES/           # Diseño
 │   │   │   ├── CAD/                                # Modelos CAD 3D y planos de detalle
-│   │   │   │   ├── (ATA-006-10-10: Modelos CAD 3D Paramétricos y Asociativos)
-│   │   │   │   └── (ATA-006-10-11: Planos de Detalle y Ensamblaje)
+│   │   │   │   ├── ALI-PC-006-DES-001_Modelo_CAD_3D.step (ATA-006-10-10: Modelos CAD 3D Paramétricos y Asociativos)
+│   │   │   │   └── ALI-DP-006-DES-001_Planos_Detalle_Ensamblaje.pdf (ATA-006-10-11: Planos de Detalle y Ensamblaje)
 │   │   │   ├── DE-RE-MA/                           # Documentación de Diseño, Revisión y Manufactura (DRD)
-│   │   │   │   ├── (ATA-000-10-70: Documentación de Procesos de Diseño, Revisión y Manufactura)
-│   │   │   │   └── (ATA-050-10-50: Simulación Estructural por Elementos Finitos (FEM) - Resultados de Diseño)
+│   │   │   │   ├── ALI-DP-000-DES-001_Informe_DRD.md (ATA-000-10-70: Documentación de Procesos de Diseño, Revisión y Manufactura)
+│   │   │   │   ├── ALI-DP-050-DES-001_Resultados_FEM_Estructural.pdf (ATA-050-10-50: Simulación Estructural por Elementos Finitos (FEM) - Resultados de Diseño)
+│   │   │   │   └── ALI-DP-050-DES-002_Analisis_Fatiga_Diseño.pdf (ATA-053-20-00: Resistencia a la Fatiga y Corrosión - Análisis de Diseño)
 │   │   │   ├── ALICE-BOB_ARCH/                     # Arquitectura ALICE-BOB (BOB DT/DA detallados)
-│   │   │   │   ├── (DTCEC-300-20-60: Framework de Arquitectura Digital ALICE-BOB)
-│   │   │   │   ├── (DTCEC-301-10-30: Gemelo Digital Predictivo (BOB DT Modelo))
-│   │   │   │   └── (DTCEC-301-10-50: Gemelo Digital Autónomo (BOB DA Modelo))
+│   │   │   │   ├── BOB-DT-300-DES-001_Arquitectura_BOB-DT.json (DTCEC-300-20-60: Framework de Arquitectura Digital ALICE-BOB - BOB DT Componentes)
+│   │   │   │   ├── BOB-DA-300-DES-001_Arquitectura_BOB-DA.json (DTCEC-300-20-60: Framework de Arquitectura Digital ALICE-BOB - BOB DA Componentes)
+│   │   │   │   ├── BOB-DT-301-DES-001_Modelo_Predictivo_Detallado.dtm (DTCEC-301-10-30: Gemelo Digital Predictivo (BOB DT Modelo) - Detallado)
+│   │   │   │   └── BOB-DA-301-DES-001_Agente_Autonomo_Detallado.py (DTCEC-301-10-50: Gemelo Digital Autónomo (BOB DA Modelo) - Detallado)
 │   │   │   ├── REQ_SPECS/                          # Especificaciones de Requisitos
-│   │   │   │   ├── (ATA-000-10-80: Especificaciones de Requisitos de Alto Nivel)
-│   │   │   │   └── (ATA-000-10-81: Especificaciones de Requisitos Detalladas por Sistema)
+│   │   │   │   ├── ALI-DP-000-DES-002_Requisitos_Alto_Nivel.md (ATA-000-10-80: Especificaciones de Requisitos de Alto Nivel)
+│   │   │   │   └── ALI-DP-000-DES-003_Requisitos_Detallados_Sist.md (ATA-000-10-81: Especificaciones de Requisitos Detalladas por Sistema)
 │   │   │   ├── INTERFACE_CONTROL_DOCS/             # Documentos de Control de Interfaces (ICDs)
-│   │   │   │   ├── (ATA-050-50-00: Interfaz con AMTA (Materiales, Bio y Nano))
-│   │   │   │   ├── (ATA-050-51-00: Interfaz con DTCEC (Digital Twins, Cloud & Edge Computing))
-│   │   │   │   └── (ATA-050-52-00: Interfaz con CYB (Ciberseguridad))
+│   │   │   │   ├── ALI-DP-050-DES-003_ICD_AMTA.md (ATA-050-50-00: Interfaz con AMTA (Materiales, Bio y Nano))
+│   │   │   │   ├── ALI-DP-050-DES-004_ICD_DTCEC.md (ATA-050-51-00: Interfaz con DTCEC (Digital Twins, Cloud & Edge Computing))
+│   │   │   │   └── ALI-DP-050-DES-005_ICD_CYB.md (ATA-050-52-00: Interfaz con CYB (Ciberseguridad))
 │   │   │   └── SYSTEM_DESIGN_DOC.md              # Documento de Diseño del Sistema
-│   │   │       └── (ATA-000-10-82: Documento de Diseño del Sistema)
+│   │   │       └── ALI-DP-000-DES-004_System_Design_Document.md (ATA-000-10-82: Documento de Diseño del Sistema)
 │   │   ├── TST/           # Testing
 │   │   │   ├── PROTOCOLS/                          # Protocolos de validación, planes de prueba
-│   │   │   │   ├── (ATA-005-20-30: Protocolos y Procedimientos de Prueba)
-│   │   │   │   ├── (ATA-005-20-31: Planes de Prueba de Subsistemas)
-│   │   │   │   ├── (ATA-005-20-32: Protocolos de Pruebas Integradas)
-│   │   │   │   └── (STA-175-10-10: Planificación de V&V en Fases de Proyecto (Model-Based V&V))
+│   │   │   │   ├── ALI-DP-005-TST-001_Protocolos_Prueba.md (ATA-005-20-30: Protocolos y Procedimientos de Prueba)
+│   │   │   │   ├── ALI-DP-005-TST-002_Planes_Prueba_Subsistemas.md (ATA-005-20-31: Planes de Prueba de Subsistemas)
+│   │   │   │   ├── ALI-DP-005-TST-003_Protocolos_Pruebas_Integradas.md (ATA-005-20-32: Protocolos de Pruebas Integradas)
+│   │   │   │   └── ALI-DP-175-TST-001_Plan_VyV_Model_Based.md (STA-175-10-10: Planificación de V&V en Fases de Proyecto (Model-Based V&V))
 │   │   │   ├── TST-REPORTS/                        # Logs, resultados, análisis de pruebas
-│   │   │   │   ├── (ATA-005-20-40: Informes y Resultados de Prueba)
-│   │   │   │   ├── (ATA-005-20-41: Logs de Pruebas Detallados)
-│   │   │   │   └── (ATA-005-20-42: Análisis de Fallos en Pruebas)
+│   │   │   │   ├── ALI-DP-005-TST-004_Informes_Resultados_Prueba.md (ATA-005-20-40: Informes y Resultados de Prueba)
+│   │   │   │   ├── ALI-DP-005-TST-005_Logs_Pruebas_Detallados.log (ATA-005-20-41: Logs de Pruebas Detallados)
+│   │   │   │   └── ALI-DP-005-TST-006_Analisis_Fallas_Pruebas.md (ATA-005-20-42: Análisis de Fallos en Pruebas)
 │   │   │   ├── SIM_RESULTS/                        # Resultados de Simulación
-│   │   │   │   ├── (DTCEC-348-10-10: Visualización 3D en Tiempo Real de Simulaciones)
-│   │   │   │   └── (DTCEC-349-20-00: Aplicaciones de Simulación Cuántica - Resultados)
+│   │   │   │   ├── BOB-DT-348-TST-001_Visualizacion_Simulacion.mp4 (DTCEC-348-10-10: Visualización 3D en Tiempo Real de Simulaciones)
+│   │   │   │   └── BOB-DA-349-TST-001_Resultados_Sim_Cuantica.json (DTCEC-349-20-00: Aplicaciones de Simulación Cuántica - Resultados)
 │   │   │   └── GROUND_TEST_DATA/                   # Datos de Pruebas en Tierra (Hardware-in-the-Loop, etc.)
-│   │   │       └── (STA-175-20-10: Datos de Pruebas en Tierra y HIL)
+│   │   │       ├── ALI-PC-175-TST-001_Datos_Pruebas_HIL.csv (STA-175-20-10: Datos de Pruebas en Tierra y HIL)
+│   │   │       └── ALI-PC-175-TST-002_Informe_Pruebas_Tierra.md (STA-175-20-20: Informes de Pruebas en Tierra)
 │   │   ├── CRT/           # Certificación
 │   │   │   ├── DO-178C/                            # Certificación de Software
-│   │   │   │   └── (ATA-004-20-10: Certificación de Software (DO-178C))
+│   │   │   │   └── ALI-DP-004-CRT-001_DO-178C_Compliance_Matrix.pdf (ATA-004-20-10: Certificación de Software (DO-178C))
 │   │   │   ├── DO-254/                             # Certificación de Hardware
-│   │   │   │   └── (ATA-004-20-20: Certificación de Hardware (DO-254))
+│   │   │   │   └── ALI-DP-004-CRT-002_DO-254_Certification_Plan.pdf (ATA-004-20-20: Certificación de Hardware (DO-254))
 │   │   │   ├── Q-CERTS/                            # Certificaciones Específicas para componentes Cuánticos (Ej. Q-Safe, TRL Assessment)
-│   │   │   │   ├── (ATA-004-20-30: Certificación y Aseguramiento Cuántico)
-│   │   │   │   └── (EPTA-425-20-10: Marcos Regulatorios para la Seguridad de Q-Baterías)
+│   │   │   │   ├── ALI-DP-004-CRT-003_Q_Safe_Certificate.pdf (ATA-004-20-30: Certificación y Aseguramiento Cuántico)
+│   │   │   │   └── ALI-DP-425-CRT-001_Informe_Seguridad_QBatteries.pdf (EPTA-425-20-10: Marcos Regulatorios para la Seguridad de Q-Baterías)
 │   │   │   └── REGULATORY_COMPLIANCE_DOCS/         # Documentos de Cumplimiento Regulatorio
-│   │   │       └── (ATA-004-10-40: Automated AD Compliance / Status de Conformidad)
+│   │   │       └── ALI-DP-004-CRT-004_Regulatory_Compliance_Status.md (ATA-004-10-40: Automated AD Compliance / Status de Conformidad)
 │   │   ├── PRD/           # Producción / Manufactura
 │   │   │   ├── MANUALS/                            # Manuales de Producción
-│   │   │   │   └── (ATA-000-10-90: Manuales de Producción y Ensamblaje)
+│   │   │   │   └── ALI-DP-000-PRD-001_Manual_Produccion_Ensamblaje.pdf (ATA-000-10-90: Manuales de Producción y Ensamblaje)
 │   │   │   ├── TWIN-FILES/                         # Archivos de configuración del Gemelo Digital Físico (BOB DT) en la planta
-│   │   │   │   ├── (DTCEC-305-20-10: Control de Versiones de Modelos y Datos del DT)
-│   │   │   │   └── (DTCEC-309-10-50: Digital Factory y Smart Manufacturing - Configuración)
+│   │   │   │   ├── BOB-DT-305-PRD-001_Config_DT_Planta.json (DTCEC-305-20-10: Control de Versiones de Modelos y Datos del DT)
+│   │   │   │   └── BOB-DT-309-PRD-001_Fabrica_Digital_Config.json (DTCEC-309-10-50: Digital Factory y Smart Manufacturing - Configuración)
 │   │   │   └── QSCONFIG/                           # Archivos de configuración Cuántica para manufactura
-│   │   │       ├── (AMTA-583-30-00: Configuración y Control de Manufactura Cuántica)
-│   │   │       └── (AMTA-575-20-20: Manufactura Aditiva Autónoma para Misiones Militares - Configs)
+│   │   │       ├── ALI-DP-583-PRD-001_Config_Manufactura_Cuantica.txt (AMTA-583-30-00: Configuración y Control de Manufactura Cuántica)
+│   │   │       └── ALI-DP-575-PRD-001_Config_MA_Autonoma_Militar.txt (AMTA-575-20-20: Manufactura Aditiva Autónoma para Misiones Militares - Configs)
 │   │   ├── MNT/           # Mantenimiento en línea
 │   │   │   ├── AMM/                                # Aircraft Maintenance Manuals (Manuales de Mantenimiento de Aeronave)
-│   │   │   │   └── (ATA-005-20-50: Manuales de Mantenimiento de Aeronave (AMM) - Versión en Línea)
+│   │   │   │   └── ALI-DP-005-MNT-001_AMM_BWB-Q100.pdf (ATA-005-20-50: Manuales de Mantenimiento de Aeronave (AMM) - Versión en Línea)
 │   │   │   ├── CMM/                                # Component Maintenance Manuals (Manuales de Mantenimiento de Componentes)
-│   │   │   │   └── (ATA-005-20-60: Manuales de Mantenimiento de Componentes (CMM))
+│   │   │   │   └── ALI-DP-005-MNT-002_CMM_ComponenteX.pdf (ATA-005-20-60: Manuales de Mantenimiento de Componentes (CMM))
 │   │   │   ├── IPC/                                # Illustrated Parts Catalog (Catálogo Ilustrado de Partes)
-│   │   │   │   └── (ATA-005-20-70: Catálogo Ilustrado de Partes (IPC))
+│   │   │   │   └── ALI-DP-005-MNT-003_IPC_BWB-Q100.pdf (ATA-005-20-70: Catálogo Ilustrado de Partes (IPC))
 │   │   │   └── PREDICTIVE_MAINT_DATA/              # Datos de Mantenimiento Predictivo
-│   │   │       └── (ATA-005-10-10: Monitoreo de Salud de Componentes en Tiempo Real)
+│   │   │       └── ALI-PC-005-MNT-001_Health_Monitor_Data.csv (ATA-005-10-10: Monitoreo de Salud de Componentes en Tiempo Real)
 │   │   ├── OPS/           # Operaciones
 │   │   │   ├── OP-PROCEDURES/                      # Procedimientos de Operación
-│   │   │   │   └── (ATA-000-10-95: Procedimientos de Operación Estándar)
+│   │   │   │   └── ALI-DP-000-OPS-001_Procedimientos_Operacion_Est.md (ATA-000-10-95: Procedimientos de Operación Estándar)
 │   │   │   ├── FLIGHT_DATA_RECORDER_DATA/          # Datos de Vuelo (FDR/CVR)
-│   │   │   │   └── (ATA-000-20-20: Performance Database Cloud - Datos de Vuelo)
+│   │   │   │   └── ALI-PC-000-OPS-001_Flight_Data_Recorder.bin (ATA-000-20-20: Performance Database Cloud - Datos de Vuelo)
 │   │   │   └── DIGITAL_AGENT_LOGS/                 # Logs de Operación del Agente Digital (BOB DA)
-│   │   │       └── (DTCEC-301-10-50: DT Autónomos (Auto-evolución y Aprendizaje) - Logs de DA)
+│   │   │       └── BOB-DA-301-OPS-001_Agent_Activity_Log.log (DTCEC-301-10-50: DT Autónomos (Auto-evolución y Aprendizaje) - Logs de DA)
 │   │   ├── SUP/           # Soporte en operación
 │   │   │   ├── TROUBLESHOOT/                       # Guías de Troubleshooting
-│   │   │   │   └── (ATA-005-20-80: Guías de Solución de Problemas)
+│   │   │   │   └── ALI-DP-005-SUP-001_Guia_Troubleshooting.md (ATA-005-20-80: Guías de Solución de Problemas)
 │   │   │   ├── HELP/                               # Documentación de Ayuda
-│   │   │   │   └── (ATA-000-10-96: Documentación de Ayuda al Operador)
+│   │   │   │   └── ALI-DP-000-SUP-001_Manual_Ayuda_Operador.md (ATA-000-10-96: Documentación de Ayuda al Operador)
 │   │   │   └── TECH_SUPPORT_REPORTS/               # Informes de Soporte Técnico
-│   │   │       └── (ATA-005-20-90: Informes de Soporte Técnico)
+│   │   │       └── ALI-DP-005-SUP-002_Informe_Soporte_Tecnico.md (ATA-005-20-90: Informes de Soporte Técnico)
 │   │   ├── REP/           # Reparaciones
 │   │   │   ├── SRM/                                # Structural Repair Manuals (Manuales de Reparación Estructural)
-│   │   │   │   └── (ATA-051-30-30: Manuales de Reparación Estructural (SRM))
+│   │   │   │   └── ALI-DP-051-REP-001_SRM_BWB-Q100.pdf (ATA-051-30-30: Manuales de Reparación Estructural (SRM))
 │   │   │   ├── REPAIR-FLOW/                        # Flujos de trabajo de reparación
-│   │   │   │   └── (ATA-051-30-40: Flujos de Trabajo y Procedimientos de Reparación)
+│   │   │   │   └── ALI-DP-051-REP-002_Flujo_Reparacion_Mayor.pdf (ATA-051-30-40: Flujos de Trabajo y Procedimientos de Reparación)
 │   │   │   └── REPAIR_LOGS/                        # Registros de Reparación
-│   │   │       └── (ATA-005-20-95: Registros Detallados de Reparación)
+│   │   │       └── ALI-PC-005-REP-001_Registro_Reparacion_UnidadX.csv (ATA-005-20-95: Registros Detallados de Reparación)
 │   │   └── RET/           # Retiro y reciclaje
 │   │       ├── LCA/                                # Análisis del Ciclo de Vida (Life Cycle Assessment)
-│   │       │   └── (AMTA-593-10-30: Documentación de Análisis del Ciclo de Vida (LCA))
+│   │       │   └── ALI-DP-593-RET-001_LCA_Final.pdf (AMTA-593-10-30: Documentación de Análisis del Ciclo de Vida (LCA))
 │   │       └── EOL-PROTOCOLS/                      # Protocolos de Fin de Vida Útil
-│   │           └── (AMTA-592-30-00: Protocolos de Fin de Vida Útil y Reciclaje)
+│   │           └── ALI-DP-592-RET-001_Protocolos_Fin_Vida_Util.md (AMTA-592-30-00: Protocolos de Fin de Vida Útil y Reciclaje)
 │   ├── ...                # Otros programas AMPEL360
 │
 ├── espacio/
 │   ├── GAIA-SAT-01/
 │   │   ├── CON/
+│   │   │   └── ALI-DP-100-CON-001_Vision_General_Sat.md (STA-100-10-xx: Conceptos y Fases de Misión)
 │   │   ├── DES/
+│   │   │   ├── CAD/ (STA-110-10-00: Diseño Estructural de Naves y Satélites)
+│   │   │   ├── ALICE-BOB_ARCH/ (DTCEC-300-20-60: Framework de Arquitectura Digital ALICE-BOB)
+│   │   │   └── REQ_SPECS/ (STA-100-10-xx: Requisitos de Diseño de Misión)
 │   │   ├── TST/
+│   │   │   ├── PROTOCOLS/ (STA-175-10-xx: Metodologías de Verificación y Validación)
+│   │   │   └── TST-REPORTS/ (STA-175-20-xx: Entornos de Simulación y Pruebas en Tierra)
 │   │   ├── CRT/
+│   │   │   ├── DO-178C/ (ATA-004-20-10: Certificación de Software)
+│   │   │   ├── DO-254/ (ATA-004-20-20: Certificación de Hardware)
+│   │   │   └── Q-CERTS/ (ATA-004-20-30: Certificación y Aseguramiento Cuántico)
 │   │   ├── PRD/
+│   │   │   ├── MANUALS/ (ATA-000-10-90: Manuales de Producción)
+│   │   │   ├── TWIN-FILES/ (DTCEC-305-20-10: Control de Versiones de Modelos y Datos)
+│   │   │   └── QSCONFIG/ (AMTA-583-30-00: Configuración y Control de Manufactura Cuántica)
 │   │   ├── MNT/
+│   │   │   ├── AMM/ (ATA-005-20-50: Manuales de Mantenimiento de Aeronave (AMM))
+│   │   │   ├── CMM/ (ATA-005-20-60: Manuales de Mantenimiento de Componentes (CMM))
+│   │   │   └── IPC/ (ATA-005-20-70: Catálogo Ilustrado de Partes (IPC))
 │   │   ├── OPS/
+│   │   │   └── OP-PROCEDURES/ (STA-170-00-00: Operaciones y Mantenimiento en Órbita)
 │   │   ├── SUP/
+│   │   │   └── TROUBLESHOOT/ (STA-174-00-00: Diagnóstico Cuántico de Fallos)
 │   │   ├── REP/
+│   │   │   └── SRM/ (STA-171-20-00: Herramientas y Procedimientos de Reparación en Órbita)
 │   │   └── RET/
+│   │       ├── LCA/ (AMTA-593-10-30: Documentación de Análisis del Ciclo de Vida (LCA))
+│   │       └── EOL-PROTOCOLS/ (AMTA-592-30-00: Protocolos de Fin de Vida Útil y Reciclaje)
 │   ├── ...
 │
 ├── tierra/
 │   ├── Robbbo-T-Factory/
 │   │   ├── CON/
+│   │   │   └── ALI-DP-630-CON-001_Concept_Fabrica_Digital.md (OGATA-630-00-00: Fábricas 4.0 y Manufactura Avanzada - Ciber-Sistemas Físicos)
 │   │   ├── DES/
+│   │   │   ├── CAD/ (OGATA-633-00-00: Gemelos Digitales en Manufactura)
+│   │   │   ├── ALICE-BOB_ARCH/ (DTCEC-300-20-60: Framework de Arquitectura Digital ALICE-BOB)
+│   │   │   └── REQ_SPECS/ (OGATA-630-10-00: Integración Horizontal y Vertical)
 │   │   ├── TST/
+│   │   │   ├── PROTOCOLS/ (OGATA-604-00-00: Mantenimiento y Diagnóstico de Robots)
+│   │   │   └── TST-REPORTS/ (OGATA-604-20-00: Mantenimiento Predictivo Robótico)
 │   │   ├── CRT/
+│   │   │   ├── DO-178C/ (ATA-004-20-10: Certificación de Software - aplicable si hay SW crítico en robótica terrestre)
+│   │   │   ├── DO-254/ (ATA-004-20-20: Certificación de Hardware - aplicable si hay HW crítico en robótica terrestre)
+│   │   │   └── Q-CERTS/ (ATA-004-20-30: Certificación y Aseguramiento Cuántico)
 │   │   ├── PRD/
+│   │   │   ├── MANUALS/ (OGATA-635-00-00: Personalización en Masa y Producción Flexible)
+│   │   │   ├── TWIN-FILES/ (DTCEC-305-20-10: Control de Versiones de Modelos y Datos)
+│   │   │   └── QSCONFIG/ (AMTA-583-30-00: Configuración y Control de Manufactura Cuántica)
 │   │   ├── MNT/
+│   │   │   ├── AMM/ (OGATA-604-20-00: Mantenimiento Predictivo Robótico)
+│   │   │   ├── CMM/ (OGATA-604-20-00: Mantenimiento Predictivo Robótico)
+│   │   │   └── IPC/ (OGATA-604-20-00: Mantenimiento Predictivo Robótico)
 │   │   ├── OPS/
+│   │   │   └── OP-PROCEDURES/ (OGATA-630-00-00: Fábricas 4.0 y Manufactura Avanzada)
 │   │   ├── SUP/
+│   │   │   └── TROUBLESHOOT/ (OGATA-604-00-00: Mantenimiento y Diagnóstico de Robots)
 │   │   ├── REP/
+│   │   │   └── SRM/ (OGATA-604-00-00: Mantenimiento y Diagnóstico de Robots)
 │   │   └── RET/
+│   │       ├── LCA/ (AMTA-593-10-30: Documentación de Análisis del Ciclo de Vida (LCA))
+│   │       └── EOL-PROTOCOLS/ (AMTA-592-30-00: Protocolos de Fin de Vida Útil y Reciclaje)
 │   ├── ...
 │
 └── shared/
@@ -6343,9 +6386,10 @@ GAIAQAOA_ALICE-BOB_AGENTS/
 |                  |                             |                                                                         | `ATA-006-10-11` (Planos de Detalle y Ensamblaje)                                           | Planos técnicos para fabricación.                                                        |
 |                  |                             | `DE-RE-MA/`                                                             | `ATA-000-10-70` (Documentación de Procesos de Diseño, Revisión y Manufactura)             | Informes de diseño, resultados de revisiones, documentación de procesos de fabricación. |
 |                  |                             |                                                                         | `ATA-050-10-50` (Simulación Estructural por Elementos Finitos (FEM) - Resultados de Diseño) | Resultados de análisis estructurales para validación de diseño.                          |
+|                  |                             |                                                                         | `ATA-053-20-00` (Resistencia a la Fatiga y Corrosión - Análisis de Diseño)                 | Análisis de durabilidad de materiales durante la fase de diseño.                         |
 |                  |                             | `ALICE-BOB_ARCH/`                                                       | `DTCEC-300-20-60` (Framework de Arquitectura Digital ALICE-BOB)                            | Documentación detallada de la arquitectura de Gemelo Digital Físico (BOB DT) y Agente Digital (BOB DA). |
-|                  |                             |                                                                         | `DTCEC-301-10-30` (Gemelo Digital Predictivo (BOB DT Modelo))                              | Especificaciones del modelo del Gemelo Digital Estructural.                               |
-|                  |                             |                                                                         | `DTCEC-301-10-50` (Gemelo Digital Autónomo (BOB DA Modelo))                                | Especificaciones del modelo del Agente Digital Cognitivo.                                |
+|                  |                             |                                                                         | `DTCEC-301-10-30` (Gemelo Digital Predictivo (BOB DT Modelo) - Detallado)                  | Especificaciones del modelo del Gemelo Digital Estructural.                               |
+|                  |                             |                                                                         | `DTCEC-301-10-50` (Gemelo Digital Autónomo (BOB DA Modelo) - Detallado)                    | Especificaciones del modelo del Agente Digital Cognitivo.                                |
 |                  |                             | `REQ_SPECS/`                                                            | `ATA-000-10-80` (Especificaciones de Requisitos de Alto Nivel)                             | Requisitos funcionales y no funcionales del sistema.                                     |
 |                  |                             |                                                                         | `ATA-000-10-81` (Especificaciones de Requisitos Detalladas por Sistema)                    | Requisitos desglosados para cada subsistema.                                             |
 |                  |                             | `INTERFACE_CONTROL_DOCS/`                                               | `ATA-050-50-00` (Interfaz con AMTA (Materiales, Bio y Nano))                               | Documentos que definen las interfaces con la arquitectura de Materiales Avanzados.       |
@@ -6362,6 +6406,7 @@ GAIAQAOA_ALICE-BOB_AGENTS/
 |                  |                             | `SIM_RESULTS/`                                                          | `DTCEC-348-10-10` (Visualización 3D en Tiempo Real de Simulaciones)                        | Visualizaciones de los resultados de simulación.                                         |
 |                  |                             |                                                                         | `DTCEC-349-20-00` (Aplicaciones de Simulación Cuántica - Resultados)                       | Resultados de simulaciones cuánticas para el diseño o pruebas.                           |
 |                  |                             | `GROUND_TEST_DATA/`                                                     | `STA-175-20-10` (Datos de Pruebas en Tierra y HIL)                                         | Datos brutos y procesados de pruebas en laboratorios o bancos de pruebas.                |
+|                  |                             |                                                                         | `STA-175-20-20` (Informes de Pruebas en Tierra)                                            | Informes formales de las pruebas realizadas en tierra.                                   |
 | **Certificación** | `CRT/`                      | `DO-178C/`                                                              | `ATA-004-20-10` (Certificación de Software (DO-178C))                                      | Documentación de cumplimiento para software aeronáutico.                                 |
 |                  |                             | `DO-254/`                                                               | `ATA-004-20-20` (Certificación de Hardware (DO-254))                                       | Documentación de cumplimiento para hardware aeronáutico.                                 |
 |                  |                             | `Q-CERTS/`                                                              | `ATA-004-20-30` (Certificación y Aseguramiento Cuántico)                                   | Informes de certificación para componentes y sistemas cuánticos (ej. Q-Safe).            |
