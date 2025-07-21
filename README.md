@@ -6126,9 +6126,8 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 
 # PROPOSED PROGRAM BY GQAOA
 
----
 
-# ✳️ MATRIZ MAESTRA DE ALICES – GAIA-QAOA v1.1 (CORREGIDA)
+# ✳️ MATRIZ MAESTRA DE ALICES – GAIA-QAOA v1.1 
 
 Este documento presenta la matriz oficial y corregida de **ALICES** (sistemas físicos reales) dentro del ecosistema **GAIA-QAOA**, clasificados por dominio de operación (**aire, espacio, tierra**) y vinculados a sus respectivos gemelos digitales (**BOB DT** y **BOB DA**), bajo los principios de sincronización cuántica.
 
@@ -6136,39 +6135,39 @@ Este documento presenta la matriz oficial y corregida de **ALICES** (sistemas f�
 
 ## ✈️ DOMINIO AIRE – Programas Oficiales AMPEL360
 
-| Programa Oficial | ALICE                  | BOB DT                  | BOB DA                  | Estado Cuántico Dominante        |
-| ---------------- | ---------------------- | ----------------------- | ----------------------- | -------------------------------- |
-| AMPEL360BWB Q100 | ALICE-AMPEL360BWB-Q100 | BOB-DT-AMPEL360BWB-Q100 | BOB-DA-AMPEL360BWB-Q100 | `α` – Coherente operativo        |
-| AMPEL360BWB Q250 | ALICE-AMPEL360BWB-Q250 | BOB-DT-AMPEL360BWB-Q250 | BOB-DA-AMPEL360BWB-Q250 | `β` – Superposición adaptativa   |
-| AMPEL360PLUS     | ALICE-AMPEL360PLUS     | BOB-DT-AMPEL360PLUS     | BOB-DA-AMPEL360PLUS     | `ψ` – Medición continua          |
-| AMPEL360PLUSPLUS | ALICE-AMPEL360PLUSPLUS | BOB-DT-AMPEL360PLUSPLUS | BOB-DA-AMPEL360PLUSPLUS | `φ` – Entrelazamiento orbital    |
-| AMPEL360XWLRGA   | ALICE-AMPEL360XWLRGA   | BOB-DT-AMPEL360XWLRGA   | BOB-DA-AMPEL360XWLRGA   | `α` – Coherencia ambiental       |
-| AC-MACH          | ALICE-AC-MACH          | BOB-DT-AC-MACH          | BOB-DA-AC-MACH          | `β` – Superposición hipersónica  |
-| AMPEL C-MAX      | ALICE-AMPEL-CMAX       | BOB-DT-AMPEL-CMAX       | BOB-DA-AMPEL-CMAX       | `φ` – Entrelazamiento perceptual |
+| Programa Oficial | ALICE                  | BOB DT                  | BOB DA                  | Descripción Funcional                                                |
+| ---------------- | ---------------------- | ----------------------- | ----------------------- | -------------------------------------------------------------------- |
+| AMPEL360BWB Q100 | ALICE-AMPEL360BWB-Q100 | BOB-DT-AMPEL360BWB-Q100 | BOB-DA-AMPEL360BWB-Q100 | Aeronave a impacto 0 de 100 pasajeros con propulsión híbrida         |
+| AMPEL360BWB Q250 | ALICE-AMPEL360BWB-Q250 | BOB-DT-AMPEL360BWB-Q250 | BOB-DA-AMPEL360BWB-Q250 | Aeronave de largo alcance, alta eficiencia, 75% menos emisiones      |
+| AMPEL360PLUS     | ALICE-AMPEL360PLUS     | BOB-DT-AMPEL360PLUS     | BOB-DA-AMPEL360PLUS     | Nave suborbital reutilizable para turismo espacial y experimentación |
+| AMPEL360PLUSPLUS | ALICE-AMPEL360PLUSPLUS | BOB-DT-AMPEL360PLUSPLUS | BOB-DA-AMPEL360PLUSPLUS | Nave de turismo orbital con capacidad para vuelos prolongados        |
+| AMPEL360XWLRGA   | ALICE-AMPEL360XWLRGA   | BOB-DT-AMPEL360XWLRGA   | BOB-DA-AMPEL360XWLRGA   | Sistema (tripulado o no) de remediación ambiental aérea              |
+| AMPEL360 AC-MACH | ALICE-AC-MACH          | BOB-DT-AC-MACH          | BOB-DA-AC-MACH          | Vehículo hipersónico con control morfodinámico adaptativo            |
+| AMPEL360 C-MAX   | ALICE-AMPEL-CMAX       | BOB-DT-AMPEL-CMAX       | BOB-DA-AMPEL-CMAX       | Agente de crucero con percepción atmosférica extendida               |
 
 ---
 
-## 🌌 DOMINIO ESPACIO – Programas Oficiales GAIA-QAO (actualizados)
+## 🌌 DOMINIO ESPACIO – Programas Oficiales GAIA-QAO
 
-| Programa Oficial | ALICE                 | BOB DT                 | BOB DA                 | Estado Cuántico Dominante          |
-| ---------------- | --------------------- | ---------------------- | ---------------------- | ---------------------------------- |
-| GAIA-SAT-01      | ALICE-GAIA-SAT-01     | BOB-DT-GAIA-SAT-01     | BOB-DA-GAIA-SAT-01     | `α` – Operación orbital coherente  |
-| GAIA-SAT-02-QKD  | ALICE-GAIA-SAT-02-QKD | BOB-DT-GAIA-SAT-02-QKD | BOB-DA-GAIA-SAT-02-QKD | `φ` – Entrelazamiento QKD          |
-| GAIA-TEL-01      | ALICE-GAIA-TEL-01     | BOB-DT-GAIA-TEL-01     | BOB-DA-GAIA-TEL-01     | `ψ` – Medición astronómica         |
-| GAIA-SND-01      | ALICE-GAIA-SND-01     | BOB-DT-GAIA-SND-01     | BOB-DA-GAIA-SND-01     | `β` – Exploración adaptativa       |
-| GAIA-HAB-01      | ALICE-GAIA-HAB-01     | BOB-DT-GAIA-HAB-01     | BOB-DA-GAIA-HAB-01     | `ψ` – Conciencia en microgravedad  |
-| GAIA-CARGO-01    | ALICE-GAIA-CARGO-01   | BOB-DT-GAIA-CARGO-01   | BOB-DA-GAIA-CARGO-01   | `α` – Logística cuántica coherente |
-| GAIA-SRV-01      | ALICE-GAIA-SRV-01     | BOB-DT-GAIA-SRV-01     | BOB-DA-GAIA-SRV-01     | `β` – Servicio en superposición    |
+| Programa Oficial | ALICE                 | BOB DT                 | BOB DA                 | Descripción Funcional                                              |
+| ---------------- | --------------------- | ---------------------- | ---------------------- | ------------------------------------------------------------------ |
+| GAIA-SAT-01      | ALICE-GAIA-SAT-01     | BOB-DT-GAIA-SAT-01     | BOB-DA-GAIA-SAT-01     | Satélite de observación en LEO con instrumentación avanzada        |
+| GAIA-SAT-02-QKD  | ALICE-GAIA-SAT-02-QKD | BOB-DT-GAIA-SAT-02-QKD | BOB-DA-GAIA-SAT-02-QKD | Satélite dedicado a la distribución de claves cuánticas (QKD)      |
+| GAIA-TEL-01      | ALICE-GAIA-TEL-01     | BOB-DT-GAIA-TEL-01     | BOB-DA-GAIA-TEL-01     | Telescopio orbital para observación astronómica y espectroscopía Q |
+| GAIA-SND-01      | ALICE-GAIA-SND-01     | BOB-DT-GAIA-SND-01     | BOB-DA-GAIA-SND-01     | Sonda interplanetaria con navegación cuántico-asistida             |
+| GAIA-HAB-01      | ALICE-GAIA-HAB-01     | BOB-DT-GAIA-HAB-01     | BOB-DA-GAIA-HAB-01     | Hábitat orbital para vida y experimentación en microgravedad       |
+| GAIA-CARGO-01    | ALICE-GAIA-CARGO-01   | BOB-DT-GAIA-CARGO-01   | BOB-DA-GAIA-CARGO-01   | Nave de carga automatizada para soporte a estaciones y hábitats    |
+| GAIA-SRV-01      | ALICE-GAIA-SRV-01     | BOB-DT-GAIA-SRV-01     | BOB-DA-GAIA-SRV-01     | Robot de servicio en órbita para reparación y ensamblaje satelital |
 
 ---
 
 ## 🏭 DOMINIO TIERRA – Programas Oficiales Robbbo‑T
 
-| Programa Oficial               | ALICE                  | BOB DT                  | BOB DA                  | Estado Cuántico Dominante           |
-| ------------------------------ | ---------------------- | ----------------------- | ----------------------- | ----------------------------------- |
-| Robbbo‑T/Factory               | ALICE-ROBBBO-T-FACTORY | BOB-DT-ROBBBO-T-FACTORY | BOB-DA-ROBBBO-T-FACTORY | `α` – Coherencia fabril             |
-| Robbbo‑T/Extended\_Maintenance | ALICE-ROBBBO-T-MAINT   | BOB-DT-ROBBBO-T-MAINT   | BOB-DA-ROBBBO-T-MAINT   | `β` – Procedural XR/AR              |
-| RTA‑212                        | ALICE-RTA-212          | BOB-DT-RTA-212          | BOB-DA-RTA-212          | `ψ` – Medición sensorial adaptativa |
+| Programa Oficial               | ALICE                  | BOB DT                  | BOB DA                  | Descripción Funcional                                        |
+| ------------------------------ | ---------------------- | ----------------------- | ----------------------- | ------------------------------------------------------------ |
+| Robbbo‑T/Factory               | ALICE-ROBBBO-T-FACTORY | BOB-DT-ROBBBO-T-FACTORY | BOB-DA-ROBBBO-T-FACTORY | Fábrica digital avanzada con robótica cuántico-asistida      |
+| Robbbo‑T/Extended\_Maintenance | ALICE-ROBBBO-T-MAINT   | BOB-DT-ROBBBO-T-MAINT   | BOB-DA-ROBBBO-T-MAINT   | Plataforma XR/AR para mantenimiento técnico inteligente      |
+| RTA‑212                        | ALICE-RTA-212          | BOB-DT-RTA-212          | BOB-DA-RTA-212          | Subsistema robótico de control de fuerza y torque adaptativo |
 
 ---
 
@@ -6177,9 +6176,14 @@ Este documento presenta la matriz oficial y corregida de **ALICES** (sistemas f�
 * **ALICE**: sistema físico real (aeronave, satélite, robot, etc.) con capacidades cuántico-integradas.
 * **BOB DT**: gemelo digital estructural (CAD, sensores, configuración).
 * **BOB DA**: agente digital contextual (narrativas, procedimientos, predicciones).
-* **Estado cuántico**: define el nivel y tipo de conciencia/sincronización activa.
+* **Descripción Funcional**: resume el propósito operativo del sistema dentro del dominio GAIA-QAOA.
 
 Este documento forma parte del `ALI-BOB-MAP-V1.0` y está alineado con el UTCS GAIA-QAO.
+
+---
+
+
+---
 
 ---
 
