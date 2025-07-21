@@ -6123,3 +6123,63 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 </details>
 
 ---
+
+# PROPOSED PROGRAM BY GQAOA
+
+---
+
+# ✳️ MATRIZ MAESTRA DE ALICES – GAIA-QAOA v1.1 (CORREGIDA)
+
+Este documento presenta la matriz oficial y corregida de **ALICES** (sistemas físicos reales) dentro del ecosistema **GAIA-QAOA**, clasificados por dominio de operación (**aire, espacio, tierra**) y vinculados a sus respectivos gemelos digitales (**BOB DT** y **BOB DA**), bajo los principios de sincronización cuántica.
+
+---
+
+## ✈️ DOMINIO AIRE – Programas Oficiales AMPEL360
+
+| Programa Oficial | ALICE                  | BOB DT                  | BOB DA                  | Estado Cuántico Dominante        |
+| ---------------- | ---------------------- | ----------------------- | ----------------------- | -------------------------------- |
+| AMPEL360BWB Q100 | ALICE-AMPEL360BWB-Q100 | BOB-DT-AMPEL360BWB-Q100 | BOB-DA-AMPEL360BWB-Q100 | `α` – Coherente operativo        |
+| AMPEL360BWB Q250 | ALICE-AMPEL360BWB-Q250 | BOB-DT-AMPEL360BWB-Q250 | BOB-DA-AMPEL360BWB-Q250 | `β` – Superposición adaptativa   |
+| AMPEL360PLUS     | ALICE-AMPEL360PLUS     | BOB-DT-AMPEL360PLUS     | BOB-DA-AMPEL360PLUS     | `ψ` – Medición continua          |
+| AMPEL360PLUSPLUS | ALICE-AMPEL360PLUSPLUS | BOB-DT-AMPEL360PLUSPLUS | BOB-DA-AMPEL360PLUSPLUS | `φ` – Entrelazamiento orbital    |
+| AMPEL360XWLRGA   | ALICE-AMPEL360XWLRGA   | BOB-DT-AMPEL360XWLRGA   | BOB-DA-AMPEL360XWLRGA   | `α` – Coherencia ambiental       |
+| AC-MACH          | ALICE-AC-MACH          | BOB-DT-AC-MACH          | BOB-DA-AC-MACH          | `β` – Superposición hipersónica  |
+| AMPEL C-MAX      | ALICE-AMPEL-CMAX       | BOB-DT-AMPEL-CMAX       | BOB-DA-AMPEL-CMAX       | `φ` – Entrelazamiento perceptual |
+
+---
+
+## 🌌 DOMINIO ESPACIO – Programas Oficiales GAIA-QAO (actualizados)
+
+| Programa Oficial | ALICE                 | BOB DT                 | BOB DA                 | Estado Cuántico Dominante          |
+| ---------------- | --------------------- | ---------------------- | ---------------------- | ---------------------------------- |
+| GAIA-SAT-01      | ALICE-GAIA-SAT-01     | BOB-DT-GAIA-SAT-01     | BOB-DA-GAIA-SAT-01     | `α` – Operación orbital coherente  |
+| GAIA-SAT-02-QKD  | ALICE-GAIA-SAT-02-QKD | BOB-DT-GAIA-SAT-02-QKD | BOB-DA-GAIA-SAT-02-QKD | `φ` – Entrelazamiento QKD          |
+| GAIA-TEL-01      | ALICE-GAIA-TEL-01     | BOB-DT-GAIA-TEL-01     | BOB-DA-GAIA-TEL-01     | `ψ` – Medición astronómica         |
+| GAIA-SND-01      | ALICE-GAIA-SND-01     | BOB-DT-GAIA-SND-01     | BOB-DA-GAIA-SND-01     | `β` – Exploración adaptativa       |
+| GAIA-HAB-01      | ALICE-GAIA-HAB-01     | BOB-DT-GAIA-HAB-01     | BOB-DA-GAIA-HAB-01     | `ψ` – Conciencia en microgravedad  |
+| GAIA-CARGO-01    | ALICE-GAIA-CARGO-01   | BOB-DT-GAIA-CARGO-01   | BOB-DA-GAIA-CARGO-01   | `α` – Logística cuántica coherente |
+| GAIA-SRV-01      | ALICE-GAIA-SRV-01     | BOB-DT-GAIA-SRV-01     | BOB-DA-GAIA-SRV-01     | `β` – Servicio en superposición    |
+
+---
+
+## 🏭 DOMINIO TIERRA – Programas Oficiales Robbbo‑T
+
+| Programa Oficial               | ALICE                  | BOB DT                  | BOB DA                  | Estado Cuántico Dominante           |
+| ------------------------------ | ---------------------- | ----------------------- | ----------------------- | ----------------------------------- |
+| Robbbo‑T/Factory               | ALICE-ROBBBO-T-FACTORY | BOB-DT-ROBBBO-T-FACTORY | BOB-DA-ROBBBO-T-FACTORY | `α` – Coherencia fabril             |
+| Robbbo‑T/Extended\_Maintenance | ALICE-ROBBBO-T-MAINT   | BOB-DT-ROBBBO-T-MAINT   | BOB-DA-ROBBBO-T-MAINT   | `β` – Procedural XR/AR              |
+| RTA‑212                        | ALICE-RTA-212          | BOB-DT-RTA-212          | BOB-DA-RTA-212          | `ψ` – Medición sensorial adaptativa |
+
+---
+
+## 📌 Notas:
+
+* **ALICE**: sistema físico real (aeronave, satélite, robot, etc.) con capacidades cuántico-integradas.
+* **BOB DT**: gemelo digital estructural (CAD, sensores, configuración).
+* **BOB DA**: agente digital contextual (narrativas, procedimientos, predicciones).
+* **Estado cuántico**: define el nivel y tipo de conciencia/sincronización activa.
+
+Este documento forma parte del `ALI-BOB-MAP-V1.0` y está alineado con el UTCS GAIA-QAO.
+
+---
+
