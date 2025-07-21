@@ -6190,137 +6190,142 @@ Este repositorio central alberga la matriz maestra de ALICES (sistemas físicos 
 
 Proveer una **estructura modular y estandarizada** para almacenar y gestionar todos los artefactos digitales generados durante el ciclo de vida (desde la conceptualización hasta el retiro) de los agentes **ALICE-BOB**. Esto facilita la colaboración, la auditoría, la certificación y la evolución de sistemas aeroespaciales inteligentes y cuántico-integrados, como los definidos por los programas **AMPEL360**.
 
-## 📁 Estructura del Repositorio
-
-El repositorio está organizado jerárquicamente por dominio de operación, programa específico y fase del ciclo de vida, conteniendo subcarpetas para cada tipo de entregable.
+## 📁 Estructura del Repositorio - Foco en AMPEL360BWB-Q100 (Ciclo de Vida Completo)
 
 ```
 GAIAQAOA_ALICE-BOB_AGENTS/
 ├── aire/
 │   ├── AMPEL360BWB-Q100/
 │   │   ├── CON/           # Conceptualización
-│   │   │   └── CON-SPEC.md (ATA-000-10-60: Especificaciones Conceptuales / Vistas de Programa)
+│   │   │   ├── CON-SPEC.md (ATA-000-10-60: Especificaciones Conceptuales / Vistas de Programa)
+│   │   │   ├── CONOPS.md (ATA-000-10-61: Concepto de Operaciones (ConOps))
+│   │   │   ├── FEASIBILITY_STUDY.md (ATA-000-10-62: Estudios de Viabilidad y Análisis de Alternativas)
+│   │   │   ├── HIGH_LEVEL_ARCH.pdf (ATA-000-10-63: Conceptos de Arquitectura Preliminar)
+│   │   │   ├── USE_CASES.md (ATA-000-10-64: Casos de Uso y Escenarios Operacionales)
+│   │   │   ├── BUSINESS_CASE.md (ATA-000-10-65: Caso de Negocio y Proposición de Valor)
+│   │   │   ├── MARKET_ANALYSIS.md (ATA-000-10-66: Análisis de Mercado y Posicionamiento Competitivo)
+│   │   │   ├── TECH_ASSESSMENT_REPORT.md (ATA-000-10-67: Evaluación Preliminar de Tecnologías / Estudios de Trade-off)
+│   │   │   ├── PRELIM_RISK_MITIGATION.md (ATA-004-10-61: Análisis Preliminar de Riesgos del Programa y Estrategias de Mitigación)
+│   │   │   ├── RESOURCE_PLAN_PRELIM.md (ATA-000-10-68: Plan Preliminar de Recursos y Estructura del Equipo)
+│   │   │   ├── IP_STRATEGY_PRELIM.md (ATA-000-10-69: Estrategia Preliminar de Propiedad Intelectual)
+│   │   │   └── PRELIM_SUSTAINABILITY_ETHICS.md (ACV-740-10-30: Evaluación Preliminar de Sostenibilidad y Ética Ambiental/Social)
 │   │   ├── DES/           # Diseño
-│   │   │   ├── CAD/       # Modelos CAD (CATIA, NX, etc.)
-│   │   │   │   └── (ATA-006-10-00: Integración de Modelos 3D)
-│   │   │   ├── DE-RE-MA/  # Documentación de Diseño, Revisión y Manufactura (DRD)
-│   │   │   │   └── (ATA-000-10-70: Documentación de Procesos de Diseño, Revisión y Manufactura)
-│   │   │   ├── ALICE-BOB_ARCH/ # Arquitectura ALICE-BOB (BOB DT/DA detallados)
-│   │   │   │   └── (DTCEC-300-20-60: Framework de Arquitectura Digital ALICE-BOB)
-│   │   │   └── REQ_SPECS/ # Especificaciones de Requisitos
-│   │   │       └── (ATA-000-10-80: Especificaciones de Requisitos)
+│   │   │   ├── CAD/                                # Modelos CAD 3D y planos de detalle
+│   │   │   │   ├── (ATA-006-10-10: Modelos CAD 3D Paramétricos y Asociativos)
+│   │   │   │   └── (ATA-006-10-11: Planos de Detalle y Ensamblaje)
+│   │   │   ├── DE-RE-MA/                           # Documentación de Diseño, Revisión y Manufactura (DRD)
+│   │   │   │   ├── (ATA-000-10-70: Documentación de Procesos de Diseño, Revisión y Manufactura)
+│   │   │   │   └── (ATA-050-10-50: Simulación Estructural por Elementos Finitos (FEM) - Resultados de Diseño)
+│   │   │   ├── ALICE-BOB_ARCH/                     # Arquitectura ALICE-BOB (BOB DT/DA detallados)
+│   │   │   │   ├── (DTCEC-300-20-60: Framework de Arquitectura Digital ALICE-BOB)
+│   │   │   │   ├── (DTCEC-301-10-30: Gemelo Digital Predictivo (BOB DT Modelo))
+│   │   │   │   └── (DTCEC-301-10-50: Gemelo Digital Autónomo (BOB DA Modelo))
+│   │   │   ├── REQ_SPECS/                          # Especificaciones de Requisitos
+│   │   │   │   ├── (ATA-000-10-80: Especificaciones de Requisitos de Alto Nivel)
+│   │   │   │   └── (ATA-000-10-81: Especificaciones de Requisitos Detalladas por Sistema)
+│   │   │   ├── INTERFACE_CONTROL_DOCS/             # Documentos de Control de Interfaces (ICDs)
+│   │   │   │   ├── (ATA-050-50-00: Interfaz con AMTA (Materiales, Bio y Nano))
+│   │   │   │   ├── (ATA-050-51-00: Interfaz con DTCEC (Digital Twins, Cloud & Edge Computing))
+│   │   │   │   └── (ATA-050-52-00: Interfaz con CYB (Ciberseguridad))
+│   │   │   └── SYSTEM_DESIGN_DOC.md              # Documento de Diseño del Sistema
+│   │   │       └── (ATA-000-10-82: Documento de Diseño del Sistema)
 │   │   ├── TST/           # Testing
-│   │   │   ├── PROTOCOLS/ # Protocolos de validación, planes de prueba
-│   │   │   │   └── (ATA-005-20-30: Protocolos y Procedimientos de Prueba)
-│   │   │   └── TST-REPORTS/ # Logs, resultados, análisis de pruebas
-│   │   │       └── (ATA-005-20-40: Informes y Resultados de Prueba)
+│   │   │   ├── PROTOCOLS/                          # Protocolos de validación, planes de prueba
+│   │   │   │   ├── (ATA-005-20-30: Protocolos y Procedimientos de Prueba)
+│   │   │   │   ├── (ATA-005-20-31: Planes de Prueba de Subsistemas)
+│   │   │   │   ├── (ATA-005-20-32: Protocolos de Pruebas Integradas)
+│   │   │   │   └── (STA-175-10-10: Planificación de V&V en Fases de Proyecto (Model-Based V&V))
+│   │   │   ├── TST-REPORTS/                        # Logs, resultados, análisis de pruebas
+│   │   │   │   ├── (ATA-005-20-40: Informes y Resultados de Prueba)
+│   │   │   │   ├── (ATA-005-20-41: Logs de Pruebas Detallados)
+│   │   │   │   └── (ATA-005-20-42: Análisis de Fallos en Pruebas)
+│   │   │   ├── SIM_RESULTS/                        # Resultados de Simulación
+│   │   │   │   ├── (DTCEC-348-10-10: Visualización 3D en Tiempo Real de Simulaciones)
+│   │   │   │   └── (DTCEC-349-20-00: Aplicaciones de Simulación Cuántica - Resultados)
+│   │   │   └── GROUND_TEST_DATA/                   # Datos de Pruebas en Tierra (Hardware-in-the-Loop, etc.)
+│   │   │       └── (STA-175-20-10: Datos de Pruebas en Tierra y HIL)
 │   │   ├── CRT/           # Certificación
-│   │   │   ├── DO-178C/   # Certificación de Software
+│   │   │   ├── DO-178C/                            # Certificación de Software
 │   │   │   │   └── (ATA-004-20-10: Certificación de Software (DO-178C))
-│   │   │   ├── DO-254/    # Certificación de Hardware
+│   │   │   ├── DO-254/                             # Certificación de Hardware
 │   │   │   │   └── (ATA-004-20-20: Certificación de Hardware (DO-254))
-│   │   │   └── Q-CERTS/   # Certificaciones Específicas para componentes Cuánticos (Ej. Q-Safe, TRL Assessment)
-│   │   │       └── (ATA-004-20-30: Certificación y Aseguramiento Cuántico)
+│   │   │   ├── Q-CERTS/                            # Certificaciones Específicas para componentes Cuánticos (Ej. Q-Safe, TRL Assessment)
+│   │   │   │   ├── (ATA-004-20-30: Certificación y Aseguramiento Cuántico)
+│   │   │   │   └── (EPTA-425-20-10: Marcos Regulatorios para la Seguridad de Q-Baterías)
+│   │   │   └── REGULATORY_COMPLIANCE_DOCS/         # Documentos de Cumplimiento Regulatorio
+│   │   │       └── (ATA-004-10-40: Automated AD Compliance / Status de Conformidad)
 │   │   ├── PRD/           # Producción / Manufactura
-│   │   │   ├── MANUALS/   # Manuales de Producción
-│   │   │   │   └── (ATA-000-10-90: Manuales de Producción)
-│   │   │   ├── TWIN-FILES/ # Archivos de configuración del Gemelo Digital Físico (BOB DT) en la planta
-│   │   │   │   └── (DTCEC-305-20-10: Control de Versiones de Modelos y Datos)
-│   │   │   └── QSCONFIG/  # Archivos de configuración Cuántica para manufactura
-│   │   │       └── (AMTA-583-30-00: Configuración y Control de Manufactura Cuántica)
+│   │   │   ├── MANUALS/                            # Manuales de Producción
+│   │   │   │   └── (ATA-000-10-90: Manuales de Producción y Ensamblaje)
+│   │   │   ├── TWIN-FILES/                         # Archivos de configuración del Gemelo Digital Físico (BOB DT) en la planta
+│   │   │   │   ├── (DTCEC-305-20-10: Control de Versiones de Modelos y Datos del DT)
+│   │   │   │   └── (DTCEC-309-10-50: Digital Factory y Smart Manufacturing - Configuración)
+│   │   │   └── QSCONFIG/                           # Archivos de configuración Cuántica para manufactura
+│   │   │       ├── (AMTA-583-30-00: Configuración y Control de Manufactura Cuántica)
+│   │   │       └── (AMTA-575-20-20: Manufactura Aditiva Autónoma para Misiones Militares - Configs)
 │   │   ├── MNT/           # Mantenimiento en línea
-│   │   │   ├── AMM/       # Aircraft Maintenance Manuals (Manuales de Mantenimiento de Aeronave)
-│   │   │   │   └── (ATA-005-20-50: Manuales de Mantenimiento de Aeronave (AMM))
-│   │   │   ├── CMM/       # Component Maintenance Manuals (Manuales de Mantenimiento de Componentes)
+│   │   │   ├── AMM/                                # Aircraft Maintenance Manuals (Manuales de Mantenimiento de Aeronave)
+│   │   │   │   └── (ATA-005-20-50: Manuales de Mantenimiento de Aeronave (AMM) - Versión en Línea)
+│   │   │   ├── CMM/                                # Component Maintenance Manuals (Manuales de Mantenimiento de Componentes)
 │   │   │   │   └── (ATA-005-20-60: Manuales de Mantenimiento de Componentes (CMM))
-│   │   │   └── IPC/       # Illustrated Parts Catalog (Catálogo Ilustrado de Partes)
-│   │   │       └── (ATA-005-20-70: Catálogo Ilustrado de Partes (IPC))
+│   │   │   ├── IPC/                                # Illustrated Parts Catalog (Catálogo Ilustrado de Partes)
+│   │   │   │   └── (ATA-005-20-70: Catálogo Ilustrado de Partes (IPC))
+│   │   │   └── PREDICTIVE_MAINT_DATA/              # Datos de Mantenimiento Predictivo
+│   │   │       └── (ATA-005-10-10: Monitoreo de Salud de Componentes en Tiempo Real)
 │   │   ├── OPS/           # Operaciones
-│   │   │   └── OP-PROCEDURES/ # Procedimientos de Operación
-│   │   │       └── (ATA-000-10-95: Procedimientos de Operación)
+│   │   │   ├── OP-PROCEDURES/                      # Procedimientos de Operación
+│   │   │   │   └── (ATA-000-10-95: Procedimientos de Operación Estándar)
+│   │   │   ├── FLIGHT_DATA_RECORDER_DATA/          # Datos de Vuelo (FDR/CVR)
+│   │   │   │   └── (ATA-000-20-20: Performance Database Cloud - Datos de Vuelo)
+│   │   │   └── DIGITAL_AGENT_LOGS/                 # Logs de Operación del Agente Digital (BOB DA)
+│   │   │       └── (DTCEC-301-10-50: DT Autónomos (Auto-evolución y Aprendizaje) - Logs de DA)
 │   │   ├── SUP/           # Soporte en operación
-│   │   │   ├── TROUBLESHOOT/ # Guías de Troubleshooting
+│   │   │   ├── TROUBLESHOOT/                       # Guías de Troubleshooting
 │   │   │   │   └── (ATA-005-20-80: Guías de Solución de Problemas)
-│   │   │   └── HELP/      # Documentación de Ayuda
-│   │   │       └── (ATA-000-10-96: Documentación de Ayuda)
+│   │   │   ├── HELP/                               # Documentación de Ayuda
+│   │   │   │   └── (ATA-000-10-96: Documentación de Ayuda al Operador)
+│   │   │   └── TECH_SUPPORT_REPORTS/               # Informes de Soporte Técnico
+│   │   │       └── (ATA-005-20-90: Informes de Soporte Técnico)
 │   │   ├── REP/           # Reparaciones
-│   │   │   ├── SRM/       # Structural Repair Manuals (Manuales de Reparación Estructural)
+│   │   │   ├── SRM/                                # Structural Repair Manuals (Manuales de Reparación Estructural)
 │   │   │   │   └── (ATA-051-30-30: Manuales de Reparación Estructural (SRM))
-│   │   │   └── REPAIR-FLOW/ # Flujos de trabajo de reparación
-│   │   │       └── (ATA-051-30-40: Flujos de Trabajo y Procedimientos de Reparación)
+│   │   │   ├── REPAIR-FLOW/                        # Flujos de trabajo de reparación
+│   │   │   │   └── (ATA-051-30-40: Flujos de Trabajo y Procedimientos de Reparación)
+│   │   │   └── REPAIR_LOGS/                        # Registros de Reparación
+│   │   │       └── (ATA-005-20-95: Registros Detallados de Reparación)
 │   │   └── RET/           # Retiro y reciclaje
-│   │       ├── LCA/       # Análisis del Ciclo de Vida (Life Cycle Assessment)
+│   │       ├── LCA/                                # Análisis del Ciclo de Vida (Life Cycle Assessment)
 │   │       │   └── (AMTA-593-10-30: Documentación de Análisis del Ciclo de Vida (LCA))
-│   │       └── EOL-PROTOCOLS/ # Protocolos de Fin de Vida Útil
+│   │       └── EOL-PROTOCOLS/                      # Protocolos de Fin de Vida Útil
 │   │           └── (AMTA-592-30-00: Protocolos de Fin de Vida Útil y Reciclaje)
 │   ├── ...                # Otros programas AMPEL360
 │
 ├── espacio/
 │   ├── GAIA-SAT-01/
 │   │   ├── CON/
-│   │   │   └── CON-SPEC.md (STA-100-10-xx: Conceptos y Fases de Misión)
 │   │   ├── DES/
-│   │   │   ├── CAD/ (STA-110-10-00: Diseño Estructural de Naves y Satélites)
-│   │   │   ├── ALICE-BOB_ARCH/ (DTCEC-300-20-60: Framework de Arquitectura Digital ALICE-BOB)
-│   │   │   └── REQ_SPECS/ (STA-100-10-xx: Requisitos de Diseño de Misión)
 │   │   ├── TST/
-│   │   │   ├── PROTOCOLS/ (STA-175-10-xx: Metodologías de Verificación y Validación)
-│   │   │   └── TST-REPORTS/ (STA-175-20-xx: Entornos de Simulación y Pruebas en Tierra)
 │   │   ├── CRT/
-│   │   │   ├── DO-178C/ (ATA-004-20-10: Certificación de Software)
-│   │   │   ├── DO-254/ (ATA-004-20-20: Certificación de Hardware)
-│   │   │   └── Q-CERTS/ (ATA-004-20-30: Certificación y Aseguramiento Cuántico)
 │   │   ├── PRD/
-│   │   │   ├── MANUALS/ (ATA-000-10-90: Manuales de Producción)
-│   │   │   ├── TWIN-FILES/ (DTCEC-305-20-10: Control de Versiones de Modelos y Datos)
-│   │   │   └── QSCONFIG/ (AMTA-583-30-00: Configuración y Control de Manufactura Cuántica)
 │   │   ├── MNT/
-│   │   │   ├── AMM/ (ATA-005-20-50: Manuales de Mantenimiento de Aeronave (AMM))
-│   │   │   ├── CMM/ (ATA-005-20-60: Manuales de Mantenimiento de Componentes (CMM))
-│   │   │   └── IPC/ (ATA-005-20-70: Catálogo Ilustrado de Partes (IPC))
 │   │   ├── OPS/
-│   │   │   └── OP-PROCEDURES/ (STA-170-00-00: Operaciones y Mantenimiento en Órbita)
 │   │   ├── SUP/
-│   │   │   └── TROUBLESHOOT/ (STA-174-00-00: Diagnóstico Cuántico de Fallos)
 │   │   ├── REP/
-│   │   │   └── SRM/ (STA-171-20-00: Herramientas y Procedimientos de Reparación en Órbita)
 │   │   └── RET/
-│   │       ├── LCA/ (AMTA-593-10-30: Documentación de Análisis del Ciclo de Vida (LCA))
-│   │       └── EOL-PROTOCOLS/ (AMTA-592-30-00: Protocolos de Fin de Vida Útil y Reciclaje)
 │   ├── ...
 │
 ├── tierra/
 │   ├── Robbbo-T-Factory/
 │   │   ├── CON/
-│   │   │   └── CON-SPEC.md (OGATA-630-00-00: Fábricas 4.0 y Manufactura Avanzada - Ciber-Sistemas Físicos)
 │   │   ├── DES/
-│   │   │   ├── CAD/ (OGATA-633-00-00: Gemelos Digitales en Manufactura)
-│   │   │   ├── ALICE-BOB_ARCH/ (DTCEC-300-20-60: Framework de Arquitectura Digital ALICE-BOB)
-│   │   │   └── REQ_SPECS/ (OGATA-630-10-00: Integración Horizontal y Vertical)
 │   │   ├── TST/
-│   │   │   ├── PROTOCOLS/ (OGATA-604-00-00: Mantenimiento y Diagnóstico de Robots)
-│   │   │   └── TST-REPORTS/ (OGATA-604-20-00: Mantenimiento Predictivo Robótico)
 │   │   ├── CRT/
-│   │   │   ├── DO-178C/ (ATA-004-20-10: Certificación de Software - aplicable si hay SW crítico en robótica terrestre)
-│   │   │   ├── DO-254/ (ATA-004-20-20: Certificación de Hardware - aplicable si hay HW crítico en robótica terrestre)
-│   │   │   └── Q-CERTS/ (ATA-004-20-30: Certificación y Aseguramiento Cuántico)
 │   │   ├── PRD/
-│   │   │   ├── MANUALS/ (OGATA-635-00-00: Personalización en Masa y Producción Flexible)
-│   │   │   ├── TWIN-FILES/ (DTCEC-305-20-10: Control de Versiones de Modelos y Datos)
-│   │   │   └── QSCONFIG/ (AMTA-583-30-00: Configuración y Control de Manufactura Cuántica)
 │   │   ├── MNT/
-│   │   │   ├── AMM/ (OGATA-604-20-00: Mantenimiento Predictivo Robótico)
-│   │   │   ├── CMM/ (OGATA-604-20-00: Mantenimiento Predictivo Robótico)
-│   │   │   └── IPC/ (OGATA-604-20-00: Mantenimiento Predictivo Robótico)
 │   │   ├── OPS/
-│   │   │   └── OP-PROCEDURES/ (OGATA-630-00-00: Fábricas 4.0 y Manufactura Avanzada)
 │   │   ├── SUP/
-│   │   │   └── TROUBLESHOOT/ (OGATA-604-00-00: Mantenimiento y Diagnóstico de Robots)
 │   │   ├── REP/
-│   │   │   └── SRM/ (OGATA-604-00-00: Mantenimiento y Diagnóstico de Robots)
 │   │   └── RET/
-│   │       ├── LCA/ (AMTA-593-10-30: Documentación de Análisis del Ciclo de Vida (LCA))
-│   │       └── EOL-PROTOCOLS/ (AMTA-592-30-00: Protocolos de Fin de Vida Útil y Reciclaje)
 │   ├── ...
 │
 └── shared/
@@ -6330,33 +6335,57 @@ GAIAQAOA_ALICE-BOB_AGENTS/
     └── ALI-BOB-MAP-V1.0/  # Documentación general de la arquitectura ALICE-BOB
 ```
 
-## 📚 Convenciones por Fase y Entregable con Códigos UTCS
+## 📚 Convenciones por Fase y Entregable con Códigos UTCS - Foco en AMPEL360BWB-Q100
 
-| Fase         | Carpeta       | Ejemplos de Entregables (Subcarpetas o Archivos Clave)                                                                                                              | Código UTCS Asignado (o referencia de capítulo/sección)                                     |
-| :----------- | :------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------- |
-| **Concepto** | `CON/`        | `CON-SPEC.md` (Especificación Conceptual), visiones, diagramas de alto nivel, pitch decks.                                                          | `ATA-000-10-60` (Especificaciones Conceptuales / Vistas de Programa)                         |
-| **Diseño**   | `DES/`        | `CAD/` (Modelos CAD), `DE-RE-MA/` (Documentación de Diseño, Revisión y Manufactura), `ALICE-BOB_ARCH/`, `REQ_SPECS/`.                             | `ATA-006-10-00` (Integración de Modelos 3D para CAD)                                         |
-|              |               |                                                                                                                                                       | `ATA-000-10-70` (Documentación de Procesos de Diseño, Revisión y Manufactura)              |
-|              |               |                                                                                                                                                       | `DTCEC-300-20-60` (Framework de Arquitectura Digital ALICE-BOB)                            |
-|              |               |                                                                                                                                                       | `ATA-000-10-80` (Especificaciones de Requisitos)                                           |
-| **Testing**  | `TST/`        | `PROTOCOLS/` (Protocolos de validación, planes de prueba), `TST-REPORTS/` (Logs, resultados, análisis de pruebas).                                     | `ATA-005-20-30` (Protocolos y Procedimientos de Prueba)                                     |
-|              |               |                                                                                                                                                       | `ATA-005-20-40` (Informes y Resultados de Prueba)                                          |
-| **Certificación** | `CRT/`        | `DO-178C/` (Certificación de Software), `DO-254/` (Certificación de Hardware), `S1000D/`, `Q-CERTS/` (Certificaciones Cuánticas).               | `ATA-004-20-10` (Certificación de Software (DO-178C))                                      |
-|              |               |                                                                                                                                                       | `ATA-004-20-20` (Certificación de Hardware (DO-254))                                       |
-|              |               |                                                                                                                                                       | `ATA-004-20-30` (Certificación y Aseguramiento Cuántico)                                   |
-| **Producción** | `PRD/`        | `MANUALS/` (Manuales de Producción), `TWIN-FILES/` (Archivos de configuración del Gemelo Digital Físico), `QSCONFIG/` (Configuración Cuántica). | `ATA-000-10-90` (Manuales de Producción)                                                   |
-|              |               |                                                                                                                                                       | `DTCEC-305-20-10` (Control de Versiones de Modelos y Datos)                                |
-|              |               |                                                                                                                                                       | `AMTA-583-30-00` (Configuración y Control de Manufactura Cuántica)                         |
-| **Mantenimiento** | `MNT/`        | `AMM/` (Aircraft Maintenance Manuals), `CMM/` (Component Maintenance Manuals), `IPC/` (Illustrated Parts Catalog).                           | `ATA-005-20-50` (Manuales de Mantenimiento de Aeronave (AMM))                              |
-|              |               |                                                                                                                                                       | `ATA-005-20-60` (Manuales de Mantenimiento de Componentes (CMM))                           |
-|              |               |                                                                                                                                                       | `ATA-005-20-70` (Catálogo Ilustrado de Partes (IPC))                                       |
-| **Operación** | `OPS/`        | `OP-PROCEDURES/` (Procedimientos de Operación), dashboards, datos de telemetría de vuelo/misión.                                                   | `ATA-000-10-95` (Procedimientos de Operación)                                              |
-| **Soporte**  | `SUP/`        | `TROUBLESHOOT/` (Guías de Troubleshooting), `HELP/` (Documentación de Ayuda).                                                                     | `ATA-005-20-80` (Guías de Solución de Problemas)                                           |
-|              |               |                                                                                                                                                       | `ATA-000-10-96` (Documentación de Ayuda)                                                   |
-| **Reparación** | `REP/`        | `SRM/` (Structural Repair Manuals), `REPAIR-FLOW/` (Flujos de trabajo de reparación).                                                              | `ATA-051-30-30` (Manuales de Reparación Estructural (SRM))                                 |
-|              |               |                                                                                                                                                       | `ATA-051-30-40` (Flujos de Trabajo y Procedimientos de Reparación)                         |
-| **Retiro**   | `RET/`        | `LCA/` (Análisis del Ciclo de Vida), `EOL-PROTOCOLS/` (Protocolos de Fin de Vida Útil y Reciclaje).                                                   | `AMTA-593-10-30` (Documentación de Análisis del Ciclo de Vida (LCA))                       |
-|              |               |                                                                                                                                                       | `AMTA-592-30-00` (Protocolos de Fin de Vida Útil y Reciclaje)                               |
+| Fase             | Carpeta                     | Entregable Típico (Subcarpeta/Archivo)                                  | Código UTCS Asignado (o referencia de capítulo/sección)                                     | Descripción del Entregable                                                               |
+| :--------------- | :-------------------------- | :---------------------------------------------------------------------- | :----------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------- |
+| **Diseño**       | `DES/`                      | `CAD/`                                                                  | `ATA-006-10-10` (Modelos CAD 3D Paramétricos y Asociativos)                                | Modelos 3D detallados de componentes y ensamblajes.                                      |
+|                  |                             |                                                                         | `ATA-006-10-11` (Planos de Detalle y Ensamblaje)                                           | Planos técnicos para fabricación.                                                        |
+|                  |                             | `DE-RE-MA/`                                                             | `ATA-000-10-70` (Documentación de Procesos de Diseño, Revisión y Manufactura)             | Informes de diseño, resultados de revisiones, documentación de procesos de fabricación. |
+|                  |                             |                                                                         | `ATA-050-10-50` (Simulación Estructural por Elementos Finitos (FEM) - Resultados de Diseño) | Resultados de análisis estructurales para validación de diseño.                          |
+|                  |                             | `ALICE-BOB_ARCH/`                                                       | `DTCEC-300-20-60` (Framework de Arquitectura Digital ALICE-BOB)                            | Documentación detallada de la arquitectura de Gemelo Digital Físico (BOB DT) y Agente Digital (BOB DA). |
+|                  |                             |                                                                         | `DTCEC-301-10-30` (Gemelo Digital Predictivo (BOB DT Modelo))                              | Especificaciones del modelo del Gemelo Digital Estructural.                               |
+|                  |                             |                                                                         | `DTCEC-301-10-50` (Gemelo Digital Autónomo (BOB DA Modelo))                                | Especificaciones del modelo del Agente Digital Cognitivo.                                |
+|                  |                             | `REQ_SPECS/`                                                            | `ATA-000-10-80` (Especificaciones de Requisitos de Alto Nivel)                             | Requisitos funcionales y no funcionales del sistema.                                     |
+|                  |                             |                                                                         | `ATA-000-10-81` (Especificaciones de Requisitos Detalladas por Sistema)                    | Requisitos desglosados para cada subsistema.                                             |
+|                  |                             | `INTERFACE_CONTROL_DOCS/`                                               | `ATA-050-50-00` (Interfaz con AMTA (Materiales, Bio y Nano))                               | Documentos que definen las interfaces con la arquitectura de Materiales Avanzados.       |
+|                  |                             |                                                                         | `ATA-050-51-00` (Interfaz con DTCEC (Digital Twins, Cloud & Edge Computing))               | Documentos que definen las interfaces con la arquitectura Digital.                         |
+|                  |                             |                                                                         | `ATA-050-52-00` (Interfaz con CYB (Ciberseguridad))                                        | Documentos que definen las interfaces con la arquitectura de Ciberseguridad.             |
+|                  |                             | `SYSTEM_DESIGN_DOC.md`                                                  | `ATA-000-10-82` (Documento de Diseño del Sistema)                                          | Documento que describe la arquitectura detallada del sistema.                              |
+| **Testing**      | `TST/`                      | `PROTOCOLS/`                                                            | `ATA-005-20-30` (Protocolos y Procedimientos de Prueba)                                     | Planes y metodologías para pruebas unitarias, de integración, de sistema.                |
+|                  |                             |                                                                         | `ATA-005-20-31` (Planes de Prueba de Subsistemas)                                          | Planes de prueba específicos para cada subsistema.                                       |
+|                  |                             |                                                                         | `ATA-005-20-32` (Protocolos de Pruebas Integradas)                                         | Protocolos para verificar la interacción entre subsistemas.                              |
+|                  |                             |                                                                         | `STA-175-10-10` (Planificación de V&V en Fases de Proyecto (Model-Based V&V))              | Documentación de la estrategia de Verificación y Validación.                               |
+|                  |                             | `TST-REPORTS/`                                                          | `ATA-005-20-40` (Informes y Resultados de Prueba)                                          | Resumen y análisis de todos los resultados de las pruebas.                               |
+|                  |                             |                                                                         | `ATA-005-20-41` (Logs de Pruebas Detallados)                                               | Registros de las ejecuciones de pruebas.                                                 |
+|                  |                             |                                                                         | `ATA-005-20-42` (Análisis de Fallos en Pruebas)                                            | Informes de los fallos encontrados y sus causas raíz.                                    |
+|                  |                             | `SIM_RESULTS/`                                                          | `DTCEC-348-10-10` (Visualización 3D en Tiempo Real de Simulaciones)                        | Visualizaciones de los resultados de simulación.                                         |
+|                  |                             |                                                                         | `DTCEC-349-20-00` (Aplicaciones de Simulación Cuántica - Resultados)                       | Resultados de simulaciones cuánticas para el diseño o pruebas.                           |
+|                  |                             | `GROUND_TEST_DATA/`                                                     | `STA-175-20-10` (Datos de Pruebas en Tierra y HIL)                                         | Datos brutos y procesados de pruebas en laboratorios o bancos de pruebas.                |
+| **Certificación** | `CRT/`                      | `DO-178C/`                                                              | `ATA-004-20-10` (Certificación de Software (DO-178C))                                      | Documentación de cumplimiento para software aeronáutico.                                 |
+|                  |                             | `DO-254/`                                                               | `ATA-004-20-20` (Certificación de Hardware (DO-254))                                       | Documentación de cumplimiento para hardware aeronáutico.                                 |
+|                  |                             | `Q-CERTS/`                                                              | `ATA-004-20-30` (Certificación y Aseguramiento Cuántico)                                   | Informes de certificación para componentes y sistemas cuánticos (ej. Q-Safe).            |
+|                  |                             |                                                                         | `EPTA-425-20-10` (Marcos Regulatorios para la Seguridad de Q-Baterías)                     | Documentación de la seguridad y certificación de baterías cuánticas.                      |
+|                  |                             | `REGULATORY_COMPLIANCE_DOCS/`                                           | `ATA-004-10-40` (Automated AD Compliance / Status de Conformidad)                          | Documentación de cumplimiento con directivas de aeronavegabilidad y normativas.          |
+| **Producción**   | `PRD/`                      | `MANUALS/`                                                              | `ATA-000-10-90` (Manuales de Producción y Ensamblaje)                                      | Guías detalladas para la fabricación del sistema.                                        |
+|                  |                             | `TWIN-FILES/`                                                           | `DTCEC-305-20-10` (Control de Versiones de Modelos y Datos del DT)                         | Archivos de configuración y estado del Gemelo Digital Físico para la línea de producción. |
+|                  |                             |                                                                         | `DTCEC-309-10-50` (Digital Factory y Smart Manufacturing - Configuración)                  | Configuración de la fábrica digital.                                                     |
+|                  |                             | `QSCONFIG/`                                                             | `AMTA-583-30-00` (Configuración y Control de Manufactura Cuántica)                         | Archivos de configuración para procesos de fabricación que utilizan principios cuánticos. |
+|                  |                             |                                                                         | `AMTA-575-20-20` (Manufactura Aditiva Autónoma para Misiones Militares - Configs)          | Configuraciones para la fabricación en entornos extremos o con robots autónomos.         |
+| **Mantenimiento** | `MNT/`                      | `AMM/`                                                                  | `ATA-005-20-50` (Manuales de Mantenimiento de Aeronave (AMM) - Versión en Línea)           | Manuales para el mantenimiento regular de la aeronave.                                   |
+|                  |                             | `CMM/`                                                                  | `ATA-005-20-60` (Manuales de Mantenimiento de Componentes (CMM))                           | Manuales para el mantenimiento de componentes específicos.                               |
+|                  |                             | `IPC/`                                                                  | `ATA-005-20-70` (Catálogo Ilustrado de Partes (IPC))                                       | Catálogo de piezas con ilustraciones y números de parte.                                 |
+|                  |                             | `PREDICTIVE_MAINT_DATA/`                                                | `ATA-005-10-10` (Monitoreo de Salud de Componentes en Tiempo Real)                         | Datos recolectados para el mantenimiento predictivo (sensores, logs).                    |
+| **Operación**    | `OPS/`                      | `OP-PROCEDURES/`                                                        | `ATA-000-10-95` (Procedimientos de Operación Estándar)                                     | Manuales de procedimientos para el uso diario del sistema.                               |
+|                  |                             | `FLIGHT_DATA_RECORDER_DATA/`                                            | `ATA-000-20-20` (Performance Database Cloud - Datos de Vuelo)                              | Datos registrados durante las operaciones (FDR, CVR, telemetría).                       |
+|                  |                             | `DIGITAL_AGENT_LOGS/`                                                   | `DTCEC-301-10-50` (DT Autónomos (Auto-evolución y Aprendizaje) - Logs de DA)              | Registros de actividad y decisiones del Agente Digital.                                  |
+| **Soporte**      | `SUP/`                      | `TROUBLESHOOT/`                                                         | `ATA-005-20-80` (Guías de Solución de Problemas)                                           | Documentación para diagnosticar y resolver problemas comunes.                            |
+|                  |                             | `HELP/`                                                                 | `ATA-000-10-96` (Documentación de Ayuda al Operador)                                       | Manuales de ayuda y FAQs para usuarios.                                                  |
+|                  |                             | `TECH_SUPPORT_REPORTS/`                                                 | `ATA-005-20-90` (Informes de Soporte Técnico)                                              | Informes sobre tickets de soporte, resoluciones y problemas recurrentes.                 |
+| **Reparación**   | `REP/`                      | `SRM/`                                                                  | `ATA-051-30-30` (Manuales de Reparación Estructural (SRM))                                 | Manuales específicos para la reparación de daños estructurales.                          |
+|                  |                             | `REPAIR-FLOW/`                                                          | `ATA-051-30-40` (Flujos de Trabajo y Procedimientos de Reparación)                         | Diagramas y descripciones de los procesos de reparación.                                 |
+|                  |                             | `REPAIR_LOGS/`                                                          | `ATA-005-20-95` (Registros Detallados de Reparación)                                       | Historial de todas las reparaciones realizadas al sistema.                               |
+| **Retiro**       | `RET/`                      | `LCA/`                                                                  | `AMTA-593-10-30` (Documentación de Análisis del Ciclo de Vida (LCA))                       | Informes sobre el impacto ambiental del sistema a lo largo de su existencia.             |
+|                  |                             | `EOL-PROTOCOLS/`                                                        | `AMTA-592-30-00` (Protocolos de Fin de Vida Útil y Reciclaje)                               | Documentos que describen cómo desmantelar, reciclar o desechar el sistema de forma segura. |
 
 ---
-
