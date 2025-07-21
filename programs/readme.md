@@ -1,379 +1,376 @@
 
-# GQAOA Programs Portfolio - Brand Architecture Edition (/programs.md)
 
-**Document ID:** GQAOA-PROG-MASTER-003  
-**Version:** 4.2.0 (CORRECTED)  
-**Classification:** GAIA-QAO Strategic Programs by Brand Architecture  
-**Date:** 2025-07-16  
-**Author:** GAIA-QAO Program Management Office  
-**Location:** Madrid, Spain  
-**Status:** Active Development Portfolio - Brand Aligned  
+# programs/
+
+Este repositorio central alberga la matriz maestra de ALICES (sistemas físicos reales) y sus gemelos digitales asociados (BOB DT y BOB DA) dentro del ecosistema **GLOBAL QUANTUM AEROSPACE OPTIME ARCHITECTURE (GQAOA)**. Su propósito es organizar y trazar los entregables de cada sistema a lo largo de su ciclo de vida, garantizando la coherencia y la trazabilidad 360° que exige el **GAIA-QAO Universal Technology Classification System (UTCS)**.
+
+## 🎯 Propósito del Repositorio
+---
+
+# ✳️ MATRIZ MAESTRA DE ALICES – GAIA-QAOA v1.1 (CORREGIDA)
+
+Este documento presenta la matriz oficial y corregida de **ALICES** (sistemas físicos reales) dentro del ecosistema **GAIA-QAOA**, clasificados por dominio de operación (**aire, espacio, tierra**) y vinculados a sus respectivos gemelos digitales (**BOB DT** y **BOB DA**), bajo los principios de sincronización cuántica.
 
 ---
 
-**⚠️ NOTA IMPORTANTE: Naturaleza del Proyecto y Datos Ilustrativos ⚠️**
-Este proyecto, "Global Quantum Aerospace Organization Advent (GQAOA)", es una iniciativa **puramente conceptual y ficticia**, desarrollada como un **esfuerzo personal por Amedeo Pelliccia**. Todas las especificaciones técnicas, capacidades, métricas de rendimiento y datos financieros o de impacto presentados en esta documentación son **ilustrativos y no representan información real** de ningún programa o empresa con financiación. Su propósito es demostrar una arquitectura de proyecto robusta y una visión futurista en el campo aeroespacial.
+## ✈️ DOMINIO AIRE – Programas Oficiales AMPEL360
+
+| Programa Oficial | ALICE                  | BOB DT                  | BOB DA                  | Descripción Funcional                                                |
+| ---------------- | ---------------------- | ----------------------- | ----------------------- | -------------------------------------------------------------------- |
+| AMPEL360BWB Q100 | ALICE-AMPEL360BWB-Q100 | BOB-DT-AMPEL360BWB-Q100 | BOB-DA-AMPEL360BWB-Q100 | Aeronave a impacto 0 de 100 pasajeros con propulsión híbrida         |
+| AMPEL360BWB Q250 | ALICE-AMPEL360BWB-Q250 | BOB-DT-AMPEL360BWB-Q250 | BOB-DA-AMPEL360BWB-Q250 | Aeronave de largo alcance, alta eficiencia, 75% menos emisiones      |
+| AMPEL360PLUS     | ALICE-AMPEL360PLUS     | BOB-DT-AMPEL360PLUS     | BOB-DA-AMPEL360PLUS     | Nave suborbital reutilizable para turismo espacial y experimentación |
+| AMPEL360PLUSPLUS | ALICE-AMPEL360PLUSPLUS | BOB-DT-AMPEL360PLUSPLUS | BOB-DA-AMPEL360PLUSPLUS | Nave de turismo orbital con capacidad para vuelos prolongados        |
+| AMPEL360XWLRGA   | ALICE-AMPEL360XWLRGA   | BOB-DT-AMPEL360XWLRGA   | BOB-DA-AMPEL360XWLRGA   | Sistema (tripulado o no) de remediación ambiental aérea              |
+| AMPEL360 AC-MACH | ALICE-AC-MACH          | BOB-DT-AC-MACH          | BOB-DA-AC-MACH          | Vehículo hipersónico con control morfodinámico adaptativo            |
+| AMPEL360 C-MAX   | ALICE-AMPEL-CMAX       | BOB-DT-AMPEL-CMAX       | BOB-DA-AMPEL-CMAX       | Agente de crucero con percepción atmosférica extendida               |
 
 ---
 
-## Executive Summary
+## 🌌 DOMINIO ESPACIO – Programas Oficiales GAIA-QAO
 
-GQAOA programs are organized by brand architecture reflecting their operational domain:
-- **GAIA**: Space artifacts and systems (satellites, space stations)
-- **AMPEL360**: Atmospheric artifacts and payloads (aircraft, spacecraft)
-- **Robbbo-T**: Ground and orbital support artifacts
-
-All programs operate under sustainable circular economy principles, achieving globally net positive impact through the ALI-BOB-DT/DA (Digital Twin/Digital Agent) architecture.
-
----
-
-# 🌌 GAIA BRAND - SPACE ARTIFACTS
-
-## 🛰️ GAIA Satellite Systems
-
-### GAIA-QSN-144 (Quantum Satellite Network)
-```yaml
-brand: "GAIA"
-category: "Quantum Communication Constellation"
-sustainability:
-  end_of_life: "Controlled deorbit, 100% burn-up"
-  propulsion: "Ion drives with xenon recycling"
-  solar_panels: "Recyclable gallium arsenide"
-  net_positive: "Climate monitoring services"
-  
-ali_bob_architecture:
-  digital_twin: "Entire constellation simulation"
-  digital_agent: "Swarm intelligence 'Noema'"
-  quantum_core: "Distributed quantum computing"
-  consciousness_level: "Level 5 - Collective Intelligence"
-
-constellation:
-  total: "144 satellites"
-  deployment: "2027-2032"
-  coverage: "Global quantum-secure network"
-  circular_design: "Modular, serviceable components"
-```
-
-### GAIA-EOS-12 (Earth Observation System)
-```yaml
-brand: "GAIA"
-category: "Quantum Earth Monitoring"
-sustainability:
-  mission: "Environmental protection primary"
-  data: "Open access for climate research"
-  construction: "Recycled aerospace materials"
-  net_positive: "Prevents 1M tons CO2 via monitoring"
-  
-ali_bob_architecture:
-  digital_twin: "Earth system modeling"
-  digital_agent: "Environmental AI 'Aletheia'"
-  quantum_sensing: "Molecular atmospheric analysis"
-  consciousness_level: "Level 4 - Predictive"
-
-capabilities:
-  resolution: "0.1m quantum radar"
-  coverage: "Full Earth every 6 hours"
-  applications: "Climate, agriculture, disasters"
-  data_sharing: "Global commons approach"
-```
-
-### GAIA-QISS-500 (Quantum International Space Station)
-```yaml
-brand: "GAIA"
-category: "Orbital Research Platform"
-sustainability:
-  life_support: "100% closed-loop systems"
-  power: "Solar + nuclear fusion hybrid"
-  materials: "Self-repairing quantum materials"
-  net_positive: "Zero-G manufacturing benefits"
-  
-ali_bob_architecture:
-  digital_twin: "Complete station virtualization"
-  digital_agent: "Station AI 'Kephra-Station'"
-  quantum_lab: "1000-qubit research facility"
-  consciousness_level: "Level 5 - Sentient Station"
-
-specifications:
-  crew: "50 researchers"
-  volume: "5,000 m³"
-  orbit: "400 km LEO"
-  lifespan: "50 years modular"
-```
+| Programa Oficial | ALICE                 | BOB DT                 | BOB DA                 | Descripción Funcional                                              |
+| ---------------- | --------------------- | ---------------------- | ---------------------- | ------------------------------------------------------------------ |
+| GAIA-SAT-01      | ALICE-GAIA-SAT-01     | BOB-DT-GAIA-SAT-01     | BOB-DA-GAIA-SAT-01     | Satélite de observación en LEO con instrumentación avanzada        |
+| GAIA-SAT-02-QKD  | ALICE-GAIA-SAT-02-QKD | BOB-DT-GAIA-SAT-02-QKD | BOB-DA-GAIA-SAT-02-QKD | Satélite dedicado a la distribución de claves cuánticas (QKD)      |
+| GAIA-TEL-01      | ALICE-GAIA-TEL-01     | BOB-DT-GAIA-TEL-01     | BOB-DA-GAIA-TEL-01     | Telescopio orbital para observación astronómica y espectroscopía Q |
+| GAIA-SND-01      | ALICE-GAIA-SND-01     | BOB-DT-GAIA-SND-01     | BOB-DA-GAIA-SND-01     | Sonda interplanetaria con navegación cuántico-asistida             |
+| GAIA-HAB-01      | ALICE-GAIA-HAB-01     | BOB-DT-GAIA-HAB-01     | BOB-DA-GAIA-HAB-01     | Hábitat orbital para vida y experimentación en microgravedad       |
+| GAIA-CARGO-01    | ALICE-GAIA-CARGO-01   | BOB-DT-GAIA-CARGO-01   | BOB-DA-GAIA-CARGO-01   | Nave de carga automatizada para soporte a estaciones y hábitats    |
+| GAIA-SRV-01      | ALICE-GAIA-SRV-01     | BOB-DT-GAIA-SRV-01     | BOB-DA-GAIA-SRV-01     | Robot de servicio en órbita para reparación y ensamblaje satelital |
 
 ---
 
-# ✈️ AMPEL360 BRAND - ATMOSPHERIC ARTIFACTS & SPACECRAFT
+## 🏭 DOMINIO TIERRA – Programas Oficiales Robbbo‑T
 
-## 🛩️ AMPEL360 Commercial Aircraft
-
-### AMPEL360-BWB-Q100 (Regional Quantum Aircraft)
-```yaml
-brand: "AMPEL360"
-category: "Atmospheric Passenger Transport"
-sustainability:
-  fuel: "100% SAF compatible, hydrogen-ready"
-  emissions: "75% reduction, carbon negative by 2030"
-  materials: "Bio-composites, recyclable aluminum"
-  net_positive: "Atmospheric data collection"
-  
-ali_bob_architecture:
-  digital_twin: "Complete aircraft virtualization"
-  digital_agent: "Pilot assistant 'Elarin'"
-  quantum_optimization: "Route, fuel, maintenance"
-  consciousness_level: "Level 3 - Adaptive"
-
-specifications:
-  capacity: "100 passengers"
-  range: "2,500 nm"
-  efficiency: "45% better than current"
-  circular_features: "Modular design for upgrades"
-```
-
-### AMPEL360-BWB-Q250 (Intercontinental Quantum Aircraft)
-```yaml
-brand: "AMPEL360"
-category: "Long-Range Atmospheric Transport"
-sustainability:
-  propulsion: "Hybrid-electric, hydrogen pathway"
-  cabin: "Zero waste, water recycling"
-  structure: "Self-healing materials"
-  net_positive: "Atmospheric research platform"
-  
-ali_bob_architecture:
-  digital_twin: "Fleet-wide optimization"
-  digital_agent: "Operations AI 'Kephra-Fleet'"
-  quantum_systems: "Full autonomous capability"
-  consciousness_level: "Level 4 - Autonomous"
-
-specifications:
-  capacity: "250 passengers"
-  range: "8,000 nm"
-  efficiency: "50% improvement"
-  circular_economy: "Design for disassembly"
-```
-
-### AMPEL360-XWL-RGA (Sky Cleaner)
-```yaml
-brand: "AMPEL360"
-category: "Atmospheric Remediation"
-sustainability:
-  mission: "Direct air carbon capture"
-  power: "Solar + hydrogen fuel cells"
-  impact: "1,000 tons CO2/year removed"
-  net_positive: "Atmospheric restoration"
-  
-ali_bob_architecture:
-  digital_twin: "Atmospheric modeling integration"
-  digital_agent: "Environmental AI 'Gaia-Atmos'"
-  quantum_detection: "Molecular pollutant tracking"
-  consciousness_level: "Level 3 - Mission Adaptive"
-
-specifications:
-  endurance: "24+ hours"
-  altitude: "FL350-450"
-  coverage: "1,000 km²/day"
-  fleet_size: "100 aircraft global"
-```
-
-## 🚀 AMPEL360 Space Tourism
-
-### AMPEL360plus (Suborbital Tourism)
-```yaml
-brand: "AMPEL360"
-category: "Suborbital Space Tourism"
-sustainability:
-  propulsion: "Green hydrogen/LOX - zero carbon"
-  reusability: "100+ flights, 95% component recycling"
-  manufacturing: "Additive manufacturing, zero waste"
-  net_positive: "Carbon credits through atmospheric research"
-  
-ali_bob_architecture:
-  digital_twin: "Real-time vehicle health monitoring"
-  digital_agent: "AI mission commander 'Orionis-Sub'"
-  predictive_systems: "Quantum failure prevention"
-  consciousness_level: "Level 3 - Adaptive"
-
-specifications:
-  capacity: "6 passengers + 2 crew"
-  altitude: "100 km (Kármán line)"
-  experience: "5 minutes weightlessness"
-  circular_economy: "Fuel from renewable sources"
-```
-
-### AMPEL360plusplus (Orbital Tourism)
-```yaml
-brand: "AMPEL360"
-category: "Orbital Space Tourism"
-sustainability:
-  life_support: "Closed-loop 99.9% efficiency"
-  power: "Solar + regenerative fuel cells"
-  waste: "Complete recycling system"
-  net_positive: "Space debris removal missions"
-  
-ali_bob_architecture:
-  digital_twin: "Complete spacecraft virtualization"
-  digital_agent: "AI crew member 'Orionis-Orb'"
-  quantum_systems: "Navigation, life support optimization"
-  consciousness_level: "Level 4 - Autonomous"
-
-specifications:
-  capacity: "12 passengers + 3 crew"
-  orbit: "400 km LEO"
-  duration: "3-day missions"
-  circular_features: "Water/air 100% recycled"
-```
+| Programa Oficial               | ALICE                  | BOB DT                  | BOB DA                  | Descripción Funcional                                        |
+| ------------------------------ | ---------------------- | ----------------------- | ----------------------- | ------------------------------------------------------------ |
+| Robbbo‑T/Factory               | ALICE-ROBBBO-T-FACTORY | BOB-DT-ROBBBO-T-FACTORY | BOB-DA-ROBBBO-T-FACTORY | Fábrica digital avanzada con robótica cuántico-asistida      |
+| Robbbo‑T/Extended\_Maintenance | ALICE-ROBBBO-T-MAINT   | BOB-DT-ROBBBO-T-MAINT   | BOB-DA-ROBBBO-T-MAINT   | Plataforma XR/AR para mantenimiento técnico inteligente      |
+| RTA‑212                        | ALICE-RTA-212          | BOB-DT-RTA-212          | BOB-DA-RTA-212          | Subsistema robótico de control de fuerza y torque adaptativo |
 
 ---
 
-# 🤖 ROBBBO-T BRAND - GROUND & ORBITAL SUPPORT
+## 📌 Notas:
 
-## 🔧 Ground Support Systems
+* **ALICE**: sistema físico real (aeronave, satélite, robot, etc.) con capacidades cuántico-integradas.
+* **BOB DT**: gemelo digital estructural (CAD, sensores, configuración).
+* **BOB DA**: agente digital contextual (narrativas, procedimientos, predicciones).
+* **Descripción Funcional**: resume el propósito operativo del sistema dentro del dominio GAIA-QAOA.
 
-### Robbbo-T-GS100 (Quantum Ground Support)
-```yaml
-brand: "Robbbo-T"
-category: "Airport Ground Equipment"
-sustainability:
-  power: "100% electric, solar charging"
-  materials: "Recycled composites"
-  operations: "Zero emissions at gate"
-  net_positive: "Grid energy storage capability"
-  
-ali_bob_architecture:
-  digital_twin: "Equipment fleet management"
-  digital_agent: "Ground ops coordinator 'Terra'"
-  swarm_intelligence: "Multi-unit coordination"
-  consciousness_level: "Level 3 - Collaborative"
-
-equipment_types:
-  - "Autonomous baggage loaders"
-  - "Quantum de-icing systems"
-  - "Electric pushback tugs"
-  - "AI-guided fuel trucks"
-```
-
-### Robbbo-T-MRO-Q50 (Maintenance Robots)
-```yaml
-brand: "Robbbo-T"
-category: "Aircraft Maintenance Robotics"
-sustainability:
-  operation: "24/7 solar-powered"
-  waste: "Zero - all materials recycled"
-  efficiency: "50% reduction in downtime"
-  net_positive: "Extends aircraft life 20%"
-  
-ali_bob_architecture:
-  digital_twin: "Aircraft health mapping"
-  digital_agent: "Maintenance AI 'Mechanicus'"
-  quantum_detection: "0.1mm crack detection"
-  consciousness_level: "Level 4 - Predictive"
-
-capabilities:
-  - "Automated inspection drones"
-  - "Quantum NDT scanning"
-  - "Self-organizing swarms"
-  - "Predictive maintenance ML"
-```
-
-## 🛸 Orbital Support Systems
-
-### Robbbo-T-OSR-200 (Orbital Service Robots)
-```yaml
-brand: "Robbbo-T"
-category: "Space Servicing Platform"
-sustainability:
-  propulsion: "Ion drives, solar powered"
-  materials: "Space-grade recyclables"
-  mission: "Satellite life extension"
-  net_positive: "Reduces space debris"
-  
-ali_bob_architecture:
-  digital_twin: "Orbital mechanics modeling"
-  digital_agent: "Service AI 'Cosmos'"
-  quantum_navigation: "Precision docking"
-  consciousness_level: "Level 4 - Autonomous"
-
-services:
-  - "Satellite refueling"
-  - "Component replacement"
-  - "Debris capture/deorbit"
-  - "Station assembly support"
-```
-
-### Robbbo-T-OSAM-500 (On-orbit Assembly Module)
-```yaml
-brand: "Robbbo-T"
-category: "Space Construction System"
-sustainability:
-  manufacturing: "In-space 3D printing"
-  materials: "Asteroid-sourced metals"
-  energy: "Solar furnaces"
-  net_positive: "Enables space industry"
-  
-ali_bob_architecture:
-  digital_twin: "Construction simulation"
-  digital_agent: "Assembly AI 'Constructor'"
-  quantum_coordination: "Multi-robot sync"
-  consciousness_level: "Level 5 - Creative"
-
-capabilities:
-  - "Large structure assembly"
-  - "Solar array construction"
-  - "Habitat module building"
-  - "Deep space antenna assembly"
-```
+Este documento forma parte del `ALI-BOB-MAP-V1.0` y está alineado con el UTCS GAIA-QAO.
 
 ---
 
-# 🌐 INTEGRATED ECOSYSTEM
+Proveer una **estructura modular y estandarizada** para almacenar y gestionar todos los artefactos digitales generados durante el ciclo de vida (desde la conceptualización hasta el retiro) de los agentes **ALICE-BOB**. Esto facilita la colaboración, la auditoría, la certificación y la evolución de sistemas aeroespaciales inteligentes y cuántico-integrados, como los definidos por los programas **AMPEL360**.
 
-## Cross-Brand Integration
+## 📁 Estructura del Repositorio - Foco Exclusivo en AMPEL360-BWB-Q100 (Ciclo de Vida Completo Multi-UTCS)
 
-```yaml
-ecosystem_integration:
-  gaia_provides:
-    - "Satellite communication backbone"
-    - "Earth observation data"
-    - "Space research platforms"
-    
-  ampel360_provides:
-    - "Atmospheric transport"
-    - "Space access vehicles"
-    - "Climate remediation"
-    
-  robbbo_t_provides:
-    - "Ground support infrastructure"
-    - "Maintenance automation"
-    - "Orbital construction"
-    
-circular_economy_flow:
-  materials: "95% recycling across brands"
-  energy: "100% renewable by 2030"
-  data: "Shared quantum cloud"
-  knowledge: "Open innovation platform"
 ```
-
-## Net Positive Impact Metrics
-
-```yaml
-combined_impact_2035:
-  carbon_removed: "10M tons annually"
-  jobs_created: "500,000 global"
-  lives_improved: "1 billion+"
-  space_debris_removed: "1,000 objects"
-  scientific_breakthroughs: "100+ annually"
-  economic_value: "€1 trillion market"
-```
-
----
-
-**Document Control:**
-- Next Review: Q4 2025
-- Distribution: All Q-Division Leads
-- Brand Guidelines: Maintain consistency
-- Sustainability Audit: Annual verification
-
-**Digital Signature:** GQAOA-BRANDS-2025-ALIGNED
-
-*"Three Brands, One Vision: Earth to Stars, Net Positive"*
+programs/
+├── AMPEL360/                          # Familia de Programas del Dominio Aire
+│   ├── AMPEL360-BWB-Q100/             # Programa Específico: Aeronave de Impacto 0 con Propulsión Híbrida y Cuántica
+│   │   ├── Concept-Phase/             # Fase de Conceptualización (CON)
+│   │   │   ├── ATA-000/               # Información General de la Aeronave
+│   │   │   ├── ATA-004/               # Limitaciones de Aeronavegabilidad
+│   │   │   ├── ATA-005/               # Mantenimiento Predictivo
+│   │   │   ├── ATA-006/               # Dimensiones y Áreas
+│   │   │   ├── ATA-007/               # Levantamiento y Soporte
+│   │   │   ├── ATA-008/               # Pesaje y Balance
+│   │   │   ├── ATA-009/               # Remolque y Rodaje
+│   │   │   ├── ATA-010/               # Estacionamiento y Almacenaje
+│   │   │   ├── ATA-011/               # Placas y Marcas
+│   │   │   ├── ATA-012/               # Servicio Rutinario
+│   │   │   ├── ATA-013/               # Training y Emergencia
+│   │   │   ├── ATA-014/               # Hardware Inteligente
+│   │   │   ├── ATA-015/               # Límites de Vida
+│   │   │   ├── ATA-016/               # Estructuras Generales
+│   │   │   ├── ATA-017/               # Airport Handling Equipment
+│   │   │   ├── ATA-018/               # Análisis Vibración/Ruido Cuántico
+│   │   │   ├── ATA-019/               # Aircraft Towing and Parking Automation
+│   │   │   ├── ATA-020/               # Standard Practices - Airframe
+│   │   │   ├── ATA-021/               # Control Ambiental
+│   │   │   ├── ATA-022/               # Vuelo Automático
+│   │   │   ├── ATA-023/               # Comunicaciones Cuánticas Ready
+│   │   │   ├── ATA-024/               # Energía Eléctrica
+│   │   │   ├── ATA-025/               # Cabina Modular
+│   │   │   ├── ATA-026/               # Protección Fuego
+│   │   │   ├── ATA-027/               # Controles de Vuelo
+│   │   │   ├── ATA-028/               # Combustible
+│   │   │   ├── ATA-029/               # Hidráulica
+│   │   │   ├── ATA-030/               # Anti-Hielo
+│   │   │   ├── ATA-031/               # Instrumentación
+│   │   │   ├── ATA-032/               # Tren de Aterrizaje
+│   │   │   ├── ATA-033/               # Iluminación
+│   │   │   ├── ATA-034/               # Navegación
+│   │   │   ├── ATA-035/               # Oxígeno
+│   │   │   ├── ATA-036/               # Neumático
+│   │   │   ├── ATA-037/               # Vacuum System
+│   │   │   ├── ATA-038/               # Agua/Desechos
+│   │   │   ├── ATA-039/               # Water Ballast (específico BWB)
+│   │   │   ├── ATA-040/               # MULTISYSTEM
+│   │   │   ├── ATA-041/               # Water Ballast (general)
+│   │   │   ├── ATA-042/               # IMA Next Generation
+│   │   │   ├── ATA-043/               # CABIN SYSTEMS
+│   │   │   ├── ATA-044/               # Cabina Conectada
+│   │   │   ├── ATA-045/               # Mantenimiento Central
+│   │   │   ├── ATA-046/               # Información Cuántica
+│   │   │   ├── ATA-047/               # Nitrogen Generation System (NGS)
+│   │   │   ├── ATA-048/               # Electrical/Electronic Panels
+│   │   │   ├── ATA-049/               # APU Híbrido
+│   │   │   ├── ATA-050/               # Fuselaje BWB
+│   │   │   ├── ATA-057/               # Alas BWB
+│   │   │   ├── ATA-080/               # Propulsión Eléctrica
+│   │   │   ├── ATA-084/               # ION/PLASMA PROPULSION
+│   │   │   ├── ATA-090/               # BWB Específico
+│   │   │   ├── ATA-094/               # QUANTUM ENTANGLEMENT COMMUNICATION
+│   │   │   ├── ATA-098/               # Gobernanza IA
+│   │   │   ├── ATA-099/               # Integración Universal
+│   │   │   ├── STA-100/               # Sistemas Generales y Soporte Vital Espacial
+│   │   │   ├── STA-104/               # Protección contra Radiación Espacial
+│   │   │   ├── STA-111/               # Materiales Ligeros y de Alto Rendimiento para el Espacio
+│   │   │   ├── STA-124/               # Propulsores Avanzados y Conceptos Futuros
+│   │   │   ├── STA-141/               # Sistemas de Navegación Espacial
+│   │   │   ├── STA-154/               # Comunicaciones Cuánticas Espaciales
+│   │   │   ├── STA-164/               # Sensores Cuánticos de Ultra-Precisión para el Espacio
+│   │   │   └── STA-190/               # Exploración Profunda del Espacio e Interplanetaria
+│   │   │   ├── DTTA-200/              # Sistemas de Combate y Armamento
+│   │   │   ├── DTTA-210/              # C4ISR (Mando, Control, Comunicaciones, Computadoras, Inteligencia, Vigilancia y Reconocimiento)
+│   │   │   ├── DTTA-220/              # Protección y Resiliencia
+│   │   │   ├── DTTA-260/              # Materiales y Sensores para Defensa
+│   │   │   └── DTTA-280/              # Guerra Cuántica y Tecnologías Disruptivas
+│   │   │   ├── DTCEC-300/             # Fundamentos de Gemelos Digitales
+│   │   │   ├── DTCEC-310/             # Sensores e IoT para Digital Twins
+│   │   │   ├── DTCEC-320/             # Inteligencia Artificial y Machine Learning para DT
+│   │   │   ├── DTCEC-330/             # Cloud Computing y Arquitecturas Distribuidas
+│   │   │   ├── DTCEC-340/             # Simulación y Modelado Avanzado
+│   │   │   ├── DTCEC-350/             # Realidad Extendida (XR) y Metaverso
+│   │   │   ├── DTCEC-360/             # Blockchain y Tecnologías Descentralizadas para DT
+│   │   │   ├── DTCEC-370/             # Ciberseguridad para Digital Twins
+│   │   │   ├── DTCEC-380/             # Analytics y Business Intelligence para DT
+│   │   │   └── DTCEC-390/             # Digital Twins Conscientes y Evolutivos
+│   │   │   ├── EPTA-400/              # Fuentes de Energía Convencionales y Avanzadas
+│   │   │   ├── EPTA-410/              # Energías Renovables
+│   │   │   ├── EPTA-420/              # Almacenamiento de Energía
+│   │   │   ├── EPTA-430/              # Gestión y Distribución de Energía
+│   │   │   ├── EPTA-440/              # Propulsión por Combustión
+│   │   │   ├── EPTA-450/              # Propulsión Eléctrica e Híbrida
+│   │   │   ├── EPTA-460/              # Propulsión de Hidrógeno y Celdas de Combustible
+│   │   │   ├── EPTA-470/              # Nuevas Formas de Propulsión
+│   │   │   ├── EPTA-480/              # Optimización Energética y Cuántica
+│   │   │   └── EPTA-490/              # Sistemas de Recuperación de Energía
+│   │   │   ├── AMTA-500/              # Materiales Compuestos Avanzados
+│   │   │   ├── AMTA-510/              # Metamateriales y Materiales Estructurales Inteligentes
+│   │   │   ├── AMTA-520/              # Nanomateriales y Recubrimientos Funcionales
+│   │   │   ├── AMTA-530/              # Biotecnología y Bioingeniería
+│   │   │   ├── AMTA-540/              # Biomateriales y Biónica
+│   │   │   ├── AMTA-550/              # Nanotecnología y Nanorobótica
+│   │   │   ├── AMTA-560/              # Sensores Avanzados (Bio y Nano)
+│   │   │   ├── AMTA-570/              # Manufactura Aditiva (Impresión 3D) para Materiales Avanzados
+│   │   │   ├── AMTA-580/              # Materiales y Procesos Cuánticos
+│   │   │   └── AMTA-590/              # Reciclaje y Sostenibilidad de Materiales
+│   │   │   ├── OGATA-600/             # Robótica Industrial y Colaborativa
+│   │   │   ├── OGATA-610/             # Vehículos Autónomos Terrestres
+│   │   │   ├── OGATA-640/             # Logística y Almacenamiento Automatizado
+│   │   │   └── OGATA-680/             # Optimización con IA y Cuántica
+│   │   │   ├── ACV-700/               # Vehículos de Movilidad Aérea Urbana (UAM)
+│   │   │   ├── ACV-710/               # Infraestructura de Vertipuertos y Heli-plataformas
+│   │   │   ├── ACV-720/               # Gestión del Tráfico Aéreo Urbano (UTM)
+│   │   │   ├── ACV-730/               # Integración de Ruido y Acústica Urbana
+│   │   │   ├── ACV-740/               # Sostenibilidad Ambiental en UAM
+│   │   │   ├── ACV-750/               # Aspectos Legales, Regulatorios y de Certificación para UAM
+│   │   │   ├── ACV-760/               # Interfaz Urbana y Aceptación Social
+│   │   │   ├── ACV-770/               # Seguridad y Resiliencia de Operaciones UAM
+│   │   │   ├── ACV-780/               # Optimización de Tráfico Cuántico y Logística Aérea Urbana
+│   │   │   └── ACV-790/               # Modelos de Negocio y Ecosistemas UAM
+│   │   │   ├── CYB-800/               # Gobernanza y Gestión de Riesgos de Ciberseguridad
+│   │   │   ├── CYB-810/               # Seguridad de Redes y Comunicaciones
+│   │   │   ├── CYB-820/               # Seguridad de Datos y Almacenamiento
+│   │   │   ├── CYB-830/               # Gestión de Identidades y Acceso (IAM)
+│   │   │   ├── CYB-840/               # Seguridad de Aplicaciones y Software
+│   │   │   ├── CYB-850/               # Ciberseguridad Operacional (SecOps)
+│   │   │   ├── CYB-860/               # Seguridad de Cloud y Edge Computing
+│   │   │   ├── CYB-870/               # Ciberseguridad de Sistemas de Control Industrial (ICS/OT)
+│   │   │   ├── CYB-880/               # Criptografía Post-Cuántica y Seguridad Cuántica
+│   │   │   └── CYB-890/               # Inteligencia de Amenazas y Ciber-resiliencia
+│   │   │   ├── QCSAA-900/             # Fundamentos de Computación Cuántica
+│   │   │   ├── QCSAA-910/             # Quantum Machine Learning y AI Cuántica
+│   │   │   ├── QCSAA-920/             # Redes y Comunicaciones Cuánticas
+│   │   │   ├── QCSAA-930/             # Ciberseguridad Cuántica
+│   │   │   ├── QCSAA-940/             # Sensores y Metrología Cuántica
+│   │   │   ├── QCSAA-950/             # Simulación Cuántica
+│   │   │   ├── QCSAA-960/             # Robótica Cuántica y Manipulación de Materia
+│   │   │   ├── QCSAA-970/             # Conciencia y Agencia Sentiente Cuántica
+│   │   │   ├── QCSAA-980/             # Gobernanza y Ética de la IA y Cuántica Sentiente
+│   │   │   └── QCSAA-990/             # Futuro de QCSAA y Aplicaciones Inter-Arquitectura
+│   │   ├── Design-Phase/              # Fase de Diseño (DES)
+│   │   │   ├── ATA-000/
+│   │   │   ├── STA-100/
+│   │   │   ├── DTTA-200/
+│   │   │   ├── DTCEC-300/
+│   │   │   ├── EPTA-400/
+│   │   │   ├── AMTA-500/
+│   │   │   ├── OGATA-600/
+│   │   │   ├── ACV-700/
+│   │   │   ├── CYB-800/
+│   │   │   ├── QCSAA-900/
+│   │   │   └── ... # Repetir la estructura de UTCS y sus capítulos relevantes para esta fase
+│   │   ├── Testing-Phase/           # Fase de Testing (TST)
+│   │   │   ├── ATA-000/
+│   │   │   ├── STA-100/
+│   │   │   ├── DTTA-200/
+│   │   │   ├── DTCEC-300/
+│   │   │   ├── EPTA-400/
+│   │   │   ├── AMTA-500/
+│   │   │   ├── OGATA-600/
+│   │   │   ├── ACV-700/
+│   │   │   ├── CYB-800/
+│   │   │   ├── QCSAA-900/
+│   │   │   └── ...
+│   │   ├── Certification-Phase/   # Fase de Certificación (CRT)
+│   │   │   ├── ATA-000/
+│   │   │   ├── STA-100/
+│   │   │   ├── DTTA-200/
+│   │   │   ├── DTCEC-300/
+│   │   │   ├── EPTA-400/
+│   │   │   ├── AMTA-500/
+│   │   │   ├── OGATA-600/
+│   │   │   ├── ACV-700/
+│   │   │   ├── CYB-800/
+│   │   │   ├── QCSAA-900/
+│   │   │   └── ...
+│   │   ├── Production-Phase/      # Fase de Producción / Manufactura (PRD)
+│   │   │   ├── ATA-000/
+│   │   │   ├── STA-100/
+│   │   │   ├── DTTA-200/
+│   │   │   ├── DTCEC-300/
+│   │   │   ├── EPTA-400/
+│   │   │   ├── AMTA-500/
+│   │   │   ├── OGATA-600/
+│   │   │   ├── ACV-700/
+│   │   │   ├── CYB-800/
+│   │   │   ├── QCSAA-900/
+│   │   │   └── ...
+│   │   ├── Maintenance-Phase/     # Fase de Mantenimiento en línea (MNT)
+│   │   │   ├── ATA-000/
+│   │   │   ├── STA-100/
+│   │   │   ├── DTTA-200/
+│   │   │   ├── DTCEC-300/
+│   │   │   ├── EPTA-400/
+│   │   │   ├── AMTA-500/
+│   │   │   ├── OGATA-600/
+│   │   │   ├── ACV-700/
+│   │   │   ├── CYB-800/
+│   │   │   ├── QCSAA-900/
+│   │   │   └── ...
+│   │   ├── Operations-Phase/      # Fase de Operaciones (OPS)
+│   │   │   ├── ATA-000/
+│   │   │   ├── STA-100/
+│   │   │   ├── DTTA-200/
+│   │   │   ├── DTCEC-300/
+│   │   │   ├── EPTA-400/
+│   │   │   ├── AMTA-500/
+│   │   │   ├── OGATA-600/
+│   │   │   ├── ACV-700/
+│   │   │   ├── CYB-800/
+│   │   │   ├── QCSAA-900/
+│   │   │   └── ...
+│   │   ├── Support-Phase/         # Fase de Soporte en operación (SUP)
+│   │   │   ├── ATA-000/
+│   │   │   ├── STA-100/
+│   │   │   ├── DTTA-200/
+│   │   │   ├── DTCEC-300/
+│   │   │   ├── EPTA-400/
+│   │   │   ├── AMTA-500/
+│   │   │   ├── OGATA-600/
+│   │   │   ├── ACV-700/
+│   │   │   ├── CYB-800/
+│   │   │   ├── QCSAA-900/
+│   │   │   └── ...
+│   │   ├── Repair-Phase/          # Fase de Reparaciones (REP)
+│   │   │   ├── ATA-000/
+│   │   │   ├── STA-100/
+│   │   │   ├── DTTA-200/
+│   │   │   ├── DTCEC-300/
+│   │   │   ├── EPTA-400/
+│   │   │   ├── AMTA-500/
+│   │   │   ├── OGATA-600/
+│   │   │   ├── ACV-700/
+│   │   │   ├── CYB-800/
+│   │   │   ├── QCSAA-900/
+│   │   │   └── ...
+│   │   └── Retirement-Phase/      # Fase de Retiro y reciclaje (RET)
+│   │       ├── ATA-000/
+│   │       ├── STA-100/
+│   │       ├── DTTA-200/
+│   │       ├── DTCEC-300/
+│   │       ├── EPTA-400/
+│   │       ├── AMTA-500/
+│   │       ├── OGATA-600/
+│   │       ├── ACV-700/
+│   │       ├── CYB-800/
+│   │       ├── QCSAA-900/
+│   │       └── ...
+│   ├── AMPEL360-BWB-Q250/
+│   │   └── ... # Estructura similar a AMPEL360-BWB-Q100, con sus propias instancias de entregables UTCS por fase
+│   └── AMPEL360PLUS/
+│       └── ...
+│
+├── GAIA-QAO-Space/            # Familia de Programas del Dominio Espacio
+│   ├── GAIA-SAT-01/           # Programa Específico (Ej: Satélite de Observación)
+│   │   ├── Concept-Phase/
+│   │   │   └── STA-100/
+│   │   ├── Design-Phase/
+│   │   │   ├── STA-110/
+│   │   │   └── DTCEC-300/
+│   │   ├── Testing-Phase/
+│   │   │   └── STA-175/
+│   │   ├── Certification-Phase/
+│   │   │   └── ATA-004/ # Certificaciones generales (DO-178C, DO-254)
+│   │   ├── Production-Phase/
+│   │   │   └── ATA-000/ # Manuales de Producción
+│   │   ├── Maintenance-Phase/
+│   │   │   └── ATA-005/ # Mantenimiento Predictivo
+│   │   ├── Operations-Phase/
+│   │   │   └── STA-170/ # Operaciones y Mantenimiento en Órbita
+│   │   ├── Support-Phase/
+│   │   │   └── STA-174/ # Diagnóstico Cuántico de Fallos
+│   │   ├── Repair-Phase/
+│   │   │   └── STA-171/ # Servicio y Mantenimiento en Órbita
+│   │   └── Retirement-Phase/
+│   │       └── AMTA-593/ # Análisis del Ciclo de Vida
+│   └── GAIA-SAT-02-QKD/
+│       └── ...
+│
+├── Robbbo-T/                  # Familia de Programas del Dominio Tierra
+│   ├── Robbbo-T-Factory/      # Programa Específico (Ej: Fábrica Automatizada)
+│   │   ├── Concept-Phase/
+│   │   │   └── OGATA-630/
+│   │   ├── Design-Phase/
+│   │   │   └── OGATA-633/
+│   │   ├── Testing-Phase/
+│   │   │   └── OGATA-604/
+│   │   ├── Certification-Phase/
+│   │   │   └── ATA-004/ # Certificaciones generales (DO-178C, DO-254)
+│   │   ├── Production-Phase/
+│   │   │   └── OGATA-635/
+│   │   ├── Maintenance-Phase/
+│   │   │   └── OGATA-604/
+│   │   ├── Operations-Phase/
+│   │   │   └── OGATA-630/
+│   │   ├── Support-Phase/
+│   │   │   └── OGATA-604/
+│   │   ├── Repair-Phase/
+│   │   │   └── OGATA-604/
+│   │   └── Retirement-Phase/
+│   │       └── AMTA-593/ # Análisis del Ciclo de Vida
+│   ├── Robbbo-T-Extended_Maintenance/
+│   │   └── ...
+│   └── ...
+│
+└── shared/                    # Recursos compartidos (Templates, Oraculus, etc.)
+    ├── BOB-DT-Templates/
+    ├── BOB-DA-Templates/
+    ├── Oraculus-LMT/
+    └── ALI-BOB-MAP-V1.0/
 ```
