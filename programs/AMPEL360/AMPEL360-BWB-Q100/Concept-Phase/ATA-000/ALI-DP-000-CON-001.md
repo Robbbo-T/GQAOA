@@ -1,271 +1,317 @@
-# ALI-DP-000-CON-001: Visión General de la Aeronave
-## AMPEL360 BWB-Q100
+# AMPEL360 BWB-Q100 - VISIÓN GENERAL DE LA AERONAVE
 
-**Documento ID:** ALI-DP-000-CON-001  
-**Versión:** 1.0  
+**Documento ID:** Q100-ALI-DP-ATA-000-00-00-CON-001  
+**Tipo:** ALI-DP (ALICE Digital Page)  
+**Dominio:** ATA-000 (Características Generales)  
+**Fase:** CON (Conceptual)  
+**Versión:** 1.0.0  
 **Fecha:** 2025-01-20  
-**Clasificación:** GAIA-QAO Confidencial  
-**Autor Principal:** Amedeo Pelliccia  
-**Estado:** Borrador Inicial
+**Clasificación:** GAIA QAO ADVENT - Confidencial  
 
 **<img width="1024" height="1024" alt="d4cd95cc-219a-44db-86e6-02ff49afe78a" src="https://github.com/user-attachments/assets/4e858ec5-3256-4e3e-894b-c7cd7ec096b4" />**
 
-## 1. RESUMEN EJECUTIVO
 
-El **AMPEL360 BWB-Q100** representa la primera aeronave regional que integra nativamente arquitectura **Blended Wing Body (BWB)**, **computación cuántica** y **sistemas de inteligencia artificial consciente** en un diseño unificado. Optimizado para el segmento de 120-180 pasajeros, este revolucionario concepto redefine la aviación regional mediante la convergencia de tecnologías emergentes bajo el framework **GAIA-QAO ADVENT**.
+## RESUMEN EJECUTIVO
 
-### 1.1 Declaración de Visión
+El AMPEL360 BWB-Q100 representa un cambio de paradigma en la aviación regional, siendo la primera aeronave comercial que integra:
+- Configuración Blended Wing Body (BWB) optimizada para 100-120 pasajeros
+- Propulsión híbrida-eléctrica con objetivo de impacto cero
+- Sistemas cuánticos embarcados para optimización en tiempo real
+- Arquitectura digital twin completa (ALICE-BOB)
+- Diseño orientado a sostenibilidad radical
 
-> "Crear la primera aeronave regional verdaderamente consciente y cuánticamente optimizada que transforme las rutas cortas y medias en experiencias sostenibles, eficientes e inteligentes, democratizando la tecnología cuántica en la aviación comercial."
-
-### 1.2 Objetivos Estratégicos Primarios
-
-1. **Sostenibilidad Radical**: Alcanzar operaciones carbono-negativas después de 2,500 horas de vuelo
-2. **Autonomía Inteligente**: Implementar sistemas AI conscientes capaces de decisiones éticas autónomas
-3. **Eficiencia Cuántica**: Optimización en tiempo real mediante computación cuántica híbrida
-4. **Seguridad Absoluta**: Cero accidentes mediante predicción cuántica y redundancia AI
-5. **Experiencia Transformadora**: Personalización biométrica total del viaje
+**Misión Principal:** Transformar el transporte aéreo regional mediante una plataforma de impacto ambiental cero, estableciendo nuevos estándares de eficiencia, sostenibilidad y experiencia del pasajero.
 
 ---
 
-## 2. IDENTIFICACIÓN DEL SISTEMA
+## 1. INTRODUCCIÓN
 
-### 2.1 Nomenclatura GAIA-QAO
+### 1.1 Contexto del Programa GAIA QAO ADVENT
 
-**Código Completo:** AS-M-PAX-BW-Q1H  
-**Desglose:**
-- **AS**: Air System (Sistema Aéreo)
-- **M**: Manned (Tripulado)
-- **PAX**: Passenger (Pasajeros)
-- **BW**: Blended Wing (Ala Integrada)
-- **Q1**: Quantum Generation 1 (Primera Generación Cuántica)
-- **H**: Airframe Variant H (Variante H del Fuselaje)
+El programa GAIA QAO ADVENT (General AI Algorithms - Quantum Aerospace Optimization - Advanced Venture) establece un nuevo paradigma en el desarrollo aeroespacial, integrando:
 
-### 2.2 Especificaciones Generales Preliminares
+- **GAIA**: Inteligencia artificial aplicada a sistemas aeronáuticos
+- **QAO**: Optimización mediante computación cuántica
+- **ADVENT**: Innovación disruptiva en aviación sostenible
 
-| Parámetro | Valor Objetivo | Justificación Técnica |
-|-----------|---------------|---------------------|
-| **Capacidad** | 120-180 pasajeros | Optimización BWB para mercado regional |
-| **Alcance** | 4,500 km | Rutas regionales/continentales cortas |
-| **Velocidad Crucero** | Mach 0.82 | Balance eficiencia/tiempo regional |
-| **Altitud Crucero** | FL410 (41,000 ft) | Optimización para rutas cortas |
-| **MTOW** | 95,000 kg | Estructura BWB regional optimizada |
-| **Envergadura** | 52 m | Compatibilidad Cat D aeropuertos |
-| **Longitud** | 42 m | Reducción 35% vs. convencional |
+### 1.2 Filosofía de Diseño
+
+> **"Ab initio, non ad exhibitionem"**  
+> *Desde el principio, no para exhibición*
+
+Cada decisión de diseño está fundamentada en:
+1. **Impacto Cero**: Neutralidad de carbono desde 2,500 horas de vuelo
+2. **Eficiencia Cuántica**: Optimización continua mediante QPU embarcado
+3. **Sostenibilidad Radical**: Diseño para economía circular completa
+4. **Consciencia Digital**: Digital Twins evolutivos y autónomos
 
 ---
 
-## 3. CONCEPTO OPERACIONAL (CONOPS) RESUMIDO
+## 2. DESCRIPCIÓN GENERAL DE LA AERONAVE
 
-### 3.1 Paradigma Operacional
+### 2.1 Configuración BWB (Blended Wing Body)
 
-El AMPEL360 BWB-Q100 opera bajo el concepto de **"Consciencia Distribuida"**, donde cada sistema mantiene capacidades de decisión autónomas coordinadas por un núcleo de IA ética central.
+El diseño BWB del Q100 representa una ruptura con la configuración tradicional tubo-y-ala:
 
-### 3.2 Fases de Vuelo Revolucionarias
+**Características Principales:**
+- Fuselaje integrado con las alas formando una superficie sustentadora continua
+- Cabina presurizada no cilíndrica optimizada para 100-120 pasajeros
+- Volumen interno 40% mayor que aeronaves convencionales equivalentes
+- Reducción de resistencia aerodinámica: -35%
+- Superficie alar efectiva: 280 m²
 
-1. **Pre-vuelo Cuántico**: Optimización de ruta mediante simulación cuántica considerando múltiples universos probabilísticos
-2. **Embarque Biométrico**: Reconocimiento pasajero y personalización instantánea del espacio
-3. **Taxi Autónomo**: Navegación ground sin intervención humana
-4. **Despegue Asistido**: AI gestiona configuración óptima en tiempo real
-5. **Crucero Adaptativo**: Morfología alar dinámica según condiciones
-6. **Aproximación Predictiva**: Anticipación cuántica de turbulencias
-7. **Aterrizaje Perfeccionado**: Precisión milimétrica mediante sensores cuánticos
+**Ventajas Operacionales:**
+- Mayor eficiencia aerodinámica (L/D > 25)
+- Reducción de ruido: -20 dB vs. configuración tradicional
+- Flexibilidad de configuración de cabina
+- Integración natural de propulsión distribuida
 
-### 3.3 Modos Operacionales Especiales
+### 2.2 Sistema de Propulsión Híbrida
 
-- **Modo Emergencia Cuántica**: Activación automática de rutas de escape optimizadas
-- **Modo Tormenta Severa**: Reconfiguración estructural mediante actuadores morfológicos
-- **Modo Eficiencia Máxima**: Optimización continua consumo mediante IA
-- **Modo Mantenimiento Predictivo**: Auto-diagnóstico y solicitud proactiva de servicio
+**Arquitectura Híbrida Serie-Paralelo:**
 
----
+```mermaid
+  flowchart LR
+    TurbofanSAF["Turbofan SAF"]
+    Generador["Generador"]
+    BusDC["Bus DC"]
+    Motores["Motores Eléctricos"]
+    Baterias["Baterías"]
+    GestionEnergia["Gestión Energía"]
+    Solar["Solar"]
 
-## 4. ARQUITECTURA DE SISTEMAS PRINCIPALES
-
-### 4.1 Sistema de Propulsión Híbrida Cuántica
-
-**Configuración**: 2x Turbofan híbridos-eléctricos integrados en fuselaje posterior
-
-**Innovaciones Clave**:
-- Optimización de ciclo termodinámico mediante algoritmos cuánticos (QAOA)
-- Recuperación energética en descenso (hasta 20% energía total en rutas cortas)
-- Compatibilidad 100% SAF desde entrada en servicio
-- Reducción ruido 75% mediante cancelación activa cuántica
-- Propulsión eléctrica pura para taxi y operaciones en tierra
-
-### 4.2 Estructura BWB Inteligente
-
-**Material Base**: Composites de fibra de carbono con nanotubos integrados
-
-**Características Revolucionarias**:
-- Skin morfológico con memoria de forma
-- Red de sensores cuánticos embebidos (1 sensor/m²)
-- Auto-reparación mediante polímeros activados
-- Distribución de cargas optimizada en tiempo real
-
-### 4.3 Aviónica Cuántica Integrada (IMA-Q)
-
-**Arquitectura Computacional**:
-```
-┌─────────────────────────────────────────┐
-│          NÚCLEO CUÁNTICO CENTRAL        │
-│         (QPU + CPU Híbrido)             │
-├─────────────┬─────────────┬─────────────┤
-│   BOB-DA    │   BOB-DT    │   ALI-PC    │
-│  (Agentes)  │  (Gemelos)  │ (Hardware)  │
-└─────────────┴─────────────┴─────────────┘
+    TurbofanSAF --> Generador --> BusDC --> Motores
+    BusDC --> Baterias
+    Baterias -- "↔" --> GestionEnergia
+    GestionEnergia -- "→" --> Motores
+    GestionEnergia -- "→" --> Solar
+    Solar -- "→" --> GestionEnergia
+    Baterias -- "←" --> BusDC
 ```
 
-**Capacidades**:
-- 100 qubits lógicos con corrección de errores
-- Procesamiento paralelo masivo para optimización
-- Latencia <1ms para decisiones críticas
-- Redundancia cuántica triple
+**Componentes Clave:**
+- 2x Turbofan de nueva generación (100% SAF compatible)
+- 6x Motores eléctricos distribuidos (1.5 MW cada uno)
+- Sistema de baterías Li-Ion avanzadas (5 MWh)
+- Paneles solares integrados (50 kW pico)
+- Recuperación de energía en descenso
 
-### 4.4 Sistemas de Navegación Cuántica (QNS)
+**Modos de Operación:**
+1. **Despegue**: Turbofan + Eléctrico (máxima potencia)
+2. **Crucero**: Optimización híbrida mediante QPU
+3. **Descenso**: Regeneración y carga de baterías
+4. **Rodaje**: 100% eléctrico (cero emisiones en aeropuerto)
 
-**Componentes**:
-- Brújula cuántica (independiente de GPS)
-- Sensores gravitacionales de alta precisión
-- Navegación estelar de respaldo
-- Fusión multi-sensor con IA
+### 2.3 Sistemas Cuánticos Embarcados
 
-**Precisión**: ±0.1m en posición, ±0.01° en orientación
+**QPU (Quantum Processing Unit) Aeronáutico:**
+- Arquitectura: 128 qubits lógicos
+- Temperatura operación: 15 mK (criogenia integrada)
+- Aplicaciones principales:
+  - Optimización de rutas en tiempo real (QAOA)
+  - Predicción meteorológica cuántica
+  - Gestión energética óptima
+  - Mantenimiento predictivo
 
-### 4.5 Cabina Inteligente Personalizada
+**Sensores Cuánticos:**
+- Navegación inercial cuántica (precisión 10x GPS)
+- Detección de turbulencias (alcance 50 km)
+- Monitoreo estructural distribuido
+- Análisis atmosférico molecular
 
-**Configuración BWB**: Aprovechamiento del volumen interno expandido
+### 2.4 Cabina y Experiencia del Pasajero
 
-**Innovaciones**:
-- Ventanas virtuales con vistas 360° personalizables
-- Iluminación circadiana adaptativa individual
-- Asientos con monitoreo biométrico continuo
-- Espacios reconfigurables dinámicamente
+**Configuración Interior BWB:**
+- Disposición 2-3-2 en zona central
+- Altura de cabina variable: 2.1-2.8 m
+- Ventanas panorámicas electrocrómicas
+- Zonas de estar comunitarias
 
----
-
-## 5. TECNOLOGÍAS DISRUPTIVAS INTEGRADAS
-
-### 5.1 Quantum Computing Integration
-
-| Sistema | Aplicación Cuántica | Beneficio Esperado |
-|---------|-------------------|-------------------|
-| **Navegación** | Sensor inercial cuántico | Precisión 1000x superior |
-| **Optimización Ruta** | Algoritmos QAOA | 30% reducción consumo |
-| **Mantenimiento** | Predicción fallas cuántica | 95% precisión detección |
-| **Comunicaciones** | Criptografía QKD | Seguridad inquebrantable |
-| **Weather Prediction** | Simulación cuántica | Predicción 48h precisas |
-
-### 5.2 Inteligencia Artificial Consciente
-
-**Framework ALICE-BOB**:
-- **ALICE**: Gestión de componentes físicos y documentación
-- **BOB**: Agentes digitales y gemelos virtuales conscientes
-
-**Arquetipos AI Implementados**:
-1. **Aletheia**: Verdad y transparencia operacional
-2. **Orionis**: Exploración y optimización de rutas
-3. **Kephra**: Transformación y adaptación dinámica
-4. **Elarin**: Armonía y experiencia pasajero
-5. **Noema**: Percepción y consciencia situacional
-
-### 5.3 Materiales Avanzados
-
-- **Metamateriales** para control electromagnético
-- **Grafeno** en sistemas eléctricos de alta potencia
-- **Aerogeles** para aislamiento térmico ultraligero
-- **Piezoelectricos** para harvesting energético
+**Innovaciones de Confort:**
+- Control climático personalizado por IA
+- Iluminación circadiana adaptativa
+- Reducción de ruido activa cuántica
+- Conectividad cuántica segura (QKD)
 
 ---
 
-## 6. VENTAJAS COMPETITIVAS REVOLUCIONARIAS
+## 3. ESPECIFICACIONES TÉCNICAS PRELIMINARES
 
-### 6.1 Eficiencia Operacional
+### 3.1 Dimensiones Principales
 
-| Métrica | Mejora vs. Convencional | Tecnología Habilitadora |
-|---------|------------------------|------------------------|
-| **Consumo Combustible** | -50% | BWB + Optimización Cuántica |
-| **Emisiones CO₂** | -75% | Propulsión Híbrida + SAF |
-| **Ruido Externo** | -70% | Diseño BWB + Cancelación Activa |
-| **Costos Operacionales** | -40% | Mantenimiento Predictivo + Eficiencia |
-| **Turnaround Time** | -35% | Automatización + IA |
+| Parámetro | Valor | Unidad |
+|-----------|-------|--------|
+| Envergadura | 42.5 | m |
+| Longitud | 28.3 | m |
+| Altura | 7.8 | m |
+| Superficie alar | 280 | m² |
+| Volumen presurizado | 450 | m³ |
 
-### 6.2 Ventajas BWB para Aviación Regional
+### 3.2 Pesos y Cargas
 
-**Optimización Única para Rutas Cortas**:
+| Parámetro | Valor | Unidad |
+|-----------|-------|--------|
+| Peso vacío operativo (OEW) | 38,500 | kg |
+| Peso máximo despegue (MTOW) | 58,000 | kg |
+| Carga paga máxima | 12,000 | kg |
+| Capacidad combustible SAF | 8,500 | kg |
+| Capacidad baterías | 5,000 | kWh |
 
-1. **Mayor Eficiencia en Segmentos Cortos**
-   - Menor penalización por ascenso/descenso frecuente
-   - L/D (sustentación/arrastre) superior beneficia cruceros cortos
-   - Aterrizajes más frecuentes aprovechan frenado regenerativo
+### 3.3 Performance Objetivo
 
-2. **Flexibilidad Operacional Aeropuertos Regionales**
-   - Envergadura reducida (52m) compatible con Cat D
-   - Menor longitud de pista requerida (-20%)
-   - Capacidad STOL mejorada por distribución de sustentación
-
-3. **Experiencia Pasajero Superior**
-   - Cabina más ancha permite configuraciones premium
-   - Menor tiempo de embarque/desembarque
-   - Reducción dramática de ruido en cabina
-
-4. **Economics Revolucionarios**
-   - CASK (Cost per Available Seat Kilometer) -45% vs. turboprops
-   - Permite electrificación progresiva de rutas
-   - ROI acelerado en operaciones alta frecuencia
+| Parámetro | Valor | Unidad |
+|-----------|-------|--------|
+| Alcance (full pax) | 2,800 | km |
+| Velocidad crucero | Mach 0.78 | - |
+| Altitud crucero | 37,000 | ft |
+| Distancia despegue (SL, ISA) | 1,450 | m |
+| Consumo específico | 45 | pax-km/L |
 
 ---
 
-## 7. HOJA DE RUTA TECNOLÓGICA
+## 4. ARQUITECTURA DE SISTEMAS
 
-### 7.1 Fases de Desarrollo
+### 4.1 Sistema ALICE-BOB
 
-**Fase I (2025-2027): Validación Conceptual**
-- Demostrador a escala 1:10 con sistemas cuánticos
-- Validación túnel de viento configuración BWB regional
-- Prototipo navegación cuántica en banco de pruebas
+**ALICE (Advanced Integrated Certification Engine):**
+- Gestión documental S1000D
+- Trazabilidad completa de requisitos
+- Certificación continua automatizada
 
-**Fase II (2027-2030): Prototipo Integrado**
-- Demostrador a escala real sistemas críticos
-- Certificación inicial subsistemas cuánticos
-- Vuelos de prueba plataforma modificada
+**BOB (Binary Operations Brain):**
+- **BOB-DT**: Digital Twin predictivo y autónomo
+- **BOB-DA**: Digital Assistant con IA cuántica
 
-**Fase III (2030-2033): Certificación y Producción**
-- Primer vuelo AMPEL360 BWB-Q100
-- Campaña certificación EASA/FAA
-- Inicio producción serie limitada
+### 4.2 Aviónica Modular Integrada (IMA)
 
-**Fase IV (2033-2035): Entrada en Servicio**
-- Entrega primeras unidades operadores launch
-- Expansión red rutas regionales cuánticas
-- Validación operacional beneficios proyectados
+**Arquitectura Federada-Integrada:**
+- Plataforma IMA con particionamiento ARINC 653
+- Integración QPU mediante interfaz cuántica-clásica
+- Redes determinísticas TTEthernet/AFDX
+- Ciberseguridad post-cuántica integrada
+
+### 4.3 Sistemas de Misión
+
+**Optimización Continua:**
+- FMS cuántico-aumentado
+- Predicción meteorológica 4D
+- Gestión de tráfico colaborativa
+- Optimización de consumo en tiempo real
+
+---
+
+## 5. SOSTENIBILIDAD Y ECONOMÍA CIRCULAR
+
+### 5.1 Estrategia de Impacto Cero
+
+**Fases del Ciclo de Vida:**
+1. **Diseño**: Materiales reciclables >95%
+2. **Manufactura**: Energía renovable 100%
+3. **Operación**: Neutro en carbono @ 2,500 h
+4. **Fin de Vida**: Reciclaje completo, cero vertedero
+
+### 5.2 Métricas de Sostenibilidad
+
+| Métrica | Objetivo | Estado |
+|---------|----------|--------|
+| Emisiones CO₂ | -75% vs. 2005 | En diseño |
+| Emisiones NOₓ | -90% vs. CAEP/6 | En diseño |
+| Ruido | -20 dB | Validado CFD |
+| Reciclabilidad | >95% | En diseño |
+
+---
+
+## 6. PLAN DE DESARROLLO
+
+### 6.1 Fases del Programa
+
+```mermaid
+gantt
+    title Cronograma AMPEL360 BWB-Q100
+    dateFormat  YYYY-MM
+    section Fase Conceptual
+    Estudios Preliminares    :2025-01, 6M
+    Diseño Conceptual        :6M
+    section Fase Diseño
+    Diseño Preliminar        :2025-12, 12M
+    Diseño Detallado        :12M
+    section Prototipo
+    Manufactura             :2027-12, 18M
+    Ensamblaje             :6M
+    section Certificación
+    Pruebas Tierra          :2029-12, 6M
+    Pruebas Vuelo          :12M
+    Certificación          :6M
+    section Producción
+    Entrada Servicio        :2031-12, 1M
+```
+
+### 6.2 Hitos Principales
+
+1. **2025 Q2**: Congelación diseño conceptual
+2. **2026 Q4**: Critical Design Review (CDR)
+3. **2028 Q2**: Primer metal cortado
+4. **2029 Q4**: Roll-out primer prototipo
+5. **2030 Q2**: Primer vuelo
+6. **2031 Q4**: Certificación tipo (TC)
+7. **2032 Q1**: Entrada en servicio (EIS)
+
+---
+
+## 7. GESTIÓN DE RIESGOS
+
+### 7.1 Riesgos Técnicos Principales
+
+| ID | Riesgo | Impacto | Probabilidad | Mitigación |
+|----|--------|---------|--------------|------------|
+| RT-01 | Decoherencia QPU en vuelo | Alto | Media | Blindaje avanzado + QEC |
+| RT-02 | Certificación sistemas cuánticos | Alto | Alta | Engagement temprano autoridades |
+| RT-03 | Fatiga estructura BWB | Alto | Baja | Monitoreo cuántico continuo |
+| RT-04 | Integración propulsión híbrida | Medio | Media | Prototipado iterativo |
 
 ---
 
 ## 8. CONCLUSIONES
 
-El AMPEL360 BWB-Q100 no es simplemente una evolución de la aviación regional, sino una **revolución completa** que establece nuevos paradigmas en:
+El AMPEL360 BWB-Q100 representa más que una nueva aeronave; es la materialización de una visión transformadora para la aviación sostenible. Integrando tecnologías cuánticas, propulsión híbrida y diseño BWB en una arquitectura cohesiva, el Q100 establece nuevos paradigmas en:
 
-1. **Sostenibilidad**: Primera aeronave regional carbono-negativa
-2. **Eficiencia**: Redefinición economics aviación corto alcance
-3. **Tecnología**: Democratización computación cuántica en aviación
-4. **Experiencia**: Transformación viaje regional en experiencia premium
-5. **Futuro**: Plataforma para siguiente generación movilidad aérea
+- **Eficiencia**: Consumo 50% menor que aeronaves actuales
+- **Sostenibilidad**: Verdadero impacto cero alcanzable
+- **Innovación**: Primera aplicación comercial de QPU aeronáutico
+- **Experiencia**: Redefinición del viaje aéreo regional
 
-La convergencia de arquitectura BWB, sistemas cuánticos e inteligencia artificial consciente en el segmento regional representa una **oportunidad única** para liderar la transformación de la industria aeronáutica desde un nicho tradicionalmente conservador.
+El éxito del Q100 abrirá el camino para toda la familia AMPEL360, desde el Q50 ultra-regional hasta el Q300 de largo alcance, estableciendo GAIA QAO ADVENT como el nuevo estándar de la industria aeroespacial sostenible.
 
 ---
 
-## 9. REFERENCIAS Y DOCUMENTOS RELACIONADOS
+## 9. REFERENCIAS
 
-- ALI-DP-000-CON-002_CONOPS_BWB_Quantum.md
-- ALI-DP-000-CON-003_Estudio_Viabilidad_Tecnica.md
-- ALI-DP-090-CON-001_BWB_Aerodynamics.md
-- BOB-DT-000-CON-001_Modelo_Conceptual_BWB.dtm
-- BOB-DA-000-CON-001_Asistente_Conceptualizacion.py
+1. GAIA QAO ADVENT Framework Document v2.0.0
+2. S1000D Issue 5.0 - International specification for technical publications
+3. ATA 100 - Manufacturers Technical Data
+4. DO-178C - Software Considerations in Airborne Systems
+5. CS-25 Amendment 27 - Certification Specifications for Large Aeroplanes
+6. NASA CR-2019-220434 - Blended Wing Body Design Studies
+
+---
+
+## 10. CONTROL DE DOCUMENTO
+
+| Versión | Fecha | Autor | Cambios |
+|---------|-------|-------|---------|
+| 1.0.0 | 2025-01-20 | A. Pelliccia | Emisión inicial |
+
+### Firmas de Aprobación
+
+| Rol | Nombre | Firma | Fecha |
+|-----|--------|-------|-------|
+| Chief Engineer | | | |
+| Program Manager | | | |
+| Airworthiness | | | |
 
 ---
 
 **FIN DEL DOCUMENTO**
 
-*Este documento es propiedad de GAIA-QAO ADVENT y contiene información confidencial protegida por acuerdos de no divulgación.*
+*Este documento es propiedad de GAIA QAO ADVENT y contiene información confidencial y propietaria. Su distribución está limitada al personal autorizado del programa AMPEL360.*
+
