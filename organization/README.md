@@ -1,1074 +1,676 @@
-# GAIA-QAO ADVENT: Documento Organizacional Maestro
-## Marco de Referencia para la Gestión Aeroespacial Cuántica
+# GAIA-QAO ADVENT: Documento Organizacional Maestro 
+## Marco Estratégico para el Liderazgo Aeroespacial Sostenible Europeo
 
-**Identificador del Documento:** GAIA-QAO-ORG-MASTER-001  
-**Versión:** 1.0.0  
-**Fecha:** 23 de julio de 2025  
-**Clasificación:** Documento Organizacional Estratégico  
-**Autor:** A. Pelliccia, Ingeniero Aeroespacial  
-**Estado:** Documento Maestro Definitivo  
-
----
+**Identificador del Documento:** GAIA-QAO-ORG-MASTER-001
+**Versión:** 2.0.0
+**Fecha:** 23 de julio de 2025
+**Clasificación:** Confidencial del Consorcio - Para Aprobación de Stakeholders
+**Autor:** Oficina del CEO / Comité Estratégico GAIA-QAO
+**Estado:** Borrador Maestro Revisado
 
 ## ÍNDICE EJECUTIVO
 
-1. [Declaración de Propósito](#1-declaración-de-propósito)
-2. [Estructura Organizacional](#2-estructura-organizacional)
-3. [Sistema de Gobernanza](#3-sistema-de-gobernanza)
-4. [Divisiones Técnicas (Q-Divisions)](#4-divisiones-técnicas-q-divisions)
-5. [Funciones Empresariales (ORB-Functions)](#5-funciones-empresariales-orb-functions)
-6. [Modelo Operativo Integrado](#6-modelo-operativo-integrado)
-7. [Gestión del Talento](#7-gestión-del-talento)
-8. [Sistema de Gestión de Calidad](#8-sistema-de-gestión-de-calidad)
-9. [Marco de Cumplimiento](#9-marco-de-cumplimiento)
-10. [Indicadores Clave de Rendimiento](#10-indicadores-clave-de-rendimiento)
-11. [Cronograma Maestro Realista](#11-cronograma-maestro-realista)
-12. [Gestión Financiera y Presupuestaria](#12-gestión-financiera-y-presupuestaria)
-13. [Gestión de Riesgos Organizacionales](#13-gestión-de-riesgos-organizacionales)
-14. [Plan de Comunicaciones](#14-plan-de-comunicaciones)
-15. [Hoja de Ruta de Implementación](#15-hoja-de-ruta-de-implementación)
+*   Declaración de Propósito
+*   Estrategia de Desarrollo por Fases
+*   Estructura Organizacional del Consorcio
+*   Sistema de Gobernanza
+*   Divisiones Técnicas (Q-Divisions)
+*   Funciones Empresariales (ORB-Functions)
+*   Modelo Operativo Integrado
+*   Gestión del Talento y Competencias
+*   Sistema de Gestión de Calidad y Seguridad
+*   Marco de Cumplimiento Regulatorio
+*   Indicadores Clave de Rendimiento (KPIs)
+*   Cronograma Maestro Realista
+*   Gestión Financiera y Presupuestaria
+*   Gestión de Riesgos Estratégicos
+*   Plan de Comunicaciones Estratégicas
+*   Hoja de Ruta de Implementación
 
-### ANEXOS
-- [Anexo A: Organigrama Detallado](#anexo-a-organigrama-detallado)
-- [Anexo B: Matriz de Competencias por División](#anexo-b-matriz-de-competencias-por-división)
-- [Anexo C: Políticas y Procedimientos Clave](#anexo-c-políticas-y-procedimientos-clave)
-- [Anexo D: Sistema de Documentación Técnica](#anexo-d-sistema-de-documentación-técnica)
-- [Anexo E: Glosario de Términos](#anexo-e-glosario-de-términos)
-- [Anexo F: LISTA COMPLETA DE TEMPLATES DE DOCUMENTACIÓN TÉCNICA](#anexo-f-LISTA-COMPLETA-TEMPLATES-DOCUMENTACIÓN-TÉCNICA)
+## ANEXOS
 
----
-
-## 1. DECLARACIÓN DE PROPÓSITO
-
-### 1.1 Misión
-La **Global Quantum Aerospace Organization Advent (GAIA-QAO)** existe para revolucionar la industria aeroespacial mediante la integración pionera de tecnologías cuánticas, inteligencia artificial avanzada y principios de sostenibilidad radical en el diseño, desarrollo y operación de aeronaves de próxima generación.
-
-### 1.2 Visión
-Ser reconocidos globalmente como la organización líder en innovación aeroespacial cuántica, estableciendo nuevos estándares de excelencia técnica, responsabilidad ambiental y seguridad operacional para la aviación del siglo XXI y más allá.
-
-### 1.3 Valores Fundamentales
-- **Innovación Responsable**: Tecnología al servicio de la humanidad
-- **Excelencia Técnica**: Compromiso con la más alta calidad
-- **Sostenibilidad Radical**: Más allá del impacto cero
-- **Integridad Absoluta**: Transparencia en todas las operaciones
-- **Colaboración Global**: Sinergia entre culturas y disciplinas
-
-### 1.4 Objetivos Estratégicos 2025-2040
-1. Lograr el primer vuelo del prototipo BWB a escala real (2032)
-2. Certificar la primera aeronave comercial con sistemas cuánticos (2037)
-3. Alcanzar neutralidad de carbono en operaciones (2028)
-4. Establecer el estándar industrial para documentación digital
-5. Crear 2,000+ empleos de alta tecnología globalmente
-6. Generar IP valorada en €500M+ para 2035
+*   Anexo A: Organigrama Detallado del Consorcio
+*   Anexo B: Matriz de Competencias por División
+*   Anexo C: Políticas y Procedimientos Clave
+*   Anexo D: Arquitectura de Documentación Técnica (S1000D)
+*   Anexo E: Glosario de Términos
+*   Anexo F: Catálogo Maestro de Plantillas de Documentación
 
 ---
 
-## 2. ESTRUCTURA ORGANIZACIONAL
-
-### 2.1 Modelo Organizacional Dual
-GAIA-QAO implementa una estructura matricial dual única que equilibra la profundidad técnica con la agilidad empresarial:
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                    CONSEJO DIRECTIVO                     │
-│               9 Miembros (3-3-3 Structure)               │
-└─────────────────────┬───────────────────────────────────┘
-                      │
-┌─────────────────────┴───────────────────────────────────┐
-│                  COMITÉ EJECUTIVO                        │
-│     CEO | CTO | CFO | COO | CHRO | CCO | CLO | CSO     │
-└─────────────────────┬───────────────────────────────────┘
-                      │
-        ┌─────────────┴─────────────┐
-        │                           │
-┌───────┴────────┐         ┌───────┴────────┐
-│  Q-DIVISIONS   │         │ ORB-FUNCTIONS  │
-│  10 Divisiones │         │  6 Funciones   │
-│   Técnicas     │         │ Empresariales  │
-└────────────────┘         └────────────────┘
-```
-
-### 2.2 Principios Organizacionales
-1. **Autonomía con Alineación**: Independencia operativa dentro del marco estratégico
-2. **Colaboración Matricial**: Interfaces definidas y reuniones cross-funcionales
-3. **Transparencia Radical**: Información en tiempo real entre unidades
-4. **Mejora Continua**: Retroalimentación incorporada en todos los procesos
-5. **Orientación al Valor**: Decisiones basadas en impacto al cliente
-
-### 2.3 Presencia Global
-
-| Ubicación | Función | Personal | Instalaciones | Inversión |
-|-----------|---------|----------|---------------|-----------|
-| **Madrid (HQ)** | Sede Central | 400 | 15,000 m² oficinas + labs | €50M |
-| **Toulouse** | Centro Técnico | 350 | 20,000 m² + hangar | €80M |
-| **Seattle** | Hub América | 200 | 10,000 m² + simuladores | €40M |
-| **Singapur** | Hub Asia | 150 | 8,000 m² | €30M |
-| **Múnich** | I+D Cuántico | 100 | 5,000 m² labs especiales | €35M |
-
----
-
-## 3. SISTEMA DE GOBERNANZA
-
-### 3.1 Consejo Directivo
-
-#### Composición (9 miembros)
-- **3 Directores Independientes**: Expertos industria sin conflictos
-- **3 Representantes Inversores**: Principales accionistas
-- **3 Ejecutivos**: CEO, CTO, CFO
-
-#### Responsabilidades
-- Estrategia corporativa y visión a largo plazo
-- Supervisión de riesgos mayores
-- Aprobación de presupuestos >€50M
-- Nombramientos ejecutivos clave
-- Cumplimiento regulatorio y ético
-
-### 3.2 Comités del Consejo
-
-| Comité | Presidente | Miembros | Frecuencia | Enfoque |
-|--------|------------|----------|------------|---------|
-| **Auditoría y Riesgos** | Director Independiente | 3 | Trimestral | Control financiero, riesgos |
-| **Innovación y Tecnología** | CTO | 4 | Mensual | Estrategia I+D, IP |
-| **Sostenibilidad y ESG** | Director Independiente | 3 | Trimestral | Impacto ambiental, RSC |
-| **Compensación y Talento** | CHRO | 3 | Trimestral | Remuneración, sucesión |
-| **Seguridad y Calidad** | COO | 4 | Mensual | Seguridad operacional |
-
-### 3.3 Matriz de Autoridad
-
-| Nivel Decisión | Tipo | Autoridad | Límite € | Tiempo |
-|----------------|------|-----------|----------|--------|
-| **Estratégico** | Dirección empresa | Consejo | >€50M | 30-60 días |
-| **Táctico** | Programas mayores | Comité Ejecutivo | €10-50M | 7-14 días |
-| **Operacional** | Gestión divisiones | Directores | €1-10M | 48-72 horas |
-| **Técnico** | Decisiones diseño | Leads | <€1M | 24 horas |
-| **Rutinario** | Operaciones diarias | Managers | <€100K | Inmediato |
-
----
-
-## 4. DIVISIONES TÉCNICAS (Q-DIVISIONS)
-
-### 4.1 Q-DATAGOV: Gobernanza de Datos y Estándares
-**Director**: Chief Data Officer  
-**Personal**: 45 especialistas  
-**Presupuesto Anual**: €12M  
-
-**Misión**: Establecer la arquitectura de información y estándares de documentación líderes en la industria
-
-**Responsabilidades Principales**:
-- Implementación completa S1000D Issue 5.0
-- Gestión configuración con blockchain
-- Ciberseguridad post-cuántica
-- Publicaciones técnicas digitales (IETP)
-- API ecosystem management
-
-**KPIs Objetivo 2025**:
-- Precisión documentación: 99.9%
-- Tiempo actualización: <24 horas
-- Disponibilidad sistemas: 99.95%
-- Adopción digital: 100%
-
-### 4.2 Q-STRUCTURES: Ingeniería Estructural
-**Director**: Chief Structural Engineer  
-**Personal**: 85 ingenieros  
-**Presupuesto Anual**: €28M  
-
-**Misión**: Diseñar y certificar las estructuras aeronáuticas más avanzadas y eficientes
-
-**Responsabilidades Principales**:
-- Diseño estructural BWB optimizado
-- Materiales compuestos avanzados (>70%)
-- Análisis FEA/CFD multifísica
-- Certificación CS-25.603
-- Monitoreo salud estructural cuántico
-
-**KPIs Objetivo 2025**:
-- Reducción peso: -25% vs. tubular
-- Vida fatiga: 90,000 ciclos
-- Detección daños: 0.1mm precisión
-
-### 4.3 Q-AIR: Aerodinámica y Sistemas de Vuelo
-**Director**: Chief Aerodynamicist  
-**Personal**: 65 especialistas  
-**Presupuesto Anual**: €22M  
-
-**Misión**: Maximizar eficiencia aerodinámica y seguridad de vuelo
-
-**Responsabilidades Principales**:
-- Optimización BWB (L/D >30)
-- Control de vuelo fly-by-wire cuántico
-- Certificación CS-25/FAR-25
-- Simulación y pruebas de vuelo
-- Manuales de vuelo (AFM/FCOM)
-
-**KPIs Objetivo 2025**:
-- Eficiencia crucero: Mach 0.85
-- Reducción drag: -40%
-- Envelope protección: 100%
-
-### 4.4 Q-GREENTECH: Sostenibilidad y Energía
-**Director**: Chief Sustainability Officer  
-**Personal**: 55 especialistas  
-**Presupuesto Anual**: €18M  
-
-**Misión**: Liderar la aviación hacia cero emisiones netas
-
-**Responsabilidades Principales**:
-- Propulsión híbrida-eléctrica
-- Integración hidrógeno verde
-- Gestión térmica avanzada
-- Economía circular completa
-- Certificación ISO 14040
-
-**KPIs Objetivo 2025**:
-- Reducción CO₂: -75%
-- Eficiencia energética: +45%
-- Reciclabilidad: >95%
-
-### 4.5 Q-INDUSTRY: Manufactura y Producción
-**Director**: VP Manufacturing  
-**Personal**: 120 técnicos  
-**Presupuesto Anual**: €35M  
-
-**Misión**: Implementar manufactura 4.0 con calidad aeroespacial
-
-**Responsabilidades Principales**:
-- Líneas producción automatizadas
-- Robótica colaborativa
-- Control calidad IA/cuántico
-- Certificación AS9100D
-- Gestión cadena suministro
-
-**KPIs Objetivo 2025**:
-- First Pass Yield: >98%
-- Tiempo ciclo: -50%
-- Defectos PPM: <50
-
-### 4.6 Q-HPC: Computación de Alto Rendimiento
-**Director**: Chief Technology Officer  
-**Personal**: 40 científicos  
-**Presupuesto Anual**: €25M  
-
-**Misión**: Integrar computación cuántica en sistemas aeronáuticos
-
-**Responsabilidades Principales**:
-- QPU embarcado (1000+ qubits)
-- Algoritmos QAOA optimización
-- Gemelos digitales conscientes
-- IA/ML certificable
-- Ciberseguridad cuántica
-
-**KPIs Objetivo 2025**:
-- Coherencia cuántica: >100μs
-- Optimización rutas: +30%
-- Predicción fallos: 95%
-
-### 4.7 Q-MECHANICS: Sistemas Mecánicos
-**Director**: Chief Mechanical Engineer  
-**Personal**: 75 ingenieros  
-**Presupuesto Anual**: €20M  
-
-**Misión**: Diseñar sistemas mecánicos ultra-confiables
-
-**Responsabilidades Principales**:
-- Sistemas hidráulicos 5000psi
-- Actuadores electromecánicos
-- Tren aterrizaje adaptativo
-- Gestión térmica criogénica
-- Integración propulsión
-
-**KPIs Objetivo 2025**:
-- MTBF sistemas: >100,000h
-- Reducción peso: -30%
-- Eficiencia: >95%
-
-### 4.8 Q-GROUND: Operaciones Terrestres
-**Director**: VP Ground Operations  
-**Personal**: 90 especialistas  
-**Presupuesto Anual**: €15M  
-
-**Misión**: Revolucionar operaciones terrestres con autonomía
-
-**Responsabilidades Principales**:
-- GSE autónomo eléctrico
-- Infraestructura carga rápida
-- Logística optimizada IA
-- Training realidad extendida
-- Procedimientos emergencia
-
-**KPIs Objetivo 2025**:
-- Turnaround time: 35 min
-- Automatización: 80%
-- Cero emisiones: 100%
-
-### 4.9 Q-SPACE: Comunicaciones y Navegación
-**Director**: Chief Communications Officer  
-**Personal**: 35 ingenieros  
-**Presupuesto Anual**: €16M  
-
-**Misión**: Implementar comunicaciones cuánticas seguras
-
-**Responsabilidades Principales**:
-- QKD comunicaciones seguras
-- Navegación cuántica inercial
-- Integración satelital LEO
-- Antenas phased array
-- Certificación DO-260B
-
-**KPIs Objetivo 2025**:
-- Seguridad cuántica: Grado 5
-- Precisión nav: <1m
-- Disponibilidad: 99.99%
-
-### 4.10 Q-SCIRES: Investigación Científica
-**Director**: Chief Research Officer  
-**Personal**: 30 investigadores  
-**Presupuesto Anual**: €14M  
-
-**Misión**: Explorar fronteras tecnológicas para aviación
-
-**Responsabilidades Principales**:
-- Investigación fundamental
-- Gestión propiedad intelectual
-- Colaboraciones universitarias
-- Publicaciones científicas
-- Transferencia tecnológica
-
-**KPIs Objetivo 2025**:
-- Patentes/año: 50+
-- Publicaciones: 100+
-- TRL advancement: 2 niveles/año
-
----
-
-## 5. FUNCIONES EMPRESARIALES (ORB-FUNCTIONS)
-
-### 5.1 ORB-FIN: Finanzas y Presupuesto
-**Director**: Chief Financial Officer  
-**Personal**: 25 analistas  
-**Presupuesto Operativo**: €8M  
-
-**Misión**: Gestionar recursos financieros con transparencia y eficiencia
-
-**Responsabilidades**:
-- Planificación financiera estratégica
-- Gestión de tesorería y capital
-- Control presupuestario
-- Análisis de inversiones
-- Reporting financiero
-
-**Sistemas Clave**:
-- SAP S/4HANA Finance
-- Hyperion Planning
-- Bloomberg Terminal
-- Power BI Analytics
-
-### 5.2 ORB-PMO: Gestión de Programas
-**Director**: VP Program Management  
-**Personal**: 35 gestores  
-**Presupuesto Operativo**: €10M  
-
-**Misión**: Asegurar ejecución exitosa de programas complejos
-
-**Responsabilidades**:
-- Planificación integral programas
-- Gestión de recursos
-- Control de cronogramas
-- Mitigación de riesgos
-- Coordinación stakeholders
-
-**Metodologías**:
-- PMI/PMBOK adaptado
-- Agile at Scale (SAFe)
-- Earned Value Management
-- Critical Chain Method
-
-### 5.3 ORB-HR: Recursos Humanos
-**Director**: Chief Human Resources Officer  
-**Personal**: 20 especialistas  
-**Presupuesto Operativo**: €6M  
-
-**Misión**: Atraer, desarrollar y retener el mejor talento global
-
-**Responsabilidades**:
-- Adquisición de talento especializado
-- Desarrollo y formación continua
-- Gestión del rendimiento
-- Compensación y beneficios
-- Cultura organizacional
-
-**Programas Clave**:
-- Academia Cuántica GAIA
-- Leadership Development
-- Mentoring Cross-Cultural
-- Innovation Awards
-
-### 5.4 ORB-MKTG: Marketing y Comunicaciones
-**Director**: Chief Marketing Officer  
-**Personal**: 18 profesionales  
-**Presupuesto Operativo**: €12M  
-
-**Misión**: Posicionar GAIA-QAO como líder en innovación aeroespacial
-
-**Responsabilidades**:
-- Estrategia de marca
-- Marketing B2B aeroespacial
-- Comunicación técnica
-- Eventos y ferias
-- Digital engagement
-
-**Canales Principales**:
-- Farnborough/Paris Air Show
-- LinkedIn (100K+ followers)
-- Technical Publications
-- Executive Briefings
-
-### 5.5 ORB-CSR: Responsabilidad Social Corporativa
-**Director**: VP Sustainability & CSR  
-**Personal**: 15 especialistas  
-**Presupuesto Operativo**: €5M  
-
-**Misión**: Integrar sostenibilidad en todas las operaciones
-
-**Responsabilidades**:
-- Estrategia ESG
-- Gestión ambiental
-- Impacto social
-- Ética empresarial
-- Reporting GRI/SASB
-
-**Iniciativas 2025**:
-- Carbon Negative 2030
-- STEM Education (500 becas)
-- Supplier Sustainability
-- Community Engagement
-
-### 5.6 ORB-LEG: Legal y Cumplimiento
-**Director**: General Counsel  
-**Personal**: 22 abogados  
-**Presupuesto Operativo**: €9M  
-
-**Misión**: Asegurar cumplimiento total y proteger intereses legales
-
-**Responsabilidades**:
-- Cumplimiento regulatorio
-- Contratos y acuerdos
-- Propiedad intelectual
-- Gestión de litigios
-- Compliance programs
-
-**Áreas Clave**:
-- ITAR/EAR compliance
-- GDPR/Data privacy
-- Anti-corruption
-- Export controls
-
----
-
-## 6. MODELO OPERATIVO INTEGRADO
-
-### 6.1 Principios de Integración
-
-1. **Interfaces Definidas**: Cada punto de interacción entre divisiones está documentado
-2. **Flujos de Información**: Datos en tiempo real entre sistemas
-3. **Decisiones Conjuntas**: Comités cross-funcionales para decisiones críticas
-4. **Métricas Compartidas**: KPIs que incentivan colaboración
-5. **Recursos Flexibles**: Movilidad de talento entre divisiones
-
-### 6.2 Matriz de Interacción Organizacional
-
-```
-        Q-DIV →  DAT STR AIR GRN IND HPC MEC GRD SPC SCI
-ORB ↓           
-FIN              ■   ■   ■   ■   ■   ■   ■   ■   ■   ■
-PMO              ■   ■   ■   ■   ■   ■   ■   ■   ■   ■
-HR               ■   ■   ■   ■   ■   ■   ■   ■   ■   ■
-MKTG             □   □   ■   ■   □   ■   □   □   ■   ■
-CSR              □   □   □   ■   ■   □   □   ■   □   ■
-LEG              ■   ■   ■   ■   ■   ■   ■   ■   ■   ■
-
-■ = Interacción Alta (Daily)
-□ = Interacción Media (Weekly)
+# 1. DECLARACIÓN DE PROPÓSITO
+
+## 1.1 Misión
+
+La **Global Aerospace Innovation Alliance (GAIA-QAO)** es un consorcio estratégico europeo público-privado creado para asegurar el liderazgo tecnológico del continente en la aviación sostenible. Nuestra **misión** es desarrollar y certificar una nueva generación de aeronaves comerciales que establezcan el estándar global en eficiencia, seguridad y responsabilidad ambiental, utilizando un enfoque por fases que integre progresivamente tecnologías disruptivas. Esta misión no solo busca un avance tecnológico, sino también la revitalización y consolidación de la base industrial aeroespacial europea, asegurando su competitividad a largo plazo.
+
+## 1.2 Visión
+
+Ser la fuerza motriz de la aviación de **cero emisiones netas**, garantizando la soberanía tecnológica europea y creando un ecosistema industrial resiliente y de alto valor para el siglo XXI. Aspiramos a un futuro donde el transporte aéreo sea un motor de conexión global sin comprometer la salud del planeta, y donde Europa sea el epicentro de esta transformación, dictando los estándares tecnológicos y medioambientales a seguir.
+
+## 1.3 Valores Fundamentales
+
+*   **Ambición Realista:** Perseguir metas audaces con una planificación pragmática y rigurosa. Cada objetivo disruptivo se sustenta en una hoja de ruta incremental y una gestión de riesgos proactiva.
+*   **Colaboración Estratégica:** Sinergia entre naciones, industria y academia como pilar del éxito. Fomentamos un entorno de confianza donde la propiedad intelectual se protege y el conocimiento se comparte para el beneficio mutuo.
+*   **Sostenibilidad Integral:** Diseñar para el ciclo de vida completo, desde la producción hasta el reciclaje. Nuestro compromiso va más allá de las emisiones en vuelo, abarcando la circularidad de los materiales y la sostenibilidad de nuestra cadena de suministro.
+*   **Excelencia en Ingeniería:** Compromiso inquebrantable con la seguridad y la calidad. La seguridad no es una prioridad, es un prerrequisito fundamental que impregna cada decisión, diseño y proceso.
+*   **Integridad y Transparencia:** Responsabilidad total ante nuestros socios y la sociedad. Operamos con libros abiertos frente a nuestros stakeholders, comunicando tanto nuestros éxitos como nuestros desafíos con honestidad.
+
+## 1.4 Objetivos Estratégicos Revisados (2025-2045)
+
+1.  **Programa Generación 1 (GAIA-350e):** Lograr la Entrada en Servicio (EIS) de una aeronave de pasillo único y propulsión híbrida-eléctrica para 2038.
+    *   **Métrica Clave:** Obtener la Certificación de Tipo de EASA y FAA simultáneamente, demostrando una reducción del 50% en el consumo de combustible por asiento-kilómetro frente a la generación de 2020.
+2.  **Programa Generación 2 (GAIA-BWB-H2):** Validar las tecnologías clave (TRL 6) para una aeronave Blended Wing Body (BWB) de hidrógeno para 2040.
+    *   **Desafío Principal:** Superar los retos de almacenamiento criogénico a bordo y la gestión del "boil-off" del hidrógeno en un demostrador a escala.
+3.  **Liderazgo Cuántico:** Aplicar la computación cuántica para optimizar el diseño y las operaciones, e integrar sensores cuánticos no críticos para 2035.
+    *   **Aplicación Inicial:** Utilizar algoritmos cuánticos de optimización para el diseño de perfiles aerodinámicos y la planificación de rutas de vuelo, logrando una mejora del 5% sobre los métodos clásicos.
+4.  **Sostenibilidad Operativa:** Alcanzar la neutralidad de carbono en todas las operaciones terrestres y de manufactura (Scope 1 y 2) para 2030.
+    *   **Acción Clave:** Alimentar todas las plantas de ensamblaje y centros de I+D con un 100% de energía renovable certificada y electrificar el 90% de la flota de vehículos terrestres.
+5.  **Impacto Socioeconómico:** Crear más de 5,000 empleos directos de alta tecnología y un ecosistema de proveedores valorado en más de €10 mil millones para 2040.
+    *   **Métrica de Éxito:** Lograr que al menos el 60% de los proveedores de Nivel 1 sean empresas con sede en la Unión Europea, fortaleciendo la cadena de valor local.
+6.  **Propiedad Intelectual:** Generar una cartera de patentes estratégicas valorada en más de €2 mil millones para 2040.
+    *   **Foco Estratégico:** Priorizar patentes en áreas de arquitectura de sistemas híbridos, gestión de energía de alta tensión y sistemas de almacenamiento de hidrógeno.
+
+# 2. ESTRATEGIA DE DESARROLLO POR FASES
+
+Para mitigar el riesgo y asegurar un camino viable hacia el mercado, GAIA-QAO adopta una estrategia de dos generaciones de productos. Este enfoque escalonado permite que el aprendizaje, la madurez de la cadena de suministro y los ingresos generados por la primera aeronave financien y reduzcan el riesgo de la segunda, que es tecnológicamente más ambiciosa.
+
+## 2.1 Generación 1: GAIA-350e (Aeronave Híbrida-Eléctrica)
+
+*   **Concepto:** Aeronave de pasillo único (180-220 asientos) con una configuración de ala y tubo optimizada. Se enfoca en el mercado de rutas de corto y medio alcance de alta frecuencia, donde el impacto de la eficiencia de combustible es mayor.
+*   **Innovación Clave:** Un sistema de propulsión híbrido-eléctrico paralelo avanzado, donde motores eléctricos asisten a las turbinas de gas de última generación durante las fases de despegue y ascenso. Esto no solo reduce drásticamente el consumo de combustible (40-50%), sino que también disminuye la huella sonora en los aeropuertos hasta en un 75%. El uso extensivo de materiales compuestos de última generación y un diseño de ala de alta relación de aspecto son cruciales para maximizar la eficiencia.
+*   **Desafío Técnico Principal:** La gestión de la energía y la disipación térmica de un sistema eléctrico de megavatios de potencia, así como la certificación de baterías de alta densidad energética bajo las estrictas normas de seguridad de la aviación.
+*   **Objetivo:** Capturar una cuota significativa del mercado de reemplazo del A320/B737, estableciendo a GAIA-QAO como un nuevo fabricante principal (OEM) y generando un flujo de caja positivo a partir de 2043 para cofinanciar la siguiente fase.
+*   **Plazo:** EIS 2038.
+
+## 2.2 Generación 2: GAIA-BWB-H2 (Aeronave de Hidrógeno)
+
+*   **Concepto:** Aeronave de fuselaje integrado (Blended Wing Body - BWB) de largo alcance (300+ asientos), diseñada desde cero para la propulsión con hidrógeno. La arquitectura BWB se elige por su excepcional eficiencia aerodinámica (L/D > 35) y su gran volumen interno, ideal para alojar los voluminosos tanques de hidrógeno líquido (LH2) de forma segura y eficiente.
+*   **Innovación Clave:** Propulsión por combustión directa de hidrógeno líquido (LH2) en turbinas de gas modificadas, logrando una aviación de virtualmente cero emisiones de carbono. El desarrollo de tanques criogénicos conformados, superligeros y con aislamiento avanzado para minimizar el "boil-off" es un pilar tecnológico fundamental.
+*   **Desafío Técnico Principal:** Además del almacenamiento de LH2, la integración de los sistemas de propulsión en la estructura BWB, el control de vuelo de una aeronave sin empenaje de cola convencional y el desarrollo de la infraestructura aeroportuaria necesaria para el reabastecimiento de hidrógeno.
+*   **Objetivo:** Posicionar a Europa como el líder indiscutible de la aviación de cero emisiones en el segmento de largo alcance post-2045. Este programa no solo busca un producto, sino definir el estándar técnico para la aviación del futuro.
+*   **Plazo:** Demostrador a escala volando para 2039, con un objetivo de EIS post-2045.
+
+# 3. ESTRUCTURA ORGANIZACIONAL DEL CONSORCIO
+
+GAIA-QAO se organiza como un consorcio con una entidad de gestión centralizada, implementando un modelo matricial que equilibra la ejecución de programas (agilidad y enfoque en el producto) con la excelencia funcional (profundidad técnica y reutilización de competencias). Esta estructura está diseñada para maximizar la colaboración entre socios industriales y académicos de diferentes países.
+
+```mermaid
+graph TD
+    A["<b>CONSEJO SUPERVISOR DEL CONSORCIO</b><br>(Representantes de Estados Miembro y Socios Industriales)"] --> B["<b>COMITÉ EJECUTIVO</b><br>(CEO, CTO, CFO, COO, etc.)"];
+    B --> C["<b>GESTIÓN DE PROGRAMAS</b><br>- Programa GAIA-350e<br>- Programa GAIA-BWB-H2<br>- Programa Q-Horizon"];
+    B --> D["<b>CENTROS DE EXCELENCIA</b><br>(Q-Divisions y ORB-Functions)"];
+    D -- Provee Recursos y Expertise --> C;
 ```
 
-### 6.3 Procesos Core Integrados
+**Presencia Global y Justificación Estratégica**
 
-#### Proceso de Innovación (Q-SCIRES → Q-HPC → Q-STRUCTURES → Q-AIR)
-1. Investigación fundamental
-2. Desarrollo algoritmos
-3. Integración estructural
-4. Validación aerodinámica
-5. Certificación
+| Ubicación   | Función Principal                     | Personal (Fase 1) | Justificación Estratégica                                                                                                | Inversión (2025-2030) |
+| :---------- | :------------------------------------ | :----------------- | :----------------------------------------------------------------------------------------------------------------------- | :-------------------- |
+| Madrid (HQ) | Sede Central, Finanzas, Legal         | 500                | Ubicación central, acceso a talento financiero y legal, entorno empresarial competitivo.                                  | €150M                 |
+| Toulouse    | Integración Final, Pruebas Vuelo      | 1200               | Ecosistema aeroespacial líder en Europa, con infraestructura de pruebas y talento experimentado.                         | €400M                 |
+| Hamburgo    | Diseño Fuselaje, Cabina               | 800                | Centro de excelencia histórico en diseño de cabinas y fuselajes, con una fuerte base industrial.                         | €300M                 |
+| Múnich      | I+D Cuántico, Propulsión              | 400                | Proximidad a centros de investigación de vanguardia en propulsión y física cuántica.                                     | €250M                 |
+| Sevilla     | Manufactura Composites                | 600                | Centro especializado en la producción de aeroestructuras de materiales compuestos a gran escala.                       | €350M                 |
 
-#### Proceso de Sostenibilidad (ORB-CSR → Q-GREENTECH → Q-INDUSTRY)
-1. Objetivos ESG
-2. Tecnologías verdes
-3. Implementación producción
-4. Medición impacto
-5. Reporting
+# 4. SISTEMA DE GOBERNANZA
 
-### 6.4 Sistemas de Información Integrados
+## 4.1 Consejo Supervisor del Consorcio
 
-| Sistema | Función | Usuarios | Integración |
-|---------|---------|----------|-------------|
-| **GAIA-PLM** | Gestión ciclo vida producto | Todas Q-Divisions | CAD/CAE/ERP |
-| **Quantum-ERP** | Planificación recursos | ORB + Q-INDUSTRY | Finance/HR/SCM |
-| **ALICE-Platform** | Gemelo digital | Q-HPC + Q-AIR | IoT/Analytics |
-| **Blockchain-Trace** | Trazabilidad | Q-DATAGOV + Legal | Suppliers/Customers |
+El Consejo Supervisor es el máximo órgano de gobierno, garantizando que la dirección estratégica del consorcio se alinee con los intereses de sus socios fundadores.
 
----
+**Composición (15 miembros):**
 
-## 7. GESTIÓN DEL TALENTO
+1.  **5 Representantes de Estados Miembro Fundadores:** Su rol es asegurar que el programa cumple los objetivos de soberanía tecnológica, impacto económico y liderazgo europeo. Supervisan el uso de fondos públicos.
+2.  **5 Representantes de Socios Industriales Estratégicos:** Aportan la visión del mercado, la experiencia técnica y la capacidad de producción. Garantizan que las decisiones sean industrialmente viables.
+3.  **3 Directores Independientes:** Aportan una perspectiva externa e imparcial, con experiencia en áreas como finanzas globales, gestión de mega-proyectos o regulación internacional.
+4.  **2 Representantes Ejecutivos (CEO, CTO):** Proporcionan al Consejo la visión directa de la gestión diaria y el estado de los programas.
 
-### 7.1 Filosofía de Talento
-"Atraer mentes brillantes, desarrollar líderes cuánticos, retener mediante propósito"
+**Responsabilidades:**
 
-### 7.2 Estructura de Competencias
+*   Aprobación de la estrategia a largo plazo y del plan de negocio.
+*   Supervisión de la ejecución de los programas y del presupuesto general (>€200M).
+*   Nombramiento y evaluación del Comité Ejecutivo.
+*   Gestión de la adhesión de nuevos socios al consorcio.
+*   Garantizar el alineamiento con los objetivos estratégicos europeos.
 
-#### Competencias Core (Todas las posiciones)
-1. **Pensamiento Sistémico**: Comprensión holística
-2. **Innovación**: Creatividad aplicada
-3. **Colaboración**: Trabajo en equipo global
-4. **Integridad**: Ética inquebrantable
-5. **Agilidad**: Adaptación al cambio
+## 4.2 Comités del Consejo
 
-#### Competencias Técnicas (Por división)
-- Ver Anexo B: Matriz detallada por Q-Division
+Para agilizar la toma de decisiones, el Consejo delega la supervisión de áreas específicas en comités especializados.
 
-### 7.3 Programas de Desarrollo
+| Comité                | Presidente            | Miembros | Frecuencia   | Enfoque Detallado                                                                                                                                                                                                        |
+| :-------------------- | :-------------------- | :------- | :----------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Auditoría y Riesgos   | Director Independiente | 4        | Trimestral   | Supervisa la integridad de los estados financieros, la eficacia de los controles internos y el marco de gestión de riesgos estratégicos. Revisa las auditorías externas.                                                      |
+| Tecnología y Programas | CTO                   | 5        | Mensual      | Revisa el progreso de los programas frente a los hitos clave (PDR, CDR). Evalúa las decisiones técnicas críticas y la hoja de ruta de I+D. Aprueba la entrada en nuevas fases tecnológicas.                                |
+| Sostenibilidad y ESG  | Director Independiente | 4        | Trimestral   | Monitorea el cumplimiento de los objetivos de sostenibilidad (emisiones, circularidad). Supervisa el impacto social del consorcio y la publicación del informe anual de ESG.                                           |
+| Nombramientos y Talento | Representante Industrial | 3        | Trimestral   | Lidera el proceso de búsqueda y selección de altos ejecutivos. Supervisa los planes de sucesión y las políticas de compensación del C-Level.                                                                      |
 
-| Programa | Audiencia | Duración | Inversión/persona |
-|----------|-----------|----------|-------------------|
-| **Quantum Leadership** | Ejecutivos | 12 meses | €50,000 |
-| **Technical Excellence** | Ingenieros | 6 meses | €25,000 |
-| **Project Management** | PM/Leads | 3 meses | €15,000 |
-| **Digital Transformation** | Todos | 1 mes | €5,000 |
+## 4.3 Matriz de Autoridad
 
-### 7.4 Métricas de Talento
+Define claramente quién tiene el poder de decisión en cada nivel para evitar la burocracia y agilizar la ejecución.
 
-- **Retención talento clave**: >90%
-- **Engagement score**: >4.5/5
-- **Promociones internas**: >70%
-- **Diversidad género**: 40/60
-- **Nacionalidades**: >30
+| Nivel       | Decisión                                             | Autoridad         | Límite €     | Tiempo       |
+| :---------- | :--------------------------------------------------- | :---------------- | :----------- | :----------- |
+| Estratégico | Dirección del Consorcio, lanzamiento de nuevos programas. | Consejo Supervisor | >€200M       | 30-60 días   |
+| Programa    | Hitos clave (gates), cambios mayores en el baseline. | Comité Ejecutivo  | €20-200M     | 7-14 días    |
+| Operacional | Gestión de divisiones, asignación de recursos a WPs. | Directores Q/ORB  | €2-20M       | 48-72 horas  |
+| Técnico     | Decisiones de diseño, selección de componentes.      | Jefes de Equipo / Ingenieros Jefe | <€2M         | 24 horas     |
 
----
+# 5. DIVISIONES TÉCNICAS (Q-DIVISIONS)
 
-## 8. SISTEMA DE GESTIÓN DE CALIDAD
+Las Q-Divisions son los centros de excelencia técnica que proveen de talento y soluciones a los diferentes programas.
 
-### 8.1 Framework de Calidad Integrado
+## Q-DATAGOV: Gobernanza de Datos y Arquitectura Digital
 
-```
-┌─────────────────────────────────────┐
-│      ISO 9001:2015 (Base)          │
-├─────────────────────────────────────┤
-│      AS9100D (Aeroespacial)        │
-├─────────────────────────────────────┤
-│    DO-178C/DO-254 (Software/HW)    │
-├─────────────────────────────────────┤
-│   GAIA-QAO Quantum Standards       │
-└─────────────────────────────────────┘
-```
+*   **Misión:** Construir y mantener el gemelo digital de la empresa y sus productos, implementando S1000D y asegurando la integridad de los datos con ciberseguridad avanzada.
+*   **Responsabilidades Clave:** Definir la arquitectura de datos común para el consorcio; gestionar la plataforma PLM; implementar la ciberseguridad post-cuántica.
 
-### 8.2 Procesos de Calidad
+## Q-STRUCTURES: Ingeniería Estructural y Materiales
 
-#### Design Assurance
-- Design reviews (SRR, PDR, CDR, TRR, FCA)
-- FMEA/FMECA análisis
-- Reliability predictions
-- Safety assessments
+*   **Misión:** Diseñar y certificar estructuras de composites ligeras y duraderas para el GAIA-350e, e investigar materiales criogénicos para el GAIA-BWB-H2.
+*   **Responsabilidades Clave:** Análisis estático y de fatiga; desarrollo de uniones entre composites y metales; ensayos de materiales a escala.
 
-#### Production Quality
-- First Article Inspection
-- Statistical Process Control
-- Automated Optical Inspection
-- Quantum sensor validation
+## Q-AIR: Aerodinámica y Sistemas de Vuelo
 
-### 8.3 Métricas de Calidad
+*   **Misión:** Optimizar la aerodinámica del GAIA-350e. Desarrollar y certificar sus sistemas de control de vuelo fly-by-wire y manuales de vuelo (AFM/FCOM).
+*   **Responsabilidades Clave:** Simulaciones CFD; pruebas en túnel de viento; desarrollo de las leyes de control de vuelo (control laws).
 
-| Métrica | 2025 Target | 2030 Target | Clase Mundial |
-|---------|-------------|-------------|---------------|
-| **First Pass Yield** | 95% | 98% | 99% |
-| **Defects PPM** | 100 | 50 | 10 |
-| **On-Time Delivery** | 90% | 95% | 98% |
-| **Customer Satisfaction** | 4.3/5 | 4.6/5 | 4.8/5 |
+## Q-GREENTECH: Propulsión Sostenible y Energía
 
----
+*   **Misión:** Liderar el desarrollo y certificación del sistema de propulsión híbrido-eléctrico para el GAIA-350e. Investigar y madurar la tecnología de propulsión por hidrógeno para la Generación 2.
+*   **Responsabilidades Clave:** Integración del sistema de propulsión; diseño del sistema de baterías y gestión térmica; pruebas de la unidad de potencia.
 
-## 9. MARCO DE CUMPLIMIENTO
+## Q-INDUSTRY: Manufactura Avanzada y Cadena de Suministro
 
-### 9.1 Estructura de Cumplimiento
+*   **Misión:** Establecer una red de producción 4.0, automatizada y flexible (AS9100D), gestionando una cadena de suministro europea resiliente.
+*   **Responsabilidades Clave:** Diseño de las líneas de ensamblaje final (FAL); calificación de proveedores (Tier 1/2); implementación de robótica colaborativa.
 
-#### Nivel 1: Cumplimiento Regulatorio
-- **Aviación**: EASA Part 21/145, FAA, TCCA
-- **Exportación**: ITAR, EAR, Wassenaar
-- **Calidad**: AS9100D, ISO 9001
-- **Ambiental**: ISO 14001, REACH
-- **Seguridad**: ISO 27001, CMMC
+## Q-HPC: Computación de Alto Rendimiento y IA
 
-#### Nivel 2: Cumplimiento Corporativo
-- Código de Conducta
-- Políticas Anti-Corrupción
-- Conflictos de Interés
-- Protección de Datos
+*   **Misión:** Proveer la capacidad computacional para simulaciones complejas (CFD/FEA). Desarrollar algoritmos de IA certificables para la optimización de vuelo y el mantenimiento predictivo.
+*   **Responsabilidades Clave:** Gestión del supercomputador del consorcio; desarrollo del gemelo digital de rendimiento; creación de modelos de mantenimiento predictivo.
 
-#### Nivel 3: Cumplimiento Operacional
-- Procedimientos SOPs
-- Work Instructions
-- Auditorías Internas
-- Acciones Correctivas
+## Q-MECHANICS: Sistemas Mecánicos e Integración
 
-### 9.2 Programa de Compliance
+*   **Misión:** Diseñar y certificar sistemas mecánicos ultra-confiables (tren de aterrizaje, hidráulicos, actuadores) para el GAIA-350e.
+*   **Responsabilidades Clave:** Diseño del tren de aterrizaje y sus sistemas de extensión/retracción; diseño de los sistemas hidráulicos y de actuación de superficies de vuelo.
 
-| Componente | Frecuencia | Responsable | Auditor |
-|------------|------------|-------------|---------|
-| **Risk Assessment** | Anual | CCO | EY |
-| **Training** | Trimestral | HR | Internal |
-| **Audits** | Mensual | Quality | Bureau Veritas |
-| **Reporting** | Continuo | All | Automated |
+## Q-GROUND: Operaciones Terrestres y Soporte
 
----
+*   **Misión:** Definir los requerimientos de infraestructura terrestre y equipos de soporte (GSE) para las nuevas aeronaves.
+*   **Responsabilidades Clave:** Diseño de procedimientos de mantenimiento en línea; desarrollo de programas de formación para técnicos; especificación de GSE.
 
-## 10. INDICADORES CLAVE DE RENDIMIENTO
+## Q-SPACE: Comunicaciones y Navegación
 
-### 10.1 KPIs Estratégicos (Nivel Empresa)
+*   **Misión:** Integrar sistemas de comunicación y navegación de próxima generación, asegurando la conectividad y seguridad de los datos.
+*   **Responsabilidades Clave:** Diseño de la arquitectura de aviónica; integración de sistemas de comunicación por satélite; aseguramiento de la integridad de los datos de navegación.
 
-| KPI | 2025 | 2030 | 2040 | Responsable |
-|-----|------|------|------|-------------|
-| **Ingresos** | €50M | €500M | €2B | CFO |
-| **EBITDA** | -€100M | €50M | €400M | CFO |
-| **I+D Investment** | 40% | 25% | 15% | CTO |
-| **Market Share BWB** | 0% | 5% | 25% | CMO |
-| **Carbon Footprint** | -25% | -75% | Net Zero | CSO |
+## Q-HORIZON: Investigación Avanzada y Tecnologías Disruptivas
 
-### 10.2 KPIs Operacionales (Nivel División)
+*   **Misión:** Liderar la investigación a largo plazo (TRL 1-4) en aerodinámica BWB, computación cuántica de a bordo y otras tecnologías post-2040, asegurando la ventaja competitiva futura.
+*   **Responsabilidades Clave:** Colaboración con universidades y centros de investigación; gestión de proyectos de demostradores tecnológicos; vigilancia tecnológica global.
 
-#### Q-Divisions Technical KPIs
-| División | KPI Principal | Target 2025 | Medición |
-|----------|---------------|-------------|----------|
-| **Q-DATAGOV** | Data Accuracy | 99.9% | Automated |
-| **Q-STRUCTURES** | Weight Reduction | -25% | Analysis |
-| **Q-AIR** | L/D Ratio | >30 | CFD/Test |
-| **Q-GREENTECH** | Energy Efficiency | +45% | Testing |
-| **Q-INDUSTRY** | Production Rate | 2/month | Actual |
+# 6. FUNCIONES EMPRESARIALES (ORB-FUNCTIONS)
 
-#### ORB-Functions Business KPIs
-| Función | KPI Principal | Target 2025 | Medición |
-|---------|---------------|-------------|----------|
-| **ORB-FIN** | Cash Burn Rate | <€15M/mo | Monthly |
-| **ORB-PMO** | On-Time Delivery | 85% | Milestones |
-| **ORB-HR** | Talent Retention | >90% | Annual |
-| **ORB-MKTG** | Brand Value | €100M | Valuation |
-| **ORB-CSR** | ESG Score | A+ | Rating |
+Las ORB-Functions son los pilares empresariales que soportan a toda la organización, permitiendo que las divisiones técnicas se centren en la ingeniería.
 
----
+## ORB-FIN: Finanzas y Presupuesto
 
-## 11. CRONOGRAMA MAESTRO REALISTA
+*   **Misión:** Gestionar la compleja estructura financiera del consorcio, asegurar la financiación, controlar los presupuestos de los programas y reportar a los stakeholders.
+*   **Responsabilidades Clave:** Gestión de la tesorería multi-divisa; modelización financiera a largo plazo; control de costes de los work packages mediante EVM.
 
-### 11.1 Visión General del Programa (2025-2040)
+## ORB-PMO: Oficina de Gestión de Programas
+
+*   **Misión:** Implementar las mejores prácticas de gestión de programas (PMI/PMBOK, EVM) para asegurar que los programas se ejecuten a tiempo y dentro del presupuesto.
+*   **Responsabilidades Clave:** Mantenimiento del cronograma maestro integrado; gestión de riesgos del programa; coordinación de las revisiones de fase (gate reviews).
+
+## ORB-HR: Recursos Humanos y Cultura
+
+*   **Misión:** Atraer, desarrollar y retener el talento de élite necesario para el éxito del consorcio, fomentando una cultura de colaboración e innovación.
+*   **Responsabilidades Clave:** Reclutamiento internacional de especialistas; gestión de la movilidad entre los socios del consorcio; desarrollo de la Academia GAIA.
+
+## ORB-MKTG: Marketing y Comunicaciones
+
+*   **Misión:** Posicionar a GAIA-QAO y sus productos en el mercado global, gestionando la comunicación con aerolíneas, socios y el público.
+*   **Responsabilidades Clave:** Análisis de mercado y estrategia de producto; campañas de lanzamiento para las aeronaves; gestión de la marca GAIA-QAO.
+
+## ORB-CSR: Responsabilidad Social y Sostenibilidad
+
+*   **Misión:** Integrar los principios ESG en toda la organización, liderando las iniciativas de sostenibilidad más allá del producto.
+*   **Responsabilidades Clave:** Elaboración del informe anual de sostenibilidad (GRI/SASB); gestión de la huella de carbono corporativa; desarrollo de programas de impacto social.
+
+## ORB-LEG: Legal y Cumplimiento
+
+*   **Misión:** Gestionar la compleja red de acuerdos del consorcio, proteger la propiedad intelectual y asegurar el cumplimiento normativo en todas las jurisdicciones.
+*   **Responsabilidades Clave:** Redacción y gestión de los acuerdos del consorcio; estrategia y registro de patentes; aseguramiento del cumplimiento de las normativas de exportación.
+
+# 7. MODELO OPERATIVO INTEGRADO
+
+## 7.1 Principios de Integración
+
+*   **Enfoque en el Programa:** Los equipos de programa son el centro de la actividad, extrayendo recursos de las divisiones funcionales. El director de programa tiene la responsabilidad final sobre el coste, el plazo y la calidad.
+*   **Interfaces Claras:** Documentación rigurosa de los "work packages" y entregables entre divisiones a través de la plataforma PLM. Cada WP tiene un único punto de responsabilidad.
+*   **Co-localización:** Equipos multidisciplinarios (Integrated Product Teams - IPTs) co-localizados en los centros de excelencia para fomentar la colaboración y acelerar la resolución de problemas.
+*   **Plataforma Digital Única:** Un entorno PLM (Product Lifecycle Management) integrado, denominado "GAIA-Nexus", es la única fuente de verdad para todos los datos de ingeniería, configuración y programa.
+
+## 7.2 Flujo de Trabajo: Proceso de Gestión de Cambios de Diseño
+
+1.  **Solicitud de Cambio (Change Request):** Un ingeniero de cualquier socio identifica una necesidad de cambio y la documenta en GAIA-Nexus.
+2.  **Evaluación de Impacto:** El IPT correspondiente, con miembros de Q-STRUCTURES, Q-AIR, Q-INDUSTRY y ORB-FIN, evalúa el impacto técnico, de coste y de calendario.
+3.  **Comité de Control de Cambios (CCB):** El cambio es revisado por el CCB del programa, liderado por el Ingeniero Jefe.
+4.  **Aprobación/Rechazo:** Las decisiones se toman según la Matriz de Autoridad. Si se aprueba, el baseline del programa se actualiza en GAIA-Nexus.
+5.  **Implementación:** El cambio se propaga a todos los work packages afectados de forma automática a través de la plataforma.
+
+# 8. GESTIÓN DEL TALENTO Y COMPETENCIAS
+
+## 8.1 Filosofía de Talento
+
+"Construir el futuro de la aviación requiere los mejores ingenieros de Europa. Invertimos en su desarrollo, promovemos la movilidad interna y creamos un entorno donde la innovación prospere."
+
+## 8.2 Estrategia de Adquisición y Retención
+
+*   **Partnerships Universitarios:** Acuerdos estratégicos con redes universitarias europeas de primer nivel (e.g., TIME, CESAER, PEGASUS) para crear un flujo de talento joven.
+*   **Atracción de Expertos:** Campañas de reclutamiento globales para atraer a expertos senior de la industria, ofreciendo la oportunidad única de trabajar en programas disruptivos.
+*   **Movilidad en el Consorcio:** Programas que facilitan la rotación de empleados entre los diferentes socios industriales y centros de investigación, enriqueciendo su experiencia y fomentando una cultura común.
+*   **Compensación Competitiva:** Paquetes de compensación que incluyen salario base, bonos por objetivos de programa y un plan de participación en los beneficios a largo plazo.
+
+## 8.3 Programas de Desarrollo
+
+*   **Academia GAIA:** Programas de postgrado en colaboración con las mejores universidades técnicas europeas, enfocados en las competencias clave del Anexo B.
+*   **Programa de Liderazgo Técnico:** Identifica y forma a los futuros jefes de ingeniería y directores de programa a través de mentorización y asignaciones de alta responsabilidad.
+*   **Formación Continua:** Presupuesto anual por empleado para formación en nuevas tecnologías, herramientas y metodologías (e.g., Agile, Systems Engineering).
+
+# 9. SISTEMA DE GESTIÓN DE CALIDAD Y SEGURIDAD
+
+## 9.1 Framework Integrado
+
+La calidad y la seguridad son los pilares de GAIA-QAO. Nuestro sistema se basa en:
+
+*   **AS9100D:** Para todos los procesos de diseño, desarrollo y producción.
+*   **EASA Part 21 (Subparts J & G):** Para nuestras organizaciones de Diseño (DOA) y Producción (POA).
+*   **Safety Management System (SMS):** Conforme a los estándares de ICAO, integrado en cada decisión.
+*   **DO-178C / DO-254:** Para todo el software y hardware embarcado.
+
+## 9.2 Cultura de Calidad y Seguridad
+
+*   **Just Culture:** Fomentamos una cultura donde los errores se reportan sin miedo a represalias, con el objetivo de aprender y mejorar el sistema, no de culpar al individuo.
+*   **Comité de Revisión de Seguridad (SRB):** Un comité independiente, compuesto por expertos externos y reportando directamente al Consejo Supervisor, tiene la autoridad para auditar cualquier aspecto del programa y recomendar acciones correctivas, incluyendo la detención de pruebas si se identifica un riesgo inaceptable.
+*   **Calidad desde el Diseño:** La calidad no se inspecciona al final, se diseña desde el principio. Los equipos de calidad están integrados en los IPTs desde la fase de concepto.
+
+# 10. MARCO DE CUMPLIMIENTO REGULATORIO
+
+## 10.1 Estructura de Cumplimiento
+
+1.  **Nivel 1: Certificación de Aeronaves:** Colaboración continua con EASA y FAA para la certificación de tipo del GAIA-350e. Se establecerán grupos de trabajo conjuntos para abordar la certificación de tecnologías novedosas como la propulsión híbrida.
+2.  **Nivel 2: Regulaciones del Consorcio:** Cumplimiento de las normativas de competencia de la UE, acuerdos de financiación y regulaciones de exportación (ITAR/EAR). Se creará un comité de control de exportaciones para gestionar la tecnología sensible.
+3.  **Nivel 3: Cumplimiento Corporativo:** Políticas internas de ética, anti-corrupción y protección de datos (GDPR), aplicables a todos los empleados y socios cuando interactúan con datos del consorcio.
+
+# 11. INDICADORES CLAVE DE RENDIMIENTO (KPIs)
+
+## 11.1 KPIs Estratégicos (Nivel Consorcio)
+
+| KPI                        | 2028  | 2035  | 2040  | Responsable |
+| :------------------------- | :---- | :---- | :---- | :---------- |
+| Cumplimiento Hitos Programa 350e | PDR   | CDR   | EIS   | CTO/COO     |
+| Madurez Tecnológica BWB-H2 (TRL) | 3     | 5     | 6     | CTO         |
+| Ejecución Presupuestaria (EVM SPI/CPI) | >0.95 | >0.98 | >0.98 | CFO         |
+| Ratio Financiación Pública/Privada | 60/40 | 50/50 | 40/60 | CFO         |
+| Pedidos en Firme (GAIA-350e) | 0     | 50    | 200   | CCO         |
+| Reducción Emisiones Flota  | N/A   | N/A   | -40%  | CSO         |
+
+## 11.2 KPIs Operacionales (Nivel División)
+
+| División      | KPI Principal                          | Target 2028            |
+| :------------ | :------------------------------------- | :--------------------- |
+| Q-STRUCTURES  | Reducción Peso Estructural (vs. ref)   | -15%                   |
+| Q-GREENTECH   | Eficiencia Sistema Propulsión          | +20%                   |
+| Q-INDUSTRY    | Nivel de Madurez de Proveedores        | 80% de Tier 1 calificados |
+| Q-DATAGOV     | Índice de Integridad de Datos          | 99.95%                 |
+| ORB-HR        | Retención de Talento Crítico           | >95%                   |
+| ORB-PMO       | Adherencia al Cronograma Maestro       | 90%                    |
+
+# 12. CRONOGRAMA MAESTRO REALISTA
+
+## 12.1 Hoja de Ruta Multi-Generacional
 
 ```mermaid
 gantt
-    title AMPEL360 BWB-Q100 Development Timeline
-    dateFormat YYYY-MM
+    title GAIA-QAO Roadmap Estratégico Multi-Generacional
+    dateFormat YYYY
     
-    section Phase 1: Research
-    Market Analysis               :2025-01, 24M
-    Technology Development        :2025-06, 36M
-    Concept Definition           :2026-01, 18M
-    
-    section Phase 2: Design
-    Preliminary Design           :2027-07, 24M
-    Wind Tunnel Testing         :2028-01, 12M
-    Critical Design Review      :2029-07, 6M
-    
-    section Phase 3: Prototype
-    Component Manufacturing     :2030-01, 18M
-    Sub-assembly Integration   :2031-01, 12M
-    Final Assembly            :2031-07, 9M
-    
-    section Phase 4: Testing
-    Ground Tests              :2032-01, 6M
-    First Flight              :milestone, 2032-07, 0
-    Flight Test Campaign      :2032-07, 36M
-    
-    section Phase 5: Certification
-    Certification Preparation :2034-01, 12M
-    Type Certification       :2035-01, 24M
-    Production Certificate   :2036-01, 12M
-    
-    section Phase 6: Production
-    Production Setup         :2036-01, 24M
-    First Delivery          :2038-01, 1M
-    Rate Production         :2038-02, 24M
-    
-    section Milestones
-    Program Launch          :milestone, 2025-01, 0
-    PDR Complete           :milestone, 2029-01, 0
-    First Flight           :milestone, 2032-07, 0
-    Type Certificate       :milestone, 2037-01, 0
-    EIS                    :milestone, 2038-01, 0
+    section Programa GAIA-350e (Híbrido-Eléctrico)
+    Definición y Viabilidad   :crit, 2025, 3y
+    Diseño Preliminar y PDR   :crit, 2028, 3y
+    Diseño Detallado y CDR    :crit, 2031, 2y
+    Fabricación Prototipo     :2032, 2y
+    Primer Vuelo              :milestone, 2034, 0d
+    Campaña Pruebas y Cert.   :crit, 2034, 4y
+    Certificación de Tipo (TC):milestone, 2038, 0d
+    Entrada en Servicio (EIS) :milestone, 2038, 0d
+    Aumento de Producción     :2039, 4y
+
+    section Programa GAIA-BWB-H2 (Investigación y Desarrollo)
+    Investigación Fundamental :2026, 6y
+    Maduración Tecnológica (TRL 4) :2032, 4y
+    Diseño Demostrador a Escala :2036, 3y
+    Primer Vuelo Demostrador  :milestone, 2039, 0d
+    Validación de Vuelo (TRL 6) :2039, 3y
+    Decisión Lanzamiento Programa:milestone, 2042, 0d
 ```
 
-### 11.2 Fases Detalladas
+## 12.2 Hitos y Entregables Clave por Fase (GAIA-350e)
 
-#### FASE 1: INVESTIGACIÓN Y CONCEPTO (2025-2027)
-**Presupuesto**: €150M  
-**Personal**: 50 → 300  
-**Entregables Clave**:
-- Concepto BWB validado
-- TRL 4 tecnologías cuánticas
-- Business case aprobado
-- Socios estratégicos identificados
+| Fase                        | Hito Principal          | Entregables Clave                                                                                                                                              |
+| :-------------------------- | :---------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Definición (2025-2027)      | Gate 1: Concepto Validado | - Business Case finalizado<br>- Requisitos de alto nivel definidos<br>- Arquitectura preliminar del sistema de propulsión                                 |
+| Diseño Preliminar (2028-2030) | Gate 2: PDR Completado    | - Modelo aerodinámico validado en túnel de viento<br>- Arquitectura de sistemas definida<br>- Selección de proveedores principales (Tier 1)             |
+| Diseño Detallado (2031-2032) | Gate 3: CDR Completado    | - Liberación del 90% de los planos de fabricación<br>- Modelos de simulación de alta fidelidad<br>- Prototipos de subsistemas clave probados          |
+| Pruebas y Cert. (2033-2038) | Gate 4: Certificación de Tipo | - Campaña de pruebas en vuelo completada (2500+ horas)<br>- Manuales de vuelo y mantenimiento aprobados<br>- Certificado de Tipo de EASA/FAA          |
 
-#### FASE 2: DISEÑO PRELIMINAR (2027-2030)
-**Presupuesto**: €300M  
-**Personal**: 300 → 600  
-**Entregables Clave**:
-- PDR completado
-- Modelos aerodinámicos validados
-- Arquitectura sistemas definida
-- Proveedores seleccionados
+# 13. GESTIÓN FINANCIERA Y PRESUPUESTARIA
 
-#### FASE 3: DISEÑO DETALLADO Y PROTOTIPO (2030-2032)
-**Presupuesto**: €500M  
-**Personal**: 600 → 1000  
-**Entregables Clave**:
-- CDR aprobado
-- Prototipo ensamblado
-- Sistemas integrados
-- Ground tests completados
+## 13.1 Estructura de Capital del Consorcio (Fase 1: 2025-2038)
 
-#### FASE 4: PRUEBAS DE VUELO (2032-2035)
-**Presupuesto**: €400M  
-**Personal**: 1000 → 1200  
-**Hitos**:
-- Julio 2032: Primer vuelo
-- 2033: Envelope expansion
-- 2034: Certification tests
-- 2035: Route proving
+Se estima un requerimiento de financiación de €25 mil millones para llevar el GAIA-350e a la entrada en servicio.
 
-#### FASE 5: CERTIFICACIÓN Y PRODUCCIÓN (2035-2038)
-**Presupuesto**: €600M  
-**Personal**: 1200 → 1500  
-**Certificaciones**:
-- EASA CS-25
-- FAA Part 25
-- Transport Canada
-- ANAC, CAAC (2039)
+| Fuente                      | Monto Estimado | %    | Instrumento                           |
+| :-------------------------- | :------------- | :--- | :------------------------------------ |
+| Gobiernos Miembro           | €10.0B         | 40%  | Subvenciones directas y créditos fiscales |
+| Socios Industriales         | €5.0B          | 20%  | Aportaciones de capital y en especie (workshare) |
+| Bancos de Fomento (EIB)     | €6.0B          | 24%  | Deuda a largo plazo, "Green Bonds"    |
+| Inversores Institucionales  | €4.0B          | 16%  | Rondas de capital privado (Serie C/D) |
+| **Total**                   | **€25.0B**     | **100%** |                                       |
 
-#### FASE 6: ENTRADA EN SERVICIO (2038+)
-**Objetivos**:
-- 2038: 2 aeronaves/mes
-- 2040: 5 aeronaves/mes
-- 2045: 10 aeronaves/mes
+## 13.2 Control Presupuestario y Reporting
+
+*   **Earned Value Management (EVM):** Es el método estándar para el seguimiento del rendimiento de todos los work packages. Los índices SPI (Schedule Performance Index) y CPI (Cost Performance Index) se reportan mensualmente.
+*   **Control de Cambios:** Cualquier cambio de diseño que afecte al coste o al calendario debe pasar por un riguroso proceso de evaluación de impacto financiero antes de ser aprobado por el Comité de Control de Cambios.
+*   **Reporting Financiero:** Se generan informes mensuales para la gestión interna (PMO) y trimestrales para el Comité Ejecutivo y el Consejo Supervisor, detallando el rendimiento frente al presupuesto, las proyecciones actualizadas y los riesgos financieros.
+
+## 13.3 Proyecciones Financieras Consolidadas (en miles de millones de €)
+
+| (€ Billones)          | 2027    | 2030    | 2034    | 2038    | 2042    |
+| :-------------------- | :------ | :------ | :------ | :------ | :------ |
+| Inversión Acumulada   | (5.0)   | (12.0)  | (20.0)  | (25.0)  | (26.0)  |
+| Ingresos              | 0       | 0       | 0.1     | 1.5     | 12.0    |
+| EBITDA                | (1.0)   | (2.5)   | (3.0)   | (0.5)   | 1.8     |
+| Flujo de Caja Libre   | (2.5)   | (4.0)   | (3.5)   | (1.0)   | 0.5     |
+
+*Nota: El plan asume un punto de equilibrio operativo (break-even) alrededor de 2043-2045, lo que refleja la naturaleza de inversión a largo plazo del sector.*
+
+# 14. GESTIÓN DE RIESGOS ESTRATÉGICOS
+
+## 14.1 Principales Riesgos y Estrategias de Mitigación
+
+| Riesgo                                   | Probabilidad | Impacto | Mitigación Principal                                                                                                                                                                                                                                                                                                                                                                      |
+| :--------------------------------------- | :----------- | :------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Fracaso en la Maduración Tecnológica (Híbrido/H2) | Media        | Crítico | Estrategia de dos generaciones: El éxito del GAIA-350e no depende del hidrógeno. Programas de I+D paralelos con múltiples socios para diversificar soluciones. Puntos de revisión tecnológica (gates) para validar la madurez antes de comprometer grandes inversiones.                                                                                                            |
+| Sobrecostes y Retrasos del Programa      | Alta         | Alto    | Gobernanza de consorcio robusta con hitos de pago definidos (Earned Value Management). Presupuestos de contingencia del 15% gestionados a nivel de programa. Revisiones de programa trimestrales con el Consejo.                                                                                                                                                               |
+| Financiación Insuficiente o Volatilidad Política | Media        | Crítico | Compromisos a largo plazo de los Estados Miembro anclados en tratados intergubernamentales. Diversificación de fuentes de financiación (pública, industrial, privada). Hitos claros que desbloquean las siguientes fases de financiación.                                                                                                                                  |
+| Proceso de Certificación (Nuevas Tecnologías) | Alta         | Alto    | Colaboración temprana y continua con EASA/FAA desde la fase de concepto. Creación de grupos de trabajo conjuntos para definir las bases de certificación para la propulsión híbrida. Desarrollo de nuevos medios de cumplimiento.                                                                                                                                            |
+| Competencia Feroz (OEMs establecidos e incumbentes) | Alta         | Alto    | Diferenciación por salto generacional en eficiencia y sostenibilidad. Asegurar pedidos de lanzamiento de aerolíneas europeas asociadas. Creación de una ventaja de costes a través de la manufactura 4.0.                                                                                                                                                           |
+| Dependencia de la Cadena de Suministro   | Media        | Alto    | Estrategia de doble fuente para componentes críticos. Inversión en el desarrollo de un ecosistema de proveedores europeo robusto y resiliente. Mapeo y monitorización continua de la salud de la cadena de suministro.                                                                                                                                                             |
+
+# 15. PLAN DE COMUNICACIONES ESTRATÉGICAS
+
+## 15.1 Estrategia de Comunicación
+
+Comunicación proactiva, transparente y coordinada para alinear a todos los stakeholders: gobiernos, socios industriales, reguladores, empleados y el público general. La estrategia se basa en demostrar progreso tangible y gestionar las expectativas de forma realista.
+
+## 15.2 Mensajes Clave por Audiencia
+
+*   **Gobiernos y UE:** "GAIA-QAO es el instrumento para la soberanía tecnológica, el liderazgo industrial y la creación de empleo de alta calidad en Europa."
+*   **Socios Industriales y Aerolíneas:** "Ofrecemos una ventaja competitiva a través de una eficiencia operativa y una sostenibilidad sin precedentes."
+*   **Comunidad Científica y Académica:** "Somos la plataforma para llevar la investigación más avanzada del laboratorio al mercado, resolviendo los grandes desafíos de la aviación."
+*   **Público General:** "Estamos construyendo el futuro del transporte aéreo: un futuro más limpio, silencioso y sostenible para todos."
+
+## 15.3 Audiencias y Canales Clave
+
+| Audiencia             | Canal Principal                        | Frecuencia       | Responsable |
+| :-------------------- | :------------------------------------- | :--------------- | :---------- |
+| Consejo Supervisor    | Informes trimestrales, reuniones       | Trimestral       | CEO         |
+| Socios Industriales   | Comités de programa, revisiones técnicas | Mensual          | CTO/COO     |
+| Reguladores (EASA/FAA) | Grupos de trabajo, reuniones formales  | Continua         | CLO/CCO     |
+| Empleados             | Comunicaciones internas, Town Halls   | Semanal/Mensual  | CHRO        |
+| Prensa y Público      | Comunicados de prensa, eventos clave (Air Shows) | Hitos          | CMO         |
+
+# 16. HOJA DE RUTA DE IMPLEMENTACIÓN
+
+## 16.1 Roadmap 2025-2027: Fase de Establecimiento
+
+*   **Q3 2025: Lanzamiento del Consorcio**
+    *   [x] Firma del acuerdo del consorcio entre los socios fundadores.
+    *   [x] Nombramiento del Consejo Supervisor y del CEO.
+    *   [ ] Asegurar la primera ronda de financiación (€1.0B) mediante la formalización de los compromisos de los Estados Miembro.
+*   **Q4 2025: Estructuración**
+    *   [ ] Contratación del Comité Ejecutivo (C-Level) y directores de división.
+    *   [ ] Establecimiento de las sedes principales (Madrid, Toulouse, Hamburgo) y comienzo de la adecuación de las instalaciones.
+    *   [ ] Lanzamiento oficial del programa GAIA-350e con la asignación de los primeros work packages.
+*   **2026: Operaciones Iniciales**
+    *   [ ] Contratación de 1000 empleados clave, incluyendo los equipos de arquitectura de sistemas.
+    *   [ ] Despliegue de la plataforma PLM integrada "GAIA-Nexus" en todos los socios.
+    *   [ ] Finalización de la fase de definición de concepto del GAIA-350e y paso del primer gate de revisión.
+    *   [ ] Inicio del proceso de solicitud de DOA (Design Organisation Approval) ante EASA.
+*   **2027: Aceleración**
+    *   [ ] Plantilla total de 2500 empleados en todo el consorcio.
+    *   [ ] Inicio del diseño preliminar del GAIA-350e, incluyendo las primeras pruebas en túnel de viento.
+    *   [ ] Lanzamiento formal del programa de investigación Q-Horizon con la firma de acuerdos con universidades clave.
 
 ---
 
-## 12. GESTIÓN FINANCIERA Y PRESUPUESTARIA
-
-### 12.1 Estructura de Capital
-
-| Fuente | Monto | % | Condiciones |
-|--------|-------|---|-------------|
-| **Serie A (2025)** | €200M | 20% | Quantum-focused VCs |
-| **Serie B (2027)** | €500M | 30% | Strategic aerospace |
-| **Deuda (2029)** | €300M | 20% | Green bonds 3.5% |
-| **Subsidios EU** | €200M | 13% | Clean Sky 3 |
-| **Serie C (2032)** | €800M | 17% | Pre-IPO round |
-| **Total** | €2,000M | 100% | Through 2038 |
-
-### 12.2 Proyecciones Financieras
-
-```
-€ Millones       2025   2027   2030   2032   2035   2038   2040
-─────────────────────────────────────────────────────────────────
-Ingresos           0      0     50    100    500   1500   2500
-Costos          (150)  (300)  (400)  (450)  (400)  (1200) (1800)
-EBITDA          (150)  (300)  (350)  (350)   100    300    700
-Cash Flow       (150)  (450)  (800) (1150) (1050)  (750)     0
-─────────────────────────────────────────────────────────────────
-Acumulado       (150)  (600) (1400) (2550) (3600) (4350) (4350)
-```
-
-### 12.3 Control Presupuestario
-
-#### Sistema de Control
-1. **Presupuestos Anuales**: Aprobados por Consejo
-2. **Revisiones Trimestrales**: Ajustes necesarios
-3. **Controles Mensuales**: Variaciones >5%
-4. **Aprobaciones**: Matriz de autoridad
-5. **Auditorías**: Trimestrales internas, anuales externas
-
-#### Cost Centers
-- Cada Q-Division = Cost Center independiente
-- ORB Functions = Overhead allocation
-- Proyectos = WBS detallado
-- Tracking = SAP Project System
-
----
-
-## 13. GESTIÓN DE RIESGOS ORGANIZACIONALES
-
-### 13.1 Marco de Gestión de Riesgos
-
-```
-┌─────────────────────────┐
-│   Risk Governance       │
-│   (Board Level)         │
-└───────────┬─────────────┘
-            │
-┌───────────┴─────────────┐
-│   Risk Assessment       │
-│   (Executive Level)     │
-└───────────┬─────────────┘
-            │
-┌───────────┴─────────────┐
-│   Risk Mitigation       │
-│   (Operational Level)   │
-└───────────┬─────────────┘
-            │
-┌───────────┴─────────────┐
-│   Risk Monitoring       │
-│   (Continuous)          │
-└─────────────────────────┘
-```
-
-### 13.2 Principales Riesgos Identificados
-
-| Riesgo | Probabilidad | Impacto | Score | Mitigación |
-|--------|--------------|---------|-------|------------|
-| **Retraso tecnología cuántica** | Alta | Alto | 9 | Múltiples proveedores, plan B clásico |
-| **Certificación BWB** | Media | Alto | 6 | Early engagement reguladores |
-| **Financiación insuficiente** | Media | Alto | 6 | Diversificar fuentes, milestones |
-| **Competencia China/USA** | Alta | Medio | 6 | Diferenciación, patents |
-| **Talento escaso** | Alta | Medio | 6 | Universidad partnerships |
-| **Cambio regulatorio** | Baja | Alto | 3 | Lobbying, flexibilidad |
-| **Fallo cadena suministro** | Media | Medio | 4 | Dual sourcing, stock |
-| **Accidente prototipo** | Baja | Muy Alto | 4 | Riguroso safety, seguros |
-
-### 13.3 Plan de Continuidad de Negocio
-
-#### Escenarios Críticos
-1. **Pérdida instalaciones principales**: Sites backup
-2. **Pandemia/Crisis global**: Remote work ready
-3. **Cyberattack**: Quantum-safe backups
-4. **Key person loss**: Succession planning
-
-#### Respuesta a Crisis
-- Crisis Management Team: 24/7
-- Communication protocols: Definidos
-- Stakeholder management: Matrices
-- Recovery plans: Testeados quarterly
-
----
-
-## 14. PLAN DE COMUNICACIONES
-
-### 14.1 Estrategia de Comunicación
-
-#### Principios
-1. **Transparencia**: Información clara y honesta
-2. **Coherencia**: Mensaje unificado
-3. **Proactividad**: Anticipar necesidades
-4. **Bidireccionalidad**: Escuchar activamente
-
-#### Audiencias Clave
-- Empleados (interno)
-- Inversores
-- Reguladores
-- Clientes potenciales
-- Medios especializados
-- Comunidad científica
-- Sociedad general
-
-### 14.2 Canales de Comunicación
-
-| Canal | Audiencia | Frecuencia | Responsable |
-|-------|-----------|------------|-------------|
-| **Town Halls** | Empleados | Mensual | CEO |
-| **Investor Updates** | Inversores | Trimestral | CFO |
-| **Technical Papers** | Científicos | Continuo | CTO |
-| **Press Releases** | Medios | Eventos | CMO |
-| **Social Media** | Público | Diario | Marketing |
-| **Regulatory Filings** | Autoridades | Requerido | Legal |
-
-### 14.3 Gestión de Crisis de Comunicación
-
-```
-Nivel 1 (Operacional) → Nivel 2 (Táctica) → Nivel 3 (Estratégica)
-    ↓                      ↓                     ↓
-Director División      VP Comunicación       CEO + Board
-<24h respuesta        <12h respuesta        <6h respuesta
-```
-
----
-
-## 15. HOJA DE RUTA DE IMPLEMENTACIÓN
-
-### 15.1 Roadmap 2025-2026
-
-#### Q1 2025: Establecimiento
-- [ ] Constitución legal entidades
-- [ ] Contratación equipo ejecutivo
-- [ ] Secured seed funding €50M
-- [ ] Oficinas Madrid + Toulouse
-
-#### Q2 2025: Fundación
-- [ ] 100 empleados clave contratados
-- [ ] Sistemas IT operacionales
-- [ ] Primeros partners tecnológicos
-- [ ] Inicio estudios concepto
-
-#### Q3 2025: Aceleración
-- [ ] 200 empleados total
-- [ ] Laboratorios operacionales
-- [ ] Serie A funding €200M
-- [ ] Concepto BWB preliminar
-
-#### Q4 2025: Consolidación
-- [ ] Estructura completa 10+6
-- [ ] Certificaciones ISO/AS
-- [ ] Technology roadmap final
-- [ ] Supplier ecosystem
-
-#### 2026: Expansión
-- [ ] 400+ empleados
-- [ ] Centros técnicos completos
-- [ ] Wind tunnel modelo
-- [ ] Quantum lab operational
-
-### 15.2 Métricas de Éxito Organizacional
-
-| Métrica | 2025 | 2026 | 2027 |
-|---------|------|------|------|
-| **Headcount** | 300 | 600 | 900 |
-| **Sites operativos** | 2 | 4 | 5 |
-| **Funding raised** | €250M | €500M | €1B |
-| **Patents filed** | 20 | 100 | 200 |
-| **TRL advancement** | 3→4 | 4→5 | 5→6 |
-
----
+# ANEXOS
 
 ## ANEXO A: ORGANIGRAMA DETALLADO
 
 ### A.1 Estructura Ejecutiva Completa
 
-```
-                              BOARD OF DIRECTORS
-                                     |
-                              [9 Miembros]
-                    3 Independientes - 3 Inversores - 3 Ejecutivos
-                                     |
-                           EXECUTIVE COMMITTEE
-                                     |
-    ┌────────┬────────┬────────┬────────┬────────┬────────┬────────┐
-    CEO      CTO      CFO      COO      CHRO     CCO      CLO      CSO
-    |        |        |        |        |        |        |        |
-    Staff    Q-Divs   ORB-FIN  Ops      ORB-HR   Comms    ORB-LEG  ORB-CSR
+```mermaid
+flowchart TB
+    board["BOARD OF DIRECTORS"]
+    miembros["[9 Miembros]\n3 Independientes\n3 Inversores\n3 Ejecutiv
+os"]
+    execcom["EXECUTIVE COMMITTEE"]
+    %% Directorio
+    board --> miembros
+    miembros --> execcom
+    %% Comité Ejecutivo
+    execcom --> CEO
+    execcom --> CTO
+    execcom --> CFO
+    execcom --> COO
+    execcom --> CHRO
+    execcom --> CCO
+    execcom --> CLO
+    execcom --> CSO
+    %% Staffs / Divisiones
+    CEO --> staff["Staff"]
+    CTO --> qdivs["Q-Divs"]
+    CFO --> orbfin["ORB-FIN"]
+    COO --> ops["Ops"]
+    CHRO --> orbhr["ORB-HR"]
+    CCO --> comms["Comms"]
+    CLO --> orbleg["ORB-LEG"]
+    CSO --> orbcsr["ORB-CSR"]
 ```
 
 ### A.2 Detalle Q-Divisions
 
-```
-CTO
-├── Q-DATAGOV (45)
-│   ├── Standards Team (10)
-│   ├── Data Architecture (15)
-│   ├── Cybersecurity (10)
-│   └── Documentation (10)
-│
-├── Q-STRUCTURES (85)
-│   ├── Airframe Design (25)
-│   ├── Materials Lab (20)
-│   ├── Stress Analysis (20)
-│   └── Testing (20)
-│
-├── Q-AIR (65)
-│   ├── Aerodynamics (20)
-│   ├── Flight Controls (15)
-│   ├── Performance (15)
-│   └── Flight Test (15)
-│
-├── Q-GREENTECH (55)
-│   ├── Propulsion (20)
-│   ├── Energy Systems (15)
-│   ├── Environmental (10)
-│   └── Circular Economy (10)
-│
-├── Q-INDUSTRY (120)
-│   ├── Manufacturing Eng (40)
-│   ├── Quality (30)
-│   ├── Production (30)
-│   └── Supply Chain (20)
-│
-├── Q-HPC (40)
-│   ├── Quantum Computing (15)
-│   ├── AI/ML (10)
-│   ├── Digital Twin (10)
-│   └── Software (5)
-│
-├── Q-MECHANICS (75)
-│   ├── Hydraulics (20)
-│   ├── Landing Gear (20)
-│   ├── Flight Controls (20)
-│   └── Integration (15)
-│
-├── Q-GROUND (90)
-│   ├── GSE Development (30)
-│   ├── Operations (30)
-│   ├── Training (20)
-│   └── Logistics (10)
-│
-├── Q-SPACE (35)
-│   ├── Communications (15)
-│   ├── Navigation (10)
-│   └── Antennas (10)
-│
-└── Q-SCIRES (30)
-    ├── Research (15)
-    ├── IP Management (10)
-    └── University Relations (5)
+```mermaid
+flowchart TB
+    CTO["CTO"]
+
+    subgraph QDATAGOV["Q-DATAGOV (45)"]
+        datastan["Standards Team (10)"]
+        dataarch["Data Architecture (15)"]
+        csec["Cybersecurity (10)"]
+        docu["Documentation (10)"]
+        datastan
+        dataarch
+        csec
+        docu
+    end
+
+    subgraph QSTRUCT["Q-STRUCTURES (85)"]
+        airframe["Airframe Design (25)"]
+        matlab["Materials Lab (20)"]
+        stress["Stress Analysis (20)"]
+        test["Testing (20)"]
+        airframe
+        matlab
+        stress
+        test
+    end
+
+    subgraph QAIR["Q-AIR (65)"]
+        aero["Aerodynamics (20)"]
+        flightctrl["Flight Controls (15)"]
+        perf["Performance (15)"]
+        ftest["Flight Test (15)"]
+        aero
+        flightctrl
+        perf
+        ftest
+    end
+
+    subgraph QGREEN["Q-GREENTECH (55)"]
+        prop["Propulsion (20)"]
+        energy["Energy Systems (15)"]
+        env["Environmental (10)"]
+        circ["Circular Economy (10)"]
+        prop
+        energy
+        env
+        circ
+    end
+
+    subgraph QIND["Q-INDUSTRY (120)"]
+        maneng["Manufacturing Eng (40)"]
+        qual["Quality (30)"]
+        prod["Production (30)"]
+        supp["Supply Chain (20)"]
+        maneng
+        qual
+        prod
+        supp
+    end
+
+    subgraph QHPC["Q-HPC (40)"]
+        quantum["Quantum Computing (15)"]
+        aiml["AI/ML (10)"]
+        twin["Digital Twin (10)"]
+        soft["Software (5)"]
+        quantum
+        aiml
+        twin
+        soft
+    end
+
+    subgraph QMECH["Q-MECHANICS (75)"]
+        hydr["Hydraulics (20)"]
+        ldg["Landing Gear (20)"]
+        flightctrl2["Flight Controls (20)"]
+        integ["Integration (15)"]
+        hydr
+        ldg
+        flightctrl2
+        integ
+    end
+
+    subgraph QGROUND["Q-GROUND (90)"]
+        gse["GSE Development (30)"]
+        ops["Operations (30)"]
+        train["Training (20)"]
+        logi["Logistics (10)"]
+        gse
+        ops
+        train
+        logi
+    end
+
+    subgraph QSPACE["Q-SPACE (35)"]
+        comm["Communications (15)"]
+        nav["Navigation (10)"]
+        ant["Antennas (10)"]
+        comm
+        nav
+        ant
+    end
+
+    subgraph QSCIRES["Q-SCIRES (30)"]
+        res["Research (15)"]
+        ip["IP Management (10)"]
+        univ["University Relations (5)"]
+        res
+        ip
+        univ
+    end
+
+    CTO --> QDATAGOV
+    CTO --> QSTRUCT
+    CTO --> QAIR
+    CTO --> QGREEN
+    CTO --> QIND
+    CTO --> QHPC
+    CTO --> QMECH
+    CTO --> QGROUND
+    CTO --> QSPACE
+    CTO --> QSCIRES
 ```
 
 ### A.3 Detalle ORB-Functions
 
-```
-ORB-FUNCTIONS
-├── ORB-FIN (25)
-│   ├── FP&A (8)
-│   ├── Treasury (5)
-│   ├── Accounting (7)
-│   └── Investor Relations (5)
-│
-├── ORB-PMO (35)
-│   ├── Program Managers (20)
-│   ├── Planning (8)
-│   ├── Risk Management (4)
-│   └── PMO Systems (3)
-│
-├── ORB-HR (20)
-│   ├── Talent Acquisition (8)
-│   ├── L&D (5)
-│   ├── Compensation (4)
-│   └── HR Operations (3)
-│
-├── ORB-MKTG (18)
-│   ├── Brand (5)
-│   ├── Digital (5)
-│   ├── Events (4)
-│   └── Content (4)
-│
-├── ORB-CSR (15)
-│   ├── Sustainability (6)
-│   ├── Community (4)
-│   ├── Ethics (3)
-│   └── Reporting (2)
-│
-└── ORB-LEG (22)
-    ├── Regulatory (8)
-    ├── Contracts (6)
-    ├── IP (5)
-    └── Compliance (3)
+```mermaid
+flowchart TB
+    ORBF["ORB-FUNCTIONS"]
+
+    subgraph ORBFIN["ORB-FIN (25)"]
+      fpa["FP&A (8)"]
+      tres["Treasury (5)"]
+      acct["Accounting (7)"]
+      invrel["Investor Relations (5)"]
+    end
+
+    subgraph ORBPMO["ORB-PMO (35)"]
+      pm["Program Managers (20)"]
+      plan["Planning (8)"]
+      risk["Risk Management (4)"]
+      pmosys["PMO Systems (3)"]
+    end
+
+    subgraph ORBHR["ORB-HR (20)"]
+      ta["Talent Acquisition (8)"]
+      ld["L&D (5)"]
+      comp["Compensation (4)"]
+      hro["HR Operations (3)"]
+    end
+
+    subgraph ORBMKTG["ORB-MKTG (18)"]
+      brand["Brand (5)"]
+      digital["Digital (5)"]
+      events["Events (4)"]
+      cont["Content (4)"]
+    end
+
+    subgraph ORBCSR["ORB-CSR (15)"]
+      sust["Sustainability (6)"]
+      comm["Community (4)"]
+      ethics["Ethics (3)"]
+      report["Reporting (2)"]
+    end
+
+    subgraph ORBLEG["ORB-LEG (22)"]
+      reg["Regulatory (8)"]
+      contracts["Contracts (6)"]
+      ip["IP (5)"]
+      compl["Compliance (3)"]
+    end
+
+    ORBF --> ORBFIN
+    ORBF --> ORBPMO
+    ORBF --> ORBHR
+    ORBF --> ORBMKTG
+    ORBF --> ORBCSR
+    ORBF --> ORBLEG
 ```
 
 ---
@@ -1385,46 +987,86 @@ ORB-FUNCTIONS
 
 ### D.1 Arquitectura Documental S1000D
 
-```
-CSDB (Common Source Database)
-├── Data Modules (DM)
-│   ├── Descriptive (-00A)
-│   ├── Procedural (-200)
-│   ├── IPD (-941)
-│   ├── Wiring (-400)
-│   ├── Fault (-700)
-│   └── Process (-300)
-│
-├── Information Control Numbers (ICN)
-│   ├── Technical Illustrations
-│   ├── Multimedia Objects
-│   └── 3D Models
-│
-└── Publication Modules (PM)
-    ├── Front Matter
-    ├── Content
-    └── Applicability
+```mermaid
+flowchart TD
+    CSDB["CSDB (Common Source Database)"]
+
+    subgraph DM ["Data Modules (DM)"]
+      descript["Descriptive (-00A)"]
+      proced["Procedural (-200)"]
+      ipd["IPD (-941)"]
+      wiring["Wiring (-400)"]
+      fault["Fault (-700)"]
+      process["Process (-300)"]
+    end
+
+    subgraph ICN ["Information Control Numbers (ICN)"]
+      illus["Technical Illustrations"]
+      media["Multimedia Objects"]
+      models["3D Models"]
+    end
+
+    subgraph PM ["Publication Modules (PM)"]
+      front["Front Matter"]
+      content["Content"]
+      app["Applicability"]
+    end
+
+    CSDB --> DM
+    CSDB --> ICN
+    CSDB --> PM
 ```
 
-### D.2 Estructura ATA 100
+### 📘 D.2 – Sistema de Nomenclatura Oficial GAIA-QAO v2.4
+
+**Versión:** 2.4
+**Sistema:** AMPEL360 / GAIA-QAO
+**Clasificación:** UTCS / ALICE–BOB / GQOIS
+**Referencia:** GQAQA-STD-NOM-002
+**Estado:** Aprobado
+
+---
+
+#### 🔹 Regla de Nomenclatura Estándar
+
+##### Estructura General
 
 ```
-ATA Chapters Implementation
-├── 00-12: General
-├── 20-29: Airframe Systems
-├── 30-39: Propulsion
-├── 40-49: Cabin Systems
-├── 50-59: Structures
-├── 60-69: Propellers/Rotors
-├── 70-79: Power Plant
-├── 80-89: Starting/Ignition
-└── 90-99: Quantum Systems (GAIA Extension)
-    ├── 90: Quantum Navigation
-    ├── 91: Quantum Computing
-    ├── 92: Quantum Sensors
-    ├── 93: Quantum Comm
-    └── 94-99: Reserved
+[PROGRAMA]-[TIPO]-[ARTEFACTO]-[NATURALEZA]-[FORMATO]-UTCS-[CAPÍTULO]-[SUBCAPs]-[FASE]-[ID]_[DESCRIPCIÓN].[ext]
 ```
+
+##### Campos Definidos
+
+| Campo         | Descripción                                                                                  |
+| ------------- | -------------------------------------------------------------------------------------------- |
+| `PROGRAMA`    | Identificador del programa: `Q100`, `Q250`, `PLUS`, `PLUSPLUS`, `XWLRGA`, etc.               |
+| `TIPO`        | Tipo de entidad: `ALI` (componente físico + software embebido), `BOB` (gemelo digital)       |
+| `ARTEFACTO`   | Tipo lógico de entregable: `DP`, `DT`, `DA`, `SC`, `HC`, `APP`                               |
+| `NATURALEZA`  | Clasificación funcional: `CAD`, `BOM`, `DOC`, `AGENT`, `CODE`, `MODEL`, `EXEC`, etc.         |
+| `FORMATO`     | Formato técnico: `BIN`, `HEX`, `PDF`, `MD`, `STEP`, `JSON`, `PY`, `JAR`, `EXE`, `APK`, etc.  |
+| `UTCS`        | Capítulo UTCS principal (`000`–`999`)                                                        |
+| `SUBCAPs`     | Subcapítulos UTCS extendidos (`040-10-20`)                                                   |
+| `FASE`        | Fase del ciclo de vida: `CON`, `DES`, `TST`, `CRT`, `PRD`, `OPS`, `MNT`, `SUP`, `REP`, `RET` |
+| `ID`          | Número correlativo único por fase y capítulo                                                 |
+| `DESCRIPCIÓN` | Breve descripción legible (inglés/español con guiones bajos)                                 |
+| `.ext`        | Extensión del archivo asociada al formato: `.md`, `.bin`, `.c`, `.step`, `.json`, etc.       |
+
+---
+
+#### 🧭 UTCS 000–999 – Dominios Tecnológicos GAIA-QAO
+
+| Código UTCS | Nombre Completo                                    | Rango   | Enfoque Primario                           | Ejemplos/Dominios                          |
+| ----------- | -------------------------------------------------- | ------- | ------------------------------------------ | ------------------------------------------ |
+| `ATA`       | Aerospace Technology Architecture                  | 000–099 | Aeronáutica tradicional, BWB, aviónica     | Flight controls, estructuras, aviónica     |
+| `STA`       | Space Technology Architecture                      | 100–199 | Exploración y operaciones espaciales       | Propulsión deep-space, hábitats, ISRU      |
+| `DTTA`      | Defence Technology Type Architecture               | 200–299 | Defensa multisector aire-mar-tierra-ciber  | Submarinos, MRTT, sistemas antidesastre    |
+| `DTCEC`     | Digital Twins, Cloud & Edge Computing              | 300–399 | Simulación, IA, XR                         | Digital twins, AR/MR cockpits              |
+| `EPTA`      | Energy & Propulsion Technology Architecture        | 400–499 | Propulsión limpia, híbrida, energética     | H₂, nucleares, eléctricos, scramjet        |
+| `AMTA`      | Advanced Material, Bio & Nanotech Architecture     | 500–599 | Nuevos materiales, sensores, bio-nano      | CFRP, metamateriales, biosensores          |
+| `OGATA`     | On-Ground Automation Technology Architecture       | 600–699 | Robótica, automatización, logística        | Fábricas 4.0, AGVs, control tierra         |
+| `ACV`       | Aerial City Viability Architecture                 | 700–799 | Movilidad urbana aérea, sostenibilidad     | Vertipuertos, UTM, sistemas eléctricos     |
+| `CYB`       | Cybersecurity Architecture                         | 800–899 | Seguridad de sistemas, post-quantum crypto | Zero Trust, QKD, IA robusta                |
+| `QCSAA`     | Quantum Computing and Sentient Agency Architecture | 900–999 | Autonomía consciente, QPU, percepción      | QPU embebidos, IA cuántica, sensores qubit |
 
 ### D.3 Tipos de Documentos Técnicos
 
@@ -1440,29 +1082,6 @@ ATA Chapters Implementation
 | **AFM** | DOC-AFM | Aircraft Flight Manual | Q-AIR |
 | **FCOM** | DOC-FCOM | Flight Crew Operating Manual | Q-AIR |
 | **QSM** | DOC-QSM | Quantum Systems Manual | Q-HPC |
-
-### D.4 Control de Documentación
-
-#### Numeración
-```
-GAIA-[TYPE]-[ATA]-[SECTION]-[REVISION]
-Example: GAIA-AMM-32-200-A01
-```
-
-#### Ciclo de Vida
-1. **Draft**: Desarrollo inicial
-2. **Review**: Revisión técnica
-3. **Approval**: Aprobación management
-4. **Released**: Publicado oficial
-5. **Revised**: Actualización
-6. **Obsolete**: Retirado
-
-#### Métricas Documentación
-- Accuracy: 99.9%
-- Currency: <30 días
-- Completeness: 100%
-- Accessibility: 24/7
-- Language: STE + 5 idiomas
 
 ---
 
@@ -1532,10 +1151,6 @@ Example: GAIA-AMM-32-200-A01
 | Versión | Fecha | Cambios | Autor |
 |---------|-------|---------|-------|
 | 1.0.0 | 23/07/2025 | Documento inicial completo | A. Pelliccia |
-
----
-
-Tiene razón. Aquí está el **ANEXO F** completo con la lista de todos los templates:
 
 ---
 
