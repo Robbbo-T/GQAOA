@@ -1,4 +1,8 @@
-# GAIA-QAO ADVENT: Documento Organizacional Maestro 
+Aquí tienes el documento formalizado en Markdown, con el nuevo **Anexo G** añadido y todos los elementos del **ÍNDICE EJECUTIVO** y **ANEXOS** convertidos en hipervínculos funcionales. He ajustado los títulos de las subsecciones de **Anexo G** para incluir el prefijo `Gx: AAA` para que coincida con los hipervínculos.
+
+---
+
+# GAIA-QAO ADVENT: Documento Organizacional Maestro (Revisado y Extendido)
 ## Marco Estratégico para el Liderazgo Aeroespacial Sostenible Europeo
 
 **Identificador del Documento:** GAIA-QAO-ORG-MASTER-001
@@ -10,31 +14,42 @@
 
 ## ÍNDICE EJECUTIVO
 
-*   Declaración de Propósito
-*   Estrategia de Desarrollo por Fases
-*   Estructura Organizacional del Consorcio
-*   Sistema de Gobernanza
-*   Divisiones Técnicas (Q-Divisions)
-*   Funciones Empresariales (ORB-Functions)
-*   Modelo Operativo Integrado
-*   Gestión del Talento y Competencias
-*   Sistema de Gestión de Calidad y Seguridad
-*   Marco de Cumplimiento Regulatorio
-*   Indicadores Clave de Rendimiento (KPIs)
-*   Cronograma Maestro Realista
-*   Gestión Financiera y Presupuestaria
-*   Gestión de Riesgos Estratégicos
-*   Plan de Comunicaciones Estratégicas
-*   Hoja de Ruta de Implementación
+*   [Declaración de Propósito](#1-declaración-de-propósito)
+*   [Estrategia de Desarrollo por Fases](#2-estrategia-de-desarrollo-por-fases)
+*   [Estructura Organizacional del Consorcio](#3-estructura-organizacional-del-consorcio)
+*   [Sistema de Gobernanza](#4-sistema-de-gobernanza)
+*   [Divisiones Técnicas (Q-Divisions)](#5-divisiones-técnicas-q-divisions)
+*   [Funciones Empresariales (ORB-Functions)](#6-funciones-empresariales-orb-functions)
+*   [Modelo Operativo Integrado](#7-modelo-operativo-integrado)
+*   [Gestión del Talento y Competencias](#8-gestión-del-talento-y-competencias)
+*   [Sistema de Gestión de Calidad y Seguridad](#9-sistema-de-gestión-de-calidad-y-seguridad)
+*   [Marco de Cumplimiento Regulatorio](#10-marco-de-cumplimiento-regulatorio)
+*   [Indicadores Clave de Rendimiento (KPIs)](#11-indicadores-clave-de-rendimiento-kpis)
+*   [Cronograma Maestro Realista](#12-cronograma-maestro-realista)
+*   [Gestión Financiera y Presupuestaria](#13-gestión-financiera-y-presupuestaria)
+*   [Gestión de Riesgos Estratégicos](#14-gestión-de-riesgos-estratégicos)
+*   [Plan de Comunicaciones Estratégicas](#15-plan-de-comunicaciones-estratégicas)
+*   [Hoja de Ruta de Implementación](#16-hoja-de-ruta-de-implementación)
 
 ## ANEXOS
 
-*   Anexo A: Organigrama Detallado del Consorcio
-*   Anexo B: Matriz de Competencias por División
-*   Anexo C: Políticas y Procedimientos Clave
-*   Anexo D: Arquitectura de Documentación Técnica (S1000D)
-*   Anexo E: Glosario de Términos
-*   Anexo F: Catálogo Maestro de Plantillas de Documentación
+*   [Anexo A: Organigrama Detallado del Consorcio](#anexo-a-organigrama-detallado)
+*   [Anexo B: Matriz de Competencias por División](#anexo-b-matriz-de-competencias-por-división)
+*   [Anexo C: Políticas y Procedimientos Clave](#anexo-c-políticas-y-procedimientos-clave)
+*   [Anexo D: Arquitectura de Documentación Técnica (S1000D)](#anexo-d-sistema-de-documentación-técnica)
+*   [Anexo E: Glosario de Términos](#anexo-e-glosario-de-términos)
+*   [Anexo F: Catálogo Maestro de Plantillas de Documentación](#anexo-f-lista-completa-de-templates-de-documentación-técnica)
+*   [Anexo G: GAIA‑QAO Universal Technology Classification System (UTCS) - Documento Maestro v1.1](#anexo-g-gaia-qao-universal-technology-classification-system-utcs---documento-maestro-v11)
+    *   [G1: ATA 000-099: Aerospace Technology Architecture](#g1-ata-000-099-aerospace-technology-architecture)
+    *   [G2: STA 100-199: Space Technology Architecture](#g2-sta-100-199-space-technology-architecture)
+    *   [G3: DTTA 200-299: Defence Technology Type Architecture](#g3-dtta-200-299-defence-technology-type-architecture)
+    *   [G4: DTCEC 300-399: Digital Twin, Cloud & Edge Computing Architecture](#g4-dtcec-300-399-digital-twin-cloud-edge-computing-architecture)
+    *   [G5: EPTA 400-499: Energy & Propulsion Technology Architecture](#g5-epta-400-499-energy-propulsion-technology-architecture)
+    *   [G6: AMTA 500-599: Advanced Material, Bio & Nanotechnology Architecture](#g6-amta-500-599-advanced-material-bio-nanotechnology-architecture)
+    *   [G7: OGATA 600-699: On-Ground Automation Technology Architecture](#g7-ogata-600-699-on-ground-automation-technology-architecture)
+    *   [G8: ACV 700-799: Aerial City Viability](#g8-acv-700-799-aerial-city-viability)
+    *   [G9: CYB 800-899: Cybersecurity Architecture](#g9-cyb-800-899-cybersecurity-architecture)
+    *   [G10: QCSAA 900-999: Quantum Computing and Sentient Agency Architecture](#g10-qcsaa-900-999-quantum-computing-and-sentient-agency-architecture)
 
 ---
 
@@ -430,7 +445,7 @@ Comunicación proactiva, transparente y coordinada para alinear a todos los stak
 | :-------------------- | :------------------------------------- | :--------------- | :---------- |
 | Consejo Supervisor    | Informes trimestrales, reuniones       | Trimestral       | CEO         |
 | Socios Industriales   | Comités de programa, revisiones técnicas | Mensual          | CTO/COO     |
-| Reguladores (EASA/FAA) | Grupos de trabajo, reuniones formales  | Continua         | CLO/CCO     |
+| Reguladores (EASA/FAA) | Grupos de trabajo, reuniones formales   | Continua         | CLO/CCO     |
 | Empleados             | Comunicaciones internas, Town Halls   | Semanal/Mensual  | CHRO        |
 | Prensa y Público      | Comunicados de prensa, eventos clave (Air Shows) | Hitos          | CMO         |
 
@@ -1057,14 +1072,14 @@ flowchart TD
 
 | Código UTCS | Nombre Completo                                    | Rango   | Enfoque Primario                           | Ejemplos/Dominios                          |
 | ----------- | -------------------------------------------------- | ------- | ------------------------------------------ | ------------------------------------------ |
-| `ATA`       | Aerospace Technology Architecture                  | 000–099 | Aeronáutica tradicional, BWB, aviónica     | Flight controls, estructuras, aviónica     |
-| `STA`       | Space Technology Architecture                      | 100–199 | Exploración y operaciones espaciales       | Propulsión deep-space, hábitats, ISRU      |
-| `DTTA`      | Defence Technology Type Architecture               | 200–299 | Defensa multisector aire-mar-tierra-ciber  | Submarinos, MRTT, sistemas antidesastre    |
-| `DTCEC`     | Digital Twins, Cloud & Edge Computing              | 300–399 | Simulación, IA, XR                         | Digital twins, AR/MR cockpits              |
-| `EPTA`      | Energy & Propulsion Technology Architecture        | 400–499 | Propulsión limpia, híbrida, energética     | H₂, nucleares, eléctricos, scramjet        |
-| `AMTA`      | Advanced Material, Bio & Nanotech Architecture     | 500–599 | Nuevos materiales, sensores, bio-nano      | CFRP, metamateriales, biosensores          |
-| `OGATA`     | On-Ground Automation Technology Architecture       | 600–699 | Robótica, automatización, logística        | Fábricas 4.0, AGVs, control tierra         |
-| `ACV`       | Aerial City Viability Architecture                 | 700–799 | Movilidad urbana aérea, sostenibilidad     | Vertipuertos, UTM, sistemas eléctricos     |
+| `ATA`       | Aerospace Technology Architecture                  | 000–099 | Aeronáutica tradicional, BWB, UAM, eVTOL   | Flight controls, estructuras, aviónica     |
+| `STA`       | Space Technology Architecture                      | 100–199 | Exploración y operaciones espaciales       | Propulsión deep‑space, hábitats, ISRU      |
+| `DTTA`      | Defence Technology Type Architecture               | 200–299 | Sistemas de defensa multisector (aire‑mar‑tierra‑ciber) | Submarinos, MRTT, sistemas antidesastre    |
+| `DTCEC`     | Digital Twins, Cloud & Edge Computing              | 300–399 | TIC, AI/ML, simulación cuántica, XR        | Digital twins, AR/MR cockpits              |
+| `EPTA`      | Energy & Propulsion Technology Architecture        | 400–499 | Generación, almacenamiento y propulsión    | H₂, nucleares, eléctricos, scramjet        |
+| `AMTA`      | Advanced Material, Bio & Nanotechnology Architecture | 500–599 | Materiales avanzados, biotecnología y nanotecnología | CFRP‑grafeno, metamateriales, bio‑polímeros, nano‑sensores |
+| `OGATA`     | On‑Ground Automation Technology Architecture       | 600–699 | Automatización industrial, robótica, infra | Fábricas 4.0, drones logísticos, A‑GVs     |
+| `ACV`       | Aerial City Viability                              | 700–799 | Movilidad aérea urbana & infraestructura   | Vertipuertos, UTM, ruido, sostenibilidad   |
 | `CYB`       | Cybersecurity Architecture                         | 800–899 | Seguridad de sistemas, post-quantum crypto | Zero Trust, QKD, IA robusta                |
 | `QCSAA`     | Quantum Computing and Sentient Agency Architecture | 900–999 | Autonomía consciente, QPU, percepción      | QPU embebidos, IA cuántica, sensores qubit |
 
@@ -1586,35 +1601,33 @@ Este Anexo F proporciona la lista completa de los 251 templates organizados por:
 
 Cada template incluye su identificador único, nombre, división responsable y estándar aplicable, facilitando su implementación y gestión dentro del programa GAIA-QAO.
 
-**FIN DEL DOCUMENTO ORGANIZACIONAL MAESTRO******
-# GAIA‑QAO Universal Technology Classification System (UTCS) - Documento Maestro v1.1
-
-## 🎯 Propósito
-
-Proveer un **marco modular y extensible** para clasificar cualquier tecnología —desde un dron industrial hasta un ecosistema cuántico en la nube— garantizando **trazabilidad 360°** a lo largo de todo el ciclo de vida (concepto → mantenimiento) y, en particular, soportar las integraciones multidominio que exigen programas como **AMPEL360 BWB‑Q100**.
-
-> **Revisión v1.1 — jul 2025**
-
 ---
 
-## 🌐 Arquitecturas Base **v1.1**
+## Anexo G: GAIA‑QAO Universal Technology Classification System (UTCS) - Documento Maestro v1.1
 
-| Código AAA  | Nombre completo                                        | Rango de capítulos | Enfoque primario                                             | Ejemplos / dominios                                        | 
-| :---------- | :----------------------------------------------------- | :----------------- | :----------------------------------------------------------- | :--------------------------------------------------------- | 
-| **ATA**     | *Aerospace Technology Architecture*                    | 000‑099              | Sistemas aeronáuticos tradicionales, BWB, UAM, eVTOL         | Flight controls, estructuras, aviónica                     |
-| **STA**     | *Space Technology Architecture*                        | 100‑199            | Operaciones y exploración espacial                           | Propulsión deep‑space, hábitats, ISRU                      |
-| **DTTA**    | *Defence Technology Type Architecture*                 | 200‑299            | Sistemas de defensa multisector (aire‑mar‑tierra‑ciber)      | Submarinos, MRTT, sistemas antidesastre                    | 
-| **DTCEC**   | *Digital Twins, Cloud & Edge Computing*                | 300‑399            | TIC, AI/ML, simulación cuántica, XR                          | Digital twins, AR/MR cockpits                              | 
-| **EPTA**    | *Energy & Propulsion Technology Architecture*          | 400‑499            | Generación, almacenamiento y propulsión                      | H₂, nucleares, eléctricos, scramjet                        |
-| **AMTA**    | *Advanced Material, Bio & Nanotechnology Architecture* | 500‑599            | Materiales avanzados, **biotecnología** y **nanotecnología** | CFRP‑grafeno, metamateriales, bio‑polímeros, nano‑sensores |
-| **OGATA**   | *On‑Ground Automation Technology Architecture*         | 600‑699            | Automatización industrial, robótica, infra                   | Fábricas 4.0, drones logísticos, A‑GVs                     | 
-| **ACV**     | *Aerial City Viability*                                | 700‑799            | Movilidad aérea urbana & infraestructura                     | Vertipuertos, UTM, ruido, sostenibilidad                   | 
-| **CYB**     | *Cybersecurity Architecture*                           | 800‑899            | Seguridad de la información y ciber‑resiliencia              | Zero‑Trust, criptografía post‑Q                            | 
-| **QCSAA**   | *Quantum Computing and Sentient Agency Architecture*   | 900‑999            | Sistemas cuánticos avanzados y autonomía consciente         | Computación cuántica, IA consciente, robótica cuántica     | 
----
-# DESGLOSE DETALLADO
----
-## ✈️ ATA 000-099: Aerospace Technology Architecture
+🎯 **Propósito**
+Proveer un marco modular y extensible para clasificar cualquier tecnología —desde un dron industrial hasta un ecosistema cuántico en la nube— garantizando trazabilidad 360° a lo largo de todo el ciclo de vida (concepto → mantenimiento) y, en particular, soportar las integraciones multidominio que exigen programas como AMPEL360 BWB‑Q100.
+
+**Revisión v1.1 — jul 2025**
+
+🌐 **Arquitecturas Base v1.1**
+
+| Código AAA  | Nombre completo                                    | Rango de capítulos | Enfoque primario                                     | Ejemplos / dominios                                         |
+| :---------- | :------------------------------------------------- | :---------------- | :--------------------------------------------------- | :---------------------------------------------------------- |
+| ATA         | Aerospace Technology Architecture                  | 000‑099           | Sistemas aeronáuticos tradicionales, BWB, UAM, eVTOL | Flight controls, estructuras, aviónica                      |
+| STA         | Space Technology Architecture                      | 100‑199           | Operaciones y exploración espacial                   | Propulsión deep‑space, hábitats, ISRU                       |
+| DTTA        | Defence Technology Type Architecture               | 200‑299           | Sistemas de defensa multisector (aire‑mar‑tierra‑ciber) | Submarinos, MRTT, sistemas antidesastre                     |
+| DTCEC       | Digital Twins, Cloud & Edge Computing              | 300‑399           | TIC, AI/ML, simulación cuántica, XR                  | Digital twins, AR/MR cockpits                               |
+| EPTA        | Energy & Propulsion Technology Architecture        | 400‑499           | Generación, almacenamiento y propulsión              | H₂, nucleares, eléctricos, scramjet                         |
+| AMTA        | Advanced Material, Bio & Nanotechnology Architecture | 500‑599           | Materiales avanzados, biotecnología y nanotecnología | CFRP‑grafeno, metamateriales, bio‑polímeros, nano‑sensores |
+| OGATA       | On‑Ground Automation Technology Architecture       | 600‑699           | Automatización industrial, robótica, infra           | Fábricas 4.0, drones logísticos, A‑GVs                      |
+| ACV         | Aerial City Viability                              | 700‑799           | Movilidad aérea urbana & infraestructura             | Vertipuertos, UTM, ruido, sostenibilidad                    |
+| CYB         | Cybersecurity Architecture                         | 800‑899           | Seguridad de la información y ciber‑resiliencia      | Zero‑Trust, criptografía post‑Q                             |
+| QCSAA       | Quantum Computing and Sentient Agency Architecture | 900‑999           | Autonomía consciente, QPU, percepción                | Computación cuántica, IA consciente, robótica cuántica      |
+
+**DESGLOSE DETALLADO**
+
+## Annex G1 ✈️ ATA 000-099: Aerospace Technology Architecture
 
 La clasificación ATA (Air Transport Association) constituye la **columna vertebral** de la documentación aeronáutica. Aporta un marco modular para todos los sistemas, subsistemas y componentes, y continúa siendo extensible hacia arquitecturas disruptivas como **BWB, UAM, eVTOL** y los futuros dominios **Q‑aviónica/Q‑sensores**.
 
@@ -2408,10 +2421,7 @@ La clasificación ATA (Air Transport Association) constituye la **columna verteb
 ---
 
 
----
-
-
-## 🚀 STA 100-199: Space Technology Architecture
+## ANNEX G2 🚀 STA 100-199: Space Technology Architecture
 
 La **Space Technology Architecture (STA)** se enfoca en todas las tecnologías, sistemas y componentes relacionados con las operaciones espaciales, la exploración del cosmos y la infraestructura en el espacio, desde la órbita baja terrestre (LEO) hasta las misiones interplanetarias y más allá. Este framework se alinea con la visión de la ECSS y la NASA Technology Taxonomy, incorporando las últimas innovaciones.
 
@@ -3008,9 +3018,9 @@ La **Space Technology Architecture (STA)** se enfoca en todas las tecnologías, 
 
 </details>
 
----
 
-## 🛡️ DTTA 200-299: Defence Technology Type Architecture
+
+## ANNEX G3 🛡️ DTTA 200-299: Defence Technology Type Architecture
 
 La **Defence Technology Type Architecture (DTTA)** abarca todos los sistemas, tecnologías y operaciones relacionadas con la defensa y la seguridad, cubriendo los dominios aéreo, marítimo, terrestre y cibernético. Este framework está diseñado para clasificar tecnologías militares desde sistemas de combate convencionales hasta capacidades de guerra cuántica y autónoma.
 
@@ -3525,9 +3535,8 @@ La **Defence Technology Type Architecture (DTTA)** abarca todos los sistemas, te
 
 </details>
 
----
 
-## 🔮 DTCEC 300-399: Digital Twin, Cloud & Edge Computing Architecture
+## ANNEX G4 🔮 DTCEC 300-399: Digital Twin, Cloud & Edge Computing Architecture
 
 La **Digital Twin, Cloud & Edge Computing Architecture (DTCEC)** abarca todas las tecnologías, metodologías y sistemas relacionados con gemelos digitales, computación en la nube y en el borde, inteligencia artificial y realidad extendida. Este framework está diseñado para clasificar tecnologías desde réplicas digitales básicas hasta ecosistemas digitales conscientes con capacidades predictivas cuánticas.
 
@@ -5007,10 +5016,7 @@ La **Digital Twin, Cloud & Edge Computing Architecture (DTCEC)** abarca todas la
 
 </details>
 
-
----
-
-## ⚡ EPTA 400-499: Energy & Propulsion Technology Architecture
+## ANNEX G5⚡ EPTA 400-499: Energy & Propulsion Technology Architecture
 
 La **Energy & Propulsion Technology Architecture (EPTA)** cubre la generación, almacenamiento, conversión y sistemas de propulsión para diversas aplicaciones, con un enfoque en la sostenibilidad y la eficiencia energética. Este framework está diseñado para clasificar tecnologías desde fuentes de energía convencionales hasta propulsores cuánticos avanzados, anticipando la convergencia entre sostenibilidad, eficiencia y la innovación más disruptiva.
 
@@ -5530,7 +5536,8 @@ La **Energy & Propulsion Technology Architecture (EPTA)** cubre la generación, 
 
 </details>
 
-## 🧬 AMTA 500-599: Advanced Material, Bio & Nanotechnology Architecture
+
+### ANNEX G6 🧬 AMTA 500-599: Advanced Material, Bio & Nanotechnology Architecture
 
 La **Advanced Material, Bio & Nanotechnology Architecture (AMTA)** se dedica a la investigación, desarrollo y aplicación de materiales de vanguardia, sistemas biológicos y estructuras a escala nanométrica. Este framework es crucial para impulsar la innovación en sectores como el aeroespacial, la medicina, la energía y la defensa, a través de la manipulación de la materia a nivel fundamental.
 
@@ -5925,9 +5932,8 @@ La **Advanced Material, Bio & Nanotechnology Architecture (AMTA)** se dedica a l
         *   594-20-20: Simbiosis Industrial y Colaboración para Intercambio de Subproductos
 </details>
 
----
 
-## ⚙️ OGATA 600-699: On-Ground Automation Technology Architecture
+## ANNEX G7 ⚙️ OGATA 600-699: On-Ground Automation Technology Architecture
 
 La **On-Ground Automation Technology Architecture (OGATA)** se enfoca en la automatización, robótica y sistemas inteligentes aplicados a entornos terrestres. Este framework clasifica tecnologías que van desde robots industriales y vehículos autónomos hasta infraestructuras inteligentes y la manufactura avanzada, con un énfasis en la optimización por IA y la computación cuántica.
 
@@ -6385,9 +6391,8 @@ La **On-Ground Automation Technology Architecture (OGATA)** se enfoca en la auto
 
 </details>
 
----
 
-## 🏙️ ACV 700-799: Aerial City Viability
+## ANNEX G8 🏙️ ACV 700-799: Aerial City Viability
 
 La **Aerial City Viability (ACV)** se dedica a las tecnologías y la infraestructura necesarias para la movilidad aérea urbana (UAM) y la integración de vehículos aéreos en entornos urbanos densos. Este framework se enfoca en la sostenibilidad, la habitabilidad y la creación de un ecosistema de movilidad aérea segura y eficiente, interconectado con las ciudades inteligentes del futuro.
 
@@ -6794,9 +6799,8 @@ La **Aerial City Viability (ACV)** se dedica a las tecnologías y la infraestruc
 ---
 Aquí tienes el desglose completo y detallado de la **Cybersecurity Architecture (CYB) 800-899**, con los *insights* de la evaluación aplicados directamente para reflejar su completitud, coherencia técnica, rigor regulatorio y potencial transformador.
 
----
 
-## 🔒 CYB 800-899: Cybersecurity Architecture
+## ANNEX G9 🔒 CYB 800-899: Cybersecurity Architecture
 
 La **Cybersecurity Architecture (CYB)** se centra en la protección de la información, los sistemas y las redes contra amenazas digitales, asegurando la resiliencia y la privacidad en todos los dominios. Este framework es esencial para proteger infraestructuras críticas, datos sensibles y operaciones en un panorama de amenazas en constante evolución, incluyendo la emergencia de capacidades ofensivas cuánticas y la integración con la industria aeroespacial.
 
@@ -7270,9 +7274,7 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 
 </details>
 
----
-
-## 🌐 Quantum Computing and Sentient Agency Architecture (QCSAA) 900-999
+## ANNEX G10 🌐 Quantum Computing and Sentient Agency Architecture (QCSAA) 900-999
 
 <details><summary><strong>QCSAA 900-909: Fundamentos de Computación Cuántica</strong></summary>
 
@@ -7712,313 +7714,5 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 
 ---
 
-# PROPOSED PROGRAM BY GQAOA
-
-
-# ✳️ MATRIZ MAESTRA DE ALICES – GAIA-QAOA v1.1 
-
-Este documento presenta la matriz oficial y corregida de **ALICES** (sistemas físicos reales) dentro del ecosistema **GAIA-QAOA**, clasificados por dominio de operación (**aire, espacio, tierra**) y vinculados a sus respectivos gemelos digitales (**BOB DT** y **BOB DA**), bajo los principios de sincronización cuántica.
-
 ---
-
-## ✈️ DOMINIO AIRE – Programas Oficiales AMPEL360
-
-| Programa Oficial | ALICE                  | BOB DT                  | BOB DA                  | Descripción Funcional                                                |
-| ---------------- | ---------------------- | ----------------------- | ----------------------- | -------------------------------------------------------------------- |
-| AMPEL360BWB Q100 | ALICE-AMPEL360BWB-Q100 | BOB-DT-AMPEL360BWB-Q100 | BOB-DA-AMPEL360BWB-Q100 | Aeronave a impacto 0 de 100 pasajeros con propulsión híbrida         |
-| AMPEL360BWB Q250 | ALICE-AMPEL360BWB-Q250 | BOB-DT-AMPEL360BWB-Q250 | BOB-DA-AMPEL360BWB-Q250 | Aeronave de largo alcance, alta eficiencia, 75% menos emisiones      |
-| AMPEL360PLUS     | ALICE-AMPEL360PLUS     | BOB-DT-AMPEL360PLUS     | BOB-DA-AMPEL360PLUS     | Nave suborbital reutilizable para turismo espacial y experimentación |
-| AMPEL360PLUSPLUS | ALICE-AMPEL360PLUSPLUS | BOB-DT-AMPEL360PLUSPLUS | BOB-DA-AMPEL360PLUSPLUS | Nave de turismo orbital con capacidad para vuelos prolongados        |
-| AMPEL360XWLRGA   | ALICE-AMPEL360XWLRGA   | BOB-DT-AMPEL360XWLRGA   | BOB-DA-AMPEL360XWLRGA   | Sistema (tripulado o no) de remediación ambiental aérea              |
-| AMPEL360 AC-MACH | ALICE-AC-MACH          | BOB-DT-AC-MACH          | BOB-DA-AC-MACH          | Vehículo hipersónico con control morfodinámico adaptativo            |
-| AMPEL360 C-MAX   | ALICE-AMPEL-CMAX       | BOB-DT-AMPEL-CMAX       | BOB-DA-AMPEL-CMAX       | Agente de crucero con percepción atmosférica extendida               |
-
----
-
-## 🌌 DOMINIO ESPACIO – Programas Oficiales GAIA-QAO
-
-| Programa Oficial | ALICE                 | BOB DT                 | BOB DA                 | Descripción Funcional                                              |
-| ---------------- | --------------------- | ---------------------- | ---------------------- | ------------------------------------------------------------------ |
-| GAIA-SAT-01      | ALICE-GAIA-SAT-01     | BOB-DT-GAIA-SAT-01     | BOB-DA-GAIA-SAT-01     | Satélite de observación en LEO con instrumentación avanzada        |
-| GAIA-SAT-02-QKD  | ALICE-GAIA-SAT-02-QKD | BOB-DT-GAIA-SAT-02-QKD | BOB-DA-GAIA-SAT-02-QKD | Satélite dedicado a la distribución de claves cuánticas (QKD)      |
-| GAIA-TEL-01      | ALICE-GAIA-TEL-01     | BOB-DT-GAIA-TEL-01     | BOB-DA-GAIA-TEL-01     | Telescopio orbital para observación astronómica y espectroscopía Q |
-| GAIA-SND-01      | ALICE-GAIA-SND-01     | BOB-DT-GAIA-SND-01     | BOB-DA-GAIA-SND-01     | Sonda interplanetaria con navegación cuántico-asistida             |
-| GAIA-HAB-01      | ALICE-GAIA-HAB-01     | BOB-DT-GAIA-HAB-01     | BOB-DA-GAIA-HAB-01     | Hábitat orbital para vida y experimentación en microgravedad       |
-| GAIA-CARGO-01    | ALICE-GAIA-CARGO-01   | BOB-DT-GAIA-CARGO-01   | BOB-DA-GAIA-CARGO-01   | Nave de carga automatizada para soporte a estaciones y hábitats    |
-| GAIA-SRV-01      | ALICE-GAIA-SRV-01     | BOB-DT-GAIA-SRV-01     | BOB-DA-GAIA-SRV-01     | Robot de servicio en órbita para reparación y ensamblaje satelital |
-
----
-
-## 🏭 DOMINIO TIERRA – Programas Oficiales Robbbo‑T
-
-| Programa Oficial               | ALICE                  | BOB DT                  | BOB DA                  | Descripción Funcional                                        |
-| ------------------------------ | ---------------------- | ----------------------- | ----------------------- | ------------------------------------------------------------ |
-| Robbbo‑T/Factory               | ALICE-ROBBBO-T-FACTORY | BOB-DT-ROBBBO-T-FACTORY | BOB-DA-ROBBBO-T-FACTORY | Fábrica digital avanzada con robótica cuántico-asistida      |
-| Robbbo‑T/Extended\_Maintenance | ALICE-ROBBBO-T-MAINT   | BOB-DT-ROBBBO-T-MAINT   | BOB-DA-ROBBBO-T-MAINT   | Plataforma XR/AR para mantenimiento técnico inteligente      |
-| RTA‑212                        | ALICE-RTA-212          | BOB-DT-RTA-212          | BOB-DA-RTA-212          | Subsistema robótico de control de fuerza y torque adaptativo |
-
----
-
-## 📌 Notas:
-
-* **ALICE**: sistema físico real (aeronave, satélite, robot, etc.) con capacidades cuántico-integradas.
-* **BOB DT**: gemelo digital estructural (CAD, sensores, configuración).
-* **BOB DA**: agente digital contextual (narrativas, procedimientos, predicciones).
-* **Descripción Funcional**: resume el propósito operativo del sistema dentro del dominio GAIA-QAOA.
-
-Este documento forma parte del `ALI-BOB-MAP-V1.0` y está alineado con el UTCS GAIA-QAO.
-
-# GAIAQAOA_ALICE-BOB_AGENTS/
-
-Este repositorio central alberga la matriz maestra de ALICES (sistemas físicos reales) y sus gemelos digitales asociados (BOB DT y BOB DA) dentro del ecosistema **GLOBAL QUANTUM AEROSPACE OPTIME ARCHITECTURE (GQAOA)**. Su propósito es organizar y trazar los entregables de cada sistema a lo largo de su ciclo de vida, garantizando la coherencia y la trazabilidad 360° que exige el **GAIA-QAO Universal Technology Classification System (UTCS)**.
-
-## 🎯 Propósito del Repositorio
-
-Proveer una **estructura modular y estandarizada** para almacenar y gestionar todos los artefactos digitales generados durante el ciclo de vida (desde la conceptualización hasta el retiro) de los agentes **ALICE-BOB**. Esto facilita la colaboración, la auditoría, la certificación y la evolución de sistemas aeroespaciales inteligentes y cuántico-integrados, como los definidos por los programas **AMPEL360**.
-
-## 📁 Estructura del Repositorio - Foco en AMPEL360BWB-Q100 (Ciclo de Vida Completo)
-
-```
-GAIAQAOA_ALICE-BOB_AGENTS/
-├── aire/
-│   ├── AMPEL360BWB-Q100/
-│   │   ├── CON/           # Conceptualización
-│   │   │   ├── ALI-DP-000-CON-001_Vision_General_Aeronave.md (ATA-000-10-60: Especificaciones Conceptuales / Vistas de Programa)
-│   │   │   ├── ALI-DP-000-CON-002_CONOPS_BWB_Quantum.md (ATA-000-10-61: Concepto de Operaciones (ConOps))
-│   │   │   ├── ALI-DP-000-CON-003_Estudio_Viabilidad_Tecnica.md (ATA-000-10-62: Estudios de Viabilidad y Análisis de Alternativas)
-│   │   │   ├── ALI-DP-000-CON-004_Arquitectura_Sistema_Preliminar.pdf (ATA-000-10-63: Conceptos de Arquitectura Preliminar)
-│   │   │   ├── ALI-DP-000-CON-005_Casos_Uso_Operacionales.md (ATA-000-10-64: Casos de Uso y Escenarios Operacionales)
-│   │   │   ├── ALI-DP-000-CON-006_Business_Case_AMPEL360.md (ATA-000-10-65: Caso de Negocio y Proposición de Valor)
-│   │   │   ├── ALI-DP-000-CON-007_Analisis_Mercado_BWB.md (ATA-000-10-66: Análisis de Mercado y Posicionamiento Competitivo)
-│   │   │   ├── ALI-DP-000-CON-008_Evaluacion_Tecnologias_Emergentes.md (ATA-000-10-67: Evaluación Preliminar de Tecnologías / Estudios de Trade-off)
-│   │   │   ├── ALI-DP-004-CON-001_Analisis_Preliminar_Riesgos.md (ATA-004-10-61: Análisis Preliminar de Riesgos del Programa y Estrategias de Mitigación)
-│   │   │   ├── ALI-DP-000-CON-009_Plan_Recursos_Programa.md (ATA-000-10-68: Plan Preliminar de Recursos y Estructura del Equipo)
-│   │   │   ├── ALI-DP-000-CON-010_Estrategia_Propiedad_Intelectual.md (ATA-000-10-69: Estrategia Preliminar de Propiedad Intelectual)
-│   │   │   ├── ALI-DP-740-CON-001_Prelim_Sostenibilidad_Etica.md (ACV-740-10-30: Evaluación Preliminar de Sostenibilidad y Ética Ambiental/Social)
-│   │   │   ├── BOB-DT-000-CON-001_Modelo_Conceptual_BWB.dtm (DTCEC-301-10-30: Gemelo Digital Predictivo (BOB DT Modelo))
-│   │   │   └── BOB-DA-000-CON-001_Asistente_Conceptualizacion.py (DTCEC-301-10-50: Gemelo Digital Autónomo (BOB DA Modelo) - Conceptual)
-│   │   ├── DES/           # Diseño
-│   │   │   ├── CAD/                                # Modelos CAD 3D y planos de detalle
-│   │   │   │   ├── ALI-PC-006-DES-001_Modelo_CAD_3D.step (ATA-006-10-10: Modelos CAD 3D Paramétricos y Asociativos)
-│   │   │   │   └── ALI-DP-006-DES-001_Planos_Detalle_Ensamblaje.pdf (ATA-006-10-11: Planos de Detalle y Ensamblaje)
-│   │   │   ├── DE-RE-MA/                           # Documentación de Diseño, Revisión y Manufactura (DRD)
-│   │   │   │   ├── ALI-DP-000-DES-001_Informe_DRD.md (ATA-000-10-70: Documentación de Procesos de Diseño, Revisión y Manufactura)
-│   │   │   │   ├── ALI-DP-050-DES-001_Resultados_FEM_Estructural.pdf (ATA-050-10-50: Simulación Estructural por Elementos Finitos (FEM) - Resultados de Diseño)
-│   │   │   │   └── ALI-DP-050-DES-002_Analisis_Fatiga_Diseño.pdf (ATA-053-20-00: Resistencia a la Fatiga y Corrosión - Análisis de Diseño)
-│   │   │   ├── ALICE-BOB_ARCH/                     # Arquitectura ALICE-BOB (BOB DT/DA detallados)
-│   │   │   │   ├── BOB-DT-300-DES-001_Arquitectura_BOB-DT.json (DTCEC-300-20-60: Framework de Arquitectura Digital ALICE-BOB - BOB DT Componentes)
-│   │   │   │   ├── BOB-DA-300-DES-001_Arquitectura_BOB-DA.json (DTCEC-300-20-60: Framework de Arquitectura Digital ALICE-BOB - BOB DA Componentes)
-│   │   │   │   ├── BOB-DT-301-DES-001_Modelo_Predictivo_Detallado.dtm (DTCEC-301-10-30: Gemelo Digital Predictivo (BOB DT Modelo) - Detallado)
-│   │   │   │   └── BOB-DA-301-DES-001_Agente_Autonomo_Detallado.py (DTCEC-301-10-50: Gemelo Digital Autónomo (BOB DA Modelo) - Detallado)
-│   │   │   ├── REQ_SPECS/                          # Especificaciones de Requisitos
-│   │   │   │   ├── ALI-DP-000-DES-002_Requisitos_Alto_Nivel.md (ATA-000-10-80: Especificaciones de Requisitos de Alto Nivel)
-│   │   │   │   └── ALI-DP-000-DES-003_Requisitos_Detallados_Sist.md (ATA-000-10-81: Especificaciones de Requisitos Detalladas por Sistema)
-│   │   │   ├── INTERFACE_CONTROL_DOCS/             # Documentos de Control de Interfaces (ICDs)
-│   │   │   │   ├── ALI-DP-050-DES-003_ICD_AMTA.md (ATA-050-50-00: Interfaz con AMTA (Materiales, Bio y Nano))
-│   │   │   │   ├── ALI-DP-050-DES-004_ICD_DTCEC.md (ATA-050-51-00: Interfaz con DTCEC (Digital Twins, Cloud & Edge Computing))
-│   │   │   │   └── ALI-DP-050-DES-005_ICD_CYB.md (ATA-050-52-00: Interfaz con CYB (Ciberseguridad))
-│   │   │   └── SYSTEM_DESIGN_DOC.md              # Documento de Diseño del Sistema
-│   │   │       └── ALI-DP-000-DES-004_System_Design_Document.md (ATA-000-10-82: Documento de Diseño del Sistema)
-│   │   ├── TST/           # Testing
-│   │   │   ├── PROTOCOLS/                          # Protocolos de validación, planes de prueba
-│   │   │   │   ├── ALI-DP-005-TST-001_Protocolos_Prueba.md (ATA-005-20-30: Protocolos y Procedimientos de Prueba)
-│   │   │   │   ├── ALI-DP-005-TST-002_Planes_Prueba_Subsistemas.md (ATA-005-20-31: Planes de Prueba de Subsistemas)
-│   │   │   │   ├── ALI-DP-005-TST-003_Protocolos_Pruebas_Integradas.md (ATA-005-20-32: Protocolos de Pruebas Integradas)
-│   │   │   │   └── ALI-DP-175-TST-001_Plan_VyV_Model_Based.md (STA-175-10-10: Planificación de V&V en Fases de Proyecto (Model-Based V&V))
-│   │   │   ├── TST-REPORTS/                        # Logs, resultados, análisis de pruebas
-│   │   │   │   ├── ALI-DP-005-TST-004_Informes_Resultados_Prueba.md (ATA-005-20-40: Informes y Resultados de Prueba)
-│   │   │   │   ├── ALI-DP-005-TST-005_Logs_Pruebas_Detallados.log (ATA-005-20-41: Logs de Pruebas Detallados)
-│   │   │   │   └── ALI-DP-005-TST-006_Analisis_Fallas_Pruebas.md (ATA-005-20-42: Análisis de Fallos en Pruebas)
-│   │   │   ├── SIM_RESULTS/                        # Resultados de Simulación
-│   │   │   │   ├── BOB-DT-348-TST-001_Visualizacion_Simulacion.mp4 (DTCEC-348-10-10: Visualización 3D en Tiempo Real de Simulaciones)
-│   │   │   │   └── BOB-DA-349-TST-001_Resultados_Sim_Cuantica.json (DTCEC-349-20-00: Aplicaciones de Simulación Cuántica - Resultados)
-│   │   │   └── GROUND_TEST_DATA/                   # Datos de Pruebas en Tierra (Hardware-in-the-Loop, etc.)
-│   │   │       ├── ALI-PC-175-TST-001_Datos_Pruebas_HIL.csv (STA-175-20-10: Datos de Pruebas en Tierra y HIL)
-│   │   │       └── ALI-PC-175-TST-002_Informe_Pruebas_Tierra.md (STA-175-20-20: Informes de Pruebas en Tierra)
-│   │   ├── CRT/           # Certificación
-│   │   │   ├── DO-178C/                            # Certificación de Software
-│   │   │   │   └── ALI-DP-004-CRT-001_DO-178C_Compliance_Matrix.pdf (ATA-004-20-10: Certificación de Software (DO-178C))
-│   │   │   ├── DO-254/                             # Certificación de Hardware
-│   │   │   │   └── ALI-DP-004-CRT-002_DO-254_Certification_Plan.pdf (ATA-004-20-20: Certificación de Hardware (DO-254))
-│   │   │   ├── Q-CERTS/                            # Certificaciones Específicas para componentes Cuánticos (Ej. Q-Safe, TRL Assessment)
-│   │   │   │   ├── ALI-DP-004-CRT-003_Q_Safe_Certificate.pdf (ATA-004-20-30: Certificación y Aseguramiento Cuántico)
-│   │   │   │   └── ALI-DP-425-CRT-001_Informe_Seguridad_QBatteries.pdf (EPTA-425-20-10: Marcos Regulatorios para la Seguridad de Q-Baterías)
-│   │   │   └── REGULATORY_COMPLIANCE_DOCS/         # Documentos de Cumplimiento Regulatorio
-│   │   │       └── ALI-DP-004-CRT-004_Regulatory_Compliance_Status.md (ATA-004-10-40: Automated AD Compliance / Status de Conformidad)
-│   │   ├── PRD/           # Producción / Manufactura
-│   │   │   ├── MANUALS/                            # Manuales de Producción
-│   │   │   │   └── ALI-DP-000-PRD-001_Manual_Produccion_Ensamblaje.pdf (ATA-000-10-90: Manuales de Producción y Ensamblaje)
-│   │   │   ├── TWIN-FILES/                         # Archivos de configuración del Gemelo Digital Físico (BOB DT) en la planta
-│   │   │   │   ├── BOB-DT-305-PRD-001_Config_DT_Planta.json (DTCEC-305-20-10: Control de Versiones de Modelos y Datos del DT)
-│   │   │   │   └── BOB-DT-309-PRD-001_Fabrica_Digital_Config.json (DTCEC-309-10-50: Digital Factory y Smart Manufacturing - Configuración)
-│   │   │   └── QSCONFIG/                           # Archivos de configuración Cuántica para manufactura
-│   │   │       ├── ALI-DP-583-PRD-001_Config_Manufactura_Cuantica.txt (AMTA-583-30-00: Configuración y Control de Manufactura Cuántica)
-│   │   │       └── ALI-DP-575-PRD-001_Config_MA_Autonoma_Militar.txt (AMTA-575-20-20: Manufactura Aditiva Autónoma para Misiones Militares - Configs)
-│   │   ├── MNT/           # Mantenimiento en línea
-│   │   │   ├── AMM/                                # Aircraft Maintenance Manuals (Manuales de Mantenimiento de Aeronave)
-│   │   │   │   └── ALI-DP-005-MNT-001_AMM_BWB-Q100.pdf (ATA-005-20-50: Manuales de Mantenimiento de Aeronave (AMM) - Versión en Línea)
-│   │   │   ├── CMM/                                # Component Maintenance Manuals (Manuales de Mantenimiento de Componentes)
-│   │   │   │   └── ALI-DP-005-MNT-002_CMM_ComponenteX.pdf (ATA-005-20-60: Manuales de Mantenimiento de Componentes (CMM))
-│   │   │   ├── IPC/                                # Illustrated Parts Catalog (Catálogo Ilustrado de Partes)
-│   │   │   │   └── ALI-DP-005-MNT-003_IPC_BWB-Q100.pdf (ATA-005-20-70: Catálogo Ilustrado de Partes (IPC))
-│   │   │   └── PREDICTIVE_MAINT_DATA/              # Datos de Mantenimiento Predictivo
-│   │   │       └── ALI-PC-005-MNT-001_Health_Monitor_Data.csv (ATA-005-10-10: Monitoreo de Salud de Componentes en Tiempo Real)
-│   │   ├── OPS/           # Operaciones
-│   │   │   ├── OP-PROCEDURES/                      # Procedimientos de Operación
-│   │   │   │   └── ALI-DP-000-OPS-001_Procedimientos_Operacion_Est.md (ATA-000-10-95: Procedimientos de Operación Estándar)
-│   │   │   ├── FLIGHT_DATA_RECORDER_DATA/          # Datos de Vuelo (FDR/CVR)
-│   │   │   │   └── ALI-PC-000-OPS-001_Flight_Data_Recorder.bin (ATA-000-20-20: Performance Database Cloud - Datos de Vuelo)
-│   │   │   └── DIGITAL_AGENT_LOGS/                 # Logs de Operación del Agente Digital (BOB DA)
-│   │   │       └── BOB-DA-301-OPS-001_Agent_Activity_Log.log (DTCEC-301-10-50: DT Autónomos (Auto-evolución y Aprendizaje) - Logs de DA)
-│   │   ├── SUP/           # Soporte en operación
-│   │   │   ├── TROUBLESHOOT/                       # Guías de Troubleshooting
-│   │   │   │   └── ALI-DP-005-SUP-001_Guia_Troubleshooting.md (ATA-005-20-80: Guías de Solución de Problemas)
-│   │   │   ├── HELP/                               # Documentación de Ayuda
-│   │   │   │   └── ALI-DP-000-SUP-001_Manual_Ayuda_Operador.md (ATA-000-10-96: Documentación de Ayuda al Operador)
-│   │   │   └── TECH_SUPPORT_REPORTS/               # Informes de Soporte Técnico
-│   │   │       └── ALI-DP-005-SUP-002_Informe_Soporte_Tecnico.md (ATA-005-20-90: Informes de Soporte Técnico)
-│   │   ├── REP/           # Reparaciones
-│   │   │   ├── SRM/                                # Structural Repair Manuals (Manuales de Reparación Estructural)
-│   │   │   │   └── ALI-DP-051-REP-001_SRM_BWB-Q100.pdf (ATA-051-30-30: Manuales de Reparación Estructural (SRM))
-│   │   │   ├── REPAIR-FLOW/                        # Flujos de trabajo de reparación
-│   │   │   │   └── ALI-DP-051-REP-002_Flujo_Reparacion_Mayor.pdf (ATA-051-30-40: Flujos de Trabajo y Procedimientos de Reparación)
-│   │   │   └── REPAIR_LOGS/                        # Registros de Reparación
-│   │   │       └── ALI-PC-005-REP-001_Registro_Reparacion_UnidadX.csv (ATA-005-20-95: Registros Detallados de Reparación)
-│   │   └── RET/           # Retiro y reciclaje
-│   │       ├── LCA/                                # Análisis del Ciclo de Vida (Life Cycle Assessment)
-│   │       │   └── ALI-DP-593-RET-001_LCA_Final.pdf (AMTA-593-10-30: Documentación de Análisis del Ciclo de Vida (LCA))
-│   │       └── EOL-PROTOCOLS/                      # Protocolos de Fin de Vida Útil
-│   │           └── ALI-DP-592-RET-001_Protocolos_Fin_Vida_Util.md (AMTA-592-30-00: Protocolos de Fin de Vida Útil y Reciclaje)
-│   ├── ...                # Otros programas AMPEL360
-│
-├── espacio/
-│   ├── GAIA-SAT-01/
-│   │   ├── CON/
-│   │   │   └── ALI-DP-100-CON-001_Vision_General_Sat.md (STA-100-10-xx: Conceptos y Fases de Misión)
-│   │   ├── DES/
-│   │   │   ├── CAD/ (STA-110-10-00: Diseño Estructural de Naves y Satélites)
-│   │   │   ├── ALICE-BOB_ARCH/ (DTCEC-300-20-60: Framework de Arquitectura Digital ALICE-BOB)
-│   │   │   └── REQ_SPECS/ (STA-100-10-xx: Requisitos de Diseño de Misión)
-│   │   ├── TST/
-│   │   │   ├── PROTOCOLS/ (STA-175-10-xx: Metodologías de Verificación y Validación)
-│   │   │   └── TST-REPORTS/ (STA-175-20-xx: Entornos de Simulación y Pruebas en Tierra)
-│   │   ├── CRT/
-│   │   │   ├── DO-178C/ (ATA-004-20-10: Certificación de Software)
-│   │   │   ├── DO-254/ (ATA-004-20-20: Certificación de Hardware)
-│   │   │   └── Q-CERTS/ (ATA-004-20-30: Certificación y Aseguramiento Cuántico)
-│   │   ├── PRD/
-│   │   │   ├── MANUALS/ (ATA-000-10-90: Manuales de Producción)
-│   │   │   ├── TWIN-FILES/ (DTCEC-305-20-10: Control de Versiones de Modelos y Datos)
-│   │   │   └── QSCONFIG/ (AMTA-583-30-00: Configuración y Control de Manufactura Cuántica)
-│   │   ├── MNT/
-│   │   │   ├── AMM/ (ATA-005-20-50: Manuales de Mantenimiento de Aeronave (AMM))
-│   │   │   ├── CMM/ (ATA-005-20-60: Manuales de Mantenimiento de Componentes (CMM))
-│   │   │   └── IPC/ (ATA-005-20-70: Catálogo Ilustrado de Partes (IPC))
-│   │   ├── OPS/
-│   │   │   └── OP-PROCEDURES/ (STA-170-00-00: Operaciones y Mantenimiento en Órbita)
-│   │   ├── SUP/
-│   │   │   └── TROUBLESHOOT/ (STA-174-00-00: Diagnóstico Cuántico de Fallos)
-│   │   ├── REP/
-│   │   │   └── SRM/ (STA-171-20-00: Herramientas y Procedimientos de Reparación en Órbita)
-│   │   └── RET/
-│   │       ├── LCA/ (AMTA-593-10-30: Documentación de Análisis del Ciclo de Vida (LCA))
-│   │       └── EOL-PROTOCOLS/ (AMTA-592-30-00: Protocolos de Fin de Vida Útil y Reciclaje)
-│   ├── ...
-│
-├── tierra/
-│   ├── Robbbo-T-Factory/
-│   │   ├── CON/
-│   │   │   └── ALI-DP-630-CON-001_Concept_Fabrica_Digital.md (OGATA-630-00-00: Fábricas 4.0 y Manufactura Avanzada - Ciber-Sistemas Físicos)
-│   │   ├── DES/
-│   │   │   ├── CAD/ (OGATA-633-00-00: Gemelos Digitales en Manufactura)
-│   │   │   ├── ALICE-BOB_ARCH/ (DTCEC-300-20-60: Framework de Arquitectura Digital ALICE-BOB)
-│   │   │   └── REQ_SPECS/ (OGATA-630-10-00: Integración Horizontal y Vertical)
-│   │   ├── TST/
-│   │   │   ├── PROTOCOLS/ (OGATA-604-00-00: Mantenimiento y Diagnóstico de Robots)
-│   │   │   └── TST-REPORTS/ (OGATA-604-20-00: Mantenimiento Predictivo Robótico)
-│   │   ├── CRT/
-│   │   │   ├── DO-178C/ (ATA-004-20-10: Certificación de Software - aplicable si hay SW crítico en robótica terrestre)
-│   │   │   ├── DO-254/ (ATA-004-20-20: Certificación de Hardware - aplicable si hay HW crítico en robótica terrestre)
-│   │   │   └── Q-CERTS/ (ATA-004-20-30: Certificación y Aseguramiento Cuántico)
-│   │   ├── PRD/
-│   │   │   ├── MANUALS/ (OGATA-635-00-00: Personalización en Masa y Producción Flexible)
-│   │   │   ├── TWIN-FILES/ (DTCEC-305-20-10: Control de Versiones de Modelos y Datos)
-│   │   │   └── QSCONFIG/ (AMTA-583-30-00: Configuración y Control de Manufactura Cuántica)
-│   │   ├── MNT/
-│   │   │   ├── AMM/ (OGATA-604-20-00: Mantenimiento Predictivo Robótico)
-│   │   │   ├── CMM/ (OGATA-604-20-00: Mantenimiento Predictivo Robótico)
-│   │   │   └── IPC/ (OGATA-604-20-00: Mantenimiento Predictivo Robótico)
-│   │   ├── OPS/
-│   │   │   └── OP-PROCEDURES/ (OGATA-630-00-00: Fábricas 4.0 y Manufactura Avanzada)
-│   │   ├── SUP/
-│   │   │   └── TROUBLESHOOT/ (OGATA-604-00-00: Mantenimiento y Diagnóstico de Robots)
-│   │   ├── REP/
-│   │   │   └── SRM/ (OGATA-604-00-00: Mantenimiento y Diagnóstico de Robots)
-│   │   └── RET/
-│   │       ├── LCA/ (AMTA-593-10-30: Documentación de Análisis del Ciclo de Vida (LCA))
-│   │       └── EOL-PROTOCOLS/ (AMTA-592-30-00: Protocolos de Fin de Vida Útil y Reciclaje)
-│   ├── ...
-│
-└── shared/
-    ├── BOB-DT-Templates/  # Plantillas para Gemelos Digitales Estructurales
-    ├── BOB-DA-Templates/  # Plantillas para Agentes Digitales Contextuales
-    ├── Oraculus-LMT/      # Repositorio de Learning Method Tokens (LMT) validados por Oraculus
-    └── ALI-BOB-MAP-V1.0/  # Documentación general de la arquitectura ALICE-BOB
-```
-
-## 📚 Convenciones por Fase y Entregable con Códigos UTCS - Foco en AMPEL360BWB-Q100
-
-| Fase             | Carpeta                     | Entregable Típico (Subcarpeta/Archivo)                                  | Código UTCS Asignado (o referencia de capítulo/sección)                                     | Descripción del Entregable                                                               |
-| :--------------- | :-------------------------- | :---------------------------------------------------------------------- | :----------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------- |
-| **Diseño**       | `DES/`                      | `CAD/`                                                                  | `ATA-006-10-10` (Modelos CAD 3D Paramétricos y Asociativos)                                | Modelos 3D detallados de componentes y ensamblajes.                                      |
-|                  |                             |                                                                         | `ATA-006-10-11` (Planos de Detalle y Ensamblaje)                                           | Planos técnicos para fabricación.                                                        |
-|                  |                             | `DE-RE-MA/`                                                             | `ATA-000-10-70` (Documentación de Procesos de Diseño, Revisión y Manufactura)             | Informes de diseño, resultados de revisiones, documentación de procesos de fabricación. |
-|                  |                             |                                                                         | `ATA-050-10-50` (Simulación Estructural por Elementos Finitos (FEM) - Resultados de Diseño) | Resultados de análisis estructurales para validación de diseño.                          |
-|                  |                             |                                                                         | `ATA-053-20-00` (Resistencia a la Fatiga y Corrosión - Análisis de Diseño)                 | Análisis de durabilidad de materiales durante la fase de diseño.                         |
-|                  |                             | `ALICE-BOB_ARCH/`                                                       | `DTCEC-300-20-60` (Framework de Arquitectura Digital ALICE-BOB)                            | Documentación detallada de la arquitectura de Gemelo Digital Físico (BOB DT) y Agente Digital (BOB DA). |
-|                  |                             |                                                                         | `DTCEC-301-10-30` (Gemelo Digital Predictivo (BOB DT Modelo) - Detallado)                  | Especificaciones del modelo del Gemelo Digital Estructural.                               |
-|                  |                             |                                                                         | `DTCEC-301-10-50` (Gemelo Digital Autónomo (BOB DA Modelo) - Detallado)                    | Especificaciones del modelo del Agente Digital Cognitivo.                                |
-|                  |                             | `REQ_SPECS/`                                                            | `ATA-000-10-80` (Especificaciones de Requisitos de Alto Nivel)                             | Requisitos funcionales y no funcionales del sistema.                                     |
-|                  |                             |                                                                         | `ATA-000-10-81` (Especificaciones de Requisitos Detalladas por Sistema)                    | Requisitos desglosados para cada subsistema.                                             |
-|                  |                             | `INTERFACE_CONTROL_DOCS/`                                               | `ATA-050-50-00` (Interfaz con AMTA (Materiales, Bio y Nano))                               | Documentos que definen las interfaces con la arquitectura de Materiales Avanzados.       |
-|                  |                             |                                                                         | `ATA-050-51-00` (Interfaz con DTCEC (Digital Twins, Cloud & Edge Computing))               | Documentos que definen las interfaces con la arquitectura Digital.                         |
-|                  |                             |                                                                         | `ATA-050-52-00` (Interfaz con CYB (Ciberseguridad))                                        | Documentos que definen las interfaces con la arquitectura de Ciberseguridad.             |
-|                  |                             | `SYSTEM_DESIGN_DOC.md`                                                  | `ATA-000-10-82` (Documento de Diseño del Sistema)                                          | Documento que describe la arquitectura detallada del sistema.                              |
-| **Testing**      | `TST/`                      | `PROTOCOLS/`                                                            | `ATA-005-20-30` (Protocolos y Procedimientos de Prueba)                                     | Planes y metodologías para pruebas unitarias, de integración, de sistema.                |
-|                  |                             |                                                                         | `ATA-005-20-31` (Planes de Prueba de Subsistemas)                                          | Planes de prueba específicos para cada subsistema.                                       |
-|                  |                             |                                                                         | `ATA-005-20-32` (Protocolos de Pruebas Integradas)                                         | Protocolos para verificar la interacción entre subsistemas.                              |
-|                  |                             |                                                                         | `STA-175-10-10` (Planificación de V&V en Fases de Proyecto (Model-Based V&V))              | Documentación de la estrategia de Verificación y Validación.                               |
-|                  |                             | `TST-REPORTS/`                                                          | `ATA-005-20-40` (Informes y Resultados de Prueba)                                          | Resumen y análisis de todos los resultados de las pruebas.                               |
-|                  |                             |                                                                         | `ATA-005-20-41` (Logs de Pruebas Detallados)                                               | Registros de las ejecuciones de pruebas.                                                 |
-|                  |                             |                                                                         | `ATA-005-20-42` (Análisis de Fallos en Pruebas)                                            | Informes de los fallos encontrados y sus causas raíz.                                    |
-|                  |                             | `SIM_RESULTS/`                                                          | `DTCEC-348-10-10` (Visualización 3D en Tiempo Real de Simulaciones)                        | Visualizaciones de los resultados de simulación.                                         |
-|                  |                             |                                                                         | `DTCEC-349-20-00` (Aplicaciones de Simulación Cuántica - Resultados)                       | Resultados de simulaciones cuánticas para el diseño o pruebas.                           |
-|                  |                             | `GROUND_TEST_DATA/`                                                     | `STA-175-20-10` (Datos de Pruebas en Tierra y HIL)                                         | Datos brutos y procesados de pruebas en laboratorios o bancos de pruebas.                |
-|                  |                             |                                                                         | `STA-175-20-20` (Informes de Pruebas en Tierra)                                            | Informes formales de las pruebas realizadas en tierra.                                   |
-| **Certificación** | `CRT/`                      | `DO-178C/`                                                              | `ATA-004-20-10` (Certificación de Software (DO-178C))                                      | Documentación de cumplimiento para software aeronáutico.                                 |
-|                  |                             | `DO-254/`                                                               | `ATA-004-20-20` (Certificación de Hardware (DO-254))                                       | Documentación de cumplimiento para hardware aeronáutico.                                 |
-|                  |                             | `Q-CERTS/`                                                              | `ATA-004-20-30` (Certificación y Aseguramiento Cuántico)                                   | Informes de certificación para componentes y sistemas cuánticos (ej. Q-Safe).            |
-|                  |                             |                                                                         | `EPTA-425-20-10` (Marcos Regulatorios para la Seguridad de Q-Baterías)                     | Documentación de la seguridad y certificación de baterías cuánticas.                      |
-|                  |                             | `REGULATORY_COMPLIANCE_DOCS/`                                           | `ATA-004-10-40` (Automated AD Compliance / Status de Conformidad)                          | Documentación de cumplimiento con directivas de aeronavegabilidad y normativas.          |
-| **Producción**   | `PRD/`                      | `MANUALS/`                                                              | `ATA-000-10-90` (Manuales de Producción y Ensamblaje)                                      | Guías detalladas para la fabricación del sistema.                                        |
-|                  |                             | `TWIN-FILES/`                                                           | `DTCEC-305-20-10` (Control de Versiones de Modelos y Datos del DT)                         | Archivos de configuración y estado del Gemelo Digital Físico para la línea de producción. |
-|                  |                             |                                                                         | `DTCEC-309-10-50` (Digital Factory y Smart Manufacturing - Configuración)                  | Configuración de la fábrica digital.                                                     |
-|                  |                             | `QSCONFIG/`                                                             | `AMTA-583-30-00` (Configuración y Control de Manufactura Cuántica)                         | Archivos de configuración para procesos de fabricación que utilizan principios cuánticos. |
-|                  |                             |                                                                         | `AMTA-575-20-20` (Manufactura Aditiva Autónoma para Misiones Militares - Configs)          | Configuraciones para la fabricación en entornos extremos o con robots autónomos.         |
-| **Mantenimiento** | `MNT/`                      | `AMM/`                                                                  | `ATA-005-20-50` (Manuales de Mantenimiento de Aeronave (AMM) - Versión en Línea)           | Manuales para el mantenimiento regular de la aeronave.                                   |
-|                  |                             | `CMM/`                                                                  | `ATA-005-20-60` (Manuales de Mantenimiento de Componentes (CMM))                           | Manuales para el mantenimiento de componentes específicos.                               |
-|                  |                             | `IPC/`                                                                  | `ATA-005-20-70` (Catálogo Ilustrado de Partes (IPC))                                       | Catálogo de piezas con ilustraciones y números de parte.                                 |
-|                  |                             | `PREDICTIVE_MAINT_DATA/`                                                | `ATA-005-10-10` (Monitoreo de Salud de Componentes en Tiempo Real)                         | Datos recolectados para el mantenimiento predictivo (sensores, logs).                    |
-| **Operación**    | `OPS/`                      | `OP-PROCEDURES/`                                                        | `ATA-000-10-95` (Procedimientos de Operación Estándar)                                     | Manuales de procedimientos para el uso diario del sistema.                               |
-|                  |                             | `FLIGHT_DATA_RECORDER_DATA/`                                            | `ATA-000-20-20` (Performance Database Cloud - Datos de Vuelo)                              | Datos registrados durante las operaciones (FDR, CVR, telemetría).                       |
-|                  |                             | `DIGITAL_AGENT_LOGS/`                                                   | `DTCEC-301-10-50` (DT Autónomos (Auto-evolución y Aprendizaje) - Logs de DA)              | Registros de actividad y decisiones del Agente Digital.                                  |
-| **Soporte**      | `SUP/`                      | `TROUBLESHOOT/`                                                         | `ATA-005-20-80` (Guías de Solución de Problemas)                                           | Documentación para diagnosticar y resolver problemas comunes.                            |
-|                  |                             | `HELP/`                                                                 | `ATA-000-10-96` (Documentación de Ayuda al Operador)                                       | Manuales de ayuda y FAQs para usuarios.                                                  |
-|                  |                             | `TECH_SUPPORT_REPORTS/`                                                 | `ATA-005-20-90` (Informes de Soporte Técnico)                                              | Informes sobre tickets de soporte, resoluciones y problemas recurrentes.                 |
-| **Reparación**   | `REP/`                      | `SRM/`                                                                  | `ATA-051-30-30` (Manuales de Reparación Estructural (SRM))                                 | Manuales específicos para la reparación de daños estructurales.                          |
-|                  |                             | `REPAIR-FLOW/`                                                          | `ATA-051-30-40` (Flujos de Trabajo y Procedimientos de Reparación)                         | Diagramas y descripciones de los procesos de reparación.                                 |
-|                  |                             | `REPAIR_LOGS/`                                                          | `ATA-005-20-95` (Registros Detallados de Reparación)                                       | Historial de todas las reparaciones realizadas al sistema.                               |
-| **Retiro**       | `RET/`                      | `LCA/`                                                                  | `AMTA-593-10-30` (Documentación de Análisis del Ciclo de Vida (LCA))                       | Informes sobre el impacto ambiental del sistema a lo largo de su existencia.             |
-|                  |                             | `EOL-PROTOCOLS/`                                                        | `AMTA-592-30-00` (Protocolos de Fin de Vida Útil y Reciclaje)                               | Documentos que describen cómo desmantelar, reciclar o desechar el sistema de forma segura. |
-
----
+FIN DEL DOCUMENTO ORGANIZACIONAL MAESTRO
