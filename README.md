@@ -7716,37 +7716,42 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 
 ---
 
-## Lista completa de programas
+## Lista completa de programas (actualizada)
 
 ### 1. Familias **AMPEL 360** (vehículos)
 
-| Programa                 | Descripción básica                                                        |
-| ------------------------ | ------------------------------------------------------------------------- |
-| **AMPEL360‑BWB‑Q100**    | Avión BWB híbrido eléctrico + SAF/H₂ (120‑180 pax)                        |
-| **AMPEL360‑BWB‑Q250**    | Avión BWB híbrido eléctrico + combustible líquido (200‑260 pax)           |
-| **AMPEL360‑Q300‑MRTT**   | Tanker‑transport humanitario (reabastecimiento aéreo + evacuación médica) |
-| **AMPEL360‑City**        | eVTOL híbrido para movilidad aérea urbana (4‑6 pax)                       |
-| **AMPEL360‑Sky Cleaner** | Drone de remediación ambiental (gases y nano‑/microplásticos)             |
-| **AMPEL360‑Plus**        | Nave de turismo espacial suborbital (hasta 100 km)                        |
-| **AMPEL360‑Plus Plus**   | Nave de turismo espacial orbital con hábitat ( > 100 km)                  |
+| Programa                     | Descripción básica                                                                                                                                                                                                |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AMPEL360‑BWB‑Q100**        | Avión BWB híbrido eléctrico + SAF/H₂ (120‑180 pax)                                                                                                                                                                |
+| **AMPEL360‑BWB‑Q250**        | Avión BWB híbrido eléctrico + combustible líquido (200‑260 pax)                                                                                                                                                   |
+| **AMPEL360‑BWB‑e** *(nuevo)* | **Aeronave BWB 100 % eléctrica** para rutas regionales:<br>• Capacidad 90‑120 pax<br>• Alcance 700‑900 km con baterías de litio‑sólido intercambiables<br>• Re‑carga ultrarrápida < 30 min en aeropuertos clase C |
+| **AMPEL360‑Q300‑MRTT**       | Tanker‑transport humanitario (reabastecimiento aéreo + evacuación médica)                                                                                                                                         |
+| **AMPEL360‑City**            | eVTOL híbrido para movilidad aérea urbana (4‑6 pax)                                                                                                                                                               |
+| **AMPEL360‑Sky Cleaner**     | Drone de remediación ambiental (gases y nano‑/microplásticos)                                                                                                                                                     |
+| **AMPEL360‑Plus**            | Nave de turismo espacial suborbital (hasta 100 km)                                                                                                                                                                |
+| **AMPEL360‑Plus Plus**       | Nave de turismo espacial orbital con hábitat ( > 100 km)                                                                                                                                                          |
 
 ---
 
 ### 2. Programas espaciales **GAIA‑SP‑Xxx**
 
-| Programa                                            | Objetivo principal                                              |
-| --------------------------------------------------- | --------------------------------------------------------------- |
-| **GAIA‑SP‑LV**                                      | Lanzador reutilizable para carga y tripulación                  |
-| **GAIA‑SP‑COMM**                                    | Constelación S/Ka + láser para TT\&C y streaming                |
-| **GAIA‑SP‑OPS**                                     | Centro de operaciones espaciales 24/7                           |
-| **GAIA‑SP‑ENVDEM**                                  | Demostradores de tecnologías Sky Cleaner en estrato‑/troposfera |
-| **GAIA‑SP‑POWER‑100**                               | Satélite solar de 100 kW para soporte energético orbital        |
-| **GAIA‑SP‑GATE‑Mini** *(Fase 2)*                    | Mini‑gateway 50 t / 50 kW para ensamblaje y atraque futuro      |
-| *(Diferidos)* **GAIA‑SP‑REFUEL**, **GAIA‑SP‑FORGE** | Pospuestos hasta nueva evaluación de mercado                    |
+*(sin cambios respecto a la versión anterior)*
+
+| Programa                                            | Objetivo principal                                       |
+| --------------------------------------------------- | -------------------------------------------------------- |
+| **GAIA‑SP‑LV**                                      | Lanzador reutilizable para carga y tripulación           |
+| **GAIA‑SP‑COMM**                                    | Constelación S/Ka + láser para TT\&C y streaming         |
+| **GAIA‑SP‑OPS**                                     | Centro de operaciones espaciales 24/7                    |
+| **GAIA‑SP‑ENVDEM**                                  | Demostradores Sky Cleaner en estrato‑/troposfera         |
+| **GAIA‑SP‑POWER‑100**                               | Satélite solar de 100 kW para soporte energético orbital |
+| **GAIA‑SP‑GATE‑Mini** *(Fase 2)*                    | Mini‑gateway 50 t / 50 kW para ensamblaje futuro         |
+| *(Diferidos)* **GAIA‑SP‑REFUEL**, **GAIA‑SP‑FORGE** | Pospuestos hasta nueva evaluación                        |
 
 ---
 
 ### 3. Programas terrestres **ROBBBO‑T‑Xxx**
+
+*(sin cambios estructurales; el BWBe se integra en los flujos existentes de diseño, ensayo y producción)*
 
 | Programa             | Función principal                                  |
 | -------------------- | -------------------------------------------------- |
@@ -7754,11 +7759,13 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 | **ROBBBO‑T‑TEST**    | Infraestructura de ensayos y certificación         |
 | **ROBBBO‑T‑MARLAB**  | Laboratorio marino y base anfibia para Sky Cleaner |
 | **ROBBBO‑T‑FAL**     | Planta de fabricación y montaje final              |
+| **ROBBBO‑T‑GNDNET**  | Centro de control y red TT\&C terrestre            |
 | **ROBBBO‑T‑MRO**     | Instalaciones de mantenimiento y recarga           |
 | **ROBBBO‑T‑SAFETY**  | Certificación, formación y ciber‑seguridad         |
 | **ROBBBO‑T‑SUSTAIN** | Energía renovable y economía circular              |
 
-Esta tabla reúne todos los programas vigentes (vehículos, espaciales y terrestres) que sostienen el ecosistema **AMPEL 360**.
+> **Impacto operativo**: El nuevo **AMPEL360‑BWB‑e** reutiliza el chasis BWB existente, por lo que solo exige adaptar **ROBBBO‑T‑TEST** (banco de baterías y pruebas EMI) y **ROBBBO‑T‑FAL** (línea de integración de packs modulares). No requiere alteraciones en los programas espaciales.
+
 
 ## ANEXO I  🌐 ESTRUCTURA DE DIRECTORIO GAIA-QAO ADVENT v2.0.0
 
