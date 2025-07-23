@@ -47,6 +47,7 @@
     *   [G9: CYB 800-899: Cybersecurity Architecture](#g9-cyb-800-899-cybersecurity-architecture)
     *   [G10: QCSAA 900-999: Quantum Computing and Sentient Agency Architecture](#g10-qcsaa-900-999-quantum-computing-and-sentient-agency-architecture)
 *   [Anexo H: Lista de Programas Propuestos](#anexo-h-lista-de-programas)
+*   [Anexo I: Estructura Directory](anexo-i-estructura-directory)
 
 ---
 
@@ -7753,10 +7754,434 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 | **ROBBBO‑T‑TEST**    | Infraestructura de ensayos y certificación         |
 | **ROBBBO‑T‑MARLAB**  | Laboratorio marino y base anfibia para Sky Cleaner |
 | **ROBBBO‑T‑FAL**     | Planta de fabricación y montaje final              |
-| **ROBBBO‑T‑GNDNET**  | Centro de control y red TT\&C terrestre            |
 | **ROBBBO‑T‑MRO**     | Instalaciones de mantenimiento y recarga           |
 | **ROBBBO‑T‑SAFETY**  | Certificación, formación y ciber‑seguridad         |
 | **ROBBBO‑T‑SUSTAIN** | Energía renovable y economía circular              |
 
 Esta tabla reúne todos los programas vigentes (vehículos, espaciales y terrestres) que sostienen el ecosistema **AMPEL 360**.
 
+## ANEXO I  🌐 ESTRUCTURA DE DIRECTORIO GAIA-QAO ADVENT v2.0.0
+
+```
+📁 GAIA-QAO-ADVENT/
+├── 📁 00-GOVERNANCE/
+│   ├── 📁 board-documents/
+│   │   ├── 📄 consortium-agreement.pdf
+│   │   ├── 📄 board-charter.pdf
+│   │   └── 📄 voting-procedures.pdf
+│   ├── 📁 policies/
+│   │   ├── 📄 ethics-conduct-policy.pdf
+│   │   ├── 📄 information-security-policy.pdf
+│   │   ├── 📄 quality-policy.pdf
+│   │   ├── 📄 environmental-policy.pdf
+│   │   └── 📄 hr-policy.pdf
+│   ├── 📁 compliance/
+│   │   ├── 📄 regulatory-matrix.xlsx
+│   │   ├── 📄 itar-ear-compliance.pdf
+│   │   ├── 📄 gdpr-compliance.pdf
+│   │   └── 📄 aviation-standards.pdf
+│   └── 📄 organizational-master-document-v2.0.0.pdf
+│
+├── 📁 01-PROGRAMS/
+│   ├── 📁 GAIA-350e-Generation-1/
+│   │   ├── 📁 baseline-aircraft/
+│   │   │   ├── 📁 concept-phase/
+│   │   │   ├── 📁 preliminary-design/
+│   │   │   ├── 📁 detailed-design/
+│   │   │   ├── 📁 testing-certification/
+│   │   │   └── 📁 production-support/
+│   │   └── 📁 proven-technology-programs/
+│   │       ├── 📁 AMPEL360-Q250-Commercial/ (200-260 pax, tecnología madura)
+│   │       ├── 📁 AMPEL360-Q300-MRTT/ (tanker-transport humanitario)
+│   │       ├── 📁 AMPEL360-City-eVTOL/ (4-6 pax, movilidad urbana)
+│   │       └── 📁 AMPEL360-Sky-Cleaner/ (drones remediación ambiental)
+│   ├── 📁 GAIA-BWB-H2-Generation-2/
+│   │   ├── 📁 baseline-bwb/
+│   │   │   ├── 📁 research-development/
+│   │   │   ├── 📁 technology-demonstration/
+│   │   │   ├── 📁 concept-validation/
+│   │   │   └── 📁 flight-demonstrator/
+│   │   └── 📁 disruptive-technology-programs/
+│   │       ├── 📁 AMPEL360-Q100-Hybrid/ (120-180 pax, híbrido-eléctrico + cuántica)
+│   │       ├── 📁 AMPEL360-BWB-Q300/ (300+ pax, BWB + hidrógeno)
+│   │       ├── 📁 AMPEL360-BWB-Q400/ (400+ pax, long-range BWB)
+│   │       ├── 📁 AMPEL360-Plus-Suborbital/ (turismo espacial <100km)
+│   │       ├── 📁 AMPEL360-PlusPlus-Orbital/ (turismo espacial >100km + hábitat)
+│   │       └── 📁 AMPEL360-BWB-Cargo/ (BWB freighter variant)
+│   └── 📁 Infrastructure-Programs/
+│       ├── 📁 GAIA-SP-LV/ (lanzador reutilizable)
+│       ├── 📁 GAIA-SP-COMM/ (constelación comunicaciones)
+│       ├── 📁 GAIA-SP-OPS/ (centro operaciones espaciales)
+│       ├── 📁 ROBBBO-T-Infrastructure/ (instalaciones terrestres)
+│       └── 📁 UTM-Ecosystem/ (urban traffic management)
+│
+├── 📁 02-Q-DIVISIONS/
+│   ├── 📁 Q-DATAGOV/
+│   │   ├── 📁 s1000d-implementation/
+│   │   ├── 📁 data-architecture/
+│   │   ├── 📁 configuration-management/
+│   │   ├── 📁 cybersecurity/
+│   │   └── 📁 blockchain-systems/
+│   ├── 📁 Q-STRUCTURES/
+│   │   ├── 📁 composite-materials/
+│   │   ├── 📁 structural-analysis/
+│   │   ├── 📁 bwb-structures/
+│   │   ├── 📁 materials-lab/
+│   │   └── 📁 fatigue-testing/
+│   ├── 📁 Q-AIR/
+│   │   ├── 📁 aerodynamics/
+│   │   ├── 📁 flight-controls/
+│   │   ├── 📁 flight-testing/
+│   │   ├── 📁 performance-analysis/
+│   │   └── 📁 wind-tunnel-data/
+│   ├── 📁 Q-GREENTECH/
+│   │   ├── 📁 hybrid-propulsion/
+│   │   ├── 📁 hydrogen-systems/
+│   │   ├── 📁 battery-technology/
+│   │   ├── 📁 sustainable-fuels/
+│   │   └── 📁 lifecycle-assessment/
+│   ├── 📁 Q-INDUSTRY/
+│   │   ├── 📁 manufacturing-processes/
+│   │   ├── 📁 supply-chain/
+│   │   ├── 📁 quality-systems/
+│   │   ├── 📁 production-planning/
+│   │   └── 📁 automation-robotics/
+│   ├── 📁 Q-HPC/
+│   │   ├── 📁 quantum-computing/
+│   │   ├── 📁 ai-ml-systems/
+│   │   ├── 📁 digital-twins/
+│   │   ├── 📁 simulation-modeling/
+│   │   └── 📁 software-certification/
+│   ├── 📁 Q-MECHANICS/
+│   │   ├── 📁 hydraulic-systems/
+│   │   ├── 📁 landing-gear/
+│   │   ├── 📁 actuators/
+│   │   ├── 📁 mechanical-systems/
+│   │   └── 📁 thermal-management/
+│   ├── 📁 Q-GROUND/
+│   │   ├── 📁 gse-equipment/
+│   │   ├── 📁 maintenance-procedures/
+│   │   ├── 📁 training-programs/
+│   │   ├── 📁 safety-systems/
+│   │   └── 📁 airport-operations/
+│   ├── 📁 Q-SPACE/
+│   │   ├── 📁 satellite-comm/
+│   │   ├── 📁 navigation-systems/
+│   │   ├── 📁 quantum-communications/
+│   │   ├── 📁 rf-engineering/
+│   │   └── 📁 antenna-design/
+│   └── 📁 Q-SCIRES/
+│       ├── 📁 research-projects/
+│       ├── 📁 university-partnerships/
+│       ├── 📁 patent-portfolio/
+│       ├── 📁 technology-transfer/
+│       └── 📁 innovation-lab/
+│
+├── 📁 03-ORB-FUNCTIONS/
+│   ├── 📁 ORB-FIN/
+│   │   ├── 📁 financial-planning/
+│   │   ├── 📁 budget-control/
+│   │   ├── 📁 treasury/
+│   │   ├── 📁 risk-management/
+│   │   └── 📁 investor-relations/
+│   ├── 📁 ORB-PMO/
+│   │   ├── 📁 program-management/
+│   │   ├── 📁 project-schedules/
+│   │   ├── 📁 risk-registers/
+│   │   ├── 📁 stakeholder-management/
+│   │   └── 📁 change-control/
+│   ├── 📁 ORB-HR/
+│   │   ├── 📁 talent-acquisition/
+│   │   ├── 📁 competency-development/
+│   │   ├── 📁 performance-management/
+│   │   ├── 📁 training-academy/
+│   │   └── 📁 mobility-programs/
+│   ├── 📁 ORB-MKTG/
+│   │   ├── 📁 market-analysis/
+│   │   ├── 📁 customer-relations/
+│   │   ├── 📁 brand-management/
+│   │   ├── 📁 communications/
+│   │   └── 📁 events-airshows/
+│   ├── 📁 ORB-CSR/
+│   │   ├── 📁 sustainability/
+│   │   ├── 📁 esg-reporting/
+│   │   ├── 📁 community-programs/
+│   │   ├── 📁 carbon-management/
+│   │   └── 📁 circular-economy/
+│   └── 📁 ORB-LEG/
+│       ├── 📁 contracts/
+│       ├── 📁 intellectual-property/
+│       ├── 📁 regulatory-affairs/
+│       ├── 📁 export-control/
+│       └── 📁 data-privacy/
+│
+├── 📁 04-UTCS-ARCHITECTURE/
+│   ├── 📁 ATA-000-099-Aerospace/
+│   │   ├── 📁 000-009-general-service/
+│   │   ├── 📁 010-019-ground-handling/
+│   │   ├── 📁 020-029-core-systems/
+│   │   ├── 📁 030-039-protection-mechanical/
+│   │   ├── 📁 040-049-avionics-apu/
+│   │   ├── 📁 050-059-primary-structures/
+│   │   ├── 📁 060-079-traditional-propulsion/
+│   │   ├── 📁 080-089-alternative-quantum/
+│   │   └── 📁 090-099-specific-expansion/
+│   ├── 📁 STA-100-199-Space/
+│   │   ├── 📁 100-109-life-support/
+│   │   ├── 📁 110-119-space-structures/
+│   │   ├── 📁 120-129-space-propulsion/
+│   │   ├── 📁 130-139-space-power/
+│   │   ├── 📁 140-149-space-avionics/
+│   │   ├── 📁 150-159-space-comm/
+│   │   ├── 📁 160-169-sensors-payload/
+│   │   ├── 📁 170-179-on-orbit-ops/
+│   │   ├── 📁 180-189-space-logistics/
+│   │   └── 📁 190-199-future-concepts/
+│   ├── 📁 DTTA-200-299-Defence/
+│   │   ├── 📁 200-209-combat-systems/
+│   │   ├── 📁 210-219-c4isr/
+│   │   ├── 📁 220-229-protection/
+│   │   ├── 📁 230-239-autonomous-systems/
+│   │   ├── 📁 240-249-defense-logistics/
+│   │   ├── 📁 250-259-cyber-ew/
+│   │   ├── 📁 260-269-defense-materials/
+│   │   ├── 📁 270-279-simulation-training/
+│   │   ├── 📁 280-289-quantum-warfare/
+│   │   └── 📁 290-299-future-operations/
+│   ├── 📁 DTCEC-300-399-Digital-Twins/
+│   │   ├── 📁 300-309-dt-fundamentals/
+│   │   ├── 📁 310-319-sensors-iot/
+│   │   ├── 📁 320-329-ai-ml/
+│   │   ├── 📁 330-339-cloud-distributed/
+│   │   ├── 📁 340-349-simulation-modeling/
+│   │   ├── 📁 350-359-xr-metaverse/
+│   │   ├── 📁 360-369-blockchain/
+│   │   ├── 📁 370-379-dt-cybersecurity/
+│   │   ├── 📁 380-389-analytics-bi/
+│   │   └── 📁 390-399-conscious-dt/
+│   ├── 📁 EPTA-400-499-Energy-Propulsion/
+│   │   ├── 📁 400-409-conventional-energy/
+│   │   ├── 📁 410-419-renewable-energy/
+│   │   ├── 📁 420-429-energy-storage/
+│   │   ├── 📁 430-439-energy-management/
+│   │   ├── 📁 440-449-combustion-propulsion/
+│   │   ├── 📁 450-459-electric-hybrid/
+│   │   ├── 📁 460-469-hydrogen-fuel-cells/
+│   │   ├── 📁 470-479-new-propulsion/
+│   │   ├── 📁 480-489-quantum-optimization/
+│   │   └── 📁 490-499-energy-recovery/
+│   ├── 📁 AMTA-500-599-Materials-Bio-Nano/
+│   │   ├── 📁 500-509-advanced-composites/
+│   │   ├── 📁 510-519-metamaterials/
+│   │   ├── 📁 520-529-nanomaterials/
+│   │   ├── 📁 530-539-biotechnology/
+│   │   ├── 📁 540-549-biomaterials/
+│   │   ├── 📁 550-559-nanotechnology/
+│   │   ├── 📁 560-569-advanced-sensors/
+│   │   ├── 📁 570-579-additive-manufacturing/
+│   │   ├── 📁 580-589-quantum-materials/
+│   │   └── 📁 590-599-sustainability/
+│   ├── 📁 OGATA-600-699-Ground-Automation/
+│   │   ├── 📁 600-609-industrial-robotics/
+│   │   ├── 📁 610-619-autonomous-vehicles/
+│   │   ├── 📁 620-629-smart-infrastructure/
+│   │   ├── 📁 630-639-industry-40/
+│   │   ├── 📁 640-649-automated-logistics/
+│   │   ├── 📁 650-659-precision-agriculture/
+│   │   ├── 📁 660-669-construction-automation/
+│   │   ├── 📁 670-679-autonomous-services/
+│   │   ├── 📁 680-689-ai-quantum-optimization/
+│   │   └── 📁 690-699-human-robot-interaction/
+│   ├── 📁 ACV-700-799-Aerial-City/
+│   │   ├── 📁 700-709-uam-vehicles/
+│   │   ├── 📁 710-719-vertiport-infrastructure/
+│   │   ├── 📁 720-729-utm-traffic-management/
+│   │   ├── 📁 730-739-noise-acoustics/
+│   │   ├── 📁 740-749-environmental-sustainability/
+│   │   ├── 📁 750-759-regulation-certification/
+│   │   ├── 📁 760-769-urban-integration/
+│   │   ├── 📁 770-779-safety-resilience/
+│   │   ├── 📁 780-789-quantum-traffic-optimization/
+│   │   └── 📁 790-799-business-models/
+│   ├── 📁 CYB-800-899-Cybersecurity/
+│   │   ├── 📁 800-809-governance-risk/
+│   │   ├── 📁 810-819-network-security/
+│   │   ├── 📁 820-829-data-security/
+│   │   ├── 📁 830-839-identity-access/
+│   │   ├── 📁 840-849-application-security/
+│   │   ├── 📁 850-859-security-operations/
+│   │   ├── 📁 860-869-cloud-edge-security/
+│   │   ├── 📁 870-879-industrial-control-security/
+│   │   ├── 📁 880-889-post-quantum-crypto/
+│   │   └── 📁 890-899-threat-intelligence/
+│   └── 📁 QCSAA-900-999-Quantum-Sentient/
+│       ├── 📁 900-909-quantum-fundamentals/
+│       ├── 📁 910-919-quantum-ml-ai/
+│       ├── 📁 920-929-quantum-networks/
+│       ├── 📁 930-939-quantum-cybersecurity/
+│       ├── 📁 940-949-quantum-sensors/
+│       ├── 📁 950-959-quantum-simulation/
+│       ├── 📁 960-969-quantum-robotics/
+│       ├── 📁 970-979-sentient-consciousness/
+│       ├── 📁 980-989-quantum-ethics/
+│       └── 📁 990-999-future-applications/
+│
+├── 📁 05-DOCUMENTATION-TEMPLATES/
+│   ├── 📁 lifecycle-phases/
+│   │   ├── 📁 CON-concept/ (10 templates)
+│   │   ├── 📁 DES-design/ (16 templates)
+│   │   ├── 📁 TST-testing/ (12 templates)
+│   │   ├── 📁 CRT-certification/ (12 templates)
+│   │   ├── 📁 PRD-production/ (12 templates)
+│   │   ├── 📁 MNT-maintenance/ (12 templates)
+│   │   ├── 📁 OPS-operations/ (12 templates)
+│   │   ├── 📁 SUP-support/ (12 templates)
+│   │   ├── 📁 REP-repair/ (23 templates)
+│   │   └── 📁 RET-retirement/ (21 templates)
+│   ├── 📁 technical-manuals/
+│   │   ├── 📁 AMM-aircraft-maintenance/ (12 templates)
+│   │   ├── 📁 SRM-structural-repair/ (10 templates)
+│   │   ├── 📁 CMM-component-maintenance/ (8 templates)
+│   │   ├── 📁 IPL-illustrated-parts/ (15 templates)
+│   │   └── 📁 specialized-manuals/ (13 templates)
+│   └── 📁 orb-functions/ (48 templates)
+│       ├── 📁 FIN-finance/ (8 templates)
+│       ├── 📁 PMO-program-management/ (8 templates)
+│       ├── 📁 HR-human-resources/ (8 templates)
+│       ├── 📁 MKT-marketing/ (8 templates)
+│       ├── 📁 CSR-sustainability/ (8 templates)
+│       └── 📁 LEG-legal/ (8 templates)
+│
+├── 📁 06-STANDARDS-COMPLIANCE/
+│   ├── 📁 aerospace-standards/
+│   │   ├── 📁 easa-certification/
+│   │   ├── 📁 faa-certification/
+│   │   ├── 📁 do-178c-software/
+│   │   ├── 📁 do-254-hardware/
+│   │   ├── 📁 arp4754a-development/
+│   │   └── 📁 s1000d-documentation/
+│   ├── 📁 quality-standards/
+│   │   ├── 📁 as9100d-aerospace/
+│   │   ├── 📁 iso9001-quality/
+│   │   ├── 📁 iso14001-environmental/
+│   │   └── 📁 iso45001-safety/
+│   ├── 📁 cybersecurity-standards/
+│   │   ├── 📁 iso27001-infosec/
+│   │   ├── 📁 nist-cybersecurity/
+│   │   └── 📁 post-quantum-crypto/
+│   └── 📁 emerging-standards/
+│       ├── 📁 quantum-standards/
+│       ├── 📁 uam-regulations/
+│       └── 📁 sustainable-aviation/
+│
+├── 📁 07-FACILITIES-LOCATIONS/
+│   ├── 📁 madrid-hq/
+│   │   ├── 📁 executive-offices/
+│   │   ├── 📁 legal-compliance/
+│   │   ├── 📁 finance-treasury/
+│   │   └── 📁 strategic-planning/
+│   ├── 📁 toulouse-integration/
+│   │   ├── 📁 final-assembly/
+│   │   ├── 📁 flight-testing/
+│   │   ├── 📁 integration-lab/
+│   │   └── 📁 customer-delivery/
+│   ├── 📁 hamburg-design/
+│   │   ├── 📁 fuselage-design/
+│   │   ├── 📁 cabin-systems/
+│   │   ├── 📁 structures-lab/
+│   │   └── 📁 materials-testing/
+│   ├── 📁 munich-research/
+│   │   ├── 📁 quantum-lab/
+│   │   ├── 📁 propulsion-research/
+│   │   ├── 📁 ai-development/
+│   │   └── 📁 university-partnerships/
+│   └── 📁 seville-manufacturing/
+│       ├── 📁 composites-production/
+│       ├── 📁 automated-assembly/
+│       ├── 📁 quality-control/
+│       └── 📁 supply-chain/
+│
+├── 📁 08-DIGITAL-INFRASTRUCTURE/
+│   ├── 📁 gaia-nexus-plm/
+│   │   ├── 📁 product-data/
+│   │   ├── 📁 configuration-management/
+│   │   ├── 📁 change-control/
+│   │   └── 📁 collaboration-tools/
+│   ├── 📁 digital-twins/
+│   │   ├── 📁 aircraft-twins/
+│   │   ├── 📁 manufacturing-twins/
+│   │   ├── 📁 operational-twins/
+│   │   └── 📁 quantum-twins/
+│   ├── 📁 quantum-computing/
+│   │   ├── 📁 qpu-systems/
+│   │   ├── 📁 quantum-algorithms/
+│   │   ├── 📁 quantum-simulations/
+│   │   └── 📁 quantum-sensors/
+│   ├── 📁 cybersecurity/
+│   │   ├── 📁 security-operations/
+│   │   ├── 📁 threat-monitoring/
+│   │   ├── 📁 incident-response/
+│   │   └── 📁 post-quantum-security/
+│   └── 📁 analytics-reporting/
+│       ├── 📁 program-dashboards/
+│       ├── 📁 performance-metrics/
+│       ├── 📁 predictive-analytics/
+│       └── 📁 business-intelligence/
+│
+├── 📁 09-EXTERNAL-PARTNERSHIPS/
+│   ├── 📁 industry-partners/
+│   │   ├── 📁 tier1-suppliers/
+│   │   ├── 📁 technology-partners/
+│   │   ├── 📁 manufacturing-partners/
+│   │   └── 📁 service-providers/
+│   ├── 📁 academic-research/
+│   │   ├── 📁 universities/
+│   │   ├── 📁 research-institutes/
+│   │   ├── 📁 innovation-labs/
+│   │   └── 📁 joint-projects/
+│   ├── 📁 government-agencies/
+│   │   ├── 📁 aviation-authorities/
+│   │   ├── 📁 space-agencies/
+│   │   ├── 📁 defense-ministries/
+│   │   └── 📁 funding-bodies/
+│   └── 📁 international-cooperation/
+│       ├── 📁 bilateral-agreements/
+│       ├── 📁 multilateral-projects/
+│       ├── 📁 technology-exchange/
+│       └── 📁 joint-ventures/
+│
+└── 📁 10-ARCHIVE-LEGACY/
+    ├── 📁 version-history/
+    ├── 📁 deprecated-documents/
+    ├── 📁 legacy-systems/
+    └── 📁 historical-records/
+```
+
+## 📊 **Resumen Estadístico**
+
+| Categoría | Subcarpetas | Archivos Est. | Tamaño Est. |
+|-----------|-------------|---------------|-------------|
+| Governance | 15 | 150 | 2 GB |
+| Programs | 42 | 4,800 | 48 GB |
+| Q-Divisions | 50 | 10,000 | 100 GB |
+| ORB-Functions | 30 | 2,000 | 15 GB |
+| UTCS Architecture | 100 | 15,000 | 200 GB |
+| Templates | 251 | 251 | 5 GB |
+| Standards | 25 | 500 | 10 GB |
+| Infrastructure | 40 | 3,000 | 75 GB |
+| **TOTAL** | **553** | **35,701** | **455 GB** |
+
+## 🔐 **Convenciones de Nomenclatura**
+
+- **Códigos de Proyecto**: `GAIA-[PROGRAM]-[VERSION]`
+- **Templates**: `[FASE]-[SEQ]-[DESC]-V[X]R[Y]`
+- **Documentos UTCS**: `[ARCH]-[CHAP]-[SUBCHAP]-[DESC]`
+- **Archivos Técnicos**: `[GQOIS]-[NATURALEZA]-[FORMATO]`
+
+## 🚀 **Rutas de Acceso Rápido**
+
+- **Documentos Maestros**: `/00-GOVERNANCE/`
+- **AMPEL360**: `/01-PROGRAMS/AMPEL360-Series/`
+- **Templates**: `/05-DOCUMENTATION-TEMPLATES/`
+- **UTCS**: `/04-UTCS-ARCHITECTURE/`
+- **Digital Twins**: `/08-DIGITAL-INFRASTRUCTURE/digital-twins/`
