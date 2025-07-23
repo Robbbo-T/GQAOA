@@ -1,7 +1,3 @@
-Aquí tienes el documento formalizado en Markdown, con el nuevo **Anexo G** añadido y todos los elementos del **ÍNDICE EJECUTIVO** y **ANEXOS** convertidos en hipervínculos funcionales. He ajustado los títulos de las subsecciones de **Anexo G** para incluir el prefijo `Gx: AAA` para que coincida con los hipervínculos.
-
----
-
 # GAIA-QAO ADVENT: Documento Organizacional Maestro (Revisado y Extendido)
 ## Marco Estratégico para el Liderazgo Aeroespacial Sostenible Europeo
 
