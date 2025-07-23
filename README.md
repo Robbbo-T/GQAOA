@@ -71,9 +71,9 @@ Ser la fuerza motriz de la aviación de **cero emisiones netas**, garantizando l
 
 ## 1.4 Objetivos Estratégicos Revisados (2025-2045)
 
-1.  **Programa Generación 1 (GAIA-350e):** Lograr la Entrada en Servicio (EIS) de una aeronave de pasillo único y propulsión híbrida-eléctrica para 2038.
+1.  **MACROPrograma Generación 1 (AMPEL360e):** Lograr la Entrada en Servicio (EIS) de una aeronave de pasillo único y propulsión híbrida-eléctrica para 2038.
     *   **Métrica Clave:** Obtener la Certificación de Tipo de EASA y FAA simultáneamente, demostrando una reducción del 50% en el consumo de combustible por asiento-kilómetro frente a la generación de 2020.
-2.  **Programa Generación 2 (GAIA-BWB-H2):** Validar las tecnologías clave (TRL 6) para una aeronave Blended Wing Body (BWB) de hidrógeno para 2040.
+2.  **MACROPrograma Generación 2 (AMPEL-BWB-H2):** Validar las tecnologías clave (TRL 6) para una aeronave Blended Wing Body (BWB) de hidrógeno para 2040.
     *   **Desafío Principal:** Superar los retos de almacenamiento criogénico a bordo y la gestión del "boil-off" del hidrógeno en un demostrador a escala.
 3.  **Liderazgo Cuántico:** Aplicar la computación cuántica para optimizar el diseño y las operaciones, e integrar sensores cuánticos no críticos para 2035.
     *   **Aplicación Inicial:** Utilizar algoritmos cuánticos de optimización para el diseño de perfiles aerodinámicos y la planificación de rutas de vuelo, logrando una mejora del 5% sobre los métodos clásicos.
@@ -88,7 +88,7 @@ Ser la fuerza motriz de la aviación de **cero emisiones netas**, garantizando l
 
 Para mitigar el riesgo y asegurar un camino viable hacia el mercado, GAIA-QAO adopta una estrategia de dos generaciones de productos. Este enfoque escalonado permite que el aprendizaje, la madurez de la cadena de suministro y los ingresos generados por la primera aeronave financien y reduzcan el riesgo de la segunda, que es tecnológicamente más ambiciosa.
 
-## 2.1 Generación 1: GAIA-350e (Aeronave Híbrida-Eléctrica)
+## 2.1 Generación 1: AMPEL360e (Aeronave Híbrida-Eléctrica)
 
 *   **Concepto:** Aeronave de pasillo único (180-220 asientos) con una configuración de ala y tubo optimizada. Se enfoca en el mercado de rutas de corto y medio alcance de alta frecuencia, donde el impacto de la eficiencia de combustible es mayor.
 *   **Innovación Clave:** Un sistema de propulsión híbrido-eléctrico paralelo avanzado, donde motores eléctricos asisten a las turbinas de gas de última generación durante las fases de despegue y ascenso. Esto no solo reduce drásticamente el consumo de combustible (40-50%), sino que también disminuye la huella sonora en los aeropuertos hasta en un 75%. El uso extensivo de materiales compuestos de última generación y un diseño de ala de alta relación de aspecto son cruciales para maximizar la eficiencia.
@@ -96,7 +96,7 @@ Para mitigar el riesgo y asegurar un camino viable hacia el mercado, GAIA-QAO ad
 *   **Objetivo:** Capturar una cuota significativa del mercado de reemplazo del A320/B737, estableciendo a GAIA-QAO como un nuevo fabricante principal (OEM) y generando un flujo de caja positivo a partir de 2043 para cofinanciar la siguiente fase.
 *   **Plazo:** EIS 2038.
 
-## 2.2 Generación 2: GAIA-BWB-H2 (Aeronave de Hidrógeno)
+## 2.2 Generación 2: AMPEL-BWB-H2 (Aeronave de Hidrógeno)
 
 *   **Concepto:** Aeronave de fuselaje integrado (Blended Wing Body - BWB) de largo alcance (300+ asientos), diseñada desde cero para la propulsión con hidrógeno. La arquitectura BWB se elige por su excepcional eficiencia aerodinámica (L/D > 35) y su gran volumen interno, ideal para alojar los voluminosos tanques de hidrógeno líquido (LH2) de forma segura y eficiente.
 *   **Innovación Clave:** Propulsión por combustión directa de hidrógeno líquido (LH2) en turbinas de gas modificadas, logrando una aviación de virtualmente cero emisiones de carbono. El desarrollo de tanques criogénicos conformados, superligeros y con aislamiento avanzado para minimizar el "boil-off" es un pilar tecnológico fundamental.
