@@ -7715,40 +7715,48 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 
 ---
 
-### Programas de la familia AMPEL 360
+## Lista completa de programas
 
-* **AMPEL 360‑BWB**
-* **AMPEL 360‑Sky Cleaner**
-* **AMPEL 360‑Plus**
-* **AMPEL 360‑Plus Plus**
+### 1. Familias **AMPEL 360** (vehículos)
 
----
-
-### Programas espaciales (convención **GAIA‑SP‑Xxx**)
-
-* **GAIA‑SP‑LV** (lanzador reutilizable)
-* **GAIA‑SP‑GATE** (orbital gateway de ensamblaje y servicios)
-* **GAIA‑SP‑COMM** (constelación de comunicaciones S/Ka + láser)
-* **GAIA‑SP‑POWER** (plataforma solar PowerSat)
-* **GAIA‑SP‑REFUEL** (depósitos de propelente en LEO)
-* **GAIA‑SP‑FORGE** (planta orbital de reciclaje y fabricación aditiva)
-* **GAIA‑SP‑SKYDEM** (campañas de demostración Sky Cleaner)
-* **GAIA‑SP‑OPS** (segmento espacial de operaciones 24/7)
+| Programa                 | Descripción básica                                                        |
+| ------------------------ | ------------------------------------------------------------------------- |
+| **AMPEL360‑BWB‑Q100**    | Avión BWB híbrido eléctrico + SAF/H₂ (120‑180 pax)                        |
+| **AMPEL360‑BWB‑Q250**    | Avión BWB híbrido eléctrico + combustible líquido (200‑260 pax)           |
+| **AMPEL360‑Q300‑MRTT**   | Tanker‑transport humanitario (reabastecimiento aéreo + evacuación médica) |
+| **AMPEL360‑City**        | eVTOL híbrido para movilidad aérea urbana (4‑6 pax)                       |
+| **AMPEL360‑Sky Cleaner** | Drone de remediación ambiental (gases y nano‑/microplásticos)             |
+| **AMPEL360‑Plus**        | Nave de turismo espacial suborbital (hasta 100 km)                        |
+| **AMPEL360‑Plus Plus**   | Nave de turismo espacial orbital con hábitat ( > 100 km)                  |
 
 ---
 
-### Programas terrestres (convención **ROBBBO‑T‑Xxx**)
+### 2. Programas espaciales **GAIA‑SP‑Xxx**
 
-* **ROBBBO‑T‑DIGI** (ecosistema digital: HPC, PLM, gemelo)
-* **ROBBBO‑T‑TEST** (infraestructura de ensayos y certificación)
-* **ROBBBO‑T‑FAL** (planta de fabricación y montaje final)
-* **ROBBBO‑T‑GNDNET** (centro de control y red TT\&C)
-* **ROBBBO‑T‑MRO** (instalaciones de mantenimiento y recarga)
-* **ROBBBO‑T‑SAFETY** (certificación, formación y ciberseguridad)
-* **ROBBBO‑T‑SUSTAIN** (energía renovable y economía circular)
-
-Esta lista reúne todos los programas necesarios para diseñar, certificar, producir y operar las cuatro variantes **AMPEL 360**, junto con sus soportes orbitales (**GAIA‑SP‑…**) y terrestres (**ROBBBO‑T‑…**).
-
+| Programa                                            | Objetivo principal                                              |
+| --------------------------------------------------- | --------------------------------------------------------------- |
+| **GAIA‑SP‑LV**                                      | Lanzador reutilizable para carga y tripulación                  |
+| **GAIA‑SP‑COMM**                                    | Constelación S/Ka + láser para TT\&C y streaming                |
+| **GAIA‑SP‑OPS**                                     | Centro de operaciones espaciales 24/7                           |
+| **GAIA‑SP‑ENVDEM**                                  | Demostradores de tecnologías Sky Cleaner en estrato‑/troposfera |
+| **GAIA‑SP‑POWER‑100**                               | Satélite solar de 100 kW para soporte energético orbital        |
+| **GAIA‑SP‑GATE‑Mini** *(Fase 2)*                    | Mini‑gateway 50 t / 50 kW para ensamblaje y atraque futuro      |
+| *(Diferidos)* **GAIA‑SP‑REFUEL**, **GAIA‑SP‑FORGE** | Pospuestos hasta nueva evaluación de mercado                    |
 
 ---
-FIN DEL DOCUMENTO ORGANIZACIONAL MAESTRO
+
+### 3. Programas terrestres **ROBBBO‑T‑Xxx**
+
+| Programa             | Función principal                                  |
+| -------------------- | -------------------------------------------------- |
+| **ROBBBO‑T‑DIGI**    | Ecosistema digital (HPC, PLM, gemelo)              |
+| **ROBBBO‑T‑TEST**    | Infraestructura de ensayos y certificación         |
+| **ROBBBO‑T‑MARLAB**  | Laboratorio marino y base anfibia para Sky Cleaner |
+| **ROBBBO‑T‑FAL**     | Planta de fabricación y montaje final              |
+| **ROBBBO‑T‑GNDNET**  | Centro de control y red TT\&C terrestre            |
+| **ROBBBO‑T‑MRO**     | Instalaciones de mantenimiento y recarga           |
+| **ROBBBO‑T‑SAFETY**  | Certificación, formación y ciber‑seguridad         |
+| **ROBBBO‑T‑SUSTAIN** | Energía renovable y economía circular              |
+
+Esta tabla reúne todos los programas vigentes (vehículos, espaciales y terrestres) que sostienen el ecosistema **AMPEL 360**.
+
