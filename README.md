@@ -46,6 +46,7 @@
     *   [G8: ACV 700-799: Aerial City Viability](#g8-acv-700-799-aerial-city-viability)
     *   [G9: CYB 800-899: Cybersecurity Architecture](#g9-cyb-800-899-cybersecurity-architecture)
     *   [G10: QCSAA 900-999: Quantum Computing and Sentient Agency Architecture](#g10-qcsaa-900-999-quantum-computing-and-sentient-agency-architecture)
+*   [Anexo H: Lista de Programas Propuestos](#anexo-h-lista-de-programas)
 
 ---
 
@@ -7709,6 +7710,45 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 </details>
 
 ---
+
+## Anexo H: **LISTA COMPLETA DE PROGRAMAS (incluidos los del sistema AMPEL 360)**
+
+---
+
+### Programas de la familia AMPEL 360
+
+* **AMPEL 360‑BWB**
+* **AMPEL 360‑Sky Cleaner**
+* **AMPEL 360‑Plus**
+* **AMPEL 360‑Plus Plus**
+
+---
+
+### Programas espaciales (convención **GAIA‑SP‑Xxx**)
+
+* **GAIA‑SP‑LV** (lanzador reutilizable)
+* **GAIA‑SP‑GATE** (orbital gateway de ensamblaje y servicios)
+* **GAIA‑SP‑COMM** (constelación de comunicaciones S/Ka + láser)
+* **GAIA‑SP‑POWER** (plataforma solar PowerSat)
+* **GAIA‑SP‑REFUEL** (depósitos de propelente en LEO)
+* **GAIA‑SP‑FORGE** (planta orbital de reciclaje y fabricación aditiva)
+* **GAIA‑SP‑SKYDEM** (campañas de demostración Sky Cleaner)
+* **GAIA‑SP‑OPS** (segmento espacial de operaciones 24/7)
+
+---
+
+### Programas terrestres (convención **ROBBBO‑T‑Xxx**)
+
+* **ROBBBO‑T‑DIGI** (ecosistema digital: HPC, PLM, gemelo)
+* **ROBBBO‑T‑TEST** (infraestructura de ensayos y certificación)
+* **ROBBBO‑T‑FAL** (planta de fabricación y montaje final)
+* **ROBBBO‑T‑GNDNET** (centro de control y red TT\&C)
+* **ROBBBO‑T‑MRO** (instalaciones de mantenimiento y recarga)
+* **ROBBBO‑T‑SAFETY** (certificación, formación y ciberseguridad)
+* **ROBBBO‑T‑SUSTAIN** (energía renovable y economía circular)
+
+Esta lista reúne todos los programas necesarios para diseñar, certificar, producir y operar las cuatro variantes **AMPEL 360**, junto con sus soportes orbitales (**GAIA‑SP‑…**) y terrestres (**ROBBBO‑T‑…**).
+
 
 ---
 FIN DEL DOCUMENTO ORGANIZACIONAL MAESTRO
