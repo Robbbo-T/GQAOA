@@ -51,11 +51,21 @@
 
 ---
 
+# GAIA-QAO ADVENT: Documento Organizacional Maestro
+**Marco Estratégico para la Integración Quantum-Aeroespacial y Liderazgo Europeo**
+
+**Autor:** Amedeo Pelliccia  
+**Versión:** 2.0.0  
+**Fecha:** 23 de julio de 2025  
+**Clasificación:** Marco Conceptual - Integración Sin Fricción Quantum-Aeroespacial
+
+---
+
 # 1. DECLARACIÓN DE PROPÓSITO
 
 ## 1.1 Misión
 
-La **Global Aerospace Innovation Alliance (GAIA-QAO)** es un consorcio estratégico europeo público-privado creado para asegurar el liderazgo tecnológico del continente en la aviación sostenible. Nuestra **misión** es desarrollar y certificar una nueva generación de aeronaves comerciales que establezcan el estándar global en eficiencia, seguridad y responsabilidad ambiental, utilizando un enfoque por fases que integre progresivamente tecnologías disruptivas. Esta misión no solo busca un avance tecnológico, sino también la revitalización y consolidación de la base industrial aeroespacial europea, asegurando su competitividad a largo plazo.
+La **Global Assets and Industrial Architecture for Quantum and Aerospace Organizations Advanced Ventures (GAIA-QAO ADVENT)** es una estructura ideal pensada por **Amedeo Pelliccia** para la integración sin fricción de la tecnología quantum en la industria aeroespacial y el liderazgo del continente europeo en tecnología punta y sostenibilidad aeroespacial. Nuestra **misión** es desarrollar y certificar una nueva generación de aeronaves comerciales que establezcan el estándar global en eficiencia, seguridad y responsabilidad ambiental, utilizando un enfoque por fases que integre progresivamente tecnologías disruptivas. Esta misión no solo busca un avance tecnológico, sino también la revitalización y consolidación de la base industrial aeroespacial europea, asegurando su competitividad a largo plazo.
 
 ## 1.2 Visión
 
@@ -86,15 +96,34 @@ Ser la fuerza motriz de la aviación de **cero emisiones netas**, garantizando l
 
 # 2. ESTRATEGIA DE DESARROLLO POR FASES
 
-Para mitigar el riesgo y asegurar un camino viable hacia el mercado, GAIA-QAO adopta una estrategia de dos generaciones de productos. Este enfoque escalonado permite que el aprendizaje, la madurez de la cadena de suministro y los ingresos generados por la primera aeronave financien y reduzcan el riesgo de la segunda, que es tecnológicamente más ambiciosa.
+Para mitigar el riesgo y asegurar un camino viable hacia el mercado, GAIA-QAO ADVENT adopta una estrategia de dos generaciones de productos que permite la integración progresiva y sin fricción de tecnologías quantum en la industria aeroespacial. Este enfoque escalonado permite que el aprendizaje, la madurez de la cadena de suministro y los ingresos generados por la primera aeronave financien y reduzcan el riesgo de la segunda, que integra tecnologías quantum más ambiciosas para consolidar el liderazgo europeo en tecnología punta aeroespacial.
 
 ## 2.1 Generación 1: AMPEL360e (Aeronave Híbrida-Eléctrica)
 
 *   **Concepto:** Aeronave de pasillo único (180-220 asientos) con una configuración de ala y tubo optimizada. Se enfoca en el mercado de rutas de corto y medio alcance de alta frecuencia, donde el impacto de la eficiencia de combustible es mayor.
 *   **Innovación Clave:** Un sistema de propulsión híbrido-eléctrico paralelo avanzado, donde motores eléctricos asisten a las turbinas de gas de última generación durante las fases de despegue y ascenso. Esto no solo reduce drásticamente el consumo de combustible (40-50%), sino que también disminuye la huella sonora en los aeropuertos hasta en un 75%. El uso extensivo de materiales compuestos de última generación y un diseño de ala de alta relación de aspecto son cruciales para maximizar la eficiencia.
 *   **Desafío Técnico Principal:** La gestión de la energía y la disipación térmica de un sistema eléctrico de megavatios de potencia, así como la certificación de baterías de alta densidad energética bajo las estrictas normas de seguridad de la aviación.
-*   **Objetivo:** Capturar una cuota significativa del mercado de reemplazo del A320/B737, estableciendo a GAIA-QAO como un nuevo fabricante principal (OEM) y generando un flujo de caja positivo a partir de 2043 para cofinanciar la siguiente fase.
+*   **Objetivo:** Capturar una cuota significativa del mercado de reemplazo del A320/B737, estableciendo a GAIA-QAO ADVENT como un nuevo fabricante principal (OEM) y generando un flujo de caja positivo a partir de 2043 para cofinanciar la siguiente fase.
 *   **Plazo:** EIS 2038.
+
+### 2.1.1 Variantes AMPEL360e
+
+#### **AMPEL360-BWB-e (100% Eléctrica)**
+*   **Concepto:** Aeronave BWB 100% eléctrica para rutas regionales (90-120 pax)
+*   **Alcance:** 700-900 km con baterías de litio-sólido intercambiables
+*   **Recarga:** Ultrarrápida < 30 min en aeropuertos clase C
+*   **Ventaja:** Reutiliza chasis BWB existente, menor riesgo técnico
+*   **Mercado:** Conectividad regional y feeder routes
+
+#### **AMPEL360-City-eVTOL**
+*   **Concepto:** eVTOL híbrido para movilidad aérea urbana (4-6 pax)
+*   **Aplicación:** Rutas intracity y airport shuttles
+*   **Tecnología:** Propulsión distribuida eléctrica
+
+#### **AMPEL360-Sky-Cleaner**
+*   **Concepto:** Drones de remediación ambiental
+*   **Aplicación:** Captura de gases y nano-/microplásticos
+*   **Operación:** Autónoma en estratosfera/troposfera
 
 ## 2.2 Generación 2: AMPEL-BWB-H2 (Aeronave de Hidrógeno)
 
@@ -104,17 +133,36 @@ Para mitigar el riesgo y asegurar un camino viable hacia el mercado, GAIA-QAO ad
 *   **Objetivo:** Posicionar a Europa como el líder indiscutible de la aviación de cero emisiones en el segmento de largo alcance post-2045. Este programa no solo busca un producto, sino definir el estándar técnico para la aviación del futuro.
 *   **Plazo:** Demostrador a escala volando para 2039, con un objetivo de EIS post-2045.
 
-# 3. ESTRUCTURA ORGANIZACIONAL DEL CONSORCIO
+### 2.2.1 Variantes AMPEL-BWB-H2
 
-GAIA-QAO se organiza como un consorcio con una entidad de gestión centralizada, implementando un modelo matricial que equilibra la ejecución de programas (agilidad y enfoque en el producto) con la excelencia funcional (profundidad técnica y reutilización de competencias). Esta estructura está diseñada para maximizar la colaboración entre socios industriales y académicos de diferentes países.
+#### **AMPEL360-BWB-Q100**
+*   **Concepto:** BWB híbrido-eléctrico + SAF/H₂ (120-180 pax)
+*   **Propulsión:** Sistema híbrido avanzado con capacidad H₂
+*   **Mercado:** Rutas de medio-largo alcance
 
-```mermaid
-graph TD
-    A["<b>CONSEJO SUPERVISOR DEL CONSORCIO</b><br>(Representantes de Estados Miembro y Socios Industriales)"] --> B["<b>COMITÉ EJECUTIVO</b><br>(CEO, CTO, CFO, COO, etc.)"];
-    B --> C["<b>GESTIÓN DE PROGRAMAS</b><br>- Programa GAIA-350e<br>- Programa GAIA-BWB-H2<br>- Programa Q-Horizon"];
-    B --> D["<b>CENTROS DE EXCELENCIA</b><br>(Q-Divisions y ORB-Functions)"];
-    D -- Provee Recursos y Expertise --> C;
-```
+#### **AMPEL360-BWB-Q250**
+*   **Concepto:** BWB híbrido-eléctrico + combustible convencional (200-260 pax)
+*   **Propulsión:** Híbrido optimizado para SAF
+*   **Mercado:** Rutas de largo alcance comercial
+
+#### **AMPEL360-Q300-MRTT**
+*   **Concepto:** Tanker-transport humanitario con tecnología quantum militar
+*   **Aplicación:** Reabastecimiento aéreo + evacuación médica
+*   **Tecnología:** Sistemas quantum para defensa y comunicaciones
+
+#### **AMPEL360-Plus-Suborbital**
+*   **Concepto:** Turismo espacial suborbital (hasta 100 km)
+*   **Capacidad:** Pasajeros comerciales
+*   **Tecnología:** Propulsión suborbital avanzada
+
+#### **AMPEL360-PlusPlus-Orbital**
+*   **Concepto:** Turismo espacial orbital con hábitat (>100 km)
+*   **Capacidad:** Estancias prolongadas en órbita
+*   **Tecnología:** Sistemas de soporte vital avanzados
+
+# 3. ESTRUCTURA ORGANIZACIONAL IDEAL
+
+GAIA-QAO ADVENT se organiza como una estructura ideal pensada para la integración sin fricción de tecnologías quantum en la industria aeroespacial, implementando un modelo matricial que equilibra la ejecución de programas (agilidad y enfoque en el producto) con la excelencia funcional (profundidad técnica y reutilización de competencias). Esta estructura está diseñada para maximizar la colaboración entre socios industriales y académicos de diferentes países, facilitando el liderazgo europeo en tecnología punta aeroespacial.
 
 **Presencia Global y Justificación Estratégica**
 
@@ -128,9 +176,9 @@ graph TD
 
 # 4. SISTEMA DE GOBERNANZA
 
-## 4.1 Consejo Supervisor del Consorcio
+## 4.1 Consejo Supervisor de la Organización
 
-El Consejo Supervisor es el máximo órgano de gobierno, garantizando que la dirección estratégica del consorcio se alinee con los intereses de sus socios fundadores.
+El Consejo Supervisor es el máximo órgano de gobierno, garantizando que la dirección estratégica de la organización se alinee con los intereses de sus socios fundadores.
 
 **Composición (15 miembros):**
 
@@ -144,7 +192,7 @@ El Consejo Supervisor es el máximo órgano de gobierno, garantizando que la dir
 *   Aprobación de la estrategia a largo plazo y del plan de negocio.
 *   Supervisión de la ejecución de los programas y del presupuesto general (>€200M).
 *   Nombramiento y evaluación del Comité Ejecutivo.
-*   Gestión de la adhesión de nuevos socios al consorcio.
+*   Gestión de la adhesión de nuevos socios a la organización.
 *   Garantizar el alineamiento con los objetivos estratégicos europeos.
 
 ## 4.2 Comités del Consejo
@@ -164,7 +212,7 @@ Define claramente quién tiene el poder de decisión en cada nivel para evitar l
 
 | Nivel       | Decisión                                             | Autoridad         | Límite €     | Tiempo       |
 | :---------- | :--------------------------------------------------- | :---------------- | :----------- | :----------- |
-| Estratégico | Dirección del Consorcio, lanzamiento de nuevos programas. | Consejo Supervisor | >€200M       | 30-60 días   |
+| Estratégico | Dirección de la Organización, lanzamiento de nuevos programas. | Consejo Supervisor | >€200M       | 30-60 días   |
 | Programa    | Hitos clave (gates), cambios mayores en el baseline. | Comité Ejecutivo  | €20-200M     | 7-14 días    |
 | Operacional | Gestión de divisiones, asignación de recursos a WPs. | Directores Q/ORB  | €2-20M       | 48-72 horas  |
 | Técnico     | Decisiones de diseño, selección de componentes.      | Jefes de Equipo / Ingenieros Jefe | <€2M         | 24 horas     |
@@ -176,21 +224,21 @@ Las Q-Divisions son los centros de excelencia técnica que proveen de talento y 
 ## Q-DATAGOV: Gobernanza de Datos y Arquitectura Digital
 
 *   **Misión:** Construir y mantener el gemelo digital de la empresa y sus productos, implementando S1000D y asegurando la integridad de los datos con ciberseguridad avanzada.
-*   **Responsabilidades Clave:** Definir la arquitectura de datos común para el consorcio; gestionar la plataforma PLM; implementar la ciberseguridad post-cuántica.
+*   **Responsabilidades Clave:** Definir la arquitectura de datos común para la organización; gestionar la plataforma PLM; implementar la ciberseguridad post-cuántica.
 
 ## Q-STRUCTURES: Ingeniería Estructural y Materiales
 
-*   **Misión:** Diseñar y certificar estructuras de composites ligeras y duraderas para el GAIA-350e, e investigar materiales criogénicos para el GAIA-BWB-H2.
+*   **Misión:** Diseñar y certificar estructuras de composites ligeras y duraderas para el AMPEL360e, e investigar materiales criogénicos para el AMPEL-BWB-H2.
 *   **Responsabilidades Clave:** Análisis estático y de fatiga; desarrollo de uniones entre composites y metales; ensayos de materiales a escala.
 
 ## Q-AIR: Aerodinámica y Sistemas de Vuelo
 
-*   **Misión:** Optimizar la aerodinámica del GAIA-350e. Desarrollar y certificar sus sistemas de control de vuelo fly-by-wire y manuales de vuelo (AFM/FCOM).
+*   **Misión:** Optimizar la aerodinámica del AMPEL360e. Desarrollar y certificar sus sistemas de control de vuelo fly-by-wire y manuales de vuelo (AFM/FCOM).
 *   **Responsabilidades Clave:** Simulaciones CFD; pruebas en túnel de viento; desarrollo de las leyes de control de vuelo (control laws).
 
 ## Q-GREENTECH: Propulsión Sostenible y Energía
 
-*   **Misión:** Liderar el desarrollo y certificación del sistema de propulsión híbrido-eléctrico para el GAIA-350e. Investigar y madurar la tecnología de propulsión por hidrógeno para la Generación 2.
+*   **Misión:** Liderar el desarrollo y certificación del sistema de propulsión híbrido-eléctrico para el AMPEL360e. Investigar y madurar la tecnología de propulsión por hidrógeno para la Generación 2.
 *   **Responsabilidades Clave:** Integración del sistema de propulsión; diseño del sistema de baterías y gestión térmica; pruebas de la unidad de potencia.
 
 ## Q-INDUSTRY: Manufactura Avanzada y Cadena de Suministro
@@ -201,11 +249,11 @@ Las Q-Divisions son los centros de excelencia técnica que proveen de talento y 
 ## Q-HPC: Computación de Alto Rendimiento y IA
 
 *   **Misión:** Proveer la capacidad computacional para simulaciones complejas (CFD/FEA). Desarrollar algoritmos de IA certificables para la optimización de vuelo y el mantenimiento predictivo.
-*   **Responsabilidades Clave:** Gestión del supercomputador del consorcio; desarrollo del gemelo digital de rendimiento; creación de modelos de mantenimiento predictivo.
+*   **Responsabilidades Clave:** Gestión del supercomputador de la organización; desarrollo del gemelo digital de rendimiento; creación de modelos de mantenimiento predictivo.
 
 ## Q-MECHANICS: Sistemas Mecánicos e Integración
 
-*   **Misión:** Diseñar y certificar sistemas mecánicos ultra-confiables (tren de aterrizaje, hidráulicos, actuadores) para el GAIA-350e.
+*   **Misión:** Diseñar y certificar sistemas mecánicos ultra-confiables (tren de aterrizaje, hidráulicos, actuadores) para el AMPEL360e.
 *   **Responsabilidades Clave:** Diseño del tren de aterrizaje y sus sistemas de extensión/retracción; diseño de los sistemas hidráulicos y de actuación de superficies de vuelo.
 
 ## Q-GROUND: Operaciones Terrestres y Soporte
@@ -229,7 +277,7 @@ Las ORB-Functions son los pilares empresariales que soportan a toda la organizac
 
 ## ORB-FIN: Finanzas y Presupuesto
 
-*   **Misión:** Gestionar la compleja estructura financiera del consorcio, asegurar la financiación, controlar los presupuestos de los programas y reportar a los stakeholders.
+*   **Misión:** Gestionar la compleja estructura financiera de la organización, asegurar la financiación, controlar los presupuestos de los programas y reportar a los stakeholders.
 *   **Responsabilidades Clave:** Gestión de la tesorería multi-divisa; modelización financiera a largo plazo; control de costes de los work packages mediante EVM.
 
 ## ORB-PMO: Oficina de Gestión de Programas
@@ -239,8 +287,8 @@ Las ORB-Functions son los pilares empresariales que soportan a toda la organizac
 
 ## ORB-HR: Recursos Humanos y Cultura
 
-*   **Misión:** Atraer, desarrollar y retener el talento de élite necesario para el éxito del consorcio, fomentando una cultura de colaboración e innovación.
-*   **Responsabilidades Clave:** Reclutamiento internacional de especialistas; gestión de la movilidad entre los socios del consorcio; desarrollo de la Academia GAIA.
+*   **Misión:** Atraer, desarrollar y retener el talento de élite necesario para el éxito de la organización, fomentando una cultura de colaboración e innovación.
+*   **Responsabilidades Clave:** Reclutamiento internacional de especialistas; gestión de la movilidad entre los socios de la organización; desarrollo de la Academia GAIA.
 
 ## ORB-MKTG: Marketing y Comunicaciones
 
@@ -254,8 +302,8 @@ Las ORB-Functions son los pilares empresariales que soportan a toda la organizac
 
 ## ORB-LEG: Legal y Cumplimiento
 
-*   **Misión:** Gestionar la compleja red de acuerdos del consorcio, proteger la propiedad intelectual y asegurar el cumplimiento normativo en todas las jurisdicciones.
-*   **Responsabilidades Clave:** Redacción y gestión de los acuerdos del consorcio; estrategia y registro de patentes; aseguramiento del cumplimiento de las normativas de exportación.
+*   **Misión:** Gestionar la compleja red de acuerdos de la organización, proteger la propiedad intelectual y asegurar el cumplimiento normativo en todas las jurisdicciones.
+*   **Responsabilidades Clave:** Redacción y gestión de los acuerdos de la organización; estrategia y registro de patentes; aseguramiento del cumplimiento de las normativas de exportación.
 
 # 7. MODELO OPERATIVO INTEGRADO
 
@@ -284,7 +332,7 @@ Las ORB-Functions son los pilares empresariales que soportan a toda la organizac
 
 *   **Partnerships Universitarios:** Acuerdos estratégicos con redes universitarias europeas de primer nivel (e.g., TIME, CESAER, PEGASUS) para crear un flujo de talento joven.
 *   **Atracción de Expertos:** Campañas de reclutamiento globales para atraer a expertos senior de la industria, ofreciendo la oportunidad única de trabajar en programas disruptivos.
-*   **Movilidad en el Consorcio:** Programas que facilitan la rotación de empleados entre los diferentes socios industriales y centros de investigación, enriqueciendo su experiencia y fomentando una cultura común.
+*   **Movilidad en la Organización:** Programas que facilitan la rotación de empleados entre los diferentes socios industriales y centros de investigación, enriqueciendo su experiencia y fomentando una cultura común.
 *   **Compensación Competitiva:** Paquetes de compensación que incluyen salario base, bonos por objetivos de programa y un plan de participación en los beneficios a largo plazo.
 
 ## 8.3 Programas de Desarrollo
@@ -297,7 +345,7 @@ Las ORB-Functions son los pilares empresariales que soportan a toda la organizac
 
 ## 9.1 Framework Integrado
 
-La calidad y la seguridad son los pilares de GAIA-QAO. Nuestro sistema se basa en:
+La calidad y la seguridad son los pilares de GAIA-QAO ADVENT. Nuestro sistema se basa en:
 
 *   **AS9100D:** Para todos los procesos de diseño, desarrollo y producción.
 *   **EASA Part 21 (Subparts J & G):** Para nuestras organizaciones de Diseño (DOA) y Producción (POA).
@@ -314,21 +362,21 @@ La calidad y la seguridad son los pilares de GAIA-QAO. Nuestro sistema se basa e
 
 ## 10.1 Estructura de Cumplimiento
 
-1.  **Nivel 1: Certificación de Aeronaves:** Colaboración continua con EASA y FAA para la certificación de tipo del GAIA-350e. Se establecerán grupos de trabajo conjuntos para abordar la certificación de tecnologías novedosas como la propulsión híbrida.
-2.  **Nivel 2: Regulaciones del Consorcio:** Cumplimiento de las normativas de competencia de la UE, acuerdos de financiación y regulaciones de exportación (ITAR/EAR). Se creará un comité de control de exportaciones para gestionar la tecnología sensible.
-3.  **Nivel 3: Cumplimiento Corporativo:** Políticas internas de ética, anti-corrupción y protección de datos (GDPR), aplicables a todos los empleados y socios cuando interactúan con datos del consorcio.
+1.  **Nivel 1: Certificación de Aeronaves:** Colaboración continua con EASA y FAA para la certificación de tipo del AMPEL360e. Se establecerán grupos de trabajo conjuntos para abordar la certificación de tecnologías novedosas como la propulsión híbrida.
+2.  **Nivel 2: Regulaciones de la Organización:** Cumplimiento de las normativas de competencia de la UE, acuerdos de financiación y regulaciones de exportación (ITAR/EAR). Se creará un comité de control de exportaciones para gestionar la tecnología sensible.
+3.  **Nivel 3: Cumplimiento Corporativo:** Políticas internas de ética, anti-corrupción y protección de datos (GDPR), aplicables a todos los empleados y socios cuando interactúan con datos de la organización.
 
 # 11. INDICADORES CLAVE DE RENDIMIENTO (KPIs)
 
-## 11.1 KPIs Estratégicos (Nivel Consorcio)
+## 11.1 KPIs Estratégicos (Nivel Organización)
 
 | KPI                        | 2028  | 2035  | 2040  | Responsable |
 | :------------------------- | :---- | :---- | :---- | :---------- |
-| Cumplimiento Hitos Programa 350e | PDR   | CDR   | EIS   | CTO/COO     |
-| Madurez Tecnológica BWB-H2 (TRL) | 3     | 5     | 6     | CTO         |
+| Cumplimiento Hitos Programa AMPEL360e | PDR   | CDR   | EIS   | CTO/COO     |
+| Madurez Tecnológica AMPEL-BWB-H2 (TRL) | 3     | 5     | 6     | CTO         |
 | Ejecución Presupuestaria (EVM SPI/CPI) | >0.95 | >0.98 | >0.98 | CFO         |
 | Ratio Financiación Pública/Privada | 60/40 | 50/50 | 40/60 | CFO         |
-| Pedidos en Firme (GAIA-350e) | 0     | 50    | 200   | CCO         |
+| Pedidos en Firme (AMPEL360e) | 0     | 50    | 200   | CCO         |
 | Reducción Emisiones Flota  | N/A   | N/A   | -40%  | CSO         |
 
 ## 11.2 KPIs Operacionales (Nivel División)
@@ -348,10 +396,10 @@ La calidad y la seguridad son los pilares de GAIA-QAO. Nuestro sistema se basa e
 
 ```mermaid
 gantt
-    title GAIA-QAO Roadmap Estratégico Multi-Generacional
+    title GAIA-QAO ADVENT Roadmap Estratégico Multi-Generacional
     dateFormat YYYY
     
-    section Programa GAIA-350e (Híbrido-Eléctrico)
+    section Programa AMPEL360e (Híbrido-Eléctrico)
     Definición y Viabilidad   :crit, 2025, 3y
     Diseño Preliminar y PDR   :crit, 2028, 3y
     Diseño Detallado y CDR    :crit, 2031, 2y
@@ -362,7 +410,7 @@ gantt
     Entrada en Servicio (EIS) :milestone, 2038, 0d
     Aumento de Producción     :2039, 4y
 
-    section Programa GAIA-BWB-H2 (Investigación y Desarrollo)
+    section Programa AMPEL-BWB-H2 (Investigación y Desarrollo)
     Investigación Fundamental :2026, 6y
     Maduración Tecnológica (TRL 4) :2032, 4y
     Diseño Demostrador a Escala :2036, 3y
@@ -371,7 +419,7 @@ gantt
     Decisión Lanzamiento Programa:milestone, 2042, 0d
 ```
 
-## 12.2 Hitos y Entregables Clave por Fase (GAIA-350e)
+## 12.2 Hitos y Entregables Clave por Fase (AMPEL360e)
 
 | Fase                        | Hito Principal          | Entregables Clave                                                                                                                                              |
 | :-------------------------- | :---------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -382,9 +430,9 @@ gantt
 
 # 13. GESTIÓN FINANCIERA Y PRESUPUESTARIA
 
-## 13.1 Estructura de Capital del Consorcio (Fase 1: 2025-2038)
+## 13.1 Estructura de Capital de la Organización (Fase 1: 2025-2038)
 
-Se estima un requerimiento de financiación de €25 mil millones para llevar el GAIA-350e a la entrada en servicio.
+Se estima un requerimiento de financiación de €25 mil millones para llevar el AMPEL360e a la entrada en servicio.
 
 | Fuente                      | Monto Estimado | %    | Instrumento                           |
 | :-------------------------- | :------------- | :--- | :------------------------------------ |
@@ -417,8 +465,8 @@ Se estima un requerimiento de financiación de €25 mil millones para llevar el
 
 | Riesgo                                   | Probabilidad | Impacto | Mitigación Principal                                                                                                                                                                                                                                                                                                                                                                      |
 | :--------------------------------------- | :----------- | :------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Fracaso en la Maduración Tecnológica (Híbrido/H2) | Media        | Crítico | Estrategia de dos generaciones: El éxito del GAIA-350e no depende del hidrógeno. Programas de I+D paralelos con múltiples socios para diversificar soluciones. Puntos de revisión tecnológica (gates) para validar la madurez antes de comprometer grandes inversiones.                                                                                                            |
-| Sobrecostes y Retrasos del Programa      | Alta         | Alto    | Gobernanza de consorcio robusta con hitos de pago definidos (Earned Value Management). Presupuestos de contingencia del 15% gestionados a nivel de programa. Revisiones de programa trimestrales con el Consejo.                                                                                                                                                               |
+| Fracaso en la Maduración Tecnológica (Híbrido/H2) | Media        | Crítico | Estrategia de dos generaciones: El éxito del AMPEL360e no depende del hidrógeno. Programas de I+D paralelos con múltiples socios para diversificar soluciones. Puntos de revisión tecnológica (gates) para validar la madurez antes de comprometer grandes inversiones.                                                                                                            |
+| Sobrecostes y Retrasos del Programa      | Alta         | Alto    | Gobernanza organizacional robusta con hitos de pago definidos (Earned Value Management). Presupuestos de contingencia del 15% gestionados a nivel de programa. Revisiones de programa trimestrales con el Consejo.                                                                                                                                                               |
 | Financiación Insuficiente o Volatilidad Política | Media        | Crítico | Compromisos a largo plazo de los Estados Miembro anclados en tratados intergubernamentales. Diversificación de fuentes de financiación (pública, industrial, privada). Hitos claros que desbloquean las siguientes fases de financiación.                                                                                                                                  |
 | Proceso de Certificación (Nuevas Tecnologías) | Alta         | Alto    | Colaboración temprana y continua con EASA/FAA desde la fase de concepto. Creación de grupos de trabajo conjuntos para definir las bases de certificación para la propulsión híbrida. Desarrollo de nuevos medios de cumplimiento.                                                                                                                                            |
 | Competencia Feroz (OEMs establecidos e incumbentes) | Alta         | Alto    | Diferenciación por salto generacional en eficiencia y sostenibilidad. Asegurar pedidos de lanzamiento de aerolíneas europeas asociadas. Creación de una ventaja de costes a través de la manufactura 4.0.                                                                                                                                                           |
@@ -432,7 +480,7 @@ Comunicación proactiva, transparente y coordinada para alinear a todos los stak
 
 ## 15.2 Mensajes Clave por Audiencia
 
-*   **Gobiernos y UE:** "GAIA-QAO es el instrumento para la soberanía tecnológica, el liderazgo industrial y la creación de empleo de alta calidad en Europa."
+*   **Gobiernos y UE:** "GAIA-QAO ADVENT es el instrumento para la soberanía tecnológica, el liderazgo industrial y la creación de empleo de alta calidad en Europa."
 *   **Socios Industriales y Aerolíneas:** "Ofrecemos una ventaja competitiva a través de una eficiencia operativa y una sostenibilidad sin precedentes."
 *   **Comunidad Científica y Académica:** "Somos la plataforma para llevar la investigación más avanzada del laboratorio al mercado, resolviendo los grandes desafíos de la aviación."
 *   **Público General:** "Estamos construyendo el futuro del transporte aéreo: un futuro más limpio, silencioso y sostenible para todos."
@@ -451,23 +499,47 @@ Comunicación proactiva, transparente y coordinada para alinear a todos los stak
 
 ## 16.1 Roadmap 2025-2027: Fase de Establecimiento
 
-*   **Q3 2025: Lanzamiento del Consorcio**
-    *   [x] Firma del acuerdo del consorcio entre los socios fundadores.
+*   **Q3 2025: Lanzamiento de la Organización**
+    *   [x] Firma del acuerdo constitutivo entre los socios fundadores.
     *   [x] Nombramiento del Consejo Supervisor y del CEO.
     *   [ ] Asegurar la primera ronda de financiación (€1.0B) mediante la formalización de los compromisos de los Estados Miembro.
 *   **Q4 2025: Estructuración**
     *   [ ] Contratación del Comité Ejecutivo (C-Level) y directores de división.
     *   [ ] Establecimiento de las sedes principales (Madrid, Toulouse, Hamburgo) y comienzo de la adecuación de las instalaciones.
-    *   [ ] Lanzamiento oficial del programa GAIA-350e con la asignación de los primeros work packages.
+    *   [ ] Lanzamiento oficial del programa AMPEL360e con la asignación de los primeros work packages.
 *   **2026: Operaciones Iniciales**
     *   [ ] Contratación de 1000 empleados clave, incluyendo los equipos de arquitectura de sistemas.
     *   [ ] Despliegue de la plataforma PLM integrada "GAIA-Nexus" en todos los socios.
-    *   [ ] Finalización de la fase de definición de concepto del GAIA-350e y paso del primer gate de revisión.
+    *   [ ] Finalización de la fase de definición de concepto del AMPEL360e y paso del primer gate de revisión.
     *   [ ] Inicio del proceso de solicitud de DOA (Design Organisation Approval) ante EASA.
 *   **2027: Aceleración**
-    *   [ ] Plantilla total de 2500 empleados en todo el consorcio.
-    *   [ ] Inicio del diseño preliminar del GAIA-350e, incluyendo las primeras pruebas en túnel de viento.
+    *   [ ] Plantilla total de 2500 empleados en toda la organización.
+    *   [ ] Inicio del diseño preliminar del AMPEL360e, incluyendo las primeras pruebas en túnel de viento.
     *   [ ] Lanzamiento formal del programa de investigación Q-Horizon con la firma de acuerdos con universidades clave.
+
+---
+
+## 📋 **INFORMACIÓN DE CONTROL DEL DOCUMENTO**
+
+**Documento:** GAIA-QAO ADVENT-ORG-MASTER-001  
+**Versión:** 2.0.0  
+**Fecha Creación:** 23 de julio de 2025  
+**Próxima Revisión:** 23 de enero de 2026  
+**Propietario:** Amedeo Pelliccia  
+**Clasificación:** Marco Conceptual - Integración Sin Fricción Quantum-Aeroespacial
+
+### **Aprobaciones:**
+
+CEO: _______________________  
+Board Chairman: _____________  
+General Counsel: ____________  
+
+### **Distribución:**
+
+- Board of Directors  
+- Executive Committee  
+- Division Directors  
+- Key Stakeholders  
 
 ---
 
@@ -8399,3 +8471,16 @@ La **Cybersecurity Architecture (CYB)** se centra en la protección de la inform
 | **ORB-Functions** | 6 |
 | **Ubicaciones Físicas** | 5 |
 | **Programas Activos** | 15+ |
+
+
+### **Control de Cambios:**
+
+| Versión | Fecha     | Cambios                           | Autor           |
+|---------|-----------|-----------------------------------|-----------------|
+| 1.0.0   | 23/07/2025| Documento inicial completo        | A. Pelliccia    |
+| 2.0.0   | 23/07/2025| Corrección nomenclatura y autoría  | A. Pelliccia    |
+
+---
+
+**© 2025 Amedeo Pelliccia - GAIA-QAO ADVENT Framework**  
+*Estructura ideal para la integración sin fricción de tecnología quantum en la industria aeroespacial y el liderazgo europeo en tecnología punta y sostenibilidad aeroespacial.*
