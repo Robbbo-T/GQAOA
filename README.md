@@ -7762,414 +7762,553 @@ Esta tabla reúne todos los programas vigentes (vehículos, espaciales y terrest
 
 ## ANEXO I  🌐 ESTRUCTURA DE DIRECTORIO GAIA-QAO ADVENT v2.0.0
 
-```
-📁 GAIA-QAO-ADVENT/
-├── 📁 00-GOVERNANCE/
-│   ├── 📁 board-documents/
-│   │   ├── 📄 consortium-agreement.pdf
-│   │   ├── 📄 board-charter.pdf
-│   │   └── 📄 voting-procedures.pdf
-│   ├── 📁 policies/
-│   │   ├── 📄 ethics-conduct-policy.pdf
-│   │   ├── 📄 information-security-policy.pdf
-│   │   ├── 📄 quality-policy.pdf
-│   │   ├── 📄 environmental-policy.pdf
-│   │   └── 📄 hr-policy.pdf
-│   ├── 📁 compliance/
-│   │   ├── 📄 regulatory-matrix.xlsx
-│   │   ├── 📄 itar-ear-compliance.pdf
-│   │   ├── 📄 gdpr-compliance.pdf
-│   │   └── 📄 aviation-standards.pdf
-│   └── 📄 organizational-master-document-v2.0.0.pdf
-│
-├── 📁 01-PROGRAMS/
-│   ├── 📁 GAIA-350e-Generation-1/
-│   │   ├── 📁 baseline-aircraft/
-│   │   │   ├── 📁 concept-phase/
-│   │   │   ├── 📁 preliminary-design/
-│   │   │   ├── 📁 detailed-design/
-│   │   │   ├── 📁 testing-certification/
-│   │   │   └── 📁 production-support/
-│   │   └── 📁 proven-technology-programs/
-│   │       ├── 📁 AMPEL360-Q250-Commercial/ (200-260 pax, tecnología madura)
-│   │       ├── 📁 AMPEL360-Q300-MRTT/ (tanker-transport humanitario)
-│   │       ├── 📁 AMPEL360-City-eVTOL/ (4-6 pax, movilidad urbana)
-│   │       └── 📁 AMPEL360-Sky-Cleaner/ (drones remediación ambiental)
-│   ├── 📁 GAIA-BWB-H2-Generation-2/
-│   │   ├── 📁 baseline-bwb/
-│   │   │   ├── 📁 research-development/
-│   │   │   ├── 📁 technology-demonstration/
-│   │   │   ├── 📁 concept-validation/
-│   │   │   └── 📁 flight-demonstrator/
-│   │   └── 📁 disruptive-technology-programs/
-│   │       ├── 📁 AMPEL360-Q100-Hybrid/ (120-180 pax, híbrido-eléctrico + cuántica)
-│   │       ├── 📁 AMPEL360-BWB-Q300/ (300+ pax, BWB + hidrógeno)
-│   │       ├── 📁 AMPEL360-BWB-Q400/ (400+ pax, long-range BWB)
-│   │       ├── 📁 AMPEL360-Plus-Suborbital/ (turismo espacial <100km)
-│   │       ├── 📁 AMPEL360-PlusPlus-Orbital/ (turismo espacial >100km + hábitat)
-│   │       └── 📁 AMPEL360-BWB-Cargo/ (BWB freighter variant)
-│   └── 📁 Infrastructure-Programs/
-│       ├── 📁 GAIA-SP-LV/ (lanzador reutilizable)
-│       ├── 📁 GAIA-SP-COMM/ (constelación comunicaciones)
-│       ├── 📁 GAIA-SP-OPS/ (centro operaciones espaciales)
-│       ├── 📁 ROBBBO-T-Infrastructure/ (instalaciones terrestres)
-│       └── 📁 UTM-Ecosystem/ (urban traffic management)
-│
-├── 📁 02-Q-DIVISIONS/
-│   ├── 📁 Q-DATAGOV/
-│   │   ├── 📁 s1000d-implementation/
-│   │   ├── 📁 data-architecture/
-│   │   ├── 📁 configuration-management/
-│   │   ├── 📁 cybersecurity/
-│   │   └── 📁 blockchain-systems/
-│   ├── 📁 Q-STRUCTURES/
-│   │   ├── 📁 composite-materials/
-│   │   ├── 📁 structural-analysis/
-│   │   ├── 📁 bwb-structures/
-│   │   ├── 📁 materials-lab/
-│   │   └── 📁 fatigue-testing/
-│   ├── 📁 Q-AIR/
-│   │   ├── 📁 aerodynamics/
-│   │   ├── 📁 flight-controls/
-│   │   ├── 📁 flight-testing/
-│   │   ├── 📁 performance-analysis/
-│   │   └── 📁 wind-tunnel-data/
-│   ├── 📁 Q-GREENTECH/
-│   │   ├── 📁 hybrid-propulsion/
-│   │   ├── 📁 hydrogen-systems/
-│   │   ├── 📁 battery-technology/
-│   │   ├── 📁 sustainable-fuels/
-│   │   └── 📁 lifecycle-assessment/
-│   ├── 📁 Q-INDUSTRY/
-│   │   ├── 📁 manufacturing-processes/
-│   │   ├── 📁 supply-chain/
-│   │   ├── 📁 quality-systems/
-│   │   ├── 📁 production-planning/
-│   │   └── 📁 automation-robotics/
-│   ├── 📁 Q-HPC/
-│   │   ├── 📁 quantum-computing/
-│   │   ├── 📁 ai-ml-systems/
-│   │   ├── 📁 digital-twins/
-│   │   ├── 📁 simulation-modeling/
-│   │   └── 📁 software-certification/
-│   ├── 📁 Q-MECHANICS/
-│   │   ├── 📁 hydraulic-systems/
-│   │   ├── 📁 landing-gear/
-│   │   ├── 📁 actuators/
-│   │   ├── 📁 mechanical-systems/
-│   │   └── 📁 thermal-management/
-│   ├── 📁 Q-GROUND/
-│   │   ├── 📁 gse-equipment/
-│   │   ├── 📁 maintenance-procedures/
-│   │   ├── 📁 training-programs/
-│   │   ├── 📁 safety-systems/
-│   │   └── 📁 airport-operations/
-│   ├── 📁 Q-SPACE/
-│   │   ├── 📁 satellite-comm/
-│   │   ├── 📁 navigation-systems/
-│   │   ├── 📁 quantum-communications/
-│   │   ├── 📁 rf-engineering/
-│   │   └── 📁 antenna-design/
-│   └── 📁 Q-SCIRES/
-│       ├── 📁 research-projects/
-│       ├── 📁 university-partnerships/
-│       ├── 📁 patent-portfolio/
-│       ├── 📁 technology-transfer/
-│       └── 📁 innovation-lab/
-│
-├── 📁 03-ORB-FUNCTIONS/
-│   ├── 📁 ORB-FIN/
-│   │   ├── 📁 financial-planning/
-│   │   ├── 📁 budget-control/
-│   │   ├── 📁 treasury/
-│   │   ├── 📁 risk-management/
-│   │   └── 📁 investor-relations/
-│   ├── 📁 ORB-PMO/
-│   │   ├── 📁 program-management/
-│   │   ├── 📁 project-schedules/
-│   │   ├── 📁 risk-registers/
-│   │   ├── 📁 stakeholder-management/
-│   │   └── 📁 change-control/
-│   ├── 📁 ORB-HR/
-│   │   ├── 📁 talent-acquisition/
-│   │   ├── 📁 competency-development/
-│   │   ├── 📁 performance-management/
-│   │   ├── 📁 training-academy/
-│   │   └── 📁 mobility-programs/
-│   ├── 📁 ORB-MKTG/
-│   │   ├── 📁 market-analysis/
-│   │   ├── 📁 customer-relations/
-│   │   ├── 📁 brand-management/
-│   │   ├── 📁 communications/
-│   │   └── 📁 events-airshows/
-│   ├── 📁 ORB-CSR/
-│   │   ├── 📁 sustainability/
-│   │   ├── 📁 esg-reporting/
-│   │   ├── 📁 community-programs/
-│   │   ├── 📁 carbon-management/
-│   │   └── 📁 circular-economy/
-│   └── 📁 ORB-LEG/
-│       ├── 📁 contracts/
-│       ├── 📁 intellectual-property/
-│       ├── 📁 regulatory-affairs/
-│       ├── 📁 export-control/
-│       └── 📁 data-privacy/
-│
-├── 📁 04-UTCS-ARCHITECTURE/
-│   ├── 📁 ATA-000-099-Aerospace/
-│   │   ├── 📁 000-009-general-service/
-│   │   ├── 📁 010-019-ground-handling/
-│   │   ├── 📁 020-029-core-systems/
-│   │   ├── 📁 030-039-protection-mechanical/
-│   │   ├── 📁 040-049-avionics-apu/
-│   │   ├── 📁 050-059-primary-structures/
-│   │   ├── 📁 060-079-traditional-propulsion/
-│   │   ├── 📁 080-089-alternative-quantum/
-│   │   └── 📁 090-099-specific-expansion/
-│   ├── 📁 STA-100-199-Space/
-│   │   ├── 📁 100-109-life-support/
-│   │   ├── 📁 110-119-space-structures/
-│   │   ├── 📁 120-129-space-propulsion/
-│   │   ├── 📁 130-139-space-power/
-│   │   ├── 📁 140-149-space-avionics/
-│   │   ├── 📁 150-159-space-comm/
-│   │   ├── 📁 160-169-sensors-payload/
-│   │   ├── 📁 170-179-on-orbit-ops/
-│   │   ├── 📁 180-189-space-logistics/
-│   │   └── 📁 190-199-future-concepts/
-│   ├── 📁 DTTA-200-299-Defence/
-│   │   ├── 📁 200-209-combat-systems/
-│   │   ├── 📁 210-219-c4isr/
-│   │   ├── 📁 220-229-protection/
-│   │   ├── 📁 230-239-autonomous-systems/
-│   │   ├── 📁 240-249-defense-logistics/
-│   │   ├── 📁 250-259-cyber-ew/
-│   │   ├── 📁 260-269-defense-materials/
-│   │   ├── 📁 270-279-simulation-training/
-│   │   ├── 📁 280-289-quantum-warfare/
-│   │   └── 📁 290-299-future-operations/
-│   ├── 📁 DTCEC-300-399-Digital-Twins/
-│   │   ├── 📁 300-309-dt-fundamentals/
-│   │   ├── 📁 310-319-sensors-iot/
-│   │   ├── 📁 320-329-ai-ml/
-│   │   ├── 📁 330-339-cloud-distributed/
-│   │   ├── 📁 340-349-simulation-modeling/
-│   │   ├── 📁 350-359-xr-metaverse/
-│   │   ├── 📁 360-369-blockchain/
-│   │   ├── 📁 370-379-dt-cybersecurity/
-│   │   ├── 📁 380-389-analytics-bi/
-│   │   └── 📁 390-399-conscious-dt/
-│   ├── 📁 EPTA-400-499-Energy-Propulsion/
-│   │   ├── 📁 400-409-conventional-energy/
-│   │   ├── 📁 410-419-renewable-energy/
-│   │   ├── 📁 420-429-energy-storage/
-│   │   ├── 📁 430-439-energy-management/
-│   │   ├── 📁 440-449-combustion-propulsion/
-│   │   ├── 📁 450-459-electric-hybrid/
-│   │   ├── 📁 460-469-hydrogen-fuel-cells/
-│   │   ├── 📁 470-479-new-propulsion/
-│   │   ├── 📁 480-489-quantum-optimization/
-│   │   └── 📁 490-499-energy-recovery/
-│   ├── 📁 AMTA-500-599-Materials-Bio-Nano/
-│   │   ├── 📁 500-509-advanced-composites/
-│   │   ├── 📁 510-519-metamaterials/
-│   │   ├── 📁 520-529-nanomaterials/
-│   │   ├── 📁 530-539-biotechnology/
-│   │   ├── 📁 540-549-biomaterials/
-│   │   ├── 📁 550-559-nanotechnology/
-│   │   ├── 📁 560-569-advanced-sensors/
-│   │   ├── 📁 570-579-additive-manufacturing/
-│   │   ├── 📁 580-589-quantum-materials/
-│   │   └── 📁 590-599-sustainability/
-│   ├── 📁 OGATA-600-699-Ground-Automation/
-│   │   ├── 📁 600-609-industrial-robotics/
-│   │   ├── 📁 610-619-autonomous-vehicles/
-│   │   ├── 📁 620-629-smart-infrastructure/
-│   │   ├── 📁 630-639-industry-40/
-│   │   ├── 📁 640-649-automated-logistics/
-│   │   ├── 📁 650-659-precision-agriculture/
-│   │   ├── 📁 660-669-construction-automation/
-│   │   ├── 📁 670-679-autonomous-services/
-│   │   ├── 📁 680-689-ai-quantum-optimization/
-│   │   └── 📁 690-699-human-robot-interaction/
-│   ├── 📁 ACV-700-799-Aerial-City/
-│   │   ├── 📁 700-709-uam-vehicles/
-│   │   ├── 📁 710-719-vertiport-infrastructure/
-│   │   ├── 📁 720-729-utm-traffic-management/
-│   │   ├── 📁 730-739-noise-acoustics/
-│   │   ├── 📁 740-749-environmental-sustainability/
-│   │   ├── 📁 750-759-regulation-certification/
-│   │   ├── 📁 760-769-urban-integration/
-│   │   ├── 📁 770-779-safety-resilience/
-│   │   ├── 📁 780-789-quantum-traffic-optimization/
-│   │   └── 📁 790-799-business-models/
-│   ├── 📁 CYB-800-899-Cybersecurity/
-│   │   ├── 📁 800-809-governance-risk/
-│   │   ├── 📁 810-819-network-security/
-│   │   ├── 📁 820-829-data-security/
-│   │   ├── 📁 830-839-identity-access/
-│   │   ├── 📁 840-849-application-security/
-│   │   ├── 📁 850-859-security-operations/
-│   │   ├── 📁 860-869-cloud-edge-security/
-│   │   ├── 📁 870-879-industrial-control-security/
-│   │   ├── 📁 880-889-post-quantum-crypto/
-│   │   └── 📁 890-899-threat-intelligence/
-│   └── 📁 QCSAA-900-999-Quantum-Sentient/
-│       ├── 📁 900-909-quantum-fundamentals/
-│       ├── 📁 910-919-quantum-ml-ai/
-│       ├── 📁 920-929-quantum-networks/
-│       ├── 📁 930-939-quantum-cybersecurity/
-│       ├── 📁 940-949-quantum-sensors/
-│       ├── 📁 950-959-quantum-simulation/
-│       ├── 📁 960-969-quantum-robotics/
-│       ├── 📁 970-979-sentient-consciousness/
-│       ├── 📁 980-989-quantum-ethics/
-│       └── 📁 990-999-future-applications/
-│
-├── 📁 05-DOCUMENTATION-TEMPLATES/
-│   ├── 📁 lifecycle-phases/
-│   │   ├── 📁 CON-concept/ (10 templates)
-│   │   ├── 📁 DES-design/ (16 templates)
-│   │   ├── 📁 TST-testing/ (12 templates)
-│   │   ├── 📁 CRT-certification/ (12 templates)
-│   │   ├── 📁 PRD-production/ (12 templates)
-│   │   ├── 📁 MNT-maintenance/ (12 templates)
-│   │   ├── 📁 OPS-operations/ (12 templates)
-│   │   ├── 📁 SUP-support/ (12 templates)
-│   │   ├── 📁 REP-repair/ (23 templates)
-│   │   └── 📁 RET-retirement/ (21 templates)
-│   ├── 📁 technical-manuals/
-│   │   ├── 📁 AMM-aircraft-maintenance/ (12 templates)
-│   │   ├── 📁 SRM-structural-repair/ (10 templates)
-│   │   ├── 📁 CMM-component-maintenance/ (8 templates)
-│   │   ├── 📁 IPL-illustrated-parts/ (15 templates)
-│   │   └── 📁 specialized-manuals/ (13 templates)
-│   └── 📁 orb-functions/ (48 templates)
-│       ├── 📁 FIN-finance/ (8 templates)
-│       ├── 📁 PMO-program-management/ (8 templates)
-│       ├── 📁 HR-human-resources/ (8 templates)
-│       ├── 📁 MKT-marketing/ (8 templates)
-│       ├── 📁 CSR-sustainability/ (8 templates)
-│       └── 📁 LEG-legal/ (8 templates)
-│
-├── 📁 06-STANDARDS-COMPLIANCE/
-│   ├── 📁 aerospace-standards/
-│   │   ├── 📁 easa-certification/
-│   │   ├── 📁 faa-certification/
-│   │   ├── 📁 do-178c-software/
-│   │   ├── 📁 do-254-hardware/
-│   │   ├── 📁 arp4754a-development/
-│   │   └── 📁 s1000d-documentation/
-│   ├── 📁 quality-standards/
-│   │   ├── 📁 as9100d-aerospace/
-│   │   ├── 📁 iso9001-quality/
-│   │   ├── 📁 iso14001-environmental/
-│   │   └── 📁 iso45001-safety/
-│   ├── 📁 cybersecurity-standards/
-│   │   ├── 📁 iso27001-infosec/
-│   │   ├── 📁 nist-cybersecurity/
-│   │   └── 📁 post-quantum-crypto/
-│   └── 📁 emerging-standards/
-│       ├── 📁 quantum-standards/
-│       ├── 📁 uam-regulations/
-│       └── 📁 sustainable-aviation/
-│
-├── 📁 07-FACILITIES-LOCATIONS/
-│   ├── 📁 madrid-hq/
-│   │   ├── 📁 executive-offices/
-│   │   ├── 📁 legal-compliance/
-│   │   ├── 📁 finance-treasury/
-│   │   └── 📁 strategic-planning/
-│   ├── 📁 toulouse-integration/
-│   │   ├── 📁 final-assembly/
-│   │   ├── 📁 flight-testing/
-│   │   ├── 📁 integration-lab/
-│   │   └── 📁 customer-delivery/
-│   ├── 📁 hamburg-design/
-│   │   ├── 📁 fuselage-design/
-│   │   ├── 📁 cabin-systems/
-│   │   ├── 📁 structures-lab/
-│   │   └── 📁 materials-testing/
-│   ├── 📁 munich-research/
-│   │   ├── 📁 quantum-lab/
-│   │   ├── 📁 propulsion-research/
-│   │   ├── 📁 ai-development/
-│   │   └── 📁 university-partnerships/
-│   └── 📁 seville-manufacturing/
-│       ├── 📁 composites-production/
-│       ├── 📁 automated-assembly/
-│       ├── 📁 quality-control/
-│       └── 📁 supply-chain/
-│
-├── 📁 08-DIGITAL-INFRASTRUCTURE/
-│   ├── 📁 gaia-nexus-plm/
-│   │   ├── 📁 product-data/
-│   │   ├── 📁 configuration-management/
-│   │   ├── 📁 change-control/
-│   │   └── 📁 collaboration-tools/
-│   ├── 📁 digital-twins/
-│   │   ├── 📁 aircraft-twins/
-│   │   ├── 📁 manufacturing-twins/
-│   │   ├── 📁 operational-twins/
-│   │   └── 📁 quantum-twins/
-│   ├── 📁 quantum-computing/
-│   │   ├── 📁 qpu-systems/
-│   │   ├── 📁 quantum-algorithms/
-│   │   ├── 📁 quantum-simulations/
-│   │   └── 📁 quantum-sensors/
-│   ├── 📁 cybersecurity/
-│   │   ├── 📁 security-operations/
-│   │   ├── 📁 threat-monitoring/
-│   │   ├── 📁 incident-response/
-│   │   └── 📁 post-quantum-security/
-│   └── 📁 analytics-reporting/
-│       ├── 📁 program-dashboards/
-│       ├── 📁 performance-metrics/
-│       ├── 📁 predictive-analytics/
-│       └── 📁 business-intelligence/
-│
-├── 📁 09-EXTERNAL-PARTNERSHIPS/
-│   ├── 📁 industry-partners/
-│   │   ├── 📁 tier1-suppliers/
-│   │   ├── 📁 technology-partners/
-│   │   ├── 📁 manufacturing-partners/
-│   │   └── 📁 service-providers/
-│   ├── 📁 academic-research/
-│   │   ├── 📁 universities/
-│   │   ├── 📁 research-institutes/
-│   │   ├── 📁 innovation-labs/
-│   │   └── 📁 joint-projects/
-│   ├── 📁 government-agencies/
-│   │   ├── 📁 aviation-authorities/
-│   │   ├── 📁 space-agencies/
-│   │   ├── 📁 defense-ministries/
-│   │   └── 📁 funding-bodies/
-│   └── 📁 international-cooperation/
-│       ├── 📁 bilateral-agreements/
-│       ├── 📁 multilateral-projects/
-│       ├── 📁 technology-exchange/
-│       └── 📁 joint-ventures/
-│
-└── 📁 10-ARCHIVE-LEGACY/
-    ├── 📁 version-history/
-    ├── 📁 deprecated-documents/
-    ├── 📁 legacy-systems/
-    └── 📁 historical-records/
-```
+# 📁 ÍNDICE NAVEGABLE - ESTRUCTURA GAIA-QAO ADVENT v2.0.0
 
-## 📊 **Resumen Estadístico**
+## 📋 **Índice General**
 
-| Categoría | Subcarpetas | Archivos Est. | Tamaño Est. |
-|-----------|-------------|---------------|-------------|
+1. [**00-GOVERNANCE**](#00-governance) - Marco de Gobernanza
+2. [**01-PROGRAMS**](#01-programs) - Programas de Desarrollo
+3. [**02-Q-DIVISIONS**](#02-q-divisions) - Divisiones Técnicas
+4. [**03-ORB-FUNCTIONS**](#03-orb-functions) - Funciones Empresariales
+5. [**04-UTCS-ARCHITECTURE**](#04-utcs-architecture) - Arquitectura Tecnológica Universal
+6. [**05-DOCUMENTATION-TEMPLATES**](#05-documentation-templates) - Templates de Documentación
+7. [**06-STANDARDS-COMPLIANCE**](#06-standards-compliance) - Cumplimiento de Estándares
+8. [**07-FACILITIES-LOCATIONS**](#07-facilities-locations) - Instalaciones y Ubicaciones
+9. [**08-DIGITAL-INFRASTRUCTURE**](#08-digital-infrastructure) - Infraestructura Digital
+10. [**09-EXTERNAL-PARTNERSHIPS**](#09-external-partnerships) - Partnerships Externos
+11. [**10-ARCHIVE-LEGACY**](#10-archive-legacy) - Archivo y Legacy
+
+---
+
+## 00-GOVERNANCE
+**Marco de Gobernanza y Políticas Corporativas**
+
+### [📄 Board Documents](#board-documents)
+- Consortium Agreement
+- Board Charter  
+- Voting Procedures
+
+### [📋 Policies](#policies)
+- Ethics & Conduct Policy
+- Information Security Policy
+- Quality Policy
+- Environmental Policy
+- HR Policy
+
+### [⚖️ Compliance](#compliance)
+- Regulatory Matrix
+- ITAR/EAR Compliance
+- GDPR Compliance
+- Aviation Standards
+
+### [📖 Master Documents](#master-documents)
+- Organizational Master Document v2.0.0
+
+---
+
+## 01-PROGRAMS
+**Programas de Desarrollo por Generaciones Tecnológicas**
+
+### [✈️ GAIA-350e Generation 1](#gaia-350e-generation-1)
+**Tecnologías Probadas - Menor Riesgo Técnico**
+
+#### [🏗️ Baseline Aircraft](#baseline-aircraft-350e)
+- Concept Phase
+- Preliminary Design
+- Detailed Design
+- Testing & Certification
+- Production Support
+
+#### [✅ Proven Technology Programs](#proven-technology-programs)
+- **[AMPEL360-Q300-MRTT](#ampel360-q300-mrtt)** - Tanker-transport humanitario
+- **[AMPEL360-City-eVTOL](#ampel360-city-evtol)** - 4-6 pax, movilidad urbana
+- **[AMPEL360-Sky-Cleaner](#ampel360-sky-cleaner)** - Drones remediación ambiental
+
+### [🚀 GAIA-BWB-H2 Generation 2](#gaia-bwb-h2-generation-2)  
+**Tecnologías Disruptivas - Salto Tecnológico**
+
+#### [🔬 Baseline BWB](#baseline-bwb)
+- Research & Development
+- Technology Demonstration
+- Concept Validation
+- Flight Demonstrator
+
+#### [⚡ Disruptive BWB Programs](#disruptive-bwb-programs)
+- **[AMPEL360-BWB-Q100](#ampel360-bwb-q100)** - 120-180 pax, BWB híbrido-eléctrico + SAF/H₂
+- **[AMPEL360-BWB-Q250](#ampel360-bwb-q250)** - 200-260 pax, BWB híbrido-eléctrico + combustible
+- **[AMPEL360-Plus-Suborbital](#ampel360-plus-suborbital)** - Turismo espacial <100km
+- **[AMPEL360-PlusPlus-Orbital](#ampel360-plusplus-orbital)** - Turismo espacial >100km + hábitat
+- **[AMPEL360-BWB-Cargo](#ampel360-bwb-cargo)** - BWB freighter variant (futuro)
+
+### [🛰️ Space Programs GAIA-SP](#space-programs-gaia-sp)
+**Infraestructura y Operaciones Espaciales**
+
+#### [🟢 Active Programs](#active-space-programs)
+- **[GAIA-SP-LV](#gaia-sp-lv)** - Lanzador reutilizable carga/tripulación
+- **[GAIA-SP-COMM](#gaia-sp-comm)** - Constelación S/Ka + láser TT&C
+- **[GAIA-SP-OPS](#gaia-sp-ops)** - Centro operaciones espaciales 24/7
+- **[GAIA-SP-ENVDEM](#gaia-sp-envdem)** - Demostradores Sky Cleaner estrato/troposfera
+- **[GAIA-SP-POWER-100](#gaia-sp-power-100)** - Satélite solar 100kW orbital
+
+#### [🟡 Phase 2 Programs](#phase-2-space-programs)
+- **[GAIA-SP-GATE-Mini](#gaia-sp-gate-mini)** - Mini-gateway 50t/50kW ensamblaje
+
+#### [🔴 Deferred Programs](#deferred-space-programs)
+- **GAIA-SP-REFUEL** - Pospuesto (evaluación mercado)
+- **GAIA-SP-FORGE** - Pospuesto (evaluación mercado)
+
+### [🏗️ Terrestrial Infrastructure ROBBBO-T](#terrestrial-infrastructure-robbbo-t)
+**Infraestructura Terrestre de Soporte**
+
+#### [💻 Digital Ecosystem](#digital-ecosystem)
+- **[ROBBBO-T-DIGI](#robbbo-t-digi)** - HPC, PLM, gemelos digitales
+
+#### [🔬 Testing & Certification](#testing-certification)
+- **[ROBBBO-T-TEST](#robbbo-t-test)** - Infraestructura ensayos/certificación
+
+#### [🏭 Specialized Facilities](#specialized-facilities)
+- **[ROBBBO-T-MARLAB](#robbbo-t-marlab)** - Laboratorio marino + base anfibia Sky Cleaner
+- **[ROBBBO-T-FAL](#robbbo-t-fal)** - Planta fabricación y montaje final
+
+#### [📡 Operations & Control](#operations-control)
+- **[ROBBBO-T-GNDNET](#robbbo-t-gndnet)** - Centro control + red TT&C terrestre
+- **[ROBBBO-T-MRO](#robbbo-t-mro)** - Mantenimiento y recarga
+
+#### [🛡️ Support Systems](#support-systems)
+- **[ROBBBO-T-SAFETY](#robbbo-t-safety)** - Certificación, formación, ciberseguridad
+- **[ROBBBO-T-SUSTAIN](#robbbo-t-sustain)** - Energía renovable + economía circular
+
+---
+
+## 02-Q-DIVISIONS
+**Divisiones Técnicas Especializadas**
+
+### [🗄️ Q-DATAGOV](#q-datagov) - Gobernanza de Datos
+- S1000D Implementation
+- Data Architecture
+- Configuration Management
+- Cybersecurity
+- Blockchain Systems
+
+### [🏗️ Q-STRUCTURES](#q-structures) - Ingeniería Estructural
+- Composite Materials
+- Structural Analysis
+- BWB Structures
+- Materials Lab
+- Fatigue Testing
+
+### [✈️ Q-AIR](#q-air) - Aerodinámica y Sistemas de Vuelo
+- Aerodynamics
+- Flight Controls
+- Flight Testing
+- Performance Analysis
+- Wind Tunnel Data
+
+### [🌱 Q-GREENTECH](#q-greentech) - Propulsión Sostenible
+- Hybrid Propulsion
+- Hydrogen Systems
+- Battery Technology
+- Sustainable Fuels
+- Lifecycle Assessment
+
+### [🏭 Q-INDUSTRY](#q-industry) - Manufactura Avanzada
+- Manufacturing Processes
+- Supply Chain
+- Quality Systems
+- Production Planning
+- Automation & Robotics
+
+### [💻 Q-HPC](#q-hpc) - Computación de Alto Rendimiento
+- Quantum Computing
+- AI/ML Systems
+- Digital Twins
+- Simulation & Modeling
+- Software Certification
+
+### [⚙️ Q-MECHANICS](#q-mechanics) - Sistemas Mecánicos
+- Hydraulic Systems
+- Landing Gear
+- Actuators
+- Mechanical Systems
+- Thermal Management
+
+### [🛬 Q-GROUND](#q-ground) - Operaciones Terrestres
+- GSE Equipment
+- Maintenance Procedures
+- Training Programs
+- Safety Systems
+- Airport Operations
+
+### [📡 Q-SPACE](#q-space) - Comunicaciones y Navegación
+- Satellite Communications
+- Navigation Systems
+- Quantum Communications
+- RF Engineering
+- Antenna Design
+
+### [🔬 Q-SCIRES](#q-scires) - Investigación Avanzada
+- Research Projects
+- University Partnerships
+- Patent Portfolio
+- Technology Transfer
+- Innovation Lab
+
+---
+
+## 03-ORB-FUNCTIONS
+**Funciones Empresariales de Soporte**
+
+### [💰 ORB-FIN](#orb-fin) - Finanzas
+- Financial Planning
+- Budget Control
+- Treasury
+- Risk Management
+- Investor Relations
+
+### [📊 ORB-PMO](#orb-pmo) - Gestión de Programas
+- Program Management
+- Project Schedules
+- Risk Registers
+- Stakeholder Management
+- Change Control
+
+### [👥 ORB-HR](#orb-hr) - Recursos Humanos
+- Talent Acquisition
+- Competency Development
+- Performance Management
+- Training Academy
+- Mobility Programs
+
+### [📢 ORB-MKTG](#orb-mktg) - Marketing
+- Market Analysis
+- Customer Relations
+- Brand Management
+- Communications
+- Events & Airshows
+
+### [🌍 ORB-CSR](#orb-csr) - Responsabilidad Social
+- Sustainability
+- ESG Reporting
+- Community Programs
+- Carbon Management
+- Circular Economy
+
+### [⚖️ ORB-LEG](#orb-leg) - Legal
+- Contracts
+- Intellectual Property
+- Regulatory Affairs
+- Export Control
+- Data Privacy
+
+---
+
+## 04-UTCS-ARCHITECTURE
+**Sistema Universal de Clasificación Tecnológica (000-999)**
+
+### [✈️ ATA-000-099](#ata-aerospace) - Aerospace Technology
+- [000-009] General Service
+- [010-019] Ground Handling
+- [020-029] Core Systems
+- [030-039] Protection & Mechanical
+- [040-049] Avionics & APU
+- [050-059] Primary Structures
+- [060-079] Traditional Propulsion
+- [080-089] Alternative & Quantum
+- [090-099] Specific & Expansion
+
+### [🚀 STA-100-199](#sta-space) - Space Technology
+- [100-109] Life Support
+- [110-119] Space Structures
+- [120-129] Space Propulsion
+- [130-139] Space Power
+- [140-149] Space Avionics
+- [150-159] Space Communications
+- [160-169] Sensors & Payload
+- [170-179] On-Orbit Operations
+- [180-189] Space Logistics
+- [190-199] Future Concepts
+
+### [🛡️ DTTA-200-299](#dtta-defence) - Defence Technology
+- [200-209] Combat Systems
+- [210-219] C4ISR
+- [220-229] Protection
+- [230-239] Autonomous Systems
+- [240-249] Defense Logistics
+- [250-259] Cyber & EW
+- [260-269] Defense Materials
+- [270-279] Simulation & Training
+- [280-289] Quantum Warfare
+- [290-299] Future Operations
+
+### [🔮 DTCEC-300-399](#dtcec-digital-twins) - Digital Twins & Cloud
+- [300-309] DT Fundamentals
+- [310-319] Sensors & IoT
+- [320-329] AI & ML
+- [330-339] Cloud & Distributed
+- [340-349] Simulation & Modeling
+- [350-359] XR & Metaverse
+- [360-369] Blockchain
+- [370-379] DT Cybersecurity
+- [380-389] Analytics & BI
+- [390-399] Conscious DT
+
+### [⚡ EPTA-400-499](#epta-energy-propulsion) - Energy & Propulsion
+- [400-409] Conventional Energy
+- [410-419] Renewable Energy
+- [420-429] Energy Storage
+- [430-439] Energy Management
+- [440-449] Combustion Propulsion
+- [450-459] Electric & Hybrid
+- [460-469] Hydrogen & Fuel Cells
+- [470-479] New Propulsion
+- [480-489] Quantum Optimization
+- [490-499] Energy Recovery
+
+### [🧬 AMTA-500-599](#amta-materials) - Materials, Bio & Nano
+- [500-509] Advanced Composites
+- [510-519] Metamaterials
+- [520-529] Nanomaterials
+- [530-539] Biotechnology
+- [540-549] Biomaterials
+- [550-559] Nanotechnology
+- [560-569] Advanced Sensors
+- [570-579] Additive Manufacturing
+- [580-589] Quantum Materials
+- [590-599] Sustainability
+
+### [⚙️ OGATA-600-699](#ogata-ground-automation) - Ground Automation
+- [600-609] Industrial Robotics
+- [610-619] Autonomous Vehicles
+- [620-629] Smart Infrastructure
+- [630-639] Industry 4.0
+- [640-649] Automated Logistics
+- [650-659] Precision Agriculture
+- [660-669] Construction Automation
+- [670-679] Autonomous Services
+- [680-689] AI & Quantum Optimization
+- [690-699] Human-Robot Interaction
+
+### [🏙️ ACV-700-799](#acv-aerial-city) - Aerial City Viability
+- [700-709] UAM Vehicles
+- [710-719] Vertiport Infrastructure
+- [720-729] UTM Traffic Management
+- [730-739] Noise & Acoustics
+- [740-749] Environmental Sustainability
+- [750-759] Regulation & Certification
+- [760-769] Urban Integration
+- [770-779] Safety & Resilience
+- [780-789] Quantum Traffic Optimization
+- [790-799] Business Models
+
+### [🔒 CYB-800-899](#cyb-cybersecurity) - Cybersecurity
+- [800-809] Governance & Risk
+- [810-819] Network Security
+- [820-829] Data Security
+- [830-839] Identity & Access
+- [840-849] Application Security
+- [850-859] Security Operations
+- [860-869] Cloud & Edge Security
+- [870-879] Industrial Control Security
+- [880-889] Post-Quantum Crypto
+- [890-899] Threat Intelligence
+
+### [⚛️ QCSAA-900-999](#qcsaa-quantum-sentient) - Quantum & Sentient
+- [900-909] Quantum Fundamentals
+- [910-919] Quantum ML & AI
+- [920-929] Quantum Networks
+- [930-939] Quantum Cybersecurity
+- [940-949] Quantum Sensors
+- [950-959] Quantum Simulation
+- [960-969] Quantum Robotics
+- [970-979] Sentient Consciousness
+- [980-989] Quantum Ethics
+- [990-999] Future Applications
+
+---
+
+## 05-DOCUMENTATION-TEMPLATES
+**Templates de Documentación por Fases del Ciclo de Vida (251 Templates)**
+
+### [📋 Lifecycle Phases](#lifecycle-phases)
+- **[CON-Concept](#con-concept)** (10 templates)
+- **[DES-Design](#des-design)** (16 templates)
+- **[TST-Testing](#tst-testing)** (12 templates)
+- **[CRT-Certification](#crt-certification)** (12 templates)
+- **[PRD-Production](#prd-production)** (12 templates)
+- **[MNT-Maintenance](#mnt-maintenance)** (12 templates)
+- **[OPS-Operations](#ops-operations)** (12 templates)
+- **[SUP-Support](#sup-support)** (12 templates)
+- **[REP-Repair](#rep-repair)** (23 templates)
+- **[RET-Retirement](#ret-retirement)** (21 templates)
+
+### [📖 Technical Manuals](#technical-manuals)
+- **[AMM](#amm-aircraft-maintenance)** - Aircraft Maintenance (12 templates)
+- **[SRM](#srm-structural-repair)** - Structural Repair (10 templates)
+- **[CMM](#cmm-component-maintenance)** - Component Maintenance (8 templates)
+- **[IPL](#ipl-illustrated-parts)** - Illustrated Parts (15 templates)
+- **[Specialized Manuals](#specialized-manuals)** (13 templates)
+
+### [🏢 ORB Functions Templates](#orb-functions-templates)
+- **[FIN-Finance](#fin-finance)** (8 templates)
+- **[PMO-Program Management](#pmo-program-management)** (8 templates)
+- **[HR-Human Resources](#hr-human-resources)** (8 templates)
+- **[MKT-Marketing](#mkt-marketing)** (8 templates)
+- **[CSR-Sustainability](#csr-sustainability)** (8 templates)
+- **[LEG-Legal](#leg-legal)** (8 templates)
+
+---
+
+## 06-STANDARDS-COMPLIANCE
+**Cumplimiento de Estándares y Normativas**
+
+### [✈️ Aerospace Standards](#aerospace-standards)
+- EASA Certification
+- FAA Certification
+- DO-178C Software
+- DO-254 Hardware
+- ARP4754A Development
+- S1000D Documentation
+
+### [🏆 Quality Standards](#quality-standards)
+- AS9100D Aerospace
+- ISO9001 Quality
+- ISO14001 Environmental
+- ISO45001 Safety
+
+### [🔒 Cybersecurity Standards](#cybersecurity-standards)
+- ISO27001 InfoSec
+- NIST Cybersecurity
+- Post-Quantum Crypto
+
+### [🆕 Emerging Standards](#emerging-standards)
+- Quantum Standards
+- UAM Regulations
+- Sustainable Aviation
+
+---
+
+## 07-FACILITIES-LOCATIONS
+**Instalaciones Físicas Distribuidas**
+
+### [🏢 Madrid HQ](#madrid-hq)
+- Executive Offices
+- Legal & Compliance
+- Finance & Treasury
+- Strategic Planning
+
+### [🏭 Toulouse Integration](#toulouse-integration)
+- Final Assembly
+- Flight Testing
+- Integration Lab
+- Customer Delivery
+
+### [🔧 Hamburg Design](#hamburg-design)
+- Fuselage Design
+- Cabin Systems
+- Structures Lab
+- Materials Testing
+
+### [🔬 Munich Research](#munich-research)
+- Quantum Lab
+- Propulsion Research
+- AI Development
+- University Partnerships
+
+### [🏭 Seville Manufacturing](#seville-manufacturing)
+- Composites Production
+- Automated Assembly
+- Quality Control
+- Supply Chain
+
+---
+
+## 08-DIGITAL-INFRASTRUCTURE
+**Infraestructura Digital Integrada**
+
+### [🌐 GAIA-Nexus PLM](#gaia-nexus-plm)
+- Product Data
+- Configuration Management
+- Change Control
+- Collaboration Tools
+
+### [👥 Digital Twins](#digital-twins)
+- Aircraft Twins
+- Manufacturing Twins
+- Operational Twins
+- Quantum Twins
+
+### [⚛️ Quantum Computing](#quantum-computing)
+- QPU Systems
+- Quantum Algorithms
+- Quantum Simulations
+- Quantum Sensors
+
+### [🛡️ Cybersecurity](#cybersecurity)
+- Security Operations
+- Threat Monitoring
+- Incident Response
+- Post-Quantum Security
+
+### [📊 Analytics & Reporting](#analytics-reporting)
+- Program Dashboards
+- Performance Metrics
+- Predictive Analytics
+- Business Intelligence
+
+---
+
+## 09-EXTERNAL-PARTNERSHIPS
+**Partnerships y Colaboraciones Externas**
+
+### [🏭 Industry Partners](#industry-partners)
+- Tier 1 Suppliers
+- Technology Partners
+- Manufacturing Partners
+- Service Providers
+
+### [🎓 Academic Research](#academic-research)
+- Universities
+- Research Institutes
+- Innovation Labs
+- Joint Projects
+
+### [🏛️ Government Agencies](#government-agencies)
+- Aviation Authorities
+- Space Agencies
+- Defense Ministries
+- Funding Bodies
+
+### [🌍 International Cooperation](#international-cooperation)
+- Bilateral Agreements
+- Multilateral Projects
+- Technology Exchange
+- Joint Ventures
+
+---
+
+## 10-ARCHIVE-LEGACY
+**Archivo y Gestión de Legacy**
+
+### [📚 Version History](#version-history)
+### [📜 Deprecated Documents](#deprecated-documents)
+### [💾 Legacy Systems](#legacy-systems)
+### [📋 Historical Records](#historical-records)
+
+---
+
+## 📊 **Estadísticas del Sistema**
+
+| **Categoría** | **Subcarpetas** | **Archivos Est.** | **Tamaño Est.** |
+|---------------|-----------------|-------------------|-----------------|
 | Governance | 15 | 150 | 2 GB |
-| Programs | 42 | 4,800 | 48 GB |
+| Programs | 48 | 5,200 | 52 GB |
 | Q-Divisions | 50 | 10,000 | 100 GB |
 | ORB-Functions | 30 | 2,000 | 15 GB |
 | UTCS Architecture | 100 | 15,000 | 200 GB |
 | Templates | 251 | 251 | 5 GB |
 | Standards | 25 | 500 | 10 GB |
 | Infrastructure | 40 | 3,000 | 75 GB |
-| **TOTAL** | **553** | **35,701** | **455 GB** |
+| **TOTAL** | **559** | **36,101** | **459 GB** |
 
 ## 🔐 **Convenciones de Nomenclatura**
 
@@ -8178,10 +8317,10 @@ Esta tabla reúne todos los programas vigentes (vehículos, espaciales y terrest
 - **Documentos UTCS**: `[ARCH]-[CHAP]-[SUBCHAP]-[DESC]`
 - **Archivos Técnicos**: `[GQOIS]-[NATURALEZA]-[FORMATO]`
 
-## 🚀 **Rutas de Acceso Rápido**
+## 🚀 **Navegación Rápida**
 
-- **Documentos Maestros**: `/00-GOVERNANCE/`
-- **AMPEL360**: `/01-PROGRAMS/AMPEL360-Series/`
-- **Templates**: `/05-DOCUMENTATION-TEMPLATES/`
-- **UTCS**: `/04-UTCS-ARCHITECTURE/`
-- **Digital Twins**: `/08-DIGITAL-INFRASTRUCTURE/digital-twins/`
+- **[⬆️ Ir al Índice General](#índice-general)**
+- **[📁 Programas Principales](#01-programs)**
+- **[⚛️ Arquitectura UTCS](#04-utcs-architecture)**
+- **[📋 Templates](#05-documentation-templates)**
+- **[🔬 Q-Divisions](#02-q-divisions)**
